@@ -79,7 +79,7 @@ Every backend developer should
 
 # References
 
-1.  Clean Code concepts adapted for PHP: https://github.com/InteractionDesignFoundation/clean-code-php
+1.  [Clean Code concepts adapted for PHP](clean-code-php.md)
 1.  [IDF's backend conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/backend/conventions.md)
 
 # Subscriptions
