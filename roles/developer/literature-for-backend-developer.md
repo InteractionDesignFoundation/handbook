@@ -1,19 +1,45 @@
-# Literature for Backend developer
+# Literature for backend developer
 
-To be an awesome backend developer you should know some programming basics (classic programming skills - you can find
-them under "Foundations" section) and know/be aware of new trends: modern techniques, tools, APIs, etc. (you can find
-them under "Subscriptions" section, please subscribe).
+> You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.”
+> 
+> -Robert C. Martin (from Clean Code)
 
-To be an independent developer you should also have some frontend knowledge - you can find frontend materials you need
-under "Frontend" section.
+We have, again and again, experienced that it's not enough to be a good developer -- let alone be a developer. We also have
+experienced in our team that once a developer has studied the correct content, the code quality and the collective peace of mind
+have multiplied. That's why we have curated a great deal of content for ourselves to become better.
+
+In IDF, it is essential for developers to study the content in our library. This list is not here for a developer to ignore.
+An IDF developer should have read the whole library -- **at the least**.
+
+> The frenetic rate of change in our industry means that software developers must continue to learn copious quantities just to keep up.
+Woe to the architects who stop coding—they will rapidly find themselves irrelevant. Woe to the programmers who stop learning new
+languages—they will watch as the industry passes them by. Woe to the developers who fail to learn new disciplines and techniques—their
+peers will excel as they decline.
+> 
+> -Robert C. Martin (from Clean *Coder*)
+
+## Index
+
+You can find all books and videos on the shared folder `IDF - Shared Reading - Library of Development literature and videos`.
+_Warning for devs having small SSDs:_ The videos may take up more than 10gb on your disk. That's why
+you may want to selectively sync those you want to study into your computer when you want to study them.
+
+1. Frontend Foundations
+1. Backend
+    1. Foundations
+    1. References
+    1. Subscriptions
+    1. Awesome lists
 
 # Frontend
+
+Every backend developer should have some frontend knowledge in order to have basic working skills & collaborate with frontend developers.
 
 ## Foundations
 
 1.  JS tutorial:
     [A re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) -
-    An overview for those who think they know about JavaScript.
+    An overview for those who think they know JavaScript.
 1.  Topic: How to debug JS: [Get Started with Debugging JavaScript in Chrome DevTools](https://goo.gl/NZxQdD) (with
     video)
 1.  Topic:
@@ -27,9 +53,10 @@ For more frontend hints please see [frontend hints dir](/docs/code/frontend/hint
 
 # Backend
 
-You can find all the books and videos on the shared folder `IDF - Shared Reading - Library of Development literature and videos`.
-_Warning for devs having small SSDs:_ The videos may take more than 10gb on your disk. That's why
-you may want to selectively sync those into your computer when you want to study them.
+Every backend developer should
+- have a basic set of programming skills (Foundations),
+- use evergreen programming principles and team conventions (References),
+- be aware of modern techniques, tools, and APIs (Subscriptions and Awesome lists).
 
 ## Foundations
 
@@ -50,6 +77,11 @@ you may want to selectively sync those into your computer when you want to study
 1.  Optional: DDD (book): `Vernon V. - Domain-Driven Design Distilled - 2016`.
 1.  Optional: Articles inside `Articles` shared folder.
 
+# References
+
+1.  Clean Code concepts adapted for PHP: https://github.com/InteractionDesignFoundation/clean-code-php
+1.  [IDF's backend conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/backend/conventions.md)
+
 # Subscriptions
 
 1.  PHPStorm blog (including [PHP Annotated Monthly](https://blog.jetbrains.com/phpstorm/category/php-annotated-monthly/)
@@ -67,15 +99,10 @@ you may want to selectively sync those into your computer when you want to study
     https://adamwathan.me
 1.  Optional: Taylor Otwell's Medium stories (Creator of Laravel): https://medium.com/@taylorotwell
 
-# References
-
-1.  Clean Code concepts adapted for PHP: https://github.com/InteractionDesignFoundation/clean-code-php
-1.  [IDF's backend conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/backend/conventions.md)
-
 # Awesome lists
 
-Awesome lists - are great starting points for any type of materials you want to find: documentation, articles, talks,
-tools, etc. All of them are community curated and always up to date 🌲.
+Awesome lists are great starting points for any type of material you'd like to find: Documentation, articles, talks,
+tools etc. All of them are community curated and always up to date 🌲.
 
 1.  [Awesome PHP](https://github.com/ziadoz/awesome-php)
 1.  [Awesome Laravel](https://github.com/chiraggude/awesome-laravel) - you can find the best packages and practices for
