@@ -1,32 +1,57 @@
-# Literature for Frontend developers
+# Literature for frontend developer
 
-To be an awesome frontend developer you should know some programming basics (classic programming skills - you can find
-them under "Foundations" section) and know/be aware about new trends: modern techniques, tools, APIs, etc (you can find
-them under "Subscriptions" section).
+> You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.
+> 
+> -Robert C. Martin (from Clean Code)
 
-To be an independent developer you should also have some backend knowledge - you can find backend materials you need
-under "Backend" section.
+We have, again and again, experienced that it's not enough to be a good developer -- let alone be a developer. We also have
+experienced in our team that once a developer has studied the correct content, the code quality and the collective peace of mind
+have multiplied. That's why we have curated a great deal of content for ourselves to become better.
+
+In IDF, it is essential for developers to study the content in our library. This list is not here for a developer to ignore.
+An IDF developer should have read the whole library -- **at the least**.
+
+> The frenetic rate of change in our industry means that software developers must continue to learn copious quantities just to keep up.
+Woe to the architects who stop coding—they will rapidly find themselves irrelevant. Woe to the programmers who stop learning new
+languages—they will watch as the industry passes them by. Woe to the developers who fail to learn new disciplines and techniques—their
+peers will excel as they decline.
+> 
+> -Robert C. Martin (from Clean *Coder*)
+
+## Index
+
+You can find all books and videos on the shared folder `IDF - Shared Reading - Library of Development literature and videos`.
+_Warning for devs having small SSDs:_ The videos may take up more than 10gb on your disk. That's why
+you may want to selectively sync those you want to study into your computer when you want to study them.
+
+1. Backend Foundations
+1. Frontend
+    1. Foundations
+    1. Subscriptions
+    1. Awesome lists
 
 # Backend
 
+Every frontend developer should have some backend knowledge in order to have basic working skills & collaborate with backend developers.
+
 ## Foundations
 
-1.  [Laravel Blade](https://laravel.com/docs/master/blade) - PHP template engine. Frontend devs should understand how to
-    use `@extend`, `@include`, `@component`, `@section`, `@push`, `@foreach` and `@if` directives. FE devs should also
-    understand when they should use `{{ $variable }}` and when `{!! $variable !!}` (display escaped/unescaped data).
-1.  How to get an instance of the authenticated Member at the view and determine where the visitor is a guest or not (see
+1.  [Laravel Blade](https://laravel.com/docs/master/blade) - PHP template engine. Frontend developers should understand how to
+    use `@extend`, `@include`, `@component`, `@section`, `@push`, `@foreach` and `@if` directives. They should also
+    understand when they should use `{{ $variable }}` and `{!! $variable !!}` (display escaped/unescaped data).
+1.  How to get an instance of the authenticated Member at the view layer and how to determine whether the visitor is a guest or not (see
     [Authenticated Member instance](/docs/code/backend/hints/authenticated-member-instance.md)).
-1.  You should know how to
+1.  How to
     [create a new route and a new test view for it](/docs/code/backend/hints/create-test-route.md) for testing purposes.
-    Sometimes this is a faster way to implement a new feature.
+    Sometimes it's a faster way to implement a new feature.
 
 For more backend hints please see [backend hints dir](/docs/code/backend/hints).
 
 # Frontend
 
-You can find all the books and videos on the shared folder `IDF - Shared Reading - Library of Development literature and videos`.
-_Warning for devs having small SSDs:_ The videos may take more than 10gb on your disk. That's why
-you may want to selectively sync those into your computer when you want to study them.
+Every frontend developer should
+- have a basic set of programming skills (Foundations),
+- be aware of modern techniques, tools, and APIs (Subscriptions and Awesome lists).
 
 ## Foundations
 
@@ -45,8 +70,7 @@ you may want to selectively sync those into your computer when you want to study
 
 # Subscriptions
 
-It's very effective to subscribe to some weekly newsletters or podcasts and be aware of all the events and news in FE
-world.
+It's very effective to subscribe to some weekly newsletters or podcasts and be aware of all the events and news in the frontend world.
 
 1.  JavaScript Weekly newsletter: http://javascriptweekly.com/issues
 1.  Frontend Focus weekly newsletter: https://frontendfoc.us/issues
@@ -62,8 +86,8 @@ world.
 
 # Awesome lists
 
-Awesome lists - are great starting points for any type of materials you want to find: documentation, articles, talks,
-tools, etc. All of them are community curated and always up to date 🌲.
+Awesome lists are great starting points for any type of material you'd like to find: Documentation, articles, talks,
+tools etc. All of them are community curated and always up to date 🌲.
 
 1.  [Awesome Javascript](https://github.com/sindresorhus/awesome)- a curated list of awesome javascript lists
 1.  [Awesome CSS](https://github.com/sotayamashita/awesome-css) - a curated list of awesome frameworks, style guide and

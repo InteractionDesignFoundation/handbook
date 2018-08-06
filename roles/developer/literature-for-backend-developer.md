@@ -1,6 +1,6 @@
 # Literature for backend developer
 
-> You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.”
+> You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.
 > 
 > -Robert C. Martin (from Clean Code)
 
