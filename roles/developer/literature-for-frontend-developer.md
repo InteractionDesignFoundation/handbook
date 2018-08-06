@@ -89,7 +89,7 @@ It's very effective to subscribe to some weekly newsletters or podcasts and be a
 Awesome lists are great starting points for any type of material you'd like to find: Documentation, articles, talks,
 tools etc. All of them are community curated and always up to date 🌲.
 
-1.  [Awesome Javascript](https://github.com/sindresorhus/awesome)- a curated list of awesome javascript lists
+1.  [Awesome Javascript](https://github.com/sindresorhus/awesome) - a curated list of awesome javascript lists
 1.  [Awesome CSS](https://github.com/sotayamashita/awesome-css) - a curated list of awesome frameworks, style guide and
     other cool nuggets for the amazing CSS.
 1.  [Awesome BEM](https://github.com/getbem/awesome-bem)
