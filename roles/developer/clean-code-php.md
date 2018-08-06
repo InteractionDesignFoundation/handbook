@@ -426,6 +426,8 @@ if ($a !== $b) {
 
 The comparison `$a !== $b` returns `TRUE`.
 
+Note that PHPUnit 2 diffirent method for identical and regular comparisons: `assertSame` and `assertEquals`. Please use `assertSame` where it's possible.
+
 **[⬆ back to top](#table-of-contents)**
 
 
