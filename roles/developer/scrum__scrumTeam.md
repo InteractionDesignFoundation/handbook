@@ -7,8 +7,11 @@ This guide is for **ScrumTeam** scrum role. To read more about scrum roles pleas
 
 
 ## Meeting: Sprint planning
- - **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
- - **Duration**: 1-2 hours
+**Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
+
+**Duration**: 1-2 hours, 5-20mins per person
+
+**Purpose**: have a clean, balanced plan of really important issues.
 
 ### Prepare yourself
 - Make sure you have a backlog filled with issues enough for the whole sprint (https://github.com/InteractionDesignFoundation/handbook/blob/master/roles/developer/scrum__backlog.md).
@@ -24,8 +27,9 @@ This guide is for **ScrumTeam** scrum role. To read more about scrum roles pleas
 
 
 ## Meeting: Daily scrum
- - **Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
- - **Duration**: 10-45 mins
+**Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
+
+**Duration**: 10-45mins (2-7mins per person)
 
 In Scrum, on each day of a sprint, the team holds a daily scrum meeting called the "daily scrum.”
 Meetings are typically held at the same time each day.
@@ -36,11 +40,30 @@ Meetings are typically held at the same time each day.
  1. Is there anything blocking you?
 
 
-## Meeting: Demo and Retrospective
- - **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
- - **Duration**: 1-2 hours
+## Meeting: Retrospective and Demo
+**Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
 
-### Part 1: Demo
+**Duration**: 1-2 hours
+
+### Part 1: Retrospective
+**Duration**: 1-10mins per person
+
+**Purpose**: provide some feedback and share your ideas on how you
+and the whole team can became better.
+You can identify the problem or even provide a solution how to solve it.
+
+ScrumTeam members should answer the following questions:
+ - What went well in the Sprint?
+ - What could be improved?
+ - What will we commit to improve in the next Sprint?
+
+
+
+### Part 2: Demo
+**Duration**: 5-10mins per person
+
+**Purpose**: inspire team by your results on learning, new features, refactorings, etc.
+
 ScrumTeam should prepare a small demo of new features (if any) that they've done on the past sprint. Possible ways to demonstrate what you've done within the past sprint are as follows:
 
  - A link to a page with the new feature/function. Links from all servers including your local machine (Remember `share idf.test` command to share your local machine to outside people, or you can share your screen instead) are accepted.
@@ -49,11 +72,6 @@ ScrumTeam should prepare a small demo of new features (if any) that they've done
  - Statistics (e.g. less errors per hour on New Relic due to one of your bug fixes)
  - etc.
 
-### Part 2: Retrospective
-ScrumTeam should answer the following questions:
- - What went well in the Sprint?
- - What could be improved?
- - What will we commit to improve in the next Sprint?
 
 
 ## Links
