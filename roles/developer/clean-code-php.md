@@ -25,6 +25,7 @@ This document originally belongs to https://github.com/jupeter/clean-code-php
      * [Functions should only be one level of abstraction](#functions-should-only-be-one-level-of-abstraction)
      * [Don't use flags as function parameters](#dont-use-flags-as-function-parameters)
      * [Avoid Side Effects](#avoid-side-effects)
+     * [Names should describe side effects](#names-should-describe-side-effects)
      * [Don't write to global functions](#dont-write-to-global-functions)
      * [Don't use a Singleton pattern](#dont-use-a-singleton-pattern)
      * [Encapsulate conditionals](#encapsulate-conditionals)
