@@ -917,6 +917,22 @@ if ($article->isPublished()) {
 }
 ```
 
+**Bad:**
+
+```php
+if ($article->isRejected() && !$article->isPublished()) {
+    // ...
+}
+```
+
+**Good:**
+
+```php
+if ($article->shouldBeDeleted()) {
+    // ...
+}
+```
+
 **[⬆ back to top](#table-of-contents)**
 
 ### Avoid negative conditionals
