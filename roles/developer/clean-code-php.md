@@ -788,6 +788,40 @@ var_dump($newName); // ['Ryan', 'McDermott'];
 
 **[⬆ back to top](#table-of-contents)**
 
+### Names should describe side effects
+
+Names should describe everything that a function, variable, or class is or does. Don’t hide side effects with a name. Don’t use a simple verb to describe a function that does more than just that simple action.
+
+**Bad:**
+
+```php
+public function getProfile(): Profile
+{
+   if ($this->profile === null) {
+      $this->profile = new Profile($this);
+      $this->save();
+   }
+   
+   return $this->profile;
+}
+```
+
+**Good:**
+
+```php
+public function createOrReturnProfile(): Profile
+{
+   if ($this->profile === null) {
+      $this->profile = new Profile($this);
+      $this->save();
+   }
+   
+   return $this->profile;
+}
+```
+
+**[⬆ back to top](#table-of-contents)**
+
 ### Don't write to global functions
 
 Polluting globals is a bad practice in many languages because you could clash with another 
