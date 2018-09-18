@@ -48,7 +48,6 @@ This document originally belongs to https://github.com/jupeter/clean-code-php
      * [Interface Segregation Principle (ISP)](#interface-segregation-principle-isp)
      * [Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dip)
   8. [Don’t repeat yourself (DRY)](#dont-repeat-yourself-dry)
-  9. [Translations](#translations)
 
 ## Introduction
 
