@@ -9,7 +9,7 @@ This guide is for **ScrumTeam** scrum role. To read more about scrum roles pleas
 ## Meeting: Sprint planning
 **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
 
-**Duration**: 60-120 minutes, 5-20mins per person
+**Duration**: 60-120 minutes, 5-20 minutes per person
 
 **Purpose**: have a clean, balanced plan of really important issues.
 
@@ -29,7 +29,7 @@ This guide is for **ScrumTeam** scrum role. To read more about scrum roles pleas
 ## Meeting: Daily scrum
 **Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
 
-**Duration**: 10-45 minutes (2-7mins per person)
+**Duration**: 10-45 minutes (2-7 minutes per person)
 
 In Scrum, on each day of a sprint, the team holds a daily scrum meeting called the "daily scrum.”
 Meetings are typically held at the same time each day.
