@@ -46,7 +46,7 @@ Meetings are typically held at the same time each day.
 **Duration**: 60-90 minutes
 
 ### Part 1: Retrospective
-**Duration**: 1-10mins per person
+**Duration**: 3-10 minutes per person
 
 **Purpose**: provide some feedback and share your ideas on how you
 and the whole team can became better.
