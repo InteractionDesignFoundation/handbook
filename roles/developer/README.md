@@ -9,8 +9,8 @@ We know you're amazing because you're here (otherwise you wouldn't be here).
 
 ## Table of Contents
  - [Philosophy](../../guides/philosophy.md) of development in IDF.
- - [Onboarding for a new developer](onboarding.md).
- - [Onboarding: mentor guide](onboarding__mentor.md).
+ - [Onboarding for a new developer](../../guides/onboarding/onboarding.md).
+ - [Onboarding: mentor guide](../../guides/onboarding/onboarding__mentor.md).
  - [Our expectations about You and your work](../../guides/expectations.md).
  - [Collaboration tools](../../guides/collaboration-tools.md).
  - [How we use scrum: overview](scrum.md).
