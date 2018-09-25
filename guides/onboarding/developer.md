@@ -22,7 +22,7 @@ Please also share all of your ideas & thoughts with regards to our onboarding do
      - Literature/subscriptions [for Backend developers](../../library/backend/literature-for-backend-developer.md)
      - Literature/subscriptions [for Frontend developers](../../library/frontend/literature-for-frontend-developer.md)
  1. Workflow:
-    1. [Scrum](../../roles/developer/scrum.md).
+    1. [Scrum](../scrum/scrum.md).
     1. [GitFlow](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/workflows/gitflow.md).
  1. Coding (finally 🎉)
     1. [File-naming conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/file-naming-conventions.md)
