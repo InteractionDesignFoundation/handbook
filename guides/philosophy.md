@@ -49,7 +49,4 @@ It's all about the iteration:
 And ship your code on stage 3 :)
 
 
-## Zen
-![image](https://user-images.githubusercontent.com/13465519/45677743-8445e980-bb67-11e8-9243-9ae29dea255a.png)
-
 🦄

@@ -20,5 +20,7 @@ To achieve this, we want everyone to understand what is expected of them, the th
  - [private] Shared folders at [Sync.com](https://cp.sync.com/files/) (ask **@madssoegaard** to give you access)
  - [private] [Developer docs](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/README.md) - development-related documents
 
+## The IDF Zen Code
+![image](https://user-images.githubusercontent.com/13465519/45677743-8445e980-bb67-11e8-9243-9ae29dea255a.png)
 
 🦄
