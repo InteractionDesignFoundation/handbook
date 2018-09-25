@@ -12,9 +12,9 @@ Please also share all of your ideas & thoughts with regards to our onboarding do
 ## Plan
  1. Update your Slack account: upload your photo, fill out personal info: Full name, role, time zone, Skype account.
  1. Understand [company goals and who we are](/company/README.md).
- 1. Know our [expectations about you and your work](expectations.md) and [expectations for video calls](expectations__videoCalls.md).
- 1. Learn our [Philosophy](philosophy.md).
- 1. Know our [Collaboration tools](collaboration-tools.md).
+ 1. Know our [expectations about you and your work](../../guides/expectations.md) and [expectations for video calls](expectations__videoCalls.md).
+ 1. Learn our [Philosophy](../../guides/philosophy.md).
+ 1. Know our [Collaboration tools](../../guides/collaboration-tools.md).
  1. Have an overview on our platform.
      1. Learn the application domain: [IDF platform](/platform/README.md) (non-developers guide).
  1. Get closer to coding: setup your [working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link). It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
