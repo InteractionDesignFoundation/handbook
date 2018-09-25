@@ -19,7 +19,7 @@ Please also share all of your ideas & thoughts with regards to our onboarding do
      1. Learn the application domain: [IDF platform](/platform/README.md) (non-developers guide).
  1. Get closer to coding: setup your [working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link). It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
  1. Never stop learning (Are you full-stack? - please open both links ☀️): 
-     - Literature/subscriptions [for Backend developers](literature-for-backend-developer.md)
+     - Literature/subscriptions [for Backend developers](../../library/backend/literature-for-backend-developer.md)
      - Literature/subscriptions [for Frontend developers](literature-for-frontend-developer.md)
  1. Workflow:
     1. [Scrum](scrum.md).
