@@ -14,5 +14,6 @@ We know you're amazing because you're here (otherwise you wouldn't be here).
  - [Collaboration tools](collaboration-tools.md)
  - [How we use scrum](scrum/README.md)
  - [Access to credentials](credentials.md)
+ - [Team Trips](team-trips.md)
 
 🦄
