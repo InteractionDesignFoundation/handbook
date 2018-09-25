@@ -1,9 +1,9 @@
 Scrum: ScrumMaster guide
 ========================
 
-Are you new to scrum? Please check out our [scrum overview](scrum.md). 
+Are you new to scrum? Please check out our [scrum overview](overview.md). 
 
-This guide is for **ScrumMaster** scrum role. To read more about scrum roles please use this link: [scrum roles](scrum.md#scrum-roles).
+This guide is for **ScrumMaster** scrum role. To read more about scrum roles please use this link: [scrum roles](overview.md#scrum-roles).
 
 
 ## Meeting: Sprint planning
