@@ -10,13 +10,9 @@ To achieve this, we want everyone to understand what is expected of them, the th
 
 
 ## Table of Contents
- - [About IDF](/company/README.md)
- - [About our platform](/platform/README.md)
- - [Roles](/roles/README.md)
-     - [Developer](/roles/developer/README.md)
- - [Workflows](/workflows/README.md)
-    - [Credentials](/workflows/credentials/README.md)
-    - [Team-trips](/workflows/team-trips/README.md)
+ - [Company](/company/README.md)
+ - [Guides](/guides/README.md)
+ - [Library](/library/README.md)
 
 
 ## Links
