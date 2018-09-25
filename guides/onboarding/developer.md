@@ -1,5 +1,5 @@
-IDF developer onboarding
-========================
+New developer!
+==============
 
 Hello new IDF developer! Congrats: you've landed on one of the greatest jobs in the world!
 Now it's time to get you up to speed with all the things you need to know about your role at the IDF and your day-to-day work as a developer.
