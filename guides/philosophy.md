@@ -49,7 +49,4 @@ It's all about the iteration:
 And ship your code on stage 3 :)
 
 
-## Zen
-![image](https://public-media.interaction-design.org/images/uploads/e3e65b29e66b2770f6e3cdb4ac2fa505.png)
-
 🦄

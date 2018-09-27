@@ -1,5 +1,5 @@
-IDF developer onboarding
-========================
+Onboarding
+==========
 
 Hello new IDF developer! Congrats: you've landed on one of the greatest jobs in the world!
 Now it's time to get you up to speed with all the things you need to know about your role at the IDF and your day-to-day work as a developer.
@@ -12,22 +12,20 @@ Please also share all of your ideas & thoughts with regards to our onboarding do
 ## Plan
  1. Update your Slack account: upload your photo, fill out personal info: Full name, role, time zone, Skype account.
  1. Understand [company goals and who we are](/company/README.md).
- 1. Know our [expectations about you and your work](expectations.md) and [expectations for video calls](expectations__videoCalls.md).
- 1. Learn our [Philosophy](philosophy.md).
- 1. Know our [Collaboration tools](collaboration-tools.md).
- 1. Have an overview on our platform.
-     1. Learn the application domain: [IDF platform](/platform/README.md) (non-developers guide).
+ 1. Know our [expectations from you and your work](../expectations.md).
+ 1. Learn our [philosophy](../philosophy.md).
+ 1. Know our [collaboration tools](../collaboration-tools.md).
  1. Get closer to coding: setup your [working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link). It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
- 1. Never stop learning (Are you full-stack? - please open both links ☀️): 
-     - Literature/subscriptions [for Backend developers](literature-for-backend-developer.md)
-     - Literature/subscriptions [for Frontend developers](literature-for-frontend-developer.md)
- 1. Workflow:
-    1. [Scrum](scrum.md).
+ 1. Never stop learning (Are you full-stack? Then please open both links ☀️): 
+     - Literature/subscriptions [for Backend developers](../../library/backend/literature.md)
+     - Literature/subscriptions [for Frontend developers](../../library/frontend/literature.md)
+ 1. Go through our guides:
+    1. [Scrum](../scrum/README.md).
     1. [GitFlow](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/workflows/gitflow.md).
  1. Coding (finally 🎉)
     1. [File-naming conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/file-naming-conventions.md)
     1. [Contributing standards](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/CONTRIBUTING.md)
-    1. Architecture (Are you full-stack? - You know what to do 😊)
+    1. Architecture (Are you full-stack? You know what to do 😊)
         - [Backend](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/backend/architecture.md)
         - [Frontend](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/frontend/architecture.md)
  1. [Setup your IDE](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/IDE/README.md) for the project.

@@ -11,9 +11,9 @@ Scrum relies on a self-organizing, cross-functional team.
 
 
 ## Scrum Roles
- - **[ScrumMaster](scrum__scrumMaster.md)**: helps Scrum practitioners achieve their highest level of performance.
- - **[ProductOwner](scrum__productOwner.md)**: creates a compelling vision of the product, and then conveys that vision to the team through the product backlog.
- - **[ScrumTeam](scrum__scrumTeam.md)**: contributes in whatever way they can to complete the work of each sprint.
+ - **[ScrumMaster](scrumMaster.md)**: helps Scrum practitioners achieve their highest level of performance.
+ - **[ProductOwner](productOwner.md)**: creates a compelling vision of the product, and then conveys that vision to the team through the product backlog.
+ - **[ScrumTeam](scrumTeam.md)**: contributes in whatever way they can to complete the work of each sprint.
 
 
 ## Scrum sprint

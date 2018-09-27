@@ -1,11 +1,11 @@
-IDF Developer: Role expectations
-================================
+Expectations from Developers
+============================
 
 Since we are a small team of seniors - you can find here our expectations for seniors only.
 
 
 # Any developer
- 1. A developer understands and accepts [company culture](/company/README.md#culture).
+ 1. A developer understands and accepts [company culture](/company/about.md#culture).
  1. A developer regularly communicate with the rest of the dev team (daily video calls, text messaging).
 
 
@@ -36,6 +36,15 @@ Since we are a small team of seniors - you can find here our expectations for se
 
  1. Strong knowledge of HTML technologies and at least one modern JS framework and understand how it works.
  1. Middle-level knowledge of at least one different JS framework OR strong knowledge of design patterns.
+
+# Specific expectations for Video Calls
+
+ Since we work remotely, video calls are essential for us to communicate. Here are what we expect from every IDF developer while on (video) calls:
+
+ 1. Always turn on video -- unless the bandwidth suffers, at which point one or more people switch to audio-only.
+ 1. Be mindful of background noise in your end. If you are in a noisy place, that noise will get transmitted to everyone and will interrupt the team's concentration. In this case, you simply mute and unmute your microphone whenever you are speaking/not speaking.
+ 1. Make eye contact and physically be there so the developer who's talking can feel your presence and not feel like talking to some computer screen that doesn't have the ability to respond.
+ 1. Pay attention to other team members; they may ask for help OR you may notice that they need help. Especially the daily calls are a chance for all of us to be on the same page AND help others to save time & sanity so that we operate as efficiently as possible.
 
 
 
