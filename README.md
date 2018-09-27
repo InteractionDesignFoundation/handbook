@@ -12,7 +12,11 @@ To achieve this, we want everyone to understand what is expected of them, the th
 ## Table of Contents
  - [Company](/company/README.md)
  - [Guides](/guides/README.md)
+     - [Onboarding](/guides/onboarding/README.md)
+     - [Scrum](/guides/scrum/README.md)
  - [Library](/library/README.md)
+     - [Backend](/library/backend/README.md)
+     - [Frontend](/library/frontend/README.md)
 
 
 ## Links
