@@ -5,7 +5,7 @@ Since we are a small team of seniors - you can find here our expectations for se
 
 
 # Any developer
- 1. A developer understands and accepts [company culture](/company/about.md).
+ 1. A developer understands and accepts [company culture](/company/README.md).
  1. A developer regularly communicate with the rest of the dev team (daily video calls, text messaging).
 
 
