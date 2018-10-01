@@ -10,6 +10,5 @@ We know you're amazing because you're here (otherwise you wouldn't be here).
 ## Table of Contents
  - [Onboarding](onboarding.md)
  - [Mentoring](mentoring.md)
- - [Offboarding](offboarding.md)
  
 🦄
