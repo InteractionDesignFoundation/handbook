@@ -61,6 +61,8 @@ This is a list of tools and services that a new member should have access to:
  - [Sync.com](https://sync.com): Cloud service to share materials, literature, media, etc. Ensure that the new developer has access to all directories that he needs: designs, literature (both: general and developers), etc.
  - [Slack](https://interaction-design.slack.com): Our main communication tool. Ensure that the new developer is attached to `Developers` slack team/user-group.
  - [LastPass](https://www.lastpass.com/): Credentials management tool: store and share credentials.
+ - [Laravel Forge](https://forge.laravel.com): Provision and deployment service for our servers & sites.
+ - [Digital Ocean](https://www.digitalocean.com): Our server provider.
  - [Newrelic](https://newrelic.com/): Log errors and monitor application performance (get shared credentials from credential management tool).
  - [Codeship](https://codeship.com/): Continuous integration tool (get shared credentials from credential management tool).
  - [GTmetrix](https://gtmetrix.com/): Analyze web page's speed performance (get shared credentials from credential management tool).
