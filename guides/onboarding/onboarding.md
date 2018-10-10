@@ -20,6 +20,7 @@ Please also share all of your ideas & thoughts with regards to our onboarding do
      - Literature/subscriptions [for Backend developers](../../library/backend/literature.md)
      - Literature/subscriptions [for Frontend developers](../../library/frontend/literature.md)
  1. Go through our guides:
+    1. [Create a Laravel Forge account](onboarding__forge.md)
     1. [Scrum](../scrum/README.md).
     1. [GitFlow](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/workflows/gitflow.md).
  1. Coding (finally 🎉)
