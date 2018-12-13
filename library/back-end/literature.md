@@ -1,4 +1,4 @@
-# Literature for backend developer
+# Literature for back-end developer
 
 > You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.
 > 
@@ -24,7 +24,7 @@ You can find all books and videos on the shared folder `IDF - Shared Reading - L
 _Warning for devs having small SSDs:_ The videos may take up more than 10gb on your disk. That's why
 you may want to selectively sync those you want to study into your computer when you want to study them.
 
-1. Frontend Foundations
+1. Front-end Foundations
 1. Backend
     1. Foundations
     1. References
@@ -33,7 +33,7 @@ you may want to selectively sync those you want to study into your computer when
 
 # Frontend
 
-Every backend developer should have some frontend knowledge in order to have basic working skills & collaborate with frontend developers.
+Every back-end developer should have some frontend knowledge in order to have basic working skills & collaborate with front-end developers.
 
 ## Foundations
 
@@ -53,7 +53,7 @@ For more frontend hints please see [frontend hints dir](/docs/code/frontend/hint
 
 # Backend
 
-Every backend developer should
+Every back-end developer should
 - have a basic set of programming skills (Foundations),
 - use evergreen programming principles and team conventions (References),
 - be aware of modern techniques, tools, and APIs (Subscriptions and Awesome lists).
@@ -80,7 +80,7 @@ Every backend developer should
 # References
 
 1.  [Clean Code concepts adapted for PHP](clean-code-php.md)
-1.  [IDF's backend conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/backend/conventions.md)
+1.  [IDF's back-end conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/backend/conventions.md)
 
 # Subscriptions
 
