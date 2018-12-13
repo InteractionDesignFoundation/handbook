@@ -17,8 +17,8 @@ Please also share all of your ideas & thoughts with regards to our onboarding do
  1. Know our [collaboration tools](../collaboration-tools.md).
  1. Get closer to coding: setup your [working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link). It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
  1. Never stop learning (Are you full-stack? Then please open both links ☀️): 
-     - Literature/subscriptions [for Backend developers](../../library/backend/literature.md)
-     - Literature/subscriptions [for Frontend developers](../../library/frontend/literature.md)
+     - Literature/subscriptions [for Back-end developers](../../library/back-end/literature.md)
+     - Literature/subscriptions [for Front-end developers](../../library/front-end/literature.md)
  1. Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md)
     1. [Scrum](../scrum/README.md).
