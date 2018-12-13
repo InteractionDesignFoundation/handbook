@@ -4,6 +4,8 @@ Collaboration tools
 Collaboration is a keystone in IDF's success, and we couldn't make it happen without the right tools and processes.
 These are the ones we use almost everyday.
 
+Please note that you should be using your company email address with all tools listed below.
+
 ### [Slack](https://slack.com/download) 
 We use [Slack](https://slack.com/download) as our main tool for written communication and important notifications.
 Unless you're deep in the flow (state), you should be paying attention to what's going on there.
