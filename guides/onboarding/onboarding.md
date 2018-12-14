@@ -21,7 +21,8 @@ We want to maintain it in perfect condition and your fresh look on the process i
  1. Learn our [philosophy](../philosophy.md).
  1. Get closer to coding: setup your [working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link).
  It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
- 1. Never stop learning (Are you full-stack? Then please open both links ☀️): 
+ 1. Never stop learning 📖 Go through our library and create a plan on acquiring every bit of knowledge there.
+ Once you have a plan, please discuss it with your mentor. (Are you full-stack? Then please open both links ☀️): 
      - Literature/subscriptions [for Back-end developers](../../library/back-end/literature.md)
      - Literature/subscriptions [for Front-end developers](../../library/front-end/literature.md)
  1. Go through our guides:
