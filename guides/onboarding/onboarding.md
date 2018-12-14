@@ -46,7 +46,7 @@ Happy reading/hacking!
 Are you ready for new challenges? Great!
 
 Your mentor should prepare a few simple tasks for your smooth onboarding to the codebase.
-You will be assigned to your first issue, make your first contribution to our codebase, create your first PR -- a lot of exciting stuff!
+You will be assigned to your first issue, make your first contribution to our codebase, create your first PR — a lot of exciting stuff!
 
 Please contact your mentor and inform them that you are ready for new challenges.
 

@@ -44,7 +44,7 @@ Since we are a small team of seniors, you can find here our expectations for sen
  Since we work remotely, video calls are essential for us to communicate. 
  Here are what we expect from every IDF developer while on (video) calls:
 
- 1. Always turn on video -- unless the bandwidth suffers, at which point one or more people switch to audio-only.
+ 1. Always turn on video — unless the bandwidth suffers, at which point one or more people switch to audio-only.
  1. Be mindful of background noise in your end. If you are in a noisy place, that noise will get transmitted to everyone 
  and will interrupt the team's concentration. In this case, you merely mute and unmute your microphone 
  whenever you are speaking/not speaking.

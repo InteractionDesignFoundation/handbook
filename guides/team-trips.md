@@ -5,7 +5,7 @@ A team that meets together, stays together.
 Remote working does not mean working in isolation – we meet up with the rest of the team several times a year at spectacular locations,
 from exotic islands in Thailand to the breathtaking mountains of Patagonia in Argentina.
 
-"Ideas are worthless without execution" -- that means we should maximize effect of our team-trips.
+"Ideas are worthless without execution" — that means we should maximize effect of our team-trips.
 To achieve that, we have a simple guide to use while working on the team trips.
 
 # How to get the most out of the team trip
