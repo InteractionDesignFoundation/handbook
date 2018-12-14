@@ -31,6 +31,7 @@ We want to maintain it in perfect condition and your fresh look on the process i
  1. Coding (finally 🎉)
     1. [File-naming conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/file-naming-conventions.md)
     1. [Contributing standards](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/CONTRIBUTING.md)
+    1. [Platform Glossary](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/glossary.md)
     1. Architecture (Are you full-stack? You know what to do 😊)
         - [Backend](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/backend/architecture.md)
         - [Frontend](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/frontend/architecture.md)
