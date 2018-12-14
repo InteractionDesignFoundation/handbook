@@ -13,11 +13,12 @@ We want to maintain it in perfect condition and your fresh look on the process i
 
 
 ## Plan
+ 1. Begin by getting a company email address.
+ 1. Know our [collaboration tools](../collaboration-tools.md).
  1. Update your Slack account: upload your photo, fill out personal info: Full name, role, time zone, Skype account.
  1. Understand [company goals and who we are](/company/README.md).
  1. Know our [expectations from you and your work](../expectations.md).
  1. Learn our [philosophy](../philosophy.md).
- 1. Know our [collaboration tools](../collaboration-tools.md).
  1. Get closer to coding: setup your [working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link).
  It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
  1. Never stop learning (Are you full-stack? Then please open both links ☀️): 
