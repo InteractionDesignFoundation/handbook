@@ -52,4 +52,16 @@ Please contact to your mentor and inform them that you are ready for new challen
 May the Force be with you!
 
 
+## Provide feedback and present your progress
+
+In a few weeks time, you'll have a chance to look back at your progress within the IDF. The whole development team
+will be very excited to get your general feedback (apart from your continuous talks with your mentor) and learn your
+progress. What you can share about your progress:
+
+- Coding: What have you finished and deployed to production that are now used by hundreds of thousands of people?
+- Learning: What is your progress on consuming our library? How did they change you?
+- Domain: What have you learned about the IDF and our platform? How can you help improve the most critical parts of 
+our platform?
+
+
 🦄
