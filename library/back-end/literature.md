@@ -107,4 +107,5 @@ tools, etc. All of them are community curated and always up to date 🌲.
 1.  [Awesome PHP](https://github.com/ziadoz/awesome-php)
 1.  [Awesome Laravel](https://github.com/chiraggude/awesome-laravel) - you can find the best packages and practices for
     Laravel here.
+1.  [Awesome Laravel Nova](https://github.com/its-awesome/awesome-laravel-nova)
 1.  [Awesome composer](https://github.com/jakoch/awesome-composer)
