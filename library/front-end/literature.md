@@ -6,7 +6,7 @@
 
 We have, again and again, experienced that it's not enough to be a good developer -- let alone be a developer. We also have
 experienced in our team that once a developer has studied the correct content, the code quality and the collective peace of mind
-have multiplied. That's why we have curated a great deal of content for ourselves to become better.
+have multiplied. That's why we have curated a great deal of material for ourselves to become better.
 
 In IDF, it is essential for developers to study the content in our library. This list is not here for a developer to ignore.
 An IDF developer should have read the whole library -- **at the least**.
@@ -24,7 +24,7 @@ You can find all books and videos on the shared folder `IDF - Shared Reading - L
 _Warning for devs having small SSDs:_ The videos may take up more than 10gb on your disk. That's why
 you may want to selectively sync those you want to study into your computer when you want to study them.
 
-1. Backend Foundations
+1. Back-end Foundations
 1. Frontend
     1. Foundations
     1. Subscriptions
@@ -32,20 +32,19 @@ you may want to selectively sync those you want to study into your computer when
 
 # Backend
 
-Every frontend developer should have some backend knowledge in order to have basic working skills & collaborate with backend developers.
+Every frontend developer should have some backend knowledge to have basic working skills & collaborate with backend developers.
 
 ## Foundations
 
 1.  [Laravel Blade](https://laravel.com/docs/master/blade) - PHP template engine. Frontend developers should understand how to
-    use `@extend`, `@include`, `@component`, `@section`, `@push`, `@foreach` and `@if` directives. They should also
-    understand when they should use `{{ $variable }}` and `{!! $variable !!}` (display escaped/unescaped data).
+    use `@extend`, `@include`, `@component`, `@section`, `@push`, `@foreach` and `@if` directives. They should also understand when they should use `{{ $variable }}` and `{!! $variable !!}` (display escaped/unescaped data).
 1.  How to get an instance of the authenticated Member at the view layer and how to determine whether the visitor is a guest or not (see
     [Authenticated Member instance](https://github.com/InteractionDesignFoundation/IDF-web/docs/code/backend/hints/authenticated-member-instance.md)).
 1.  How to
     [create a new route and a new test view for it](https://github.com/InteractionDesignFoundation/IDF-web/docs/code/backend/hints/create-test-route.md) for testing purposes.
     Sometimes it's a faster way to implement a new feature.
 
-For more backend hints please see [backend hints dir](https://github.com/InteractionDesignFoundation/IDF-web/docs/code/backend/hints).
+For more back-end hints, please see [backend hints dir](https://github.com/InteractionDesignFoundation/IDF-web/docs/code/backend/hints).
 
 # Frontend
 
@@ -70,7 +69,7 @@ Every frontend developer should
 
 # Subscriptions
 
-It's very effective to subscribe to some weekly newsletters or podcasts and be aware of all the events and news in the frontend world.
+It's very useful to subscribe to some weekly newsletters or podcasts and be aware of all the events and news in the front-end world.
 
 1.  JavaScript Weekly newsletter: http://javascriptweekly.com/issues
 1.  Frontend Focus weekly newsletter: https://frontendfoc.us/issues
@@ -86,10 +85,9 @@ It's very effective to subscribe to some weekly newsletters or podcasts and be a
 
 # Awesome lists
 
-Awesome lists are great starting points for any type of material you'd like to find: Documentation, articles, talks,
-tools etc. All of them are community curated and always up to date 🌲.
+Awesome lists are great starting points for any material you'd like to find: Documentation, articles, talks,
+tools, etc. All of them are community curated and always up to date 🌲.
 
 1.  [Awesome Javascript](https://github.com/sindresorhus/awesome) - a curated list of awesome javascript lists
-1.  [Awesome CSS](https://github.com/sotayamashita/awesome-css) - a curated list of awesome frameworks, style guide and
-    other cool nuggets for the amazing CSS.
+1.  [Awesome CSS](https://github.com/sotayamashita/awesome-css) - a curated list of awesome frameworks, style guide and other cool nuggets for the amazing CSS.
 1.  [Awesome BEM](https://github.com/getbem/awesome-bem)

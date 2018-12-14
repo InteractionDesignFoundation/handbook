@@ -6,7 +6,7 @@
 
 We have, again and again, experienced that it's not enough to be a good developer -- let alone be a developer. We also have
 experienced in our team that once a developer has studied the correct content, the code quality and the collective peace of mind
-have multiplied. That's why we have curated a great deal of content for ourselves to become better.
+have multiplied. That's why we have curated a great deal of material for ourselves to become better.
 
 In IDF, it is essential for developers to study the content in our library. This list is not here for a developer to ignore.
 An IDF developer should have read the whole library -- **at the least**.
@@ -33,7 +33,7 @@ you may want to selectively sync those you want to study into your computer when
 
 # Frontend
 
-Every back-end developer should have some frontend knowledge in order to have basic working skills & collaborate with front-end developers.
+Every back-end developer should have some front-end knowledge to have basic working skills & collaborate with front-end developers.
 
 ## Foundations
 
@@ -49,7 +49,7 @@ Every back-end developer should have some frontend knowledge in order to have ba
 1.  Topic: ITCSS/BEM methodology:
     [MindBEMding](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
-For more frontend hints please see [frontend hints dir](/docs/code/frontend/hints).
+For more frontend hints please see [frontend hints dir](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/frontend/hints/).
 
 # Backend
 
@@ -101,8 +101,8 @@ Every back-end developer should
 
 # Awesome lists
 
-Awesome lists are great starting points for any type of material you'd like to find: Documentation, articles, talks,
-tools etc. All of them are community curated and always up to date 🌲.
+Awesome lists are great starting points for any material you'd like to find: Documentation, articles, talks,
+tools, etc. All of them are community curated and always up to date 🌲.
 
 1.  [Awesome PHP](https://github.com/ziadoz/awesome-php)
 1.  [Awesome Laravel](https://github.com/chiraggude/awesome-laravel) - you can find the best packages and practices for

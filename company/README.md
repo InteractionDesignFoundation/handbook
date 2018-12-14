@@ -14,17 +14,17 @@ Our mission is to create low-cost, high-quality education so as to change the wa
 
 
 ## Culture
- - We love results, productivity, focus and efficiency. And we believe this is achieved through an approach of "working smarter not harder", having a love for what we do, and by taking great care of each other.
+ - We love results, productivity, focus, and efficiency. And we believe this is achieved through an approach of "working smarter not harder," having a love for what we do, and by taking great care of each other.
  - We pride ourselves on being friendly, compassionate and supportive; we also encourage a sense of fun in the things we do.
- - We value concentration and believe that interruptions, meetings and egos can kill productivity. That's why work often does not happen at work.
- - We believe awesome results are produced when being in flow. That's why we value location independent work.
+ - We value concentration and believe that interruptions, meetings, and egos can kill productivity. That's why work often does not happen at work.
+ - We think remarkable results are produced when being in flow. That's why we value location independent work.
  - We’re passionate about design and the difference it can make in the world.
  - We celebrate each other’s work and consider what we do a labor of love.
- - We constantly learn and teach each other.
+ - We continuously learn and teach each other.
 
 
 ## Assets
-Our main asset is knowledge that is packed into our educational platform available by https://www.interaction-design.org address.
+Our main asset is the knowledge that is packed into our educational platform available by https://www.interaction-design.org address.
 
 ## Benefits
 
