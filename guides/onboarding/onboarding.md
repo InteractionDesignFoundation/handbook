@@ -1,15 +1,15 @@
 Onboarding
 ==========
 
-Hello new IDF developer! Congrats: you've landed on one of the greatest jobs in the world!
-Now it's time to get you up to speed with all the things you need to know about your role at the IDF 
+Hello, new IDF developer! Congrats: You've landed on one of the greatest jobs in the world!
+Now it's time to get you up to speed with all the things you need to know about your role at the IDF
 and your day-to-day work as a developer.
 
-Before you start, please ensure that you have a mentor (onboarding buddy) assigned to you to make your 
-onboarding process smooth and easy.
+Before you start, please ensure that you have a mentor (onboarding buddy) assigned to you
+to make your onboarding process smooth and easy.
 
 Please also share all of your ideas & thoughts with regards to our onboarding document with your mentor.
-We want to maintain it in perfect condition and your fresh look on the process is very valuable to us.
+We want to maintain it in perfect condition, and your fresh look at the process is precious to us.
 
 
 ## Plan
