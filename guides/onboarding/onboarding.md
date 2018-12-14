@@ -2,11 +2,14 @@ Onboarding
 ==========
 
 Hello new IDF developer! Congrats: you've landed on one of the greatest jobs in the world!
-Now it's time to get you up to speed with all the things you need to know about your role at the IDF and your day-to-day work as a developer.
+Now it's time to get you up to speed with all the things you need to know about your role at the IDF 
+and your day-to-day work as a developer.
 
-Before you start, please ensure that you have a mentor (onboarding buddy) assigned to you to make your onboarding process smooth and easy.
+Before you start, please ensure that you have a mentor (onboarding buddy) assigned to you to make your 
+onboarding process smooth and easy.
 
-Please also share all of your ideas & thoughts with regards to our onboarding document with your mentor - we want to maintain it in perfect condition and your fresh look on the process is very valuable to us.
+Please also share all of your ideas & thoughts with regards to our onboarding document with your mentor.
+We want to maintain it in perfect condition and your fresh look on the process is very valuable to us.
 
 
 ## Plan
@@ -15,7 +18,8 @@ Please also share all of your ideas & thoughts with regards to our onboarding do
  1. Know our [expectations from you and your work](../expectations.md).
  1. Learn our [philosophy](../philosophy.md).
  1. Know our [collaboration tools](../collaboration-tools.md).
- 1. Get closer to coding: setup your [working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link). It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
+ 1. Get closer to coding: setup your [working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link).
+ It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
  1. Never stop learning (Are you full-stack? Then please open both links ☀️): 
      - Literature/subscriptions [for Back-end developers](../../library/back-end/literature.md)
      - Literature/subscriptions [for Front-end developers](../../library/front-end/literature.md)
