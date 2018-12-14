@@ -30,7 +30,7 @@ We want to maintain it in perfect condition, and your fresh look at the process 
     1. [Scrum](../scrum/README.md)
     1. [GitFlow](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/workflows/gitflow.md)
  1. Coding (finally 🎉)
-    1. [File-naming conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/file-naming-conventions.md)
+    1. [File-naming conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/naming-conventions.md)
     1. [Contributing standards](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/CONTRIBUTING.md)
     1. [Platform glossary](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/glossary.md)
     1. Architecture (Are you full-stack? You know what to do 😊)
