@@ -25,6 +25,7 @@ We want to maintain it in perfect condition, and your fresh look at the process 
  Once you have a plan, please discuss it with your mentor. (Are you full-stack? Then please open both links ☀️): 
      - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md)
      - Literature/subscriptions [for front-end developers](../../library/front-end/literature.md)
+ 1. We have an amazing course on IDF's company culture! Ping @madssoegaard to create a plan to take the course.
  1. Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md).
     1. [Scrum](../scrum/README.md)
