@@ -21,8 +21,8 @@ Since we are a small team of seniors, you can find here our expectations for sen
  1. A senior developer **finds and fixes the root causes of the problem** and not just the symptoms.
  1. A senior developer can **autonomously deliver working software**.
  1. A senior developer understands that their job is to **provide solutions to problems**, not to write code.
- 1. A senior developer **knows his tools**: debugging, SSH, basic bash, etc.
- 1. A senior developer **knows how to choose a right tool**.
+ 1. A senior developer **knows his tools**: IDE, OS, debugging, etc.
+ 1. A senior developer **knows how to choose a right tool and framework**.
 
 
 ### Senior backend developer
