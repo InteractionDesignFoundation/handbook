@@ -65,6 +65,7 @@ Every back-end developer should
 1.  Framework: Official Laravel [documentation](https://laravel.com/docs/) :smile:
 1.  Design Patterns (book): `Eric Freeman - Head First Design Patterns - 2004`.
 1.  Server management (book): `Chris Fidao - Servers for Hackers - 2016.pdf`.
+1.  Clean Architecture (book): `Robert Martin -  Clean Architecture: A Craftsman's Guide to Software Structure and Design - 2017`.
 1.  Topic:
     [S](https://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074).[O](https://code.tutsplus.com/tutorials/solid-part-2-the-openclosed-principle--net-36600).[L](https://code.tutsplus.com/tutorials/solid-part-3-liskov-substitution-interface-segregation-principles--net-36710).[I](https://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872).[D](https://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872).
     principles ([short version](http://jokiruiz.com/software/solid-principles-php/)). There are also videos on the topic inside `SOLID Principles in PHP` directory.
