@@ -1,5 +1,4 @@
-Contribution guide
-==================
+# Contributing
 
 This documentation is maintained using Markdown syntax — see this amazing [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 

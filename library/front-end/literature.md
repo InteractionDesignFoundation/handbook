@@ -56,7 +56,8 @@ Every frontend developer should
 
 1.  Classic programming skills: [Clean Code: JavaScript](clean-code-js.md):
     Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript.
-1.  [Eloquent JavaScript](http://eloquentjavascript.net/) (book) or use pdf version from shared library.
+1.  [Eloquent JavaScript](http://eloquentjavascript.net/) (free ebook) or use pdf version from shared library.
+1.  [`Martin Fowler - Refactoring - Improving the Design of Existing Code, 2nd edition`](https://martinfowler.com/books/refactoring.html) (book) or use pdf version from shared library.
 1.  Design Patterns (book):
     [Addy Osmani - Learning JavaScript Design Patterns - 2017](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 1.  CSS (book): `Verou L. - CSS Secrets - 2015`.
