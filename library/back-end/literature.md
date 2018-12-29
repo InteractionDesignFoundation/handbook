@@ -72,7 +72,7 @@ Every back-end developer should
 1.  Topic:
     [KISS, YAGNI & DRY Principles](https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161).
 1.  Topic: [How to use xdebug on your local env](https://deliciousbrains.com/xdebug-advanced-php-debugging/).
-1.  Optional: TDD in Laravel: [`Course videos for Test-Driven Laravel`](https://course.testdrivenlaravel.com/) video course by Adam Wathan.
+1.  Optional: TDD in Laravel: [`Course videos for Test-Driven Laravel`](https://course.testdrivenlaravel.com/) video course by [Adam Wathan](https://github.com/adamwathan).
 1.  Optional: Classic programming (book):
     `Hunt A., Thomas D. - The Pragmatic Programmer. From Journeyman to Master - 1999`.
 1.  Optional: DDD (book): `Vernon V. - Domain-Driven Design Distilled - 2016`.
