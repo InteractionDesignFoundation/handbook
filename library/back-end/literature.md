@@ -63,7 +63,7 @@ Every back-end developer should
 1.  Classic programming (books): `Robert Martin - Clean Code - 2008` and/or
     `Steve McConnell - Code Complete, 2nd edition - 2014`.
 1.  Framework: Official Laravel [documentation](https://laravel.com/docs/) :smile:
-1.  Design Patterns (book): `Eric Freeman - Head First Design Patterns - 2004`.
+1.  Design Patterns (book): `Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides - Design Patterns - 1994` or `Eric Freeman - Head First Design Patterns - 2004`.
 1.  Server management (book): `Chris Fidao - Servers for Hackers - 2016.pdf`.
 1.  Clean Architecture (book): `Robert Martin -  Clean Architecture: A Craftsman's Guide to Software Structure and Design - 2017`.
 1.  Topic:
