@@ -16,7 +16,7 @@ This guide is for **ScrumTeam** scrum role. To read more about scrum roles, plea
 ### Prepare yourself
 - Make sure you have a [backlog](backlog.md) filled with issues enough for the whole sprint.
 - Briefly tell others which issues you are going to handle. For major issues, you can give a link to the issue.
-- You don't need to talk about smallish issues. Just mention them if they are worth mentioning.
+- You don't need to talk about smallish issues. Just mention them if they are worth mentioning. This is a very, very important point because giving updates about smallish issues will make meetings longer and de-energize the team (e.g. do we really need to know that you updated a typo on a given page? :-) )
 - Don't go into technical details! If you have questions, request a call with the suitable developer after sprint planning.
 
 ### Additional notes
