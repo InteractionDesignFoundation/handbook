@@ -10,11 +10,11 @@ Established in 2002 in Denmark, we were inspired by the Scandinavian educational
 
 
 ## Mission
-Our mission is to create low-cost, high-quality education so as to change the way people learn design and thus improve lives of millions across the world.
+Our mission is to create low-cost, high-quality design education so as to change the way people learn design and thus improve lives of millions across the world.
 
 
 ## Culture
- - We love results, productivity, focus, and efficiency. And we believe this is achieved through an approach of "working smarter not harder," having a love for what we do, and by taking great care of each other.
+ - We love results, productivity, focus, and efficiency. And we believe this is achieved through an approach of "work hard, play hard," having a love for what we do, a thirst for learning, and by taking great care of each other. And well... a lot of other things. But you will learn about that in our "Culture Course", a special onboarding course that tells you everything about our company culture - along with exercises.
  - We pride ourselves on being friendly, compassionate and supportive; we also encourage a sense of fun in the things we do.
  - We value concentration and believe that interruptions, meetings, and egos can kill productivity. That's why work often does not happen at work.
  - We think remarkable results are produced when being in flow. That's why we value location independent work.
