@@ -12,7 +12,7 @@ Mentoring on Onboarding
 
 
 ## Expectations and duties
-It’s not the job of a mentor to ~teach~, although you might end up doing a little bit of that. Your role is to **guide**.
+It’s not the job of a mentor to ~teach~, although you might end up doing a little bit of that. Your role is to **guide** and inspire with your enthusiasm (and don’t lose a great talent).
 
 So while there’s an element of teaching to mentorship, the skills a mentor needs are different to those of a teacher.
 You need to be an attentive listener, and you need to have enough practical experience to be able to give your mentee the right advice at the right time.
