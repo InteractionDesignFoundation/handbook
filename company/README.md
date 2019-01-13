@@ -28,4 +28,4 @@ Our main asset is the knowledge that is packed into our educational platform ava
 
 ## Benefits
 
-Company benefits are listed on [IDF's Careers page](https://www.interaction-design.org/about/careers).
+Company benefits are listed on [IDF's Careers page](https://www.interaction-design.org/about/careers#benefits).
