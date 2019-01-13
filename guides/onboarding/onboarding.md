@@ -18,7 +18,6 @@ We want to maintain it in perfect condition, and your fresh look at the process 
  1. Update your Slack account by uploading a photo and filling out personal info: Full name, role, timezone, Skype name.
  1. Understand [company goals and who we are](/company/README.md).
  1. Know our [expectations from you and your work](../expectations.md).
- 1. Learn our [philosophy](../philosophy.md).
  1. Get closer to coding: Setup your [working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link).
  It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
  1. Never stop learning 📖 Go through our library and create a plan on acquiring every bit of knowledge there.
