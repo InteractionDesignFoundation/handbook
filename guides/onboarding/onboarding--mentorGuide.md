@@ -30,7 +30,10 @@ Ensure your mentee understands your expectations and feels motivated to fill the
  1. Ensure that your mentee has [properly installed developer environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md).
  1. Arrange end-of-day meetings with your mentee with a specified agenda to get maximum feedback. The meeting should happen at the end of each day during the first week.
  Why: It will help your mentee understand if they are doing things at the right pace and focusing on the correct tasks, as well as receive clear instructions, advice and constructive criticism to help them improve.
- 1. Start changing code: Prepare 3-6 tasks for smooth entry into the project (e.g. start from something very simple to train GitFlow, then fix very small bug, learn how to use our error logging system, etc.).
+ 1. Start changing code: Prepare 3-10 tasks for smooth entry into the project. Examples:
+    1. Write tests for feature X (the goal is to introduce feature X, introduce out tools and workflows (GitHub, git, CI))
+    1. Pickup and fix any bug from our automated but-report systems (Newrelic, Bugsnag, etc.) (goal: introduce tools, fix a bug)
+    1. Review a Pull Request (goal: introduce our Pull Reequest flow and a new piece of code).
 
 ### First week
  1. Ensure that your mentee has a plan to read developer and general literature and materials from our shared folders (50/50 mix of general/developer literature).
