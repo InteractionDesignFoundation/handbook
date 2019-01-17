@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 # Clean Code PHP
 
+## Meta
 This document originally belongs to https://github.com/jupeter/clean-code-php
 
 ## Table of Contents
@@ -2246,3 +2248,4 @@ function showList(array $employees): void
 ```
 
 **[⬆ back to top](#table-of-contents)**
+<!-- prettier-ignore-end -->

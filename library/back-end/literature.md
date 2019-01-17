@@ -1,7 +1,7 @@
 # Literature for back-end developer
 
 > You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.
-> 
+>
 > -Robert C. Martin (from Clean Code)
 
 We have, again and again, experienced that it's not enough to be a good developer — let alone be a developer. We also have
@@ -12,11 +12,11 @@ In IDF, it is essential for developers to study the content in our library. This
 An IDF developer should have read the whole library — **at the least**.
 
 > The frenetic rate of change in our industry means that software developers must continue to learn copious quantities just to keep up.
-Woe to the architects who stop coding—they will rapidly find themselves irrelevant. Woe to the programmers who stop learning new
-languages—they will watch as the industry passes them by. Woe to the developers who fail to learn new disciplines and techniques—their
-peers will excel as they decline.
-> 
-> -Robert C. Martin (from Clean *Coder*)
+> Woe to the architects who stop coding—they will rapidly find themselves irrelevant. Woe to the programmers who stop learning new
+> languages—they will watch as the industry passes them by. Woe to the developers who fail to learn new disciplines and techniques—their
+> peers will excel as they decline.
+>
+> -Robert C. Martin (from Clean _Coder_)
 
 ## Index
 
@@ -26,10 +26,10 @@ you may want to selectively sync those you want to study into your computer when
 
 1. Front-end Foundations
 1. Backend
-    1. Foundations
-    1. References
-    1. Subscriptions
-    1. Awesome lists
+   1. Foundations
+   1. References
+   1. Subscriptions
+   1. Awesome lists
 
 # Frontend
 
@@ -54,6 +54,7 @@ For more frontend hints please see [frontend hints dir](https://github.com/Inter
 # Backend
 
 Every back-end developer should
+
 - have a basic set of programming skills (Foundations),
 - use evergreen programming principles and team conventions (References),
 - be aware of modern techniques, tools, and APIs (Subscriptions and Awesome lists).
@@ -65,7 +66,7 @@ Every back-end developer should
 1.  Framework: Official Laravel [documentation](https://laravel.com/docs/) :smile:
 1.  Design Patterns (book): `Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides - Design Patterns - 1994` or `Eric Freeman - Head First Design Patterns - 2004`.
 1.  Server management (book): `Chris Fidao - Servers for Hackers - 2016.pdf`.
-1.  Clean Architecture (book): `Robert Martin -  Clean Architecture: A Craftsman's Guide to Software Structure and Design - 2017`.
+1.  Clean Architecture (book): `Robert Martin - Clean Architecture: A Craftsman's Guide to Software Structure and Design - 2017`.
 1.  Topic:
     [S](https://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074).[O](https://code.tutsplus.com/tutorials/solid-part-2-the-openclosed-principle--net-36600).[L](https://code.tutsplus.com/tutorials/solid-part-3-liskov-substitution-interface-segregation-principles--net-36710).[I](https://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872).[D](https://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872).
     principles ([short version](http://jokiruiz.com/software/solid-principles-php/)). There are also videos on the topic inside `SOLID Principles in PHP` directory.
@@ -110,3 +111,5 @@ tools, etc. All of them are community curated and always up to date 🌲.
     Laravel here.
 1.  [Awesome Laravel Nova](https://github.com/its-awesome/awesome-laravel-nova)
 1.  [Awesome composer](https://github.com/jakoch/awesome-composer)
+
+🦄

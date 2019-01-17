@@ -1,7 +1,7 @@
 # Literature for frontend developer
 
 > You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.
-> 
+>
 > -Robert C. Martin (from Clean Code)
 
 We have, again and again, experienced that it's not enough to be a good developer — let alone be a developer. We also have
@@ -12,11 +12,11 @@ In IDF, it is essential for developers to study the content in our library. This
 An IDF developer should have read the whole library — **at the least**.
 
 > The frenetic rate of change in our industry means that software developers must continue to learn copious quantities just to keep up.
-Woe to the architects who stop coding—they will rapidly find themselves irrelevant. Woe to the programmers who stop learning new
-languages—they will watch as the industry passes them by. Woe to the developers who fail to learn new disciplines and techniques—their
-peers will excel as they decline.
-> 
-> -Robert C. Martin (from Clean *Coder*)
+> Woe to the architects who stop coding—they will rapidly find themselves irrelevant. Woe to the programmers who stop learning new
+> languages—they will watch as the industry passes them by. Woe to the developers who fail to learn new disciplines and techniques—their
+> peers will excel as they decline.
+>
+> -Robert C. Martin (from Clean _Coder_)
 
 ## Index
 
@@ -26,9 +26,9 @@ you may want to selectively sync those you want to study into your computer when
 
 1. Back-end Foundations
 1. Frontend
-    1. Foundations
-    1. Subscriptions
-    1. Awesome lists
+   1. Foundations
+   1. Subscriptions
+   1. Awesome lists
 
 # Backend
 
@@ -49,6 +49,7 @@ For more back-end hints, please see [backend hints dir](https://github.com/Inter
 # Frontend
 
 Every frontend developer should
+
 - have a basic set of programming skills (Foundations),
 - be aware of modern techniques, tools, and APIs (Subscriptions and Awesome lists).
 
@@ -92,3 +93,5 @@ tools, etc. All of them are community curated and always up to date 🌲.
 1.  [Awesome Javascript](https://github.com/sindresorhus/awesome) - a curated list of awesome javascript lists
 1.  [Awesome CSS](https://github.com/sotayamashita/awesome-css) - a curated list of awesome frameworks, style guide and other cool nuggets for the amazing CSS.
 1.  [Awesome BEM](https://github.com/getbem/awesome-bem)
+
+🦄

@@ -1,5 +1,7 @@
-# clean-code-javascript
+<!-- prettier-ignore-start -->
+# Clean code JavaScript
 
+## Meta
 This document originally belongs to https://github.com/ryanmcdermott/clean-code-javascript
 
 ## Table of Contents
@@ -2178,3 +2180,4 @@ This is also available in other languages:
   [andirkh/clean-code-javascript/](https://github.com/andirkh/clean-code-javascript/)
 
 **[⬆ back to top](#table-of-contents)**
+<!-- prettier-ignore-end -->
