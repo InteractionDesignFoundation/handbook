@@ -23,7 +23,7 @@ the codebase considerably easier in the long run.
 
 ## Activity number 2:
 
-Go to our old test cases in the Sync folder called `IDF2-Test-cases`. You should start with the files called `IDF-Test-Cases--How-to-do-testing--START-HERE.docx` 
+Go to our old test cases in the Sync folder called `IDF2-Test-cases` - ping @madssoegaard to get access to that folder if you don't already have access. You should start with the files called `IDF-Test-Cases--How-to-do-testing--START-HERE.docx` 
 which will tell you everything you need. 
 
 Please note that these test cases are not being maintained anymore and 
