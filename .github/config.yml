@@ -4,13 +4,13 @@
 
 # Comment to be posted to on first time issues
 newIssueWelcomeComment: >
-  Thanks for opening your first issue here! Be sure that an issue has at least one assignee and proper labels.
+  Wow, it's your first issue here! We are glad that you want to improve this repository 🚀
 
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
-  Thanks for opening this pull request! Please check out our [contributing guidelines](/CONTRIBUTING.md).
+  Thanks for opening this pull request 🦄! Do you want to improve your PR? - Please check out our [contributing guidelines](/CONTRIBUTING.md).
 
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 
@@ -20,7 +20,6 @@ firstPRMergeComment: >
   ![image](https://media.giphy.com/media/5gXYzsVBmjIsw/giphy.gif)
 
 # It is recommended to include as many gifs and emojis as possible!
-
 
 # Configuration for request-info - https://github.com/behaviorbot/request-info
 
@@ -34,7 +33,6 @@ requestInfoReplyComment: >
 #  - update readme.md
 #  - updates
 
-
 # *OPTIONAL* Label to be added to Issues and Pull Requests with insufficient information given
 # requestInfoLabelToAdd: needs-more-info
 
@@ -43,7 +41,6 @@ requestInfoReplyComment: >
 requestInfoOn:
   pullRequest: true
   issue: true
-
 
 # Configuration for sentiment-bot - https://github.com/behaviorbot/sentiment-bot
 
