@@ -97,7 +97,8 @@ class Board
 
     // ...
 
-    public function calculateArea() {
+    public function calculateArea()
+    {
         $area = 0;
         foreach ($this->rectangles as $rectangle) {
             $area += $rectangle->width * $rectangle->height;
@@ -124,7 +125,8 @@ class Rectangle implements Shape
 {
     // ...
 
-    public function area() {
+    public function area()
+    {
         return $this->width * $this->height;
     }
 }
@@ -145,7 +147,8 @@ class Board
 
     // ...
 
-    public function calculateArea() {
+    public function calculateArea()
+    {
         $area = 0;
         foreach ($this->shapes as $shape) {
             $area+= $shape->area();
@@ -344,7 +347,7 @@ Now, we need to add a new kind of specialized workers, we create a new class Spe
 // Bad example
 class SpecializedWorker
 {
-public function work() {}
+    public function work() {}
 }
 ```
 
