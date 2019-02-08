@@ -18,8 +18,8 @@ To achieve this, we want everyone to understand what is expected of them, the th
 ## Links
 
 - [Handbook contribution guide](CONTRIBUTING.md): how to make this document even better 🦄
-- [private] Shared folders at [Sync.com](https://cp.sync.com/files/) (ask **@madssoegaard** to give you access)
-- [private] [developer docs](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/README.md) - development-related documents
+- _private_: Shared folders at [Sync.com](https://cp.sync.com/files/) (ask **@madssoegaard** to give you access)
+- _private_: [developer docs](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/README.md) - development-related documents
 
 ## The IDF Zen Code
 
