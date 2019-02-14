@@ -12,8 +12,8 @@ know where to go look for the information. So it’s much like constructing a �
 
 ## Activity number 1: Test all email notifications
 
-Go to the notification control panel on our test server. On that page, you will see information on how to test an email notification.
-Please be **absolutely sure** you're not on production server but on our **test server**. Ask your mentor for the URL to the test server
+Go to the notification control panel on our staging/test sites. On that page, you will see information on how to test an email notification.
+Please be **absolutely sure** you're not on production server but on a **staging/test site**. Ask your mentor for the URL to the test server
 and the password.
 
 Please make a plan for yourself to test a number of email notifications every day so that you'll have tested all email notifications
@@ -31,13 +31,13 @@ Please note that these test cases are not being maintained anymore and
 some of the could be (slightly) wrong. That’s okay since most of them will be correct.
 
 For testing, you will need to familiarize yourself with the Testing Control Panel (the URL is in `IDF-Test-Cases--How-to-do-testing--START-HERE.docx` and
-remember that you need to do all this on the **testing server** and **NOT** on the production server.
+remember that you need to do all this on a **non-production site**.
 
-On the testing control panel (again, on the **TESTING SERVER**), we’ve made testing SUPER easy through our “impersonation feature”
+On the testing control panel (again, on the **NON-PRODUCTION SITE**), we’ve made testing SUPER easy through our “impersonation feature”
 and through listing different types of members on this page for easy impersonation.
 
-Now that you’re familiar with the testing control panel, please open a browser in one window with the testing control panel on the
-test server and a test case file in another window and start testing to see all the flows of
+Now that you’re familiar with the testing control panel, please open a browser in one window with the testing control panel on a
+staging/test site and a test case file in another window and start testing to see all the flows of
 the platform.
 
 While you’re doing that, your brain will be constructing a map of the various states of the code, the happy path of
