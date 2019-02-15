@@ -7,14 +7,14 @@ Please note that you should be using your company email address with all the too
 
 
 ### [GitHub](https://github.com/InteractionDesignFoundation)
-Our issue tacker and code storage. Usage of [2FA](https://github.com/settings/security) is required. We also use real photos for a profile picture to look more friendly to your colleagues.
+Our issue tacker and code storage. Usage of [2FA](https://github.com/settings/security) is required. We also use real face photos for a profile picture to look more friendly to your colleagues.
 
 ### [Slack](https://slack.com/download)
 
 We use [Slack](https://slack.com/download) as our main tool for written communication and important notifications.
 Unless you're deep in the flow (state), you should be paying attention to what's going on there.
 
-We also use real photos for a profile picture to look more friendly to your colleagues.
+We also use real face photos for a profile picture to look more friendly to your colleagues.
 
 ### [Skype](https://go.skype.com/scom.download)
 
