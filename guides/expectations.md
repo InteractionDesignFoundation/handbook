@@ -5,7 +5,7 @@ We are a small team of senior developers and the IDF does not employ junior or m
 # Senior developer
 
 1.  A senior developer understands and is aligned with the IDF Company Culture which is _very briefly_ [explained here](/company/README.md) and **very** thoroughly explained in our "IDF Company Culture Course" (taken during your onboarding phase).
-1.  A senior developer has printed out the [IDF Zen Code](/handbook/README.md#the-idf-zen-code) and regularly re-reads it. Most importantly, he/she reminds the rest of the team when we are not actively **acting** by our own principles defined in the Zen Code. They must never become "pretty words". We must always correlate our actions with our words.
+1.  A senior developer has printed out the [IDF Zen Code](/README.md#the-idf-zen-code) and regularly re-reads it. Most importantly, he/she reminds the rest of the team when we are not actively **acting** by our own principles defined in the Zen Code. They must never become "pretty words". We must always correlate our actions with our words.
 1.  **Seriousness firstly means "responsibility"**. Responsibility for your decisions, solutions, code,
     and communication with the team.
 1.  A senior developer is [able to carry a message to Garcia](http://www.actonfoundation.org/pdf/messagetogarcia.pdf):
