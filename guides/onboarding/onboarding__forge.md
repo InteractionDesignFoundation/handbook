@@ -8,6 +8,7 @@ to access our servers and sites.
 - Go to [https://forge.laravel.com/auth/register](https://forge.laravel.com/auth/register)
   and register with your IDF email address. Don't fill out billing but click on "Just Joining A Circle?".
   <img width="729" alt="screen shot 2018-10-09 at 20 58 09" src="https://user-images.githubusercontent.com/832544/46689488-aed80f00-cc08-11e8-8ae3-a7efed74c836.png">
+- By default Forge will ask you to connect to a source control and server provider. You can ignore this by clicking "Skip For Now" button under "Just Joining A Circle?" section.
 - After you created the account, ask one of the development team members to add you to our "Development Team" circle.
 - Accept the circle invitation by going to [https://forge.laravel.com/circles](https://forge.laravel.com/circles).
   <img width="1052" alt="screen shot 2018-10-09 at 20 59 42" src="https://user-images.githubusercontent.com/832544/46689490-aed80f00-cc08-11e8-8b9b-78285ebed5d1.png">
