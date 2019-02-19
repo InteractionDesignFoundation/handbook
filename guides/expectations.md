@@ -18,7 +18,7 @@ We are a small team of senior developers and the IDF does not employ junior or m
 1.  A senior developer **knows their tools**: IDE, OS, debugging, etc.
 1.  A senior developer **knows how to choose a right tool and framework**.
 1.  A senior developer actively employs the Boyscout principle and helps update this documentation ("always leave the campground cleaner than you found it")
-1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what's written on this page, written in the [IDF Zen Code](/handbook/README.md#the-idf-zen-code), taught in the IDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
+1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what's written on this page, written in the [IDF Zen Code](/README.md#the-idf-zen-code), taught in the IDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
 
 ### Senior backend developer
 
@@ -48,7 +48,7 @@ Here are what we expect from every IDF developer while on (video) calls:
     and not feel like talking to a computer screen :-)
 1.  Pay attention to other team members; they may ask for help, OR you may notice that they need help without directly asking.
     Especially the daily calls are a chance for all of us to be on the same page AND help others to save time & sanity so that we operate as efficiently as possible.
-1.  Make sure you've read and re-read the guidelines on [Scrum Updates](/handbook/guides/scrum/scrumTeam.md) and [Scrum overview](handbook/guides/scrum/overview.md) so that you, for example, don't give lengthy updates on insignificant stuff ("..and then I corrected a typo on page XYZ..." :-) )
+1.  Make sure you've read and re-read the guidelines on [Scrum Updates](/guides/scrum/scrumTeam.md) and [Scrum overview](/guides/scrum/overview.md) so that you, for example, don't give lengthy updates on insignificant stuff ("..and then I corrected a typo on page XYZ..." :-) )
 
 ## Short articles to read
 
