@@ -66,6 +66,14 @@ ScrumTeam members should answer the following questions:
 
 **Purpose**: Inspire the team by your results on learning, new features, refactorings, etc.
 
+Prepare your hat! 🤠🎅👩‍🚀 Or probably mask 🦹‍♀️🦸‍♂️ :)
+
+Do you remember that we are a small product company who cares about culture and team spirit?
+We know, nobody likes broking meetings.
+Being a small product company means you don't have eager customers, crazy managers and all this zoo
+In IDF, demo time is a time to **celebrate our wins**, not to sale your work to managers and customers!
+Please be crazy with your demos as you can be, we like having fun!
+
 ScrumTeam should prepare a small demo of new features (if any) that they've done on the past sprint. Possible ways to demonstrate what you've done within the recent sprint are as follows:
 
 - A link to a page with the new feature/function. Links from all servers including your local machine (Remember `share idf.test` command to share your local machine to outside people, or you can share your screen instead) are accepted.
@@ -73,6 +81,12 @@ ScrumTeam should prepare a small demo of new features (if any) that they've done
 - Charts (e.g., for performance tasks)
 - Statistics (e.g., fewer errors per hour on New Relic due to one of your bug fixes)
 - etc.
+
+### Part 1: Demo
+
+Prepare your hat! 🤠👩‍🚀👨‍🚒👸🎅 Or probably mask 🦹‍♀️🦸‍♂️ :)
+
+Do you remember that we are a small product company who cares about culture and team spirit? We know, nobody likes broking meetings. Beeing small product company means you don't have eager customers, crazy managers and all this zoo.
 
 ## Links
 
