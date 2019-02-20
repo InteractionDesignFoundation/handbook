@@ -82,12 +82,6 @@ ScrumTeam should prepare a small demo of new features (if any) that they've done
 - Statistics (e.g., fewer errors per hour on New Relic due to one of your bug fixes)
 - etc.
 
-### Part 1: Demo
-
-Prepare your hat! 🤠👩‍🚀👨‍🚒👸🎅 Or probably mask 🦹‍♀️🦸‍♂️ :)
-
-Do you remember that we are a small product company who cares about culture and team spirit? We know, nobody likes broking meetings. Beeing small product company means you don't have eager customers, crazy managers and all this zoo.
-
 ## Links
 
 - [About ScrumTeam role](https://www.mountaingoatsoftware.com/agile/scrum/roles/team)
