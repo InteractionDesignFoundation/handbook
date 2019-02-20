@@ -5,7 +5,7 @@ We are a small team of senior developers and the IDF does not employ junior or m
 # Senior developer
 
 1.  A senior developer understands and is aligned with the IDF Company Culture which is _very briefly_ [explained here](/company/README.md) and **very** thoroughly explained in our "IDF Company Culture Course" (taken during your onboarding phase).
-1.  A senior developer has printed out the [IDF Zen Code](/handbook/README.md#the-idf-zen-code) and regularly re-reads it. Most importantly, he/she reminds the rest of the team when we are not actively **acting** by our own principles defined in the Zen Code. They must never become "pretty words". We must always correlate our actions with our words.
+1.  A senior developer has printed out the [IDF Zen Code](/README.md#the-idf-zen-code) and regularly re-reads it. Most importantly, he/she reminds the rest of the team when we are not actively **acting** by our own principles defined in the Zen Code. They must never become "pretty words". We must always correlate our actions with our words.
 1.  **Seriousness firstly means "responsibility"**. Responsibility for your decisions, solutions, code,
     and communication with the team.
 1.  A senior developer is [able to carry a message to Garcia](http://www.actonfoundation.org/pdf/messagetogarcia.pdf):
@@ -18,7 +18,7 @@ We are a small team of senior developers and the IDF does not employ junior or m
 1.  A senior developer **knows their tools**: IDE, OS, debugging, etc.
 1.  A senior developer **knows how to choose a right tool and framework**.
 1.  A senior developer actively employs the Boyscout principle and helps update this documentation ("always leave the campground cleaner than you found it")
-1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what's written on this page, written in the [IDF Zen Code](/handbook/README.md#the-idf-zen-code), taught in the IDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
+1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what's written on this page, written in the [IDF Zen Code](/README.md#the-idf-zen-code), taught in the IDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
 
 ### Senior backend developer
 
@@ -48,7 +48,7 @@ Here are what we expect from every IDF developer while on (video) calls:
     and not feel like talking to a computer screen :-)
 1.  Pay attention to other team members; they may ask for help, OR you may notice that they need help without directly asking.
     Especially the daily calls are a chance for all of us to be on the same page AND help others to save time & sanity so that we operate as efficiently as possible.
-1.  Make sure you've read and re-read the guidelines on [Scrum Updates](/handbook/guides/scrum/scrumTeam.md) and [Scrum overview](handbook/guides/scrum/overview.md) so that you, for example, don't give lengthy updates on insignificant stuff ("..and then I corrected a typo on page XYZ..." :-) )
+1.  Make sure you've read and re-read the guidelines on [Scrum Updates](/guides/scrum/scrumTeam.md) and [Scrum overview](/guides/scrum/overview.md) so that you, for example, don't give lengthy updates on insignificant stuff ("..and then I corrected a typo on page XYZ..." :-) )
 
 ## Short articles to read
 
