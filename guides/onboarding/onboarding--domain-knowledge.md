@@ -28,7 +28,7 @@ Go to our old test cases in the Sync folder called `IDF2-Test-cases` - ping @mad
 which will tell you everything you need.
 
 Please note that these test cases are not being maintained anymore and
-some of the could be (slightly) wrong. That’s okay since most of them will be correct.
+some of them could be (slightly) wrong. That’s okay since most of them will be correct.
 
 For testing, you will need to familiarize yourself with the Testing Control Panel (the URL is in `IDF-Test-Cases--How-to-do-testing--START-HERE.docx` and
 remember that you need to do all this on a **non-production site**.
