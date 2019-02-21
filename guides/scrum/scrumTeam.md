@@ -66,13 +66,13 @@ ScrumTeam members should answer the following questions:
 
 **Purpose**: Inspire the team by your results on learning, new features, refactorings, etc.
 
-Prepare your hat! 🤠🎅👩‍🚀 Or probably mask 🦹‍♀️🦸‍♂️ :)
+Prepare your hat! 🤠🎅👩‍🚀 Or perhaps a mask 🦹‍♀️🦸‍♂️ :)
 
 Do you remember that we are a small product company who cares about culture and team spirit?
-We know, nobody likes broking meetings.
-Being a small product company means you don't have eager customers, crazy managers and all this zoo
-In IDF, demo time is a time to **celebrate our wins**, not to sale your work to managers and customers!
-Please be crazy with your demos as you can be, we like having fun!
+We know, nobody likes boring meetings.
+Being a small product company means we don't have eager customers or crazy managers.
+At the IDF, demo meeting is a time to **celebrate our wins**; it's not to sale our work to customers or managers!
+Please be crazy as much as you can be with your demos, we like having fun!
 
 ScrumTeam should prepare a small demo of new features (if any) that they've done on the past sprint. Possible ways to demonstrate what you've done within the recent sprint are as follows:
 
