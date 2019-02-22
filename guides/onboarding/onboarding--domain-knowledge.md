@@ -16,8 +16,7 @@ Go to the notification control panel on our staging/test sites. On that page, yo
 Please be **absolutely sure** you're not on production server but on a **staging/test site**. Ask your mentor for the URL to the test server
 and the password.
 
-Please make a plan for yourself to test a number of email notifications every day so that you'll have tested all email notifications
-in, say, a month at the latest. If you prefer to do it in one go, then please do that. Whatever works for you.
+Please make a plan for yourself to test a number of email notifications every day, e.g. 2 per day, so that you'll have tested all email notifications at some point. 
 
 Doing this activity can feel a bit grinding perhaps. But rest assured that it will pay off in the long run. It will make your work in
 the codebase considerably easier in the long run.
