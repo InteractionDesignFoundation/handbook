@@ -29,7 +29,8 @@ AFTER the meeting, ScrumMaster should:
 - **Duration**: 1-2 hours
 
 ### Part 1: Demo
-Just remind ScrumTeam purpuses of the demo (hint: have a fun :tada: !).
+
+Just remind ScrumTeam purposes of the demo (hint: have a fun :tada: !).
 
 ### Part 2: Retrospective
 
