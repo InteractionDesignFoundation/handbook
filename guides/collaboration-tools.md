@@ -5,7 +5,6 @@ These are the ones we use almost every day.
 
 Please note that you should be using your company email address with all the tools listed below.
 
-
 ### [GitHub](https://github.com/InteractionDesignFoundation)
 Our issue tacker and code storage. Usage of [2FA](https://github.com/settings/security) is required. We also use real face photos for a profile picture to look more friendly to your colleagues.
 
