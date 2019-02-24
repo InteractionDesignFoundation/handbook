@@ -393,7 +393,7 @@ function createMicrobrewery($name = null): void
 
 **Good:**
 
- You can use [type hinting](http://php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration) and be sure that the `$breweryName` will not be `NULL`.
+You can use [type hinting](http://php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration) and be sure that the `$breweryName` will not be `NULL`.
 
 ```php
 function createMicrobrewery(string $breweryName = 'Hipster Brew Co.'): void
@@ -442,7 +442,6 @@ The comparison `$a !== $b` returns `TRUE`.
 Note that PHPUnit 2 diffirent method for identical and regular comparisons: `assertSame` and `assertEquals`. Please use `assertSame` where it's possible.
 
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Functions
 
@@ -500,6 +499,7 @@ cleaner. If you take nothing else away from this guide other than this, you'll b
 of many developers.
 
 **Bad:**
+
 ```php
 function emailClients(array $clients): void
 {
