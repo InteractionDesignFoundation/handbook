@@ -12,8 +12,8 @@ To achieve this, we want everyone to understand what is expected of them, the th
   - [Onboarding](/guides/onboarding/README.md)
   - [Scrum](/guides/scrum/README.md)
 - [Library](/library/README.md)
-  - [Backend](/library/back-end/README.md)
-  - [Frontend](/library/front-end/README.md)
+  - [Back end](/library/back-end/README.md)
+  - [Front end](/library/front-end/README.md)
 
 ## Links
 
