@@ -31,6 +31,27 @@ Note that on the Basic license, meetings are capped at 100 people, and meeting d
 
 When both Slack (video) and Skype fail, we use [Google Hangouts](https://hangouts.google.com/) for video calls.
 
+### [Google Calendar](https://calendar.google.com)
+
+We use Google Calendar to share info about our events: meetings, call, team-trips, etc.
+
+Recommendation: consider to have 2 different calendars on your IDF google account: **public** and **private**.
+
+There are several benefits and reasons to sharing your calendar with everyone at IDF:
+
+1. Transparency is one of our values and sharing what you work on is in line with our message of "be open about as many things as possible".
+1. Due to our timezone differences, there are small windows of time where our availabilities overlap.
+   If other members need to schedule a new meeting, seeing the details of recurring meetings (such as 1-1s) will
+   allow for more flexibility in scheduling without needing to wait for a confirmation from the team member.
+   This speaks to our value to be more efficient.
+
+#### Modifying Events
+
+Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels.
+You can configure this to be checked by default under [Event Settings](https://calendar.google.com/calendar/b/1/r/settings).
+
+![image](https://user-images.githubusercontent.com/5278175/55792101-928a3180-5ac8-11e9-81d5-f56d62eea0fe.png)
+
 ### [Sync](https://www.sync.com/)
 
 We need a secure way of sharing files, and [Sync](https://www.sync.com/) is one of the best tools out there for this purpose.
