@@ -56,9 +56,9 @@ You can identify the problem or even provide a solution on how to solve it.
 
 ScrumTeam members should answer the following questions:
 
-- What went well in the Sprint?
-- What could be improved?
-- What will we commit to improve in the next Sprint?
+- What went well this Sprint?
+- What went wrong this Sprint?
+- What could we have done better?
 
 ### Part 2: Demo
 
