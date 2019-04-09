@@ -16,6 +16,12 @@ Unless you're deep in the flow (state), you should be paying attention to what's
 
 We also use real face photos for a profile picture to look more friendly to your colleagues.
 
+### Do Not Disturb Hours
+
+Slack now supports "Do Not Disturb Hours" so you won't be pinged in the middle of the night or while you are dealing with family matters.
+You can set your "Do Not Disturb Hours" by clicking on the bell at the top of the left pane in the Slack app.
+You also have the option of snoozing for 20 minutes or up to 24 hours.
+
 ## [Skype](https://go.skype.com/scom.download)
 
 [Skype](https://go.skype.com/scom.download) is our preferred tool to take video calls. Make sure to add the rest of the team to your Skype contacts.
