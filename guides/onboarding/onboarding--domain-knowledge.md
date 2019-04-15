@@ -10,39 +10,17 @@ see and learn after you’ve done the activities. As long as you do the activiti
 things, and in the future you will get that feeling of “hmm... I remember seeing something that’s related to that...” and then you will
 know where to go look for the information. So it’s much like constructing a “map” in your mind.
 
-## Activity number 1: Test all email notifications
+## Read docs from `/docs/systems`
+
+In our main repository we have [`/docs/systems/`](https://github.com/InteractionDesignFoundation/IDF-web/tree/develop/docs/systems) directory with README.md file for every system/module we have on our application.
+Such `README.md` files provide a brief overview of the system and usually contains links to other docs with deeper technical details.
+During onboarding you need to read `README.md` files for every system.
+
+## Test email notifications
 
 Go to the notification control panel on our staging/test sites. On that page, you will see information on how to test an email notification.
-Please be **absolutely sure** you're not on production server but on a **staging/test site**. Ask your mentor for the URL to the test server
+Please be **absolutely sure** you're not on production server but on a **staging/test site**. Ask your mentor for the URL to the test site
 and the password.
-
-Please make a plan for yourself to test a number of email notifications every day, e.g. 2 per day, so that you'll have tested all email notifications at some point. 
 
 Doing this activity can feel a bit grinding perhaps. But rest assured that it will pay off in the long run. It will make your work in
 the codebase considerably easier in the long run.
-
-## Activity number 2:
-
-Go to our old test cases in the Sync folder called `IDF2-Test-cases` - ping @madssoegaard to get access to that folder if you don't already have access. You should start with the files called `IDF-Test-Cases--How-to-do-testing--START-HERE.docx`
-which will tell you everything you need.
-
-Please note that these test cases are not being maintained anymore and
-some of them could be (slightly) wrong. That’s okay since most of them will be correct.
-
-For testing, you will need to familiarize yourself with the Testing Control Panel (the URL is in `IDF-Test-Cases--How-to-do-testing--START-HERE.docx` and
-remember that you need to do all this on a **non-production site**.
-
-On the testing control panel (again, on the **NON-PRODUCTION SITE**), we’ve made testing SUPER easy through our “impersonation feature”
-and through listing different types of members on this page for easy impersonation.
-
-Now that you’re familiar with the testing control panel, please open a browser in one window with the testing control panel on a
-staging/test site and a test case file in another window and start testing to see all the flows of
-the platform.
-
-While you’re doing that, your brain will be constructing a map of the various states of the code, the happy path of
-code execution, the edge cases, etc. etc. All this information will be super valuable during the next many years so it’s important
-you’re fully concentrated. To reiterate the point from before, you will not remember every single detail and that’s okay. Your brain
-will however be constructing a “map”. That way, you will find yourself in situations in the future where you will suddenly
-remember some flow that may be affected by some code you’re working on. Or you will suddenly
-get a feeling that you’ve seen a given screen/flow/etc before and you’ll know the full picture of what you are working on. This will
-save you a ton of time later on.
