@@ -15,7 +15,7 @@ After the team trip, we are going to execute over those ideas.
 
 ## 1. Using GitHub to make action plans
 
-GitHub is the IDF's main project management tool. We will be using [IDF-web's Issues](https://github.com/InteractionDesignFoundation/IDF-web/issues) to make action plans for whatever we talk in and out of the work sessions during the trip. To create a new issue, you can simply click [here](https://github.com/InteractionDesignFoundation/IDF-web/issues).
+GitHub is the IDF's main project management tool. We will be using [IDF-web's Issues](https://github.com/InteractionDesignFoundation/IDF-web/issues) to make action plans for whatever we talk in and out of the work sessions during the trip. To create a new issue, you can simply click [IDF-web/issues](https://github.com/InteractionDesignFoundation/IDF-web/issues).
 
 Here is a screenshot of a new issue, briefly explaining how you can customize it:
 

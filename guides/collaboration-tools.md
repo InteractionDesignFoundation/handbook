@@ -75,7 +75,7 @@ Create an account and let your onboarding buddy know so that they can add you to
 ## [LastPass](https://www.lastpass.com)
 
 We use LastPass to share login credentials, API keys and some top secret information. :-)
-Please head to [here](credentials.md) to know how.
+Please head to [credentials.md](credentials.md) to know how.
 
 ## Ye Olde Email
 
