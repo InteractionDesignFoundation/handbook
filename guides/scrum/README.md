@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-- [Overview](overview.md)
-- [Guide: Backlog](backlog.md)
-- [Guide: ProductOwner](productOwner.md)
-- [Guide: ScrumMaster](scrumMaster.md)
-- [Guide: ScrumTeam](scrumTeam.md)
+- [Overview](/guides/scrum/overview.md)
+- [Guide: Backlog](/guides/scrum/backlog.md)
+- [Guide: Role: ProductOwner](/guides/scrum/productOwner.md)
+- [Guide: Role: ScrumMaster](/guides/scrum/scrumMaster.md)
+- [Guide: Role: ScrumTeam](/guides/scrum/scrumTeam.md)
 
 🦄

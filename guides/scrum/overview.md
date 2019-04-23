@@ -21,8 +21,8 @@ In IDF dev team we usually use 2-weeks sprints.
 
 Once Sprint planning is finished - nobody can add new tasks to sprint backlog. There are 2 exceptions for this rule:
 
-- tasks with `critical bug` label
-- tasks with `Priority-urgent` label
+- tasks with `urgency: high` label
+- tasks with `blink an eye` label if they relevant to other issues from your backlog
 
 ### Sprint planning
 
@@ -70,7 +70,7 @@ There are 4 task statuses visible for ScrumTeam:
 1.  **on review/blocked**: issues that are on review or blocked. ScrumMaster should try to minimize the number of tasks in this column.
 1.  **done**: finished issues (no matter: shipped to production or not)
 
-An example of scrum board at the [almost] middle of a sprint:
+An example of scrum board at the almost middle of a sprint:
 ![image](https://user-images.githubusercontent.com/5278175/35347434-28fb2300-0146-11e8-87f2-0ab9dbc24a66.png)
 
 ## Links

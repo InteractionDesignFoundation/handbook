@@ -7,10 +7,22 @@ To achieve this, we want everyone to understand what is expected of them, the th
 
 ## Table of Contents
 
-- [Company](/company/README.md)
-- [Guides](/guides/README.md)
+- Company
+  - [About](/company/about.md)
+- Guides
   - [Onboarding](/guides/onboarding/README.md)
-  - [Scrum](/guides/scrum/README.md)
+  - People Operations
+    - [Team Trips](/guides/people_operations/team-trips.md)
+    - [Video Calls](/guides/people_operations/video_call.md)
+  - [Scrum](/guides/scrum/overview.md)
+    - [How to fill out your Backlog](/guides/scrum/backlog.md)
+    - [Role: ProductOwner](/guides/scrum/productOwner.md)
+    - [Role: ScrumMaster](/guides/scrum/scrumMaster.md)
+    - [Role: ScrumTeam](/guides/scrum/scrumTeam.md)
+  - [Our expectations from you and your work](expectations.md)
+  - [Collaboration tools](/guides/collaboration-tools.md)
+  - [How we use scrum](/guides/scrum/README.md)
+  - [Access to credentials](/guides/credentials.md)
 - [Library](/library/README.md)
   - [Back end](/library/back-end/README.md)
   - [Front end](/library/front-end/README.md)
