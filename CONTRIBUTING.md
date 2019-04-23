@@ -4,5 +4,7 @@ This documentation is maintained using Markdown syntax — see this amazing [Mar
 
 ## Rules
 
-1.  Please keep clear file structure.
-1.  Every directory should have `README.md` file with a description of the directory with an optional Table of Contents.
+1. Use American English as the standard written language.
+1. Please keep clear file structure.
+1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to.
+1. Use [inclusive and gender-neutral language](https://techwhirl.com/gender-neutral-technical-writing/) in all writing.
