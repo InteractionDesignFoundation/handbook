@@ -13,7 +13,7 @@ To achieve this, we want everyone to understand what is expected of them, the th
   - [Onboarding](/guides/onboarding/README.md)
   - People Operations
     - [Team Trips](/guides/people_operations/team-trips.md)
-    - [Video Calls](/guides/people_operations/video_call.md)
+    - [Video Calls](/guides/people_operations/video-calls.md)
   - [Scrum](/guides/scrum/overview.md)
     - [How to fill out your Backlog](/guides/scrum/backlog.md)
     - [Role: ProductOwner](/guides/scrum/productOwner.md)
