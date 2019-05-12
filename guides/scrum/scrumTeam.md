@@ -25,21 +25,6 @@ This guide is for **ScrumTeam** scrum role. To read more about scrum roles, plea
 - If you feel an issue is too big for one sprint, break it into smaller issues.
 - Keep an eye on deadlines; ideally, we should deploy some important issues each sprint.
 
-## Meeting: Daily scrum
-
-**Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
-
-**Duration**: 10-45 minutes (2-7 minutes per person)
-
-In Scrum, on each day of a sprint, the team holds a daily scrum meeting called the "daily scrum.”
-Meetings are typically held at the same time each day.
-
-It is a short daily call where ScrumTeam should answer three questions:
-
-1.  What have you done starting from last daily scrum until now?
-1.  What are you going to do until next daily scrum?
-1.  Is there anything blocking you?
-
 ## Meeting: Retrospective and Demo
 
 **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
@@ -81,6 +66,21 @@ ScrumTeam should prepare a small demo of new features (if any) that they've done
 - Charts (e.g., for performance tasks)
 - Statistics (e.g., fewer errors per hour on New Relic due to one of your bug fixes)
 - etc.
+
+## Meeting: Daily scrum
+
+**Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
+
+**Duration**: 10-45 minutes (2-7 minutes per person)
+
+In Scrum, on each day of a sprint, the team holds a daily scrum meeting called the "daily scrum.”
+Meetings are typically held at the same time each day.
+
+It is a short daily call where ScrumTeam should answer three questions:
+
+1.  What have you done starting from last daily scrum until now?
+1.  What are you going to do until next daily scrum?
+1.  Is there anything blocking you?
 
 ## Links
 
