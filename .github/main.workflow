@@ -1,8 +1,9 @@
-workflow "Check markdown links" {
+workflow "Main workflow" {
   on = "push"
-  resolves = ["markdown-link-check"]
+  resolves = ["liche"]
 }
 
-action "markdown-link-check" {
-  uses = "./"
+action "liche" {
+  uses = "peaceiris/actions-liche@v0.1.0"
+  args = ["-r", "./content"]
 }
