@@ -1,6 +1,6 @@
 <p align="center"><img src="https://public-media.interaction-design.org/images/idf-logo-full-expanded.svg" alt="In amazing things we trust" width="400"></p>
 
-# IDF Handbook
+# IDF Dev Handbook
 
 At IDF, we're building an open and transparent company, full of people who love their work and enjoy the challenges they face every day.
 To achieve this, we want everyone to understand what is expected of them, the things we value and the things we believe should be avoided.
