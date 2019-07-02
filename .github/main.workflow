@@ -5,5 +5,5 @@ workflow "Main workflow" {
 
 action "liche" {
   uses = "peaceiris/actions-liche@v0.1.0"
-  args = ["-r", "./content"]
+  args = ["-r", "./*"]
 }
