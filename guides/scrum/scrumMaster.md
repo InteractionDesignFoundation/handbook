@@ -30,7 +30,7 @@ AFTER the meeting, ScrumMaster should:
 
 ### Part 1: Demo
 
-Just remind ScrumTeam purposes of the demo (hint: have a fun :tada: !).
+Just remind ScrumTeam purposes of the demo (hint: have fun :tada: !).
 
 ### Part 2: Retrospective
 
