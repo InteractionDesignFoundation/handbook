@@ -22,7 +22,7 @@ In IDF dev team we usually use 2-weeks sprints.
 Once Sprint planning is finished - nobody can add new tasks to sprint backlog. There are 2 exceptions for this rule:
 
 - tasks with `urgency: high` label
-- tasks with `blink an eye` label if they relevant to other issues from your backlog
+- tasks with `blink an eye` label if they are relevant to other issues from your backlog
 
 ### Sprint planning
 
@@ -36,10 +36,10 @@ The output of the sprint planning is a new backlog (todo-list) along with clear 
 - **Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
 - **Duration**: 10-45 mins
 
-In Scrum, on each day of a sprint, the team holds a daily scrum meeting called the "daily scrum.”
+In Scrum, on each day of a sprint the team holds a daily scrum meeting called the "daily scrum.”
 Meetings are typically held at the same time each day.
 
-This is a short daily call where ScrumTeam should answer to 3 questions:
+This is a short daily call where ScrumTeam should answer 3 questions:
 
 1.  What have you done starting from last daily scrum until now?
 1.  What are you going to do until next daily scrum?
@@ -52,23 +52,22 @@ This is a short daily call where ScrumTeam should answer to 3 questions:
 
 **Part 1: Demo**:
 In Scrum, each sprint is required to deliver a potentially shippable product increment.
-This means that at the end of each sprint, the team has produced a coded, tested and usable piece of software.
+This means that at the end of each sprint the team has produced a coded, tested and usable piece of software.
 
 **Part 2: Retrospective**:
 No matter how good a Scrum team is, there is always opportunity to improve.
-Although a good Scrum team will be constantly looking for improvement opportunities, the team should set aside a brief,
-dedicated period at the end of each sprint to deliberately reflect on how they are doing and to find ways to improve.
+Although a good Scrum team will be constantly looking for improvement opportunities, the team should set aside a brief, dedicated period at the end of each sprint to deliberately reflect on how they are doing, and to find ways to improve.
 This occurs during the sprint retrospective.
 
 ## Scrum board
 
-Scrum board is a visual representation of scrum sprint.
+Scrum board is a visual representation of a scrum sprint.
 There are 4 task statuses visible for ScrumTeam:
 
 1.  **backlog**: current sprint backlog, usually ordered by priorities.
-1.  **in progress**: tasks that our developers currently working on (one issue per developer).
+1.  **in progress**: tasks that our developers are currently working on (one issue per developer).
 1.  **on review/blocked**: issues that are on review or blocked. ScrumMaster should try to minimize the number of tasks in this column.
-1.  **done**: finished issues (no matter: shipped to production or not)
+1.  **done**: finished issues (no matter if shipped to production or not)
 
 An example of scrum board at the almost middle of a sprint:
 ![image](https://user-images.githubusercontent.com/5278175/35347434-28fb2300-0146-11e8-87f2-0ab9dbc24a66.png)
