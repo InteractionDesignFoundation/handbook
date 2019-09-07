@@ -22,7 +22,7 @@ In IDF dev team we usually use 2-weeks sprints.
 Once Sprint planning is finished - nobody can add new tasks to sprint backlog. There are 2 exceptions for this rule:
 
 - tasks with `urgency: high` label
-- tasks with `blink an eye` label if they are relevant to other issues from your backlog
+- tasks with `blink of an eye` label if they are relevant to other issues from your backlog
 
 ### Sprint planning
 
