@@ -25,7 +25,7 @@ We want to maintain it in perfect condition, and your fresh look at the process 
 1.  Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md).
     1. [Scrum](../scrum/README.md)
-    1. [🔒 GitFlow](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/workflows/gitflow.md)
+    1. [🔒 Git Flow](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/workflows/git-flow.md)
 1.  [How to get domain knowledge](onboarding--domain-knowledge.md)
 1.  Coding (finally! 🎉)
     1. [🔒 File-naming conventions](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/naming-conventions.md)
