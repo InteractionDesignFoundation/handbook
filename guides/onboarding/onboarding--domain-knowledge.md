@@ -12,7 +12,7 @@ know where to go look for the information. So it’s much like constructing a �
 
 ## Read docs from `/docs/systems`
 
-In our main repository we have [`/docs/systems/`](https://github.com/InteractionDesignFoundation/IDF-web/tree/develop/docs/systems) directory with README.md file for every system/module we have on our application.
+In our main repository we have [🔒 `/docs/systems/`](https://github.com/InteractionDesignFoundation/IDF-web/tree/develop/docs/systems) directory with README.md file for every system/module we have on our application.
 Such `README.md` files provide a brief overview of the system and usually contains links to other docs with deeper technical details.
 During onboarding you need to read `README.md` files for every system.
 
