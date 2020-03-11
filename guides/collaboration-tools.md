@@ -3,7 +3,7 @@
 Collaboration is a keystone in IDF's success, and we couldn't make it happen without the right tools and processes.
 These are the ones we use almost every day.
 
-Please note that you should be using your company email address with all the tools listed below.
+Please note that you should be using your company email address with all the tools listed below (except probably GitHub).
 
 ## [GitHub](https://github.com/InteractionDesignFoundation)
 
@@ -76,6 +76,13 @@ Create an account and let your onboarding buddy know so that they can add you to
 
 We use LastPass to share login credentials, API keys and some top secret information. :-)
 Please head to [credentials.md](credentials.md) to know how.
+
+## [Codeship](https://codeship.com)
+
+Out main CI/CD. Developers should have personal accounts on this service,
+your mentor or team-lead should add you to our project and at the [Connected Services](https://app.codeship.com/authentications)
+page you should connect your account with your GitHub account, so codeship can send you emails
+if case of failed builds.
 
 ## Ye Olde Email
 
