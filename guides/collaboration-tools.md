@@ -79,7 +79,7 @@ Please head to [credentials.md](credentials.md) to know how.
 
 ## [Codeship](https://codeship.com)
 
-Out main CI/CD. Developers should have personal accounts on this service,
+Our main CI/CD. Developers should have personal accounts on this service,
 your mentor or team-lead should add you to our project and at the [Connected Services](https://app.codeship.com/authentications)
 page you should connect your account with your GitHub account, so codeship can send you emails
 if case of failed builds.
