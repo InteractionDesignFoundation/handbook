@@ -10,8 +10,8 @@ much of it is left up to the Scrum team. Afterall, the team will know best how t
 Scrum started in Software Development but is now being used as an approach to project management in all sorts of projects. 
 
 ## External, introductory ressources
-- **[ScrumMaster](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
-- **[ScrumMaster](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
+- **[What is Scrum?](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
+- **[Scrum Glossary](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
 *There are more external ressources at the bottom of this page*
 
 ## Scrum Roles
@@ -58,24 +58,24 @@ This is a short daily call where ScrumTeam should answer 3 questions:
 
 **Part 1: Demo**:
 In Scrum, each sprint is required to deliver a potentially shippable product increment.
-This means that at the end of each sprint the team has produced a coded, tested and usable piece of software.
+For example, in the case of the development team, this means that at the end of each sprint the team has produced a coded, tested and usable piece of software. In the case of the editorial team, it means that at the end of each sprint the team has produced a coherent and definable piece of work (e.g. a number of lesson items, a number of videos, etc) that can be demo'ed/viewed and potentially shipped.
 
-**Part 2: Retrospective**:
+**Part 2: Sprint Retrospective**:
 No matter how good a Scrum team is, there is always opportunity to improve.
 Although a good Scrum team will be constantly looking for improvement opportunities, the team should set aside a brief, dedicated period at the end of each sprint to deliberately reflect on how they are doing, and to find ways to improve.
-This occurs during the sprint retrospective.
+This occurs during the Sprint Retrospective.
 
-## Scrum board
+## Scrum Board
 
-Scrum board is a visual representation of a scrum sprint.
-There are 4 task statuses visible for ScrumTeam:
+The Scrum Board is a visual representation of a Scrum Sprint.
+There are 4 task statuses availble to be used for the ScrumTeam:
 
 1.  **backlog**: current sprint backlog, usually ordered by priorities.
 1.  **in progress**: tasks that our developers are currently working on (one issue per developer).
 1.  **on review/blocked**: issues that are on review or blocked. ScrumMaster should try to minimize the number of tasks in this column.
 1.  **done**: finished issues (no matter if shipped to production or not)
 
-An example of scrum board at the almost middle of a sprint:
+An example of Scrum Board at the middle of a Sprint:
 ![image](https://user-images.githubusercontent.com/5278175/35347434-28fb2300-0146-11e8-87f2-0ab9dbc24a66.png)
 
 ## More external ressources
