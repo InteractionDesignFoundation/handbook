@@ -1,12 +1,18 @@
-# Scrum in IDF dev team
+*Please help this handbook stay up-to-date, i.e. employ the boyscout principle: You can edit/improve these files by going to https://github.com/InteractionDesignFoundation/handbook and commiting to the `master` branch*
 
-Scrum is an agile way to manage a project.
+# Scrum in IxDF teams
 
-In the agile Scrum world, instead of providing complete, detailed descriptions of how everything is to be done on a project,
-much of it is left up to the Scrum software development team.
-This is because the team will know best how to solve the problem they are presented.
+Scrum is an agile and simple framework for effective team collaboration on complex products.
 
-Scrum relies on a self-organizing, cross-functional team.
+Instead of providing complete, detailed descriptions of how everything is to be done on a project,
+much of it is left up to the Scrum team. Afterall, the team will know best how to solve the problems and challenges they are presented with.
+
+Scrum started in Software Development but is now being used as an approach to project management in all sorts of projects. 
+
+## External, introductory ressources
+- **[ScrumMaster](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
+- **[ScrumMaster](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
+*There are more external ressources at the bottom of this page*
 
 ## Scrum Roles
 
@@ -17,9 +23,9 @@ Scrum relies on a self-organizing, cross-functional team.
 ## Scrum sprint
 
 A scrum sprint is a regular, repeatable work cycle in scrum methodology during which work is completed and made ready for review.
-In IDF dev team we usually use 2-weeks sprints.
+In the IxDF, we usually use 2-weeks sprints.
 
-Once Sprint planning is finished - nobody can add new tasks to sprint backlog. There are 2 exceptions for this rule:
+Once Sprint Planning is finished - it should not be possible to add new tasks to sprint backlog. There are 2 exceptions for this rule:
 
 - tasks with `urgency: high` label
 - tasks with `blink of an eye` label if they are relevant to other issues from your backlog
@@ -72,11 +78,12 @@ There are 4 task statuses visible for ScrumTeam:
 An example of scrum board at the almost middle of a sprint:
 ![image](https://user-images.githubusercontent.com/5278175/35347434-28fb2300-0146-11e8-87f2-0ab9dbc24a66.png)
 
-## Links
+## More external ressources
 
 - [Sprint planning](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting)
 - [Daily scrum](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum)
 - [Demo/Review meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-review-meeting)
 - [Sprint retrospective](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-retrospective)
+
 
 🦄
