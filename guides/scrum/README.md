@@ -5,7 +5,9 @@
 ## Table of Contents
 
 - [Overview - START HERE](/guides/scrum/overview.md)
-- [Guide: Do planning and fill your backlog](/guides/scrum/backlog.md)
+- [Guide: How to do planning and fill your backlog](/guides/scrum/backlog.md)
+
+Guides on the various roles:
 - [Guide: Role: ProductOwner](/guides/scrum/productOwner.md)
 - [Guide: Role: ScrumMaster](/guides/scrum/scrumMaster.md)
 - [Guide: Role: ScrumTeam](/guides/scrum/scrumTeam.md)
