@@ -1,5 +1,7 @@
 # Scrum
 
+*Please help this handbook stay up-to-date, i.e. employ the boyscout principle: You can edit/improve these files by going to https://github.com/InteractionDesignFoundation/handbook and commiting to the `master` branch*
+
 ## Table of Contents
 
 - [Overview](/guides/scrum/overview.md)
