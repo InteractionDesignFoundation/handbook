@@ -1,0 +1,34 @@
+site_name: My Docs
+site_name: IDF Developer Handbook
+
+repo_name: IDF/handbook
+repo_url: https://github.com/InteractionDesignFoundation/handbook
+
+theme:
+  name: material
+  features:
+    - instant
+    - tabs
+  palette:
+    primary: white
+    accent: black
+  font:
+    text: Inter
+    code: Fira Code
+  logo: logo.svg
+  favicon: favicon.ico
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - footnotes
+  - codehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+
+plugins:
+  - search # necessary for search to work
+
+extra_css:
+  - stylesheets/extra.css

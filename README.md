@@ -8,28 +8,28 @@ To achieve this, we want everyone to understand what is expected of them, the th
 ## Table of Contents
 
 - Company
-  - [About](/company/about.md)
+  - [About](/docs/company/about.md)
 - Guides
-  - [Onboarding](/guides/onboarding/README.md)
+  - [Onboarding](/docs/guides/onboarding/README.md)
   - People Operations
-    - [Team Trips](/guides/people_operations/team-trips.md)
-    - [Video Calls](/guides/people_operations/video-calls.md)
-  - [Scrum](/guides/scrum/overview.md)
-    - [How to fill out your Backlog](/guides/scrum/backlog.md)
-    - [Role: ProductOwner](/guides/scrum/productOwner.md)
-    - [Role: ScrumMaster](/guides/scrum/scrumMaster.md)
-    - [Role: ScrumTeam](/guides/scrum/scrumTeam.md)
-  - [Our expectations from you and your work](expectations.md)
-  - [Collaboration tools](/guides/collaboration-tools.md)
-  - [How we use scrum](/guides/scrum/README.md)
-  - [Access to credentials](/guides/credentials.md)
-- [Library](/library/README.md)
-  - [Back end](/library/back-end/README.md)
-  - [Front end](/library/front-end/README.md)
+    - [Team Trips](/docs/guides/people_operations/team-trips.md)
+    - [Video Calls](/docs/guides/people_operations/video-calls.md)
+  - [Scrum](/docs/guides/scrum/overview.md)
+    - [How to fill out your Backlog](/docs/guides/scrum/backlog.md)
+    - [Role: ProductOwner](/docs/guides/scrum/productOwner.md)
+    - [Role: ScrumMaster](/docs/guides/scrum/scrumMaster.md)
+    - [Role: ScrumTeam](/docs/guides/scrum/scrumTeam.md)
+  - [Our expectations from you and your work](/docs/guides/expectations.md)
+  - [Collaboration tools](/docs/guides/collaboration-tools.md)
+  - [How we use scrum](/docs/guides/scrum/README.md)
+  - [Access to credentials](/docs/guides/credentials.md)
+- [Library](/docs/library/README.md)
+  - [Back end](/docs/library/back-end/README.md)
+  - [Front end](/docs/library/front-end/README.md)
 
 ## Links
 
-- [Handbook contribution guide](CONTRIBUTING.md): how to make this document even better 🦄
+- [Handbook contribution guide](/docs/CONTRIBUTING.md): how to make this document even better 🦄
 - 🔒 Shared folders at [Sync.com](https://cp.sync.com/files/) (ask **@madssoegaard** to give you access)
 - [🔒 developer docs](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/README.md) - development-related documents
 

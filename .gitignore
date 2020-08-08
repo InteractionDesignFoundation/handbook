@@ -1,2 +1,4 @@
 # ignore temporary files
 .DS_Store
+site/
+env/

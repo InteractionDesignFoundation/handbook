@@ -1,0 +1,15 @@
+.md-header-nav__button.md-logo {
+  padding: 0;
+}
+.md-header-nav__button.md-logo img,
+.md-header-nav__button.md-logo svg {
+  width: auto;
+  height: 2rem;
+}
+.md-sidebar--secondary {
+  display: none;
+}
+.md-typeset a,
+.md-nav__item .md-nav__link--active {
+  color: #0055ff;
+}
