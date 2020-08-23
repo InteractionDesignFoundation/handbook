@@ -14,7 +14,7 @@ theme:
     accent: black
   font:
     text: Inter
-    code: Fira Code
+    code: Fira Mono
   logo: logo.svg
   favicon: favicon.ico
 
@@ -22,7 +22,17 @@ markdown_extensions:
   - toc:
       permalink: true
   - footnotes
-  - codehilite
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      extend_pygments_lang: [{
+        "name": "php",
+        "lang": "php",
+        "options": {
+          "startinline": True
+        }
+      }
+    ]
   - pymdownx.emoji:
       emoji_index: !!python/name:pymdownx.emoji.twemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
