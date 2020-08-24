@@ -77,11 +77,11 @@ It's very useful to subscribe to some weekly newsletters or podcasts and be awar
 1.  Frontend Focus weekly newsletter: https://frontendfoc.us/issues
 1.  YouTube channel: [Google Chrome Developers](https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw).
 1.  Dev Channel by ChromiumDev @medium:
-    [![RSS](http://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://medium.com/feed/dev-channel)
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://medium.com/feed/dev-channel)
     https://medium.com/dev-channel
 1.  Optional: CSS weekly newsletter: http://css-weekly.com
 1.  Optional: Inclusive Components: all about designing inclusive web interfaces:
-    [![RSS](http://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://inclusive-components.design/rss/)
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://inclusive-components.design/rss/)
     https://inclusive-components.design/
 1.  Optional: Articles inside `Articles` directory.
 
