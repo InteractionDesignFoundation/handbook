@@ -163,7 +163,7 @@ class Board
 
 **Abstraction is a key**. In many ways this principle is at the heart of object oriented design.
 
-This is what [Robert Martin wrote](http://blog.8thlight.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html) about OCP:
+This is what [Robert Martin wrote](https://blog.8thlight.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html) about OCP:
 
 > I’ve heard it said that the OCP is wrong, unworkable, impractical, and not for real programmers with real work to do.
 > The rise of plugin architectures makes it plain that these views are utter nonsense.

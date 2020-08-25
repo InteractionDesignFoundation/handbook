@@ -69,7 +69,7 @@ Every back-end developer should
 1.  Clean Architecture (book): `Robert Martin - Clean Architecture: A Craftsman's Guide to Software Structure and Design - 2017`.
 1.  Topic:
     [S](https://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074).[O](https://code.tutsplus.com/tutorials/solid-part-2-the-openclosed-principle--net-36600).[L](https://code.tutsplus.com/tutorials/solid-part-3-liskov-substitution-interface-segregation-principles--net-36710).[I](https://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872).[D](https://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872).
-    principles ([short version](http://jokiruiz.com/software/solid-principles-php/)). There are also videos on the topic inside `SOLID Principles in PHP` directory.
+    principles ([short version](https://jokiruiz.com/software/solid-principles-php/)). There are also videos on the topic inside `SOLID Principles in PHP` directory.
 1.  Topic:
     [KISS, YAGNI & DRY Principles](https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161).
 1.  Topic: [How to use xdebug on your local env](https://deliciousbrains.com/xdebug-advanced-php-debugging/).
@@ -88,16 +88,16 @@ Every back-end developer should
 
 1.  PHPStorm blog (including [PHP Annotated Monthly](https://blog.jetbrains.com/phpstorm/category/php-annotated-monthly/)
     digests):
-    [![RSS](http://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://blog.jetbrains.com/phpstorm/feed/)
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://blog.jetbrains.com/phpstorm/feed/)
     https://blog.jetbrains.com/phpstorm
 1.  [Laracon EU](https://www.youtube.com/channel/UCb9XEo_1SDNR8Ucpbktrg5A) annual Laravel conference videos.
 1.  A blog on Laravel & PHP:
-    [![RSS](http://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://murze.be/feed) https://murze.be
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://murze.be/feed) https://murze.be
 1.  Laravel weekly newsletter:
-    [![RSS](http://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://feed.laravel-news.com/)
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://feed.laravel-news.com/)
     https://laravel-news.com
 1.  Optional: Adam Wathan's blog (active Laravel developer)
-    [![RSS](http://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://adamwathan.me/rss)
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://adamwathan.me/rss)
     https://adamwathan.me
 1.  Optional: Taylor Otwell's Medium stories (Creator of Laravel): https://medium.com/@taylorotwell
 

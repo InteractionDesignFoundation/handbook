@@ -1,6 +1,6 @@
 # Expectations from Developers
 
-We are a small team of senior developers and the IDF does not employ junior or medium level developers. That's why this list only includes our expectations for senior developers.
+We are a small team of senior developers, and the IDF does not employ junior or medium level developers. That's why this list only includes our expectations for senior developers.
 
 # Senior developer
 
@@ -8,7 +8,7 @@ We are a small team of senior developers and the IDF does not employ junior or m
 1.  A senior developer has printed out the [IDF Zen Code](/README.md#the-idf-zen-code) and regularly re-reads it. Most importantly, he/she reminds the rest of the team when we are not actively **acting** by our own principles defined in the Zen Code. They must never become "pretty words". We must always correlate our actions with our words.
 1.  **Seriousness firstly means "responsibility"**. Responsibility for your decisions, solutions, code,
     and communication with the team.
-1.  A senior developer is [able to carry a message to Garcia](http://www.actonfoundation.org/pdf/messagetogarcia.pdf):
+1.  A senior developer is [able to carry a message to Garcia](https://courses.csail.mit.edu/6.803/pdf/hubbard1899.pdf):
     They **can take the initiative** when carrying out a difficult assignment.
 1.  A senior developer **has experience**; because they are able to learn from their mistakes.
 1.  A senior developer **helps their team get better every day**. E.g. by energizing his/her colleagues on group calls, setting an example of awesome code that awes the rest of the team, inspiring colleagues with his/her results/help, etc. etc.

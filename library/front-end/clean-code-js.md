@@ -23,7 +23,7 @@ This document originally belongs to https://github.com/ryanmcdermott/clean-code-
 ## Introduction
 
 ![Humorous image of software quality estimation as a count of how many expletives
-you shout when reading code](http://www.osnews.com/images/comics/wtfm.jpg)
+you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 
 Software engineering principles, from Robert C. Martin's book
 [*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
@@ -1812,7 +1812,7 @@ didn't break anything. Deciding on what constitutes an adequate amount is up
 to your team, but having 100% coverage (all statements and branches) is how
 you achieve very high confidence and developer peace of mind. This means that
 in addition to having a great testing framework, you also need to use a
-[good coverage tool](http://gotwarlost.github.io/istanbul/).
+[good coverage tool](https://gotwarlost.github.io/istanbul/).
 
 There's no excuse to not write tests. There are [plenty of good JS test frameworks](http://jstherightway.org/#testing-tools), so find one that your team prefers.
 When you find one that works for your team, then aim to always write tests

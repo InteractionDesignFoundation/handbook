@@ -46,7 +46,7 @@ Recommendation: consider to have 2 different calendars on your IDF google accoun
 There are several benefits and reasons to sharing your calendar with everyone at IDF:
 
 1. Transparency is one of our values and sharing what you work on is in line with our message of "be open about as many things as possible".
-1. Due to our timezone differences, there are small windows of time where our availabilities overlap.
+1. Due to our timezone differences, there are small windows of time when our availabilities overlap.
    If other members need to schedule a new meeting, seeing the details of recurring meetings (such as 1-1s) will
    allow for more flexibility in scheduling without needing to wait for a confirmation from the team member.
    This speaks to our value to be more efficient.

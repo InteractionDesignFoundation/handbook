@@ -57,7 +57,7 @@ Every frontend developer should
 
 1.  Classic programming skills: [Clean Code: JavaScript](clean-code-js.md):
     Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript.
-1.  [Eloquent JavaScript](http://eloquentjavascript.net/) (free ebook) or use pdf version from shared library.
+1.  [Eloquent JavaScript](https://eloquentjavascript.net/) (free ebook) or use pdf version from shared library.
 1.  [`Martin Fowler - Refactoring - Improving the Design of Existing Code, 2nd edition`](https://martinfowler.com/books/refactoring.html) (book) or use pdf version from shared library.
 1.  Design Patterns (book):
     [Addy Osmani - Learning JavaScript Design Patterns - 2017](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
@@ -73,15 +73,15 @@ Every frontend developer should
 
 It's very useful to subscribe to some weekly newsletters or podcasts and be aware of all the events and news in the front-end world.
 
-1.  JavaScript Weekly newsletter: http://javascriptweekly.com/issues
-1.  Frontend Focus weekly newsletter: https://frontendfoc.us/issues
+1.  JavaScript Weekly newsletter: [javascriptweekly](https://javascriptweekly.com/issues)
+1.  Frontend Focus weekly newsletter: [frontendfoc](https://frontendfoc.us/issues)
 1.  YouTube channel: [Google Chrome Developers](https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw).
 1.  Dev Channel by ChromiumDev @medium:
-    [![RSS](http://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://medium.com/feed/dev-channel)
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://medium.com/feed/dev-channel)
     https://medium.com/dev-channel
-1.  Optional: CSS weekly newsletter: http://css-weekly.com
+1.  Optional: CSS weekly newsletter: [css-weekly](https://css-weekly.com)
 1.  Optional: Inclusive Components: all about designing inclusive web interfaces:
-    [![RSS](http://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://inclusive-components.design/rss/)
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://inclusive-components.design/rss/)
     https://inclusive-components.design/
 1.  Optional: Articles inside `Articles` directory.
 
