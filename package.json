@@ -1,6 +1,5 @@
 {
   "name": "idf-handbook",
-  "version": "1.0.0",
   "description": "IDF Company handbook for developers",
   "main": "README.md",
   "scripts": {

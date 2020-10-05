@@ -1,4 +1,4 @@
-*Please help this handbook stay up-to-date, i.e. employ the boyscout principle: You can edit/improve these files by going to https://github.com/InteractionDesignFoundation/handbook and commiting to the `master` branch*
+_Please help this handbook stay up-to-date, i.e. employ the boyscout principle: You can edit/improve these files by going to https://github.com/InteractionDesignFoundation/handbook and commiting to the `master` branch_
 
 # Scrum in IxDF teams
 
@@ -7,12 +7,13 @@ Scrum is an agile and simple framework for effective team collaboration on compl
 Instead of providing complete, detailed descriptions of how everything is to be done on a project,
 much of it is left up to the Scrum team. Afterall, the team will know best how to solve the problems and challenges they are presented with.
 
-Scrum started in Software Development but is now being used as an approach to project management in all sorts of projects. 
+Scrum started in Software Development but is now being used as an approach to project management in all sorts of projects.
 
 ## External, introductory ressources
+
 - **[What is Scrum?](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
 - **[Scrum Glossary](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
-*There are more external ressources at the bottom of this page*
+  _There are more external ressources at the bottom of this page_
 
 ## Scrum Roles
 
@@ -84,6 +85,5 @@ An example of Scrum Board at the middle of a Sprint:
 - [Daily scrum](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum)
 - [Demo/Review meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-review-meeting)
 - [Sprint retrospective](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-retrospective)
-
 
 🦄
