@@ -30,7 +30,7 @@ To achieve this, we want everyone to understand what is expected of them, the th
 ## Links
 
 - [Handbook contribution guide](CONTRIBUTING.md): how to make this document even better 🦄
-- 🔒 Shared folders at [Sync.com](https://cp.sync.com/files/) (ask **@madssoegaard** to give you access)
+- 🔒 Shared folders at [Dropbox.com](https://www.dropbox.com/share/) (ask **@madssoegaard** to give you access)
 - [🔒 developer docs](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/README.md) - development-related documents
 
 ## The IxDF Zen Code

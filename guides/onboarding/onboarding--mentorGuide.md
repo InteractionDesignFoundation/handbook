@@ -67,7 +67,7 @@ This is a list of tools and services that a new member should have access to:
 
 - [GitHub](https://github.com): Issue tracker and source code repository. Ensure that the new developer attached to `devs` team.
 - [Gmail](https://gmail.com): Corporate email box.
-- [Sync.com](https://sync.com): Cloud service to share materials, literature, media, etc. Ensure that the new developer has access to all directories that he needs: designs, literature (both: general and developers), etc.
+- [Dropbox.com](https://sync.com): Cloud service to share materials, literature, media, etc. Ensure that the new developer has access to all directories that he needs: designs, literature (both: general and developers), etc.
 - [Slack](https://interaction-design.slack.com): Our main communication tool. Ensure that the new developer is attached to `Developers` slack team/user-group.
 - [LastPass](https://www.lastpass.com/): Credentials management tool: store and share credentials.
 - [Laravel Forge](https://forge.laravel.com): Provision and deployment service for our servers & sites. Mentee should be added to "Development Team" circle.
