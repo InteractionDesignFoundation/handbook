@@ -26,14 +26,14 @@ This document originally belongs to https://github.com/ryanmcdermott/clean-code-
 you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 
 Software engineering principles, from Robert C. Martin's book
-[*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
+[_Clean Code_](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
 adapted for JavaScript. This is not a style guide. It's a guide to producing
 [readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in JavaScript.
 
 Not every principle herein has to be strictly followed, and even fewer will be
 universally agreed upon. These are guidelines and nothing more, but they are
 ones codified over many years of collective experience by the authors of
-*Clean Code*.
+_Clean Code_.
 
 Our craft of software engineering is just a bit over 50 years old, and we are
 still learning a lot. When software architecture is as old as architecture
@@ -87,7 +87,7 @@ getUser();
 ### Use searchable names
 
 We will read more code than we will ever write. It's important that the code we
-do write is readable and searchable. By *not* naming variables that end up
+do write is readable and searchable. By _not_ naming variables that end up
 being meaningful for understanding our program, we hurt our readers.
 Make your names searchable. Tools like
 [buddy.js](https://github.com/danielstjules/buddy.js) and
@@ -105,7 +105,7 @@ setTimeout(blastOff, 86400000);
 
 ```javascript
 // Declare them as capitalized named constants.
-const MILLISECONDS_IN_A_DAY = 86400000;
+const MILLISECONDS_IN_A_DAY = 86_400_000;
 
 setTimeout(blastOff, MILLISECONDS_IN_A_DAY);
 ```
@@ -127,7 +127,7 @@ saveCityZipCode(address.match(cityZipCodeRegex)[1], address.match(cityZipCodeReg
 ```javascript
 const address = 'One Infinite Loop, Cupertino 95014';
 const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
-const [, city, zipCode] = address.match(cityZipCodeRegex) || [];
+const [_, city, zipCode] = address.match(cityZipCodeRegex) || [];
 saveCityZipCode(city, zipCode);
 ```
 
@@ -207,7 +207,7 @@ function paintCar(car) {
 
 Default arguments are often cleaner than short circuiting. Be aware that if you
 use them, your function will only provide default values for `undefined`
-arguments. Other "falsy" values such as `''`, `""`, `false`, `null`, `0`, and
+arguments. Other 'falsy' values such as `''`, `''`, `false`, `null`, `0`, and
 `NaN`, will not be replaced by a default value.
 
 **Bad:**
@@ -252,13 +252,14 @@ To make it obvious what properties the function expects, you can use the ES2015/
 destructuring syntax. This has a few advantages:
 
 1. When someone looks at the function signature, it's immediately clear what
-properties are being used.
-2. Destructuring also clones the specified primitive values of the argument
-object passed into the function. This can help prevent side effects. Note:
-objects and arrays that are destructured from the argument object are NOT
-cloned.
-3. Linters can warn you about unused properties, which would be impossible
-without destructuring.
+   properties are being used.
+2. It can be used to simulate named parameters.
+3. Destructuring also clones the specified primitive values of the argument
+   object passed into the function. This can help prevent side effects. Note:
+   objects and arrays that are destructured from the argument object are NOT
+   cloned.
+4. Linters can warn you about unused properties, which would be impossible
+   without destructuring.
 
 **Bad:**
 
@@ -266,6 +267,9 @@ without destructuring.
 function createMenu(title, body, buttonText, cancellable) {
   // ...
 }
+
+createMenu('Foo', 'Bar', 'Baz', true);
+
 ```
 
 **Good:**
@@ -289,7 +293,7 @@ createMenu({
 
 This is by far the most important rule in software engineering. When functions
 do more than one thing, they are harder to compose, test, and reason about.
-When you can isolate a function to just one action, they can be refactored
+When you can isolate a function to just one action, it can be refactored
 easily and your code will read much cleaner. If you take nothing else away from
 this guide other than this, you'll be ahead of many developers.
 
@@ -389,8 +393,8 @@ function parseBetterJSAlternative(code) {
 ```javascript
 function parseBetterJSAlternative(code) {
   const tokens = tokenize(code);
-  const ast = lexer(tokens);
-  ast.forEach((node) => {
+  const syntaxTree = parse(tokens);
+  syntaxTree.forEach(node => {
     // parse...
   });
 }
@@ -400,24 +404,24 @@ function tokenize(code) {
     // ...
   ];
 
-  const statements = code.split(' ');
+  const statements = code.split(" ");
   const tokens = [];
-  REGEXES.forEach((REGEX) => {
-    statements.forEach((statement) => {
-      tokens.push( /* ... */ );
+  REGEXES.forEach(REGEX => {
+    statements.forEach(statement => {
+      tokens.push(/* ... */);
     });
   });
 
   return tokens;
 }
 
-function lexer(tokens) {
-  const ast = [];
-  tokens.forEach((token) => {
-    ast.push( /* ... */ );
+function parse(tokens) {
+  const syntaxTree = [];
+  tokens.forEach(token => {
+    syntaxTree.push(/* ... */);
   });
 
-  return ast;
+  return syntaxTree;
 }
 ```
 
@@ -441,7 +445,7 @@ duplicate code means creating an abstraction that can handle this set of
 different things with just one function/module/class.
 
 Getting the abstraction right is critical, that's why you should follow the
-SOLID principles laid out in the *Classes* section. Bad abstractions can be
+SOLID principles laid out in the _Classes_ section. Bad abstractions can be
 worse than duplicate code, so be careful! Having said this, if you can make
 a good abstraction, do it! Don't repeat yourself, otherwise you'll find yourself
 updating multiple places anytime you want to change one thing.
@@ -542,13 +546,16 @@ const menuConfig = {
 };
 
 function createMenu(config) {
-  config = Object.assign({
-    title: 'Foo',
-    body: 'Bar',
-    buttonText: 'Baz',
-    cancellable: true
-  }, config);
-
+  let finalConfig = Object.assign(
+    {
+      title: "Foo",
+      body: "Bar",
+      buttonText: "Baz",
+      cancellable: true
+    },
+    config
+  );
+  return finalConfig
   // config now equals: {title: "Order", body: "Bar", buttonText: "Send", cancellable: true}
   // ...
 }
@@ -646,7 +653,7 @@ then any other function that uses that `cart` array will be affected by this
 addition. That may be great, however it can be bad too. Let's imagine a bad
 situation:
 
-The user clicks the "Purchase", button which calls a `purchase` function that
+The user clicks the "Purchase" button which calls a `purchase` function that
 spawns a network request and sends the `cart` array to the server. Because
 of a bad network connection, the `purchase` function has to keep retrying the
 request. Now, what if in the meantime the user accidentally clicks "Add to Cart"
@@ -661,15 +668,16 @@ edit it, and return the clone. This ensures that no other functions that are
 holding onto a reference of the shopping cart will be affected by any changes.
 
 Two caveats to mention to this approach:
-  1. There might be cases where you actually want to modify the input object,
-but when you adopt this programming practice you will find that those cases
-are pretty rare. Most things can be refactored to have no side effects!
 
-  2. Cloning big objects can be very expensive in terms of performance. Luckily,
-this isn't a big issue in practice because there are
-[great libraries](https://facebook.github.io/immutable-js/) that allow
-this kind of programming approach to be fast and not as memory intensive as
-it would be for you to manually clone objects and arrays.
+1. There might be cases where you actually want to modify the input object,
+   but when you adopt this programming practice you will find that those cases
+   are pretty rare. Most things can be refactored to have no side effects!
+
+2. Cloning big objects can be very expensive in terms of performance. Luckily,
+   this isn't a big issue in practice because there are
+   [great libraries](https://facebook.github.io/immutable-js/) that allow
+   this kind of programming approach to be fast and not as memory intensive as
+   it would be for you to manually clone objects and arrays.
 
 **Bad:**
 
@@ -774,9 +782,10 @@ const programmerOutput = [
   }
 ];
 
-const totalOutput = programmerOutput
-  .map(output => output.linesOfCode)
-  .reduce((totalLines, lines) => totalLines + lines);
+const totalOutput = programmerOutput.reduce(
+  (totalLines, output) => totalLines + output.linesOfCode,
+  0
+);
 ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -1027,13 +1036,13 @@ Using getters and setters to access data on objects could be better than simply
 looking for a property on an object. "Why?" you might ask. Well, here's an
 unorganized list of reasons why:
 
-* When you want to do more beyond getting an object property, you don't have
-to look up and change every accessor in your codebase.
-* Makes adding validation simple when doing a `set`.
-* Encapsulates the internal representation.
-* Easy to add logging and error handling when getting and setting.
-* You can lazy load your object's properties, let's say getting it from a
-server.
+- When you want to do more beyond getting an object property, you don't have
+  to look up and change every accessor in your codebase.
+- Makes adding validation simple when doing a `set`.
+- Encapsulates the internal representation.
+- Easy to add logging and error handling when getting and setting.
+- You can lazy load your object's properties, let's say getting it from a
+  server.
 
 **Bad:**
 
@@ -1058,12 +1067,12 @@ function makeBankAccount() {
   // this one is private
   let balance = 0;
 
-  // a "getter", made public via the returned object below
+  // a 'getter', made public via the returned object below
   function getBalance() {
     return balance;
   }
 
-  // a "setter", made public via the returned object below
+  // a 'setter', made public via the returned object below
   function setBalance(amount) {
     // ... validate before updating the balance
     balance = amount;
@@ -1287,7 +1296,7 @@ const car = new Car('Ford','F-150','red')
 
 ### Prefer composition over inheritance
 
-As stated famously in [*Design Patterns*](https://en.wikipedia.org/wiki/Design_Patterns) by the Gang of Four,
+As stated famously in [_Design Patterns_](https://en.wikipedia.org/wiki/Design_Patterns) by the Gang of Four,
 you should prefer composition over inheritance where you can. There are lots of
 good reasons to use inheritance and lots of good reasons to use composition.
 The main point for this maxim is that if your mind instinctively goes for
@@ -1299,10 +1308,10 @@ depends on your problem at hand, but this is a decent list of when inheritance
 makes more sense than composition:
 
 1. Your inheritance represents an "is-a" relationship and not a "has-a"
-relationship (Human->Animal vs. User->UserDetails).
+   relationship (Human->Animal vs. User->UserDetails).
 2. You can reuse code from the base classes (Humans can move like all animals).
 3. You want to make global changes to derived classes by changing a base class.
-(Change the caloric expenditure of all animals when they move).
+   (Change the caloric expenditure of all animals when they move).
 
 **Bad:**
 
@@ -1419,8 +1428,8 @@ class UserSettings {
 
 ### Open/Closed Principle (OCP)
 
-As stated by Bertrand Meyer, "software entities (classes, modules, functions,
-etc.) should be open for extension, but closed for modification." What does that
+As stated by Bertrand Meyer, 'software entities (classes, modules, functions,
+etc.) should be open for extension, but closed for modification.' What does that
 mean though? This principle basically states that you should allow users to
 add new functionalities without changing existing code.
 
@@ -1654,7 +1663,7 @@ class DOMTraverser {
 
   setup() {
     this.rootNode = this.settings.rootNode;
-    this.animationModule.setup();
+    this.settings.animationModule.setup();
   }
 
   traverse() {
@@ -1708,10 +1717,11 @@ const $ = new DOMTraverser({
 ### Dependency Inversion Principle (DIP)
 
 This principle states two essential things:
+
 1. High-level modules should not depend on low-level modules. Both should
-depend on abstractions.
+   depend on abstractions.
 2. Abstractions should not depend upon details. Details should depend on
-abstractions.
+   abstractions.
 
 This can be hard to understand at first, but if you've worked with AngularJS,
 you've seen an implementation of this principle in the form of Dependency
@@ -1814,7 +1824,7 @@ you achieve very high confidence and developer peace of mind. This means that
 in addition to having a great testing framework, you also need to use a
 [good coverage tool](https://gotwarlost.github.io/istanbul/).
 
-There's no excuse to not write tests. There are [plenty of good JS test frameworks](http://jstherightway.org/#testing-tools), so find one that your team prefers.
+There's no excuse to not write tests. There are [plenty of good JS test frameworks](https://jstherightway.org/#testing-tools), so find one that your team prefers.
 When you find one that works for your team, then aim to always write tests
 for every new feature/module you introduce. If your preferred method is
 Test Driven Development (TDD), that is great, but the main point is to just
@@ -1828,21 +1838,21 @@ or refactoring an existing one.
 ```javascript
 import assert from 'assert';
 
-describe('MakeMomentJSGreatAgain', () => {
-  it('handles date boundaries', () => {
+describe("MomentJS", () => {
+  it("handles date boundaries", () => {
     let date;
 
-    date = new MakeMomentJSGreatAgain('1/1/2015');
+    date = new MomentJS("1/1/2015");
     date.addDays(30);
-    assert.equal('1/31/2015', date);
+    assert.equal("1/31/2015", date);
 
-    date = new MakeMomentJSGreatAgain('2/1/2016');
+    date = new MomentJS("2/1/2016");
     date.addDays(28);
-    assert.equal('02/29/2016', date);
+    assert.equal("02/29/2016", date);
 
-    date = new MakeMomentJSGreatAgain('2/1/2015');
+    date = new MomentJS("2/1/2015");
     date.addDays(28);
-    assert.equal('03/01/2015', date);
+    assert.equal("03/01/2015", date);
   });
 });
 ```
@@ -1852,23 +1862,23 @@ describe('MakeMomentJSGreatAgain', () => {
 ```javascript
 import assert from 'assert';
 
-describe('MakeMomentJSGreatAgain', () => {
-  it('handles 30-day months', () => {
-    const date = new MakeMomentJSGreatAgain('1/1/2015');
+describe("MomentJS", () => {
+  it("handles 30-day months", () => {
+    const date = new MomentJS("1/1/2015");
     date.addDays(30);
-    assert.equal('1/31/2015', date);
+    assert.equal("1/31/2015", date);
   });
 
-  it('handles leap year', () => {
-    const date = new MakeMomentJSGreatAgain('2/1/2016');
+  it("handles leap year", () => {
+    const date = new MomentJS("2/1/2016");
     date.addDays(28);
-    assert.equal('02/29/2016', date);
+    assert.equal("02/29/2016", date);
   });
 
-  it('handles non-leap year', () => {
-    const date = new MakeMomentJSGreatAgain('2/1/2015');
+  it("handles non-leap year", () => {
+    const date = new MomentJS("2/1/2015");
     date.addDays(28);
-    assert.equal('03/01/2015', date);
+    assert.equal("03/01/2015", date);
   });
 });
 ```
@@ -1906,17 +1916,17 @@ get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin', (requestErr, response) 
 **Good:**
 
 ```javascript
-import { get } from 'request';
-import { writeFile } from 'fs';
+import { get } from "request-promise";
+import { writeFile } from "fs-extra";
 
-get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin')
-  .then((response) => {
-    return writeFile('article.html', response);
+get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
+  .then(body => {
+    return writeFile("article.html", body);
   })
   .then(() => {
-    console.log('File written');
+    console.log("File written");
   })
-  .catch((err) => {
+  .catch(err => {
     console.error(err);
   });
 ```
@@ -1934,17 +1944,17 @@ today!
 **Bad:**
 
 ```javascript
-import { get } from 'request-promise';
-import { writeFile } from 'fs-promise';
+import { get } from "request-promise";
+import { writeFile } from "fs-extra";
 
-get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin')
-  .then((response) => {
-    return writeFile('article.html', response);
+get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
+  .then(body => {
+    return writeFile("article.html", body);
   })
   .then(() => {
-    console.log('File written');
+    console.log("File written");
   })
-  .catch((err) => {
+  .catch(err => {
     console.error(err);
   });
 ```
@@ -1952,18 +1962,22 @@ get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin')
 **Good:**
 
 ```javascript
-import { get } from 'request-promise';
-import { writeFile } from 'fs-promise';
+import { get } from "request-promise";
+import { writeFile } from "fs-extra";
 
 async function getCleanCodeArticle() {
   try {
-    const response = await get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin');
-    await writeFile('article.html', response);
-    console.log('File written');
-  } catch(err) {
+    const body = await get(
+      "https://en.wikipedia.org/wiki/Robert_Cecil_Martin"
+    );
+    await writeFile("article.html", body);
+    console.log("File written");
+  } catch (err) {
     console.error(err);
   }
 }
+
+getCleanCodeArticle()
 ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -2051,7 +2065,7 @@ getdata()
 
 Formatting is subjective. Like many rules herein, there is no hard and fast
 rule that you must follow. The main point is DO NOT ARGUE over formatting.
-There are [tons of tools](http://standardjs.com/rules.html) to automate this.
+There are [tons of tools](https://standardjs.com/rules.html) to automate this.
 Use one! It's a waste of time and money for engineers to argue over formatting.
 
 For things that don't fall under the purview of automatic formatting
@@ -2190,7 +2204,7 @@ review.perfReview();
 
 ### Only comment things that have business logic complexity.
 
-Comments are an apology, not a requirement. Good code *mostly* documents itself.
+Comments are an apology, not a requirement. Good code _mostly_ documents itself.
 
 **Bad:**
 
@@ -2326,21 +2340,28 @@ const actions = function() {
 
 This is also available in other languages:
 
-  - ![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png) **Brazilian Portuguese**: [fesnt/clean-code-javascript](https://github.com/fesnt/clean-code-javascript)
-  - ![es](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Uruguay.png) **Spanish**: [andersontr15/clean-code-javascript](https://github.com/andersontr15/clean-code-javascript-es)
-  - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese**:
-    - [alivebao/clean-code-js](https://github.com/alivebao/clean-code-js)
-    - [beginor/clean-code-javascript](https://github.com/beginor/clean-code-javascript)
-  - ![de](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Germany.png) **German**: [marcbruederlin/clean-code-javascript](https://github.com/marcbruederlin/clean-code-javascript)
-  - ![kr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/South-Korea.png) **Korean**: [qkraudghgh/clean-code-javascript-ko](https://github.com/qkraudghgh/clean-code-javascript-ko)
-  - ![pl](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Poland.png) **Polish**: [greg-dev/clean-code-javascript-pl](https://github.com/greg-dev/clean-code-javascript-pl)
-  - ![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Russian**:
-    - [BoryaMogila/clean-code-javascript-ru/](https://github.com/BoryaMogila/clean-code-javascript-ru/)
-    - [maksugr/clean-code-javascript](https://github.com/maksugr/clean-code-javascript)
-  - ![vi](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Vietnamese**: [hienvd/clean-code-javascript/](https://github.com/hienvd/clean-code-javascript/)
-  - ![ja](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Japan.png) **Japanese**: [mitsuruog/clean-code-javascript/](https://github.com/mitsuruog/clean-code-javascript/)
-  - ![id](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Indonesia.png) **Indonesia**:
-  [andirkh/clean-code-javascript/](https://github.com/andirkh/clean-code-javascript/)
+- ![am](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Armenia.png) **Armenian**: [hanumanum/clean-code-javascript/](https://github.com/hanumanum/clean-code-javascript)
+- ![bd](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Bangladesh.png) **Bangla(বাংলা)**: [InsomniacSabbir/clean-code-javascript/](https://github.com/InsomniacSabbir/clean-code-javascript/)
+- ![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png) **Brazilian Portuguese**: [fesnt/clean-code-javascript](https://github.com/fesnt/clean-code-javascript)
+- ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Simplified Chinese**:
+  - [alivebao/clean-code-js](https://github.com/alivebao/clean-code-js)
+  - [beginor/clean-code-javascript](https://github.com/beginor/clean-code-javascript)
+- ![tw](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Taiwan.png) **Traditional Chinese**: [AllJointTW/clean-code-javascript](https://github.com/AllJointTW/clean-code-javascript)
+- ![fr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/France.png) **French**: [GavBaros/clean-code-javascript-fr](https://github.com/GavBaros/clean-code-javascript-fr)
+- ![de](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Germany.png) **German**: [marcbruederlin/clean-code-javascript](https://github.com/marcbruederlin/clean-code-javascript)
+- ![id](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Indonesia.png) **Indonesia**: [andirkh/clean-code-javascript/](https://github.com/andirkh/clean-code-javascript/)
+- ![it](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Italy.png) **Italian**: [frappacchio/clean-code-javascript/](https://github.com/frappacchio/clean-code-javascript/)
+- ![ja](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Japan.png) **Japanese**: [mitsuruog/clean-code-javascript/](https://github.com/mitsuruog/clean-code-javascript/)
+- ![kr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/South-Korea.png) **Korean**: [qkraudghgh/clean-code-javascript-ko](https://github.com/qkraudghgh/clean-code-javascript-ko)
+- ![pl](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Poland.png) **Polish**: [greg-dev/clean-code-javascript-pl](https://github.com/greg-dev/clean-code-javascript-pl)
+- ![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Russian**:
+  - [BoryaMogila/clean-code-javascript-ru/](https://github.com/BoryaMogila/clean-code-javascript-ru/)
+  - [maksugr/clean-code-javascript](https://github.com/maksugr/clean-code-javascript)
+- ![es](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png) **Spanish**: [tureey/clean-code-javascript](https://github.com/tureey/clean-code-javascript)
+- ![es](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Uruguay.png) **Spanish**: [andersontr15/clean-code-javascript](https://github.com/andersontr15/clean-code-javascript-es)
+- ![tr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Turkey.png) **Turkish**: [bsonmez/clean-code-javascript](https://github.com/bsonmez/clean-code-javascript/tree/turkish-translation)
+- ![ua](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Ukraine.png) **Ukrainian**: [mindfr1k/clean-code-javascript-ua](https://github.com/mindfr1k/clean-code-javascript-ua)
+- ![vi](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Vietnamese**: [hienvd/clean-code-javascript/](https://github.com/hienvd/clean-code-javascript/)
 
 **[⬆ back to top](#table-of-contents)**
 <!-- prettier-ignore-end -->
