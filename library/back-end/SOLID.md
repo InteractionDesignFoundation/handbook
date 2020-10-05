@@ -181,6 +181,9 @@ In this case, we have our class Rectangle, and now we want to create a class Squ
 ```php
 class Rectangle
 {
+    protected int $height;
+    protected int $width;
+
     public function setWidth($w) { $this->width = $w; }
     public function setHeight($h) { $this->height = $h; }
     public function getArea() { return $this->height * $this->width; }
@@ -256,7 +259,7 @@ interface Worker {
 }
 ```
 
-but for example, if we create the class Manager and the class Developer we are going to have problems with unused methods:
+but for example, if we create the class `Manager` and the class `Developer` we are going to have problems with unused methods:
 
 ```php
 class Manager implements Worker
