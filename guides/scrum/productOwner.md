@@ -1,8 +1,8 @@
 # Scrum: ProductOwner guide
 
-Are you new to scrum? Please check out our [scrum overview](overview.md).
+Are you new to scrum? Please check out our [scrum overview](README.md).
 
-This guide is for **ProductOwner** scrum role. To read more about scrum roles please use this link: [scrum roles](overview.md#scrum-roles).
+This guide is for **ProductOwner** scrum role. To read more about scrum roles please use this link: [scrum roles](README.md#scrum-roles).
 
 The ProductOwner is typically the project's key stakeholder.
 Part of the ProductOwner responsibilities is to have a vision of what's to build, and convey that vision to the ScrumTeam.
