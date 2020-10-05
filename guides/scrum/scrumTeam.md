@@ -56,7 +56,7 @@ Prepare your hat! 🤠🎅👩‍🚀 Or perhaps a mask 🦹‍♀️🦸‍♂�
 Do you remember that we are a small product company who cares about culture and team spirit?
 We know, nobody likes boring meetings.
 Being a small product company means we don't have eager customers or crazy managers.
-At the IDF, demo meeting is a time to **celebrate our wins**; it's not to sell our work to customers or managers!
+At the IxDF, demo meeting is a time to **celebrate our wins**; it's not to sell our work to customers or managers!
 Please be crazy as much as you can be with your demos, we like having fun!
 
 ScrumTeam should prepare a small demo of new features (if any) that they've done on the past sprint. Possible ways to demonstrate what you've done within the recent sprint are as follows:

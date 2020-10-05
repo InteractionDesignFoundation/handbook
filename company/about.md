@@ -5,7 +5,7 @@ design education to an Ivy League standard, while at the same time reducing cost
 We democratize learning by providing top-notch curricular materials, and we aim to strike the perfect balance between
 academic rigor and practical relevance.
 
-Established in 2002 in Denmark, we were inspired by the Scandinavian educational system to... Read more [About IDF](https://www.interaction-design.org/about).
+Established in 2002 in Denmark, we were inspired by the Scandinavian educational system to... Read more [About IxDF](https://www.interaction-design.org/about).
 
 ## Mission
 
@@ -27,6 +27,6 @@ Our main asset is the knowledge that is packed into our educational platform ava
 
 ## Benefits
 
-Company benefits are listed on [IDF's Careers page](https://www.interaction-design.org/about/careers#benefits).
+Company benefits are listed on [IxDF’s Careers page](https://www.interaction-design.org/about/careers#benefits).
 
 🦄

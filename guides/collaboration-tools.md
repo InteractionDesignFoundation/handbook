@@ -1,6 +1,6 @@
 # Collaboration tools
 
-Collaboration is a keystone in IDF's success, and we couldn't make it happen without the right tools and processes.
+Collaboration is a keystone in IxDF’s success, and we couldn't make it happen without the right tools and processes.
 These are the ones we use almost every day.
 
 Please note that you should be using your company email address with all the tools listed below (except probably GitHub).
@@ -25,11 +25,11 @@ You also have the option of snoozing for 20 minutes or up to 24 hours.
 ## [Skype](https://go.skype.com/scom.download)
 
 [Skype](https://go.skype.com/scom.download) is our preferred tool to take video calls. Make sure to add the rest of the team to your Skype contacts.
-For contact information of your team members, take a look at the file `IDF Onboarding - Team Members Contact Info` in the shared folder `IDF - Staff - Hiring - Onboarding documents and legal templates`.
+For contact information of your team members, take a look at the file `IxDF Onboarding - Team Members Contact Info` in the shared folder `IxDF - Staff - Hiring - Onboarding documents and legal templates`.
 
 ## [Zoom](https://zoom.us)
 
-To set up a Zoom meeting, [sign up for a free basic account](https://zoom.us/signup) using your IDF team email address,
+To set up a Zoom meeting, [sign up for a free basic account](https://zoom.us/signup) using your IxDF team email address,
 and share the link for your "personal meeting room" with your participants.
 Note that on the Basic license, meetings are capped at 100 people, and meeting durations are capped at 40 minutes.
 
@@ -41,9 +41,9 @@ When both Slack (video) and Skype fail, we use [Google Hangouts](https://hangout
 
 We use Google Calendar to share info about our events: meetings, call, team-trips, etc.
 
-Recommendation: consider to have 2 different calendars on your IDF google account: **public** and **private**.
+Recommendation: consider to have 2 different calendars on your IxDF google account: **public** and **private**.
 
-There are several benefits and reasons to sharing your calendar with everyone at IDF:
+There are several benefits and reasons to sharing your calendar with everyone at IxDF:
 
 1. Transparency is one of our values and sharing what you work on is in line with our message of "be open about as many things as possible".
 1. Due to our timezone differences, there are small windows of time when our availabilities overlap.

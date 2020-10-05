@@ -6,7 +6,7 @@ development team members to our development circle. Thus, you'll be able
 to access our servers and sites.
 
 1. Go to [https://forge.laravel.com/auth/register](https://forge.laravel.com/auth/register)
-   and register with your IDF email address. Don't fill out billing but click on "Just Joining A Circle?".
+   and register with your IxDF email address. Don't fill out billing but click on "Just Joining A Circle?".
    <img width="729" alt="screen shot 2018-10-09 at 20 58 09" src="https://user-images.githubusercontent.com/832544/46689488-aed80f00-cc08-11e8-8ae3-a7efed74c836.png">
 1. By default Forge will ask you to connect to a source control and server provider. You can ignore this by clicking "Skip For Now" button under "Just Joining A Circle?" section.
 1. After you created the account, ask your mentor to add you to our "Development Team" circle.

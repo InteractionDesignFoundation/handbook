@@ -10,7 +10,7 @@ If you don't have a LastPass account, please send an email to hello@interaction-
 - which site login(s) or credentials you need to have access
 - your first name and last name (if they are not immediately visible with your email address)
 
-Remember to send the email from your IDF team member email account (having the domain @team.interaction-design.org).
+Remember to send the email from your IxDF team member email account (having the domain @team.interaction-design.org).
 The emails being sent from personal accounts will be ignored for security reasons.
 
 Once you've sent the email, please be patient. A LastPass account will be created for you and required credentials will be loaded onto your account.

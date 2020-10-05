@@ -8,8 +8,8 @@ We have, again and again, experienced that it's not enough to be a good develope
 experienced in our team that once a developer has studied the correct content, the code quality and the collective peace of mind
 have multiplied. That's why we have curated a great deal of material for ourselves to become better.
 
-In IDF, it is essential for developers to study the content in our library. This list is not here for a developer to ignore.
-An IDF developer should have read the whole library — **at the least**.
+In IxDF, it is essential for developers to study the content in our library. This list is not here for a developer to ignore.
+An IxDF developer should have read the whole library — **at the least**.
 
 > The frenetic rate of change in our industry means that software developers must continue to learn copious quantities just to keep up.
 > Woe to the architects who stop coding—they will rapidly find themselves irrelevant. Woe to the programmers who stop learning new
@@ -20,7 +20,7 @@ An IDF developer should have read the whole library — **at the least**.
 
 ## Index
 
-You can find all books and videos on the shared folder `IDF - Shared Reading - Library of Development literature and videos`.
+You can find all books and videos on the shared folder `IxDF - Shared Reading - Library of Development literature and videos`.
 _Warning for devs having small SSDs:_ The videos may take up more than 10gb on your disk. That's why
 you may want to selectively sync those you want to study into your computer when you want to study them.
 

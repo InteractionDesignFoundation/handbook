@@ -1,11 +1,11 @@
 # Expectations from Developers
 
-We are a small team of senior developers, and the IDF does not employ junior or medium level developers. That's why this list only includes our expectations for senior developers.
+We are a small team of senior developers, and the IxDF does not employ junior or medium level developers. That's why this list only includes our expectations for senior developers.
 
 # Senior developer
 
-1.  A senior developer understands and is aligned with the IDF Company Culture which is _very briefly_ [explained here](/company/README.md) and **very** thoroughly explained in our "IDF Company Culture Course" (taken during your onboarding phase).
-1.  A senior developer has printed out the [IDF Zen Code](/README.md#the-idf-zen-code) and regularly re-reads it. Most importantly, he/she reminds the rest of the team when we are not actively **acting** by our own principles defined in the Zen Code. They must never become "pretty words". We must always correlate our actions with our words.
+1.  A senior developer understands and is aligned with the IxDF Company Culture which is _very briefly_ [explained here](/company/README.md) and **very** thoroughly explained in our "IxDF Company Culture Course" (taken during your onboarding phase).
+1.  A senior developer has printed out the [IxDF Zen Code](/README.md#the-idf-zen-code) and regularly re-reads it. Most importantly, he/she reminds the rest of the team when we are not actively **acting** by our own principles defined in the Zen Code. They must never become "pretty words". We must always correlate our actions with our words.
 1.  **Seriousness firstly means "responsibility"**. Responsibility for your decisions, solutions, code,
     and communication with the team.
 1.  A senior developer is [able to carry a message to Garcia](https://courses.csail.mit.edu/6.803/pdf/hubbard1899.pdf):
@@ -18,14 +18,14 @@ We are a small team of senior developers, and the IDF does not employ junior or 
 1.  A senior developer **knows their tools**: IDE, OS, debugging, etc.
 1.  A senior developer **knows how to choose a right tool and framework**.
 1.  A senior developer actively employs the Boyscout principle and helps update this documentation ("always leave the campground cleaner than you found it")
-1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what's written on this page, written in the [IDF Zen Code](/README.md#the-idf-zen-code), taught in the IDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
+1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what's written on this page, written in the [IxDF Zen Code](/README.md#the-idf-zen-code), taught in the IxDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
 
 ### Senior backend developer
 
 This list extends our expectations from a senior developer (see prev. section) for senior backend developers.
 
 1.  Broad and extensive knowledge of the software development process and its technologies.
-1.  Strong understanding of the primary programming language to use in IDF.
+1.  Strong understanding of the primary programming language to use in IxDF.
 1.  Experience in design patterns.
 
 ### Senior frontend developer
