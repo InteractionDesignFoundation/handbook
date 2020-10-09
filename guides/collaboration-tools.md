@@ -48,13 +48,12 @@ You can configure this to be checked by default under [Event Settings](https://c
 
 ![image](https://user-images.githubusercontent.com/5278175/55792101-928a3180-5ac8-11e9-81d5-f56d62eea0fe.png)
 
-## [Sync](https://www.sync.com/)
+## [Dropbox](https://www.dropbox.com/)
 
-We need a secure way of sharing files, and [Sync](https://www.sync.com/) is one of the best tools out there for this purpose.
-They make it easy to store, share and access our files from anywhere, and it's free!
-Via Sync you will get access to our literature library, exported designs and pretty much any other file you need to do your work.
+We need a secure way of sharing files, and [Dropbox](https://www.dropbox.com/) is one of the best tools out there for this purpose.
+Via Dropbox you will get access to our literature library, exported designs and pretty much any other file you need to do your work.
 
-When you see the phrase "shared folders", we mean the "shared folders" on Sync.
+When you see the phrase "shared folders", we mean the "shared folders" on Dropbox.
 
 ## [Zeplin](https://zeplin.io/)
 
