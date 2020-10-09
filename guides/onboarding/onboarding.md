@@ -14,7 +14,7 @@ We want to maintain it in perfect condition, and your fresh look at the process 
 
 1.  Begin by getting a company email address.
 1.  Know our [collaboration tools](../collaboration-tools.md).
-1.  Update your Slack account by uploading a photo and filling out personal info: Full name, role, timezone, Skype name.
+1.  Update your Slack account by uploading a photo and filling out personal info: Full name, role, timezone, email.
 1.  Understand [company goals and who we are](/company/README.md).
 1.  Know our [expectations from you and your work](../expectations.md).
 1.  Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link).
