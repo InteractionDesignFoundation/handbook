@@ -22,20 +22,10 @@ Slack now supports "Do Not Disturb Hours" so you won't be pinged in the middle o
 You can set your "Do Not Disturb Hours" by clicking on the bell at the top of the left pane in the Slack app.
 You also have the option of snoozing for 20 minutes or up to 24 hours.
 
-## [Skype](https://go.skype.com/scom.download)
-
-[Skype](https://go.skype.com/scom.download) is our preferred tool to take video calls. Make sure to add the rest of the team to your Skype contacts.
-For contact information of your team members, take a look at the file `IxDF Onboarding - Team Members Contact Info` in the shared folder `IxDF - Staff - Hiring - Onboarding documents and legal templates`.
-
 ## [Zoom](https://zoom.us)
 
-To set up a Zoom meeting, [sign up for a free basic account](https://zoom.us/signup) using your IxDF team email address,
-and share the link for your "personal meeting room" with your participants.
+Zoom is our preferred tool to take video calls. To set up a Zoom meeting, [sign up for a free basic account](https://zoom.us/signup) using your IxDF team email address, and share the link for your "personal meeting room" with your participants.
 Note that on the Basic license, meetings are capped at 100 people, and meeting durations are capped at 40 minutes.
-
-## [Google Hangouts](https://hangouts.google.com/)
-
-When both Slack (video) and Skype fail, we use [Google Hangouts](https://hangouts.google.com/) for video calls.
 
 ## [Google Calendar](https://calendar.google.com)
 
