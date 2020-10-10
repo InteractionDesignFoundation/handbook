@@ -1,9 +1,6 @@
 <!-- prettier-ignore-start -->
 # Clean code JavaScript
 
-## Meta
-
-This document originally belongs to https://github.com/ryanmcdermott/clean-code-javascript
 
 ## Table of Contents
 
@@ -2335,6 +2332,11 @@ const actions = function() {
 ```
 
 **[⬆ back to top](#table-of-contents)**
+
+## Meta
+
+This document originally belongs to https://github.com/ryanmcdermott/clean-code-javascript
+
 
 ## Translation
 
