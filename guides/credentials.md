@@ -5,7 +5,7 @@ We use [LastPass](https://lastpass.com) as the password manager.
 ## Question: Where can I find the security document which contains the credentials?
 
 All credentials including site logins, server credentials, API credentials etc. are stored on LastPass.
-If you don't have a LastPass account, please send an email to hello@interaction-design.org with the subject line "Please give me access to the password manager" containing:
+If you don't have a LastPass account, please email to `hello@interaction-design.org` with the subject line "Please give me access to the password manager" containing:
 
 - which site login(s) or credentials you need to have access
 - your first name and last name (if they are not immediately visible with your email address)

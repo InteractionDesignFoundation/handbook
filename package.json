@@ -1,6 +1,6 @@
 {
   "name": "idf-handbook",
-  "description": "IDF Company handbook for developers",
+  "description": "IxDF Company handbook for developers",
   "main": "README.md",
   "scripts": {
     "test": "npm run style:lint",
