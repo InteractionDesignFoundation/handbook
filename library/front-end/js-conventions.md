@@ -65,7 +65,7 @@ Always use a triple equal to do variable comparisons. If you’re unsure of the 
 ```js
 // GOOD
 const one = 1;
-const another = '1';
+const another = "1";
 
 if (one === parseInt(another)) {
     // ...
@@ -85,12 +85,13 @@ function scrollTo(offset) {
 // BAD
 // Using an arrow function doesn't provide any benefits here, while the
 // `function`  keyword immediately makes it clear that this is a function.
-const scrollTo = (offset) => {
+const scrollTo = offset => {
     // ...
 };
 ```
 
 Terse, single line functions may also use the arrow syntax. There's no hard rule here.
+
 ```js
 // GOOD
 function sum(a, b) {
@@ -109,19 +110,20 @@ function sum(a, b) {
 }
 
 // GOOD
-const adder = (a) => (b) => sum(a, b);
+const adder = a => b => sum(a, b);
 
 // OK, but unnecessarily noisy.
 function adder(a) {
-    return function (b) {
+    return function(b) {
         return sum(a, b);
     };
 }
 ```
 
 Anonymous functions should use arrow functions (Unless they need access to `this`).
+
 ```js
-['a', 'b'].map((a) => a.toUpperCase());
+["a", "b"].map(a => a.toUpperCase());
 ```
 
 ## Object and array destructuring
@@ -130,10 +132,10 @@ Destructuring is preferred over assigning variables to the corresponding keys.
 
 ```js
 // GOOD
-const [hours, minutes] = '12:00'.split(':');
+const [hours, minutes] = "12:00".split(":");
 
 // BAD, unnecessarily verbose, and requires an extra assignment in this case.
-const time = '12:00'.split(':');
+const time = "12:00".split(":");
 const hours = time[0];
 const minutes = time[1];
 ```
@@ -147,7 +149,7 @@ We actively use `async/await` in our code. So for promises the recommended appro
 ```js
 try {
     const response = await promiseToResolve();
-} catch(error) {
+} catch (error) {
     log(error);
 }
 ```
@@ -155,7 +157,9 @@ try {
 Or with our custom fetch promise
 
 ```js
-const response = await getHttpClient().get('url').catch(error => log(error));
+const response = await getHttpClient()
+    .get("url")
+    .catch(error => log(error));
 if (response) {
     notify.success(response.message);
 }
@@ -166,11 +170,11 @@ if (response) {
 Many times we will need to select DOM elements in our JS, there can be multiple approaches for getting the DOM element. But for consistency and clarity purposes we SHOULD use data attributes as selectors.
 
 ```html
-<div class="card" data-course-card> ... </div>
+<div class="card" data-course-card>...</div>
 ```
 
 ```js
-const card = document.querySelector('[data-course-card]');
+const card = document.querySelector("[data-course-card]");
 ```
 
 ## Back-end named routes
