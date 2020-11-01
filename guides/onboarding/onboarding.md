@@ -32,8 +32,8 @@ We want to maintain it in perfect condition, and your fresh look at the process 
     1. [🔒 Contributing standards](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/CONTRIBUTING.md)
     1. [🔒 Platform glossary](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/glossary.md)
     1. Architecture (Are you full-stack? You know what to do 😊)
-       - [🔒 Backend](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/backend/architecture.md)
-       - [🔒 Frontend](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/frontend/architecture.md)
+        - [🔒 Backend](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/backend/architecture.md)
+        - [🔒 Frontend](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/code/frontend/architecture.md)
 1.  [🔒 Setup your IDE](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/IDE/README.md)
     for the project.
 
@@ -57,9 +57,9 @@ In a few weeks, you'll have a chance to look back at your progress within the Ix
 The whole development team will be very excited to get your general feedback
 (apart from your continuous talks with your mentor) and learn your progress. What you can share:
 
-- Coding: What have you finished and deployed to production that is now used by hundreds of thousands of people?
-- Learning: What is your progress on consuming our library? How did they change you?
-- Domain: What have you learned about the IxDF and our platform?
-  How can you help improve the most critical parts of our platform?
+-   Coding: What have you finished and deployed to production that is now used by hundreds of thousands of people?
+-   Learning: What is your progress on consuming our library? How did they change you?
+-   Domain: What have you learned about the IxDF and our platform?
+    How can you help improve the most critical parts of our platform?
 
 🦄

@@ -8,8 +8,8 @@ We know you're amazing because you're here (otherwise you wouldn't be here).
 
 ## Table of Contents
 
-- [Onboarding](./onboarding.md)
-- [How to get domain knowledge](./onboarding--domain-knowledge.md)
-- [Onboarding: Mentor guide](./onboarding--mentorGuide.md)
+-   [Onboarding](./onboarding.md)
+-   [How to get domain knowledge](./onboarding--domain-knowledge.md)
+-   [Onboarding: Mentor guide](./onboarding--mentorGuide.md)
 
 🦄

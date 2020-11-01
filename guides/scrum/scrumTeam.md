@@ -14,16 +14,16 @@ This guide is for **ScrumTeam** scrum role. To read more about scrum roles, plea
 
 ### Prepare yourself
 
-- Make sure you have a [backlog](backlog.md) filled with issues enough for the whole sprint.
-- Briefly tell others which issues you are going to handle. For major issues, you can give a link to the issue.
-- You don't need to talk about smallish issues. Just mention them if they are worth mentioning. This is a very, very important point because giving updates about smallish issues will make meetings longer and de-energize the team (e.g. do we really need to know that you updated a typo on a given page? :-) )
-- Don't go into technical details! If you have questions, request a call with the suitable developer after sprint planning.
+-   Make sure you have a [backlog](backlog.md) filled with issues enough for the whole sprint.
+-   Briefly tell others which issues you are going to handle. For major issues, you can give a link to the issue.
+-   You don't need to talk about smallish issues. Just mention them if they are worth mentioning. This is a very, very important point because giving updates about smallish issues will make meetings longer and de-energize the team (e.g. do we really need to know that you updated a typo on a given page? :-) )
+-   Don't go into technical details! If you have questions, request a call with the suitable developer after sprint planning.
 
 ### Additional notes
 
-- Try to commit yourself to finish all essential issues within the sprint, remember to account for testing and PR review.
-- If you feel an issue is too big for one sprint, break it into smaller issues.
-- Keep an eye on deadlines; ideally, we should deploy some important issues each sprint.
+-   Try to commit yourself to finish all essential issues within the sprint, remember to account for testing and PR review.
+-   If you feel an issue is too big for one sprint, break it into smaller issues.
+-   Keep an eye on deadlines; ideally, we should deploy some important issues each sprint.
 
 ## Meeting: Retrospective and Demo
 
@@ -41,9 +41,9 @@ You can identify the problem or even provide a solution on how to solve it.
 
 ScrumTeam members should answer the following questions:
 
-- What went well this Sprint?
-- What went wrong this Sprint?
-- What could we have done better?
+-   What went well this Sprint?
+-   What went wrong this Sprint?
+-   What could we have done better?
 
 ### Part 2: Demo
 
@@ -61,11 +61,11 @@ Please be crazy as much as you can be with your demos, we like having fun!
 
 ScrumTeam should prepare a small demo of new features (if any) that they've done on the past sprint. Possible ways to demonstrate what you've done within the recent sprint are as follows:
 
-- A link to a page with the new feature/function. Links from all servers including your local machine (Remember `share idf.test` command to share your local machine to outside people, or you can share your screen instead) are accepted.
-- A new API (readable usage examples using [gist](https://gist.github.com/) or code screenshots using https://carbon.now.sh).
-- Charts (e.g., for performance tasks)
-- Statistics (e.g., fewer errors per hour on New Relic due to one of your bug fixes)
-- etc.
+-   A link to a page with the new feature/function. Links from all servers including your local machine (Remember `share idf.test` command to share your local machine to outside people, or you can share your screen instead) are accepted.
+-   A new API (readable usage examples using [gist](https://gist.github.com/) or code screenshots using https://carbon.now.sh).
+-   Charts (e.g., for performance tasks)
+-   Statistics (e.g., fewer errors per hour on New Relic due to one of your bug fixes)
+-   etc.
 
 ## Meeting: Daily scrum
 
@@ -84,6 +84,6 @@ It is a short daily call where ScrumTeam should answer three questions:
 
 ## Links
 
-- [About ScrumTeam role](https://www.mountaingoatsoftware.com/agile/scrum/roles/team)
+-   [About ScrumTeam role](https://www.mountaingoatsoftware.com/agile/scrum/roles/team)
 
 🦄

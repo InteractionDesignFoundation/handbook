@@ -397,7 +397,7 @@ But remember the KISS (Keep It Simple, Stupid), and DRY (Don’t Repeat Yourself
 
 ## Recommended reading
 
-- [PrinciplesOfOod by Uncle Bob](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
-- [Agile Software Development, Principles, Patterns, and Practices](https://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445/ref=sr_1_4?s=books&ie=UTF8&qid=1449575781&sr=1-4&keywords=solid+principles) Book by Robert C. Martin.
+-   [PrinciplesOfOod by Uncle Bob](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
+-   [Agile Software Development, Principles, Patterns, and Practices](https://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445/ref=sr_1_4?s=books&ie=UTF8&qid=1449575781&sr=1-4&keywords=solid+principles) Book by Robert C. Martin.
 
 PS: This page is based on [this article](https://jokiruiz.com/software/solid-principles-php/).

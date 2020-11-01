@@ -26,10 +26,10 @@ you may want to selectively sync those you want to study into your computer when
 
 1. Front-end Foundations
 1. Backend
-   1. Foundations
-   1. References
-   1. Subscriptions
-   1. Awesome lists
+    1. Foundations
+    1. References
+    1. Subscriptions
+    1. Awesome lists
 
 # Frontend
 
@@ -55,9 +55,9 @@ For more frontend hints please see [🔒 frontend hints dir](https://github.com/
 
 Every back-end developer should
 
-- have a basic set of programming skills (Foundations),
-- use evergreen programming principles and team conventions (References),
-- be aware of modern techniques, tools, and APIs (Subscriptions and Awesome lists).
+-   have a basic set of programming skills (Foundations),
+-   use evergreen programming principles and team conventions (References),
+-   be aware of modern techniques, tools, and APIs (Subscriptions and Awesome lists).
 
 ## Foundations
 
