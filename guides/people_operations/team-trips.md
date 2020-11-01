@@ -29,11 +29,11 @@ When making action plans for the future of the IxDF, make sure that it fits to t
 
 **STRETCH GOAL:** Increase the traffic on the IxDF website.
 
-- **S**pecific: Increase the incoming traffic to the UX-daily article pages on the IxDF website.
-- **M**easureable: Increase the traffic on the IxDF website to 50,000 per day.
-- **A**ssignable: Increase the traffic on the IxDF website by expanding our social media reach through ads.
-- **R**ealistic: Increase the traffic on the IxDF website from 40,000 per day to 50,000 per day.
-- **T**ime-bound: Increase the traffic on the IxDF website within the next 2 months.
+-   **S**pecific: Increase the incoming traffic to the UX-daily article pages on the IxDF website.
+-   **M**easureable: Increase the traffic on the IxDF website to 50,000 per day.
+-   **A**ssignable: Increase the traffic on the IxDF website by expanding our social media reach through ads.
+-   **R**ealistic: Increase the traffic on the IxDF website from 40,000 per day to 50,000 per day.
+-   **T**ime-bound: Increase the traffic on the IxDF website within the next 2 months.
 
 **SMART GOAL:** Increase the incoming traffic to the UX-daily article pages on the IxDF website from 40,000 visitors per day to 50,000 per day by expanding our social media reach through ads within the next 2 months.
 

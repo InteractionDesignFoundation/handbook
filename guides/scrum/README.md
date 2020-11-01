@@ -11,15 +11,15 @@ Scrum started in Software Development but is now being used as an approach to pr
 
 ## External, introductory ressources
 
-- **[What is Scrum?](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
-- **[Scrum Glossary](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
-  _There are more external ressources at the bottom of this page_
+-   **[What is Scrum?](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
+-   **[Scrum Glossary](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
+    _There are more external ressources at the bottom of this page_
 
 ## Scrum Roles
 
-- **[ScrumMaster](scrumMaster.md)**: helps Scrum practitioners achieve their highest level of performance.
-- **[ProductOwner](productOwner.md)**: creates a compelling vision of the product, and then conveys that vision to the team through the product backlog.
-- **[ScrumTeam](scrumTeam.md)**: contributes in whatever way they can to complete the work of each sprint.
+-   **[ScrumMaster](scrumMaster.md)**: helps Scrum practitioners achieve their highest level of performance.
+-   **[ProductOwner](productOwner.md)**: creates a compelling vision of the product, and then conveys that vision to the team through the product backlog.
+-   **[ScrumTeam](scrumTeam.md)**: contributes in whatever way they can to complete the work of each sprint.
 
 ## Scrum sprint
 
@@ -28,20 +28,20 @@ In the IxDF, we usually use 2-weeks sprints.
 
 Once Sprint Planning is finished - it should not be possible to add new tasks to sprint backlog. There are 2 exceptions for this rule:
 
-- tasks with `urgency: high` label
-- tasks with `blink of an eye` label if they are relevant to other issues from your backlog
+-   tasks with `urgency: high` label
+-   tasks with `blink of an eye` label if they are relevant to other issues from your backlog
 
 ### Sprint planning
 
-- **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
-- **Duration**: 1-2 hours
+-   **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
+-   **Duration**: 1-2 hours
 
 The output of the sprint planning is a new backlog (todo-list) along with clear and short sprint goals.
 
 ### Daily scrum
 
-- **Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
-- **Duration**: 10-45 mins
+-   **Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
+-   **Duration**: 10-45 mins
 
 In Scrum, on each day of a sprint the team holds a daily scrum meeting called the "daily scrum.”
 Meetings are typically held at the same time each day.
@@ -54,8 +54,8 @@ This is a short daily call where ScrumTeam should answer 3 questions:
 
 ### Demo and retrospective
 
-- **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
-- **Duration**: 1-2 hours
+-   **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
+-   **Duration**: 1-2 hours
 
 **Part 1: Demo**:
 In Scrum, each sprint is required to deliver a potentially shippable product increment.
@@ -81,9 +81,9 @@ An example of Scrum Board at the middle of a Sprint:
 
 ## More external ressources
 
-- [Sprint planning](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting)
-- [Daily scrum](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum)
-- [Demo/Review meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-review-meeting)
-- [Sprint retrospective](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-retrospective)
+-   [Sprint planning](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting)
+-   [Daily scrum](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum)
+-   [Demo/Review meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-review-meeting)
+-   [Sprint retrospective](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-retrospective)
 
 🦄

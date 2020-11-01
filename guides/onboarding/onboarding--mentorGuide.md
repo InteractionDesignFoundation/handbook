@@ -6,10 +6,10 @@ Every new team-member should have a mentor for smooth onboarding process. Mentor
 
 Your main work as a mentor is to help your mentee not to lose track, accumulate his feedback and transform it into actions like:
 
-- Update documentation
-- Create issue (e.g. `Make dev env works with latest version of VirtualBox`)
-- Make a proposal to optimize onboarding process
-- etc.
+-   Update documentation
+-   Create issue (e.g. `Make dev env works with latest version of VirtualBox`)
+-   Make a proposal to optimize onboarding process
+-   etc.
 
 ## Expectations and duties
 
@@ -65,18 +65,18 @@ When evaluating the process, here are some example questions you could answer:
 
 This is a list of tools and services that a new member should have access to:
 
-- [GitHub](https://github.com): Issue tracker and source code repository. Ensure that the new developer attached to `devs` team.
-- [Gmail](https://gmail.com): Corporate email box.
-- [Dropbox.com](https://sync.com): Cloud service to share materials, literature, media, etc. Ensure that the new developer has access to all directories that he needs: designs, literature (both: general and developers), etc.
-- [Slack](https://interaction-design.slack.com): Our main communication tool. Ensure that the new developer is attached to `Developers` slack team/user-group.
-- [LastPass](https://www.lastpass.com/): Credentials management tool: store and share credentials.
-- [Laravel Forge](https://forge.laravel.com): Provision and deployment service for our servers & sites. Mentee should be added to "Development Team" circle.
-- [Digital Ocean](https://www.digitalocean.com): Our server provider.
-- [New Relic](https://newrelic.com/): Log errors and monitor application performance (get shared credentials from credential management tool).
-- [CodeShip](https://codeship.com/): Continuous integration tool (get shared credentials from credential management tool). Developer should have individual accounts, connected to their GitHub profiles and they should be added to `idf-devs` team (from master account).
-- [GTmetrix](https://gtmetrix.com/): Analyze web page's speed performance (get shared credentials from credential management tool).
-- [Zeplin](https://zeplin.io/): Share designs and its assets between designer and developers.
-- Optional: [Google analytics](https://analytics.google.com): Analytics service that tracks and reports website traffic.
-- Optional: [Google search console](https://www.google.com/webmasters/tools): Monitor Google Search results data.
+-   [GitHub](https://github.com): Issue tracker and source code repository. Ensure that the new developer attached to `devs` team.
+-   [Gmail](https://gmail.com): Corporate email box.
+-   [Dropbox.com](https://sync.com): Cloud service to share materials, literature, media, etc. Ensure that the new developer has access to all directories that he needs: designs, literature (both: general and developers), etc.
+-   [Slack](https://interaction-design.slack.com): Our main communication tool. Ensure that the new developer is attached to `Developers` slack team/user-group.
+-   [LastPass](https://www.lastpass.com/): Credentials management tool: store and share credentials.
+-   [Laravel Forge](https://forge.laravel.com): Provision and deployment service for our servers & sites. Mentee should be added to "Development Team" circle.
+-   [Digital Ocean](https://www.digitalocean.com): Our server provider.
+-   [New Relic](https://newrelic.com/): Log errors and monitor application performance (get shared credentials from credential management tool).
+-   [CodeShip](https://codeship.com/): Continuous integration tool (get shared credentials from credential management tool). Developer should have individual accounts, connected to their GitHub profiles and they should be added to `idf-devs` team (from master account).
+-   [GTmetrix](https://gtmetrix.com/): Analyze web page's speed performance (get shared credentials from credential management tool).
+-   [Zeplin](https://zeplin.io/): Share designs and its assets between designer and developers.
+-   Optional: [Google analytics](https://analytics.google.com): Analytics service that tracks and reports website traffic.
+-   Optional: [Google search console](https://www.google.com/webmasters/tools): Monitor Google Search results data.
 
 🦄

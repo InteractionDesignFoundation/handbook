@@ -7,30 +7,30 @@ To achieve this, we want everyone to understand what is expected of them, the th
 
 ## Table of Contents
 
-- Company
-  - [About](/company/about.md)
-- Guides
-  - [Onboarding](/guides/onboarding/README.md)
-  - People Operations
-    - [Team Trips](/guides/people_operations/team-trips.md)
-    - [Video Calls](/guides/people_operations/video-calls.md)
-  - [Scrum](/guides/scrum/README.md)
-    - [How to fill out your Backlog](/guides/scrum/backlog.md)
-    - [Role: ProductOwner](/guides/scrum/productOwner.md)
-    - [Role: ScrumMaster](/guides/scrum/scrumMaster.md)
-    - [Role: ScrumTeam](/guides/scrum/scrumTeam.md)
-  - [Our expectations from you and your work](/guides/expectations.md)
-  - [Collaboration tools](/guides/collaboration-tools.md)
-  - [Access to credentials](/guides/credentials.md)
-- [Library](/library/README.md)
-  - [Back end](/library/back-end/README.md)
-  - [Front end](/library/front-end/README.md)
+-   Company
+    -   [About](/company/about.md)
+-   Guides
+    -   [Onboarding](/guides/onboarding/README.md)
+    -   People Operations
+        -   [Team Trips](/guides/people_operations/team-trips.md)
+        -   [Video Calls](/guides/people_operations/video-calls.md)
+    -   [Scrum](/guides/scrum/README.md)
+        -   [How to fill out your Backlog](/guides/scrum/backlog.md)
+        -   [Role: ProductOwner](/guides/scrum/productOwner.md)
+        -   [Role: ScrumMaster](/guides/scrum/scrumMaster.md)
+        -   [Role: ScrumTeam](/guides/scrum/scrumTeam.md)
+    -   [Our expectations from you and your work](/guides/expectations.md)
+    -   [Collaboration tools](/guides/collaboration-tools.md)
+    -   [Access to credentials](/guides/credentials.md)
+-   [Library](/library/README.md)
+    -   [Back end](/library/back-end/README.md)
+    -   [Front end](/library/front-end/README.md)
 
 ## Links
 
-- [Handbook contribution guide](CONTRIBUTING.md): how to make this document even better 🦄
-- 🔒 Shared folders at [Dropbox.com](https://www.dropbox.com/share/) (ask **@madssoegaard** to give you access)
-- [🔒 developer docs](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/README.md) - development-related documents
+-   [Handbook contribution guide](CONTRIBUTING.md): how to make this document even better 🦄
+-   🔒 Shared folders at [Dropbox.com](https://www.dropbox.com/share/) (ask **@madssoegaard** to give you access)
+-   [🔒 developer docs](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/README.md) - development-related documents
 
 ## The IxDF Zen Code
 
