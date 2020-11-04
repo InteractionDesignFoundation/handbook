@@ -27,7 +27,7 @@ We want to maintain it in perfect condition, and your fresh look at the process 
     It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
 1.  Never stop learning 📖 Go through our library and create a plan on acquiring every bit of knowledge there.
     Once you have a plan, please discuss it with your mentor. (Are you full-stack? Then please open both links ☀️): - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md) - Literature/subscriptions [for front-end developers](../../library/front-end/literature.md)
-1.  We have an amazing course on IxDF’s company culture! Ping @madssoegaard to create a plan to take the course.
+1.  We have an amazing course on IxDF’s company culture! Ping the member experience team if they haven't already enrolled you in the course. To find a timeline and more information about the [IxDF company culture course, click here](https://app.gitbook.com/@ixdf/s/test-onboarding/culture-course).
 1.  Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md).
     1. [Scrum](../scrum/README.md)
