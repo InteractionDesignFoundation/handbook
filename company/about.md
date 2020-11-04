@@ -1,4 +1,4 @@
-# Company
+# About IxDF
 
 We are an independent nonprofit initiative with an objective that sounds like a paradox—to raise the level of global
 design education to an Ivy League standard, while at the same time reducing costs to as low as possible.

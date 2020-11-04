@@ -28,6 +28,6 @@ Click on "Multifactor Options" on the top menu to see the options you have. You 
 Furthermore:
 
 -   If you can't find a particular instance, and if you know the credentials of that instance, please add it so we can improve the document together. :-)
--   If you can't find a particular instance, and if you **don't** know the credentials, then reach out to @gzg, and he will add it.
+-   If you can't find a particular instance, and if you **don't** know the credentials, then reach out your colleagues, and they will add it.
 
 🦄

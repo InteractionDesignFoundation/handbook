@@ -1,5 +1,6 @@
-<!-- prettier-ignore-start -->
 # Clean Code PHP
+
+<!-- prettier-ignore-start -->
 
 ## Table of Contents
 
@@ -848,7 +849,7 @@ public function getProfile(): Profile
       $this->profile = new Profile($this);
       $this->save();
    }
-   
+
    return $this->profile;
 }
 ```
@@ -862,7 +863,7 @@ public function createOrReturnProfile(): Profile
       $this->profile = new Profile($this);
       $this->save();
    }
-   
+
    return $this->profile;
 }
 ```
@@ -902,7 +903,7 @@ class Configuration
 
     public function get(string $key): ?string
     {
-        // null coalescing operator 
+        // null coalescing operator
         return $this->configuration[$key] ?? null;
     }
 }

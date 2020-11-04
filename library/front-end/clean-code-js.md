@@ -1,6 +1,6 @@
-<!-- prettier-ignore-start -->
 # Clean code JavaScript
 
+<!-- prettier-ignore-start -->
 
 ## Table of Contents
 

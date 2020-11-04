@@ -1,7 +1,9 @@
 # JavaScript conventions
 
 This document extends
-[Clean code principles for JavaScript](https://interactiondesignfoundation.github.io/handbook/library/front-end/clean-code-js.html).
+[Clean code principles for JavaScript](clean-code-js.md).
+
+[[toc]]
 
 ## Functional approach
 

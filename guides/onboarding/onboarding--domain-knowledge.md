@@ -1,4 +1,4 @@
-# Onboarding: How to get domain knowledge and get overview of the codebase
+# How to get domain knowledge
 
 We’ve developed a few onboarding activities to give you a much deeper understanding of our domain. Understanding our domain,
 i.e. the platform and its features FROM OUR USERS’ PERSPECTIVE (i.e. domain knowledge) is paramount to both understanding our codebase and writing

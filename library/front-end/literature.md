@@ -1,4 +1,4 @@
-# Literature for frontend developer
+# Literature for front-end developer
 
 > You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.
 >
