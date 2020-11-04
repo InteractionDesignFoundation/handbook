@@ -23,7 +23,8 @@ module.exports = {
     ],
 
     plugins: [
-        "mermaidjs" // @see https://vuepress-plugin-mermaidjs.efrane.com/ and @see https://mermaid-js.github.io/mermaid/#/
+        "mermaidjs", // @see https://vuepress-plugin-mermaidjs.efrane.com/ and @see https://mermaid-js.github.io/mermaid/#/
+        "@vuepress/medium-zoom" // @see https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html
     ],
 
     // https://vuepress.vuejs.org/theme/default-theme-config.html#homepage
