@@ -29,5 +29,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
           rm: true
-          source: ".vuepress/dist/"
+          source: ".vuepress/dist/*"
           target: "${{ secrets.REMOTE_DIR }}"
