@@ -1,0 +1,33 @@
+name: Deploy Vuepress via SSH
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check-out repository
+        uses: actions/checkout@master
+
+      - name: Install yarn dependencies
+        run: yarn install
+        env:
+          CI: true
+
+      - name: Build files for a static site using Vuepress
+        run: yarn docs:build
+
+      - name: Copying files to server via SSH
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
+          rm: true
+          source: ".vuepress/dist/"
+          target: "${{ secrets.REMOTE_DIR }}"

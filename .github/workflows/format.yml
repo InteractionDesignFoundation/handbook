@@ -18,7 +18,7 @@ jobs:
           CI: true
 
       - name: Run formatting tool
-        run: npm run style:fix
+        run: yarn style:fix
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
