@@ -9,7 +9,7 @@
 module.exports = {
     dest: "public/docs",
 
-    title: "IxDF dev handbook",
+    title: "IxDF Dev handbook",
     description: "Handbook and guidelines for 🦄 developers.",
     head: [
         [

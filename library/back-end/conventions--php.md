@@ -13,10 +13,10 @@ Additionally, we like [Spatie’s code guidelines](https://guidelines.spatie.be/
 We generally observe the standards from the [PHP FIG](http://www.php-fig.org/).
 We use automated tools to check our code on CI:
 
--   [phpcs](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([config](/.phpcs/IDFCodingStandard/ruleset.xml))
--   [PHP-CS-Fixer](https://cs.symfony.com/) ([config](/.php_cs))
--   [psalm](https://psalm.dev/docs/) ([config](/psalm.xml))
--   [rector](https://github.com/rectorphp/rector) ([config](/rector.php))
+-   [phpcs](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.phpcs/IDFCodingStandard/ruleset.xml))
+-   [PHP-CS-Fixer](https://cs.symfony.com/) (([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.php_cs))
+-   [psalm](https://psalm.dev/docs/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/psalm.xml))
+-   [rector](https://github.com/rectorphp/rector) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/rector.php))
 
 ⚠️ Our codebase has some legacy code that do not fully follow our standards, please tread this document as the main source of truth.
 Main legacy parts:
