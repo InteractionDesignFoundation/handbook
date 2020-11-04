@@ -39,12 +39,12 @@ Every frontend developer should have some backend knowledge to have basic workin
 1.  [Laravel Blade](https://laravel.com/docs/master/blade) - PHP template engine. Frontend developers should understand how to
     use `@extend`, `@include`, `@component`, `@section`, `@push`, `@foreach` and `@if` directives. They should also understand when they should use `{{ $variable }}` and `{!! $variable !!}` (display escaped/unescaped data).
 1.  How to get an instance of the authenticated Member at the view layer and how to determine whether the visitor is a guest or not (see
-    [🔒 Authenticated Member instance](https://github.com/InteractionDesignFoundation/IDF-web/docs/code/backend/hints/authenticated-member-instance.md)).
+    [🔒 Authenticated Member instance](https://github.com/InteractionDesignFoundation/IxDF-web/docs/code/backend/hints/authenticated-member-instance.md)).
 1.  How to
-    [🔒 create a new route and a new test view for it](https://github.com/InteractionDesignFoundation/IDF-web/docs/code/backend/hints/create-test-route.md) for testing purposes.
+    [🔒 create a new route and a new test view for it](https://github.com/InteractionDesignFoundation/IxDF-web/docs/code/backend/hints/create-test-route.md) for testing purposes.
     Sometimes it's a faster way to implement a new feature.
 
-For more back-end hints, please see [🔒 backend hints dir](https://github.com/InteractionDesignFoundation/IDF-web/docs/code/backend/hints).
+For more back-end hints, please see [🔒 backend hints dir](https://github.com/InteractionDesignFoundation/IxDF-web/docs/code/backend/hints).
 
 # Frontend
 
