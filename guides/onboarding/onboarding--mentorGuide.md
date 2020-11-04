@@ -73,7 +73,7 @@ This is a list of tools and services that a new member should have access to:
 -   [Laravel Forge](https://forge.laravel.com): Provision and deployment service for our servers & sites. Mentee should be added to "Development Team" circle.
 -   [Digital Ocean](https://www.digitalocean.com): Our server provider.
 -   [New Relic](https://newrelic.com/): Log errors and monitor application performance (get shared credentials from credential management tool).
--   [CodeShip](https://codeship.com/): Continuous integration tool (get shared credentials from credential management tool). Developer should have individual accounts, connected to their GitHub profiles and they should be added to `idf-devs` team (from master account).
+-   [CodeShip](https://codeship.com/): Continuous integration tool (get shared credentials from credential management tool). Developer should have individual accounts, connected to their GitHub profiles and they should be added to `ixdf-devs` team (from master account).
 -   [GTmetrix](https://gtmetrix.com/): Analyze web page's speed performance (get shared credentials from credential management tool).
 -   [Zeplin](https://zeplin.io/): Share designs and its assets between designer and developers.
 -   Optional: [Google analytics](https://analytics.google.com): Analytics service that tracks and reports website traffic.

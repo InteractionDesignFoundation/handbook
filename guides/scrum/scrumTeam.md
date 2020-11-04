@@ -61,7 +61,7 @@ Please be crazy as much as you can be with your demos, we like having fun!
 
 ScrumTeam should prepare a small demo of new features (if any) that they've done on the past sprint. Possible ways to demonstrate what you've done within the recent sprint are as follows:
 
--   A link to a page with the new feature/function. Links from all servers including your local machine (Remember `share idf.test` command to share your local machine to outside people, or you can share your screen instead) are accepted.
+-   A link to a page with the new feature/function. Links from all servers including your local machine (Remember `share ixdf.test` command to share your local machine to outside people, or you can share your screen instead) are accepted.
 -   A new API (readable usage examples using [gist](https://gist.github.com/) or code screenshots using https://carbon.now.sh).
 -   Charts (e.g., for performance tasks)
 -   Statistics (e.g., fewer errors per hour on New Relic due to one of your bug fixes)
