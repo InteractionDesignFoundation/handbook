@@ -1,5 +1,3 @@
-_Please help this handbook stay up-to-date, i.e. employ the boyscout principle: You can edit/improve these files by going to https://github.com/InteractionDesignFoundation/handbook and commiting to the `master` branch_
-
 # Scrum in IxDF teams
 
 Scrum is an agile and simple framework for effective team collaboration on complex products.

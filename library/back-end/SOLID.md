@@ -1,4 +1,4 @@
-# Solid Principles and PHP
+# SOLID Principles and PHP
 
 Five agile principles that should guide you every time you write code.
 And I’ll show you how to apply them with PHP.

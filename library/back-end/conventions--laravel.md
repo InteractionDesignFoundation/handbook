@@ -286,7 +286,7 @@ Validator::extend('is_null', fn ($attribute, $value, $parameters, $validator) =>
 
 ## Views
 
-## Use camelCase
+### Use camelCase
 
 View files and directories MUST use camelCase.
 
