@@ -6,7 +6,9 @@
     "scripts": {
         "test": "npm run style:lint",
         "style:lint": "prettier \"**/*.md\"",
-        "style:fix": "prettier \"**/*.md\" --write"
+        "style:fix": "prettier \"**/*.md\" --write",
+        "docs:build": "vuepress build",
+        "docs:dev": "vuepress dev"
     },
     "repository": {
         "type": "git",
@@ -25,6 +27,10 @@
         "husky": "^1.3.1",
         "prettier": "^1.19.1",
         "pretty-quick": "^1.11.1"
+    },
+    "devDependencies": {
+        "vuepress": "^1.7.1",
+        "vuepress-plugin-mermaidjs": "^1.8.0"
     },
     "husky": {
         "hooks": {
