@@ -29,7 +29,7 @@ Ensure your mentee understands your expectations and feels motivated to fill the
 1.  Make mentor's availability hours clear for the new team member and try to maximize them especially for the first working week.
 1.  Ensure that your mentee has read all onboarding documents.
 1.  Ensure that your mentee has all accounts/permissions for our and 3rd party services (see [Tools and Services checklist](#checklist-for-tools-and-services)).
-1.  Ensure that your mentee has [🔒 properly installed developer environment](https://github.com/InteractionDesignFoundation/IDF-web/blob/develop/docs/environment/first-run/README.md).
+1.  Ensure that your mentee has [🔒 properly installed developer environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md).
 1.  Arrange end-of-day meetings with your mentee with a specified agenda to get maximum feedback. The meeting should happen at the end of each day during the first week.
     Why: It will help your mentee understand if they are doing things at the right pace and focusing on the correct tasks, as well as receive clear instructions, advice and constructive criticism to help them improve.
 1.  Start changing code: Prepare 3-10 tasks for smooth entry into the project. Examples:
