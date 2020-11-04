@@ -7,7 +7,7 @@
  */
 
 module.exports = {
-    dest: "public/docs",
+    dest: ".vuepress/dist",
 
     title: "IxDF Dev handbook",
     description: "Handbook and guidelines for 🦄 developers.",
