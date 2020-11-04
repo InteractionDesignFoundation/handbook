@@ -3,6 +3,8 @@
 This document extends
 [Clean code principles for JavaScript](https://interactiondesignfoundation.github.io/handbook/library/front-end/clean-code-js.html).
 
+[[toc]]
+
 ## Functional approach
 
 In our JS we prefer to write functional code whenever possible instead of object oriented. Functional programming can be understood by the following:
