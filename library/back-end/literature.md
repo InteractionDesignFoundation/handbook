@@ -89,17 +89,17 @@ Every back-end developer should
 1.  PHPStorm blog (including [PHP Annotated Monthly](https://blog.jetbrains.com/phpstorm/category/php-annotated-monthly/)
     digests):
     [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://blog.jetbrains.com/phpstorm/feed/)
-    https://blog.jetbrains.com/phpstorm
+    [https://blog.jetbrains.com/phpstorm](https://blog.jetbrains.com/phpstorm)
 1.  [Laracon EU](https://www.youtube.com/channel/UCb9XEo_1SDNR8Ucpbktrg5A) annual Laravel conference videos.
 1.  A blog on Laravel & PHP:
-    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://murze.be/feed) https://murze.be
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://murze.be/feed) [https://murze.be](https://murze.be)
 1.  Laravel weekly newsletter:
     [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://feed.laravel-news.com/)
-    https://laravel-news.com
+    [https://laravel-news.com](https://laravel-news.com)
 1.  Optional: Adam Wathan's blog (active Laravel developer)
     [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://adamwathan.me/rss)
-    https://adamwathan.me
-1.  Optional: Taylor Otwell's Medium stories (Creator of Laravel): https://medium.com/@taylorotwell
+    [https://adamwathan.me](https://adamwathan.me)
+1.  Optional: Taylor Otwell's Medium stories (Creator of Laravel): [@taylorotwell](https://medium.com/@taylorotwell)
 
 # Awesome lists
 
