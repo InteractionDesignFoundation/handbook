@@ -258,3 +258,5 @@ Want to learn more?
 1. [PHPDoc: Typing in Psalm](https://psalm.dev/docs/annotating_code/typing_in_psalm/)
 1. [PHPDoc: Scalar types in Psalm](https://psalm.dev/docs/annotating_code/type_syntax/scalar_types/#trait-string)
 1. [When to declare classes final](https://ocramius.github.io/blog/when-to-declare-classes-final/)
+
+🦄

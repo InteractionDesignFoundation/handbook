@@ -90,7 +90,7 @@ Every back-end developer should
     digests):
     [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://blog.jetbrains.com/phpstorm/feed/)
     [https://blog.jetbrains.com/phpstorm](https://blog.jetbrains.com/phpstorm)
-1.  [Laracon EU](https://www.youtube.com/channel/UCb9XEo_1SDNR8Ucpbktrg5A) annual Laravel conference videos.
+1.  [Laracon EU](https://www.youtube.com/channel/UCb9XEo_1SDNR8Ucpbktrg5A) annual Laravel conference videos on YouTube.
 1.  A blog on Laravel & PHP:
     [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://murze.be/feed) [https://murze.be](https://murze.be)
 1.  Laravel weekly newsletter:

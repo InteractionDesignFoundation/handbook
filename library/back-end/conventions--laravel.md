@@ -582,3 +582,5 @@ Prevention tips:
 
 1. [Spatie guidelines](https://github.com/spatie/guidelines.spatie.be/blob/master/content/code-style/laravel-php.md)
 1. [Common Security Mistakes in Laravel Applications](https://cyberpanda.la/ebooks/download/laravel-security)
+
+🦄
