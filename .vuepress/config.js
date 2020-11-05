@@ -36,6 +36,7 @@ module.exports = {
         lastUpdated: "Last Updated", // string | boolean
         nav: [
             { text: "Home", link: "/" },
+            { text: "Internal Docs", link: "https://docs.information-architecture.org" },
             { text: "Design System", link: "https://www.interaction-design.org/admin/design-system" }
         ],
 
