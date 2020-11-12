@@ -31,6 +31,22 @@ Member::firstWhere('id', 42);
 Mass assignment SHOULD not be used when it’s easily possible. When it used in a wrong way,
 it can add security vulnerabilities, it also allows creating Models with a wrong state.
 
+The preferred way to create or update models is to assign attributes line by line and call `save()` at the end:
+
+```php
+// PREFERRED WAY
+$member = new Member();
+$member->name = $request->input('name');
+$member->email = $request->input('email');
+$member->save();
+
+// TRY TO AVOID
+$member->forceFill([
+    'name' => $request->input('name'),
+    'email' => $request->input('email'),
+])->save();
+```
+
 ### Minimize magic
 
 Don’t use magic `where{Something}` methods.
@@ -128,7 +144,7 @@ This is a loose guideline that doesn’t need to be enforced.
 public function update(Request $request, Course $course)
 {
     $this->validate($request, ['email' => ['email']);
-    $name = $request->get('name');
+    $name = $request->input('name');
 }
 
 // BAD
@@ -136,6 +152,26 @@ public function update(Course $course)
 {
     $this->validate(request(), ['email' => ['email']);
     $name = request('name');
+}
+```
+
+## Requests
+
+### Use $request->input() instead of $request->get()
+
+For the sake of consistency, we use `$request->input()` only.
+
+```php
+// GOOD
+public function store(Request $request)
+{
+    $email = $request->input('email');
+}
+
+// BAD
+public function store(Request $request)
+{
+    $email = $request->get('email');
 }
 ```
 
@@ -391,10 +427,10 @@ Usually we have one config file per system.
 ### SQL injection
 
 Laravel provides a robust [Query Builder](https://laravel.com/docs/queries) and [Eloquent ORM](https://laravel.com/docs/eloquent).
-And thanks to them most ofthe queries are protected in Laravel applications by default, so for example a query like
+And thanks to them most of the queries are protected in Laravel applications by default, so for example a query like
 
 ```php
-Product::query()->where('category_id', $request->get('categoryId'))->get();
+Product::query()->where('category_id', $request->input('categoryId'))->get();
 ```
 
 will be automatically protected, since under the hood Laravel will translate the code into a prepared statement and execute.
@@ -410,8 +446,8 @@ Here is a warning fromLaravel’s documentation.
 So the following code will be vulnerable to an SQL injection:
 
 ```php
-$categoryId = $request->get('categoryId');
-$orderBy = $request->get('orderBy');
+$categoryId = $request->input('categoryId');
+$orderBy = $request->input('orderBy');
 Product::query()
     ->where('category_id', $categoryId)
     ->orderBy($orderBy)
@@ -427,7 +463,7 @@ Resume: **Do not pass user-controlled column names to Query Builder without whit
 Let’s look at the following simplified validation code
 
 ```php
-$userId = $request->get('id');
+$userId = $request->input('id');
 Validator::make($request->post(), [
     'username' => ['required', "unique:users,name,$userId"],
 ]);
@@ -490,7 +526,7 @@ Cross-Site Scripting can be very dangerous, for example an XSS attack in the adm
 ```html
 Some text
 <input
-    onfocus='$.post("/admin/users", {name:"MaliciousUser", email:"MaliciousUser@example.com", password: "test123", });'
+    onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });'
     autofocus
 />
 test

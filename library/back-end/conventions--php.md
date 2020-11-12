@@ -95,6 +95,33 @@ Always use fully qualified class names in docblocks.
 /** @return Post */
 ```
 
+### Make inheritance explicit using the `@inheritDoc` tag
+
+Because inheritance is implicit it may happen that it is not necessary to include a PHPDoc for an element.
+In order to avoid any confusion, please always use the `@inheritDoc` tag for classes and methods.
+
+Don’t use `@inheritDoc` for class properties. Instead copy the docblock from the parent class or interface.
+
+```php
+// GOOD
+final class Tag
+{
+    /** @var string[] The attributes that are mass assignable. */
+    protected $fillable = [
+        'name',
+    ];
+}
+
+// BAD
+final class Tag
+{
+    /** @inheritDoc  */
+    protected $fillable = [
+        'name',
+    ];
+}
+```
+
 ### Describe array content by docblocks
 
 Use [Psalm syntax](https://psalm.dev/docs/annotating_code/type_syntax/array_types/#generic-arrays) to describe array content:
@@ -169,7 +196,43 @@ echo Invoice::class;
 echo 'App\Models\Billing\Invoice';
 ```
 
-[More info about exceptions](/app/Exceptions/README.md).
+## Use the class name instead of the self keyword
+
+Use the class name instead of the `self` keyword for return type hints and when creating an instance of the class.
+
+```php
+// GOOD
+public function createFromName(string $name): Tag
+{
+    $tag = new Tag();
+    $tag->name = $name;
+
+    return $tag;
+}
+
+// BAD
+public function createFromName(string $name): self
+{
+    $tag = new self();
+    $tag->name = $name;
+
+    return $tag;
+}
+```
+
+return self/new self() vs return ClassName/new ClassName() - we can of course use both, but it would be good to be consistent
+
+## Exceptions
+
+### Be explicit about error
+
+```php
+// GOOD
+abort(404, "The course with the ID $courseId could not be found.");
+
+// BAD
+abort(404);
+```
 
 ## Type-casting
 
@@ -258,5 +321,6 @@ Want to learn more?
 1. [PHPDoc: Typing in Psalm](https://psalm.dev/docs/annotating_code/typing_in_psalm/)
 1. [PHPDoc: Scalar types in Psalm](https://psalm.dev/docs/annotating_code/type_syntax/scalar_types/#trait-string)
 1. [When to declare classes final](https://ocramius.github.io/blog/when-to-declare-classes-final/)
+1. [Proposed PSR for docblocks](https://github.com/php-fig/fig-standards/blob/master/proposed/phpdoc-tags.md)
 
 🦄
