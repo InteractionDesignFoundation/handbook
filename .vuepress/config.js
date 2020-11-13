@@ -19,6 +19,14 @@ module.exports = {
                 href:
                     "https://user-images.githubusercontent.com/5278175/66738821-0d694600-ee78-11e9-9fb3-ee57370ce242.png"
             }
+        ],
+        [
+            "link",
+            {
+                rel: "stylesheet",
+                href:
+                    "https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Source+Code+Pro|Source+Sans+Pro:400,400i,700&display=swap"
+            }
         ]
     ],
 
@@ -96,7 +104,8 @@ module.exports = {
     },
 
     markdown: {
-        lineNumbers: false
+        lineNumbers: false,
+        anchor: { permalink: false }
     },
 
     evergreen: true
