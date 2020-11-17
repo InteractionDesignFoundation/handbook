@@ -18,10 +18,8 @@ We want to maintain it in perfect condition, and your fresh look at the process 
 
 ## Plan
 
-1.  Begin by getting a company email address.
+1.  Simply head over to [http://onboarding.interaction-design.org/](http://onboarding.interaction-design.org/) where everything is explained.
 1.  Know our [collaboration tools](../collaboration-tools.md).
-1.  Update your Slack account by uploading a photo and filling out personal info: Full name, role, timezone, email.
-1.  Understand [company goals and who we are](../../company/about.md).
 1.  Know our [expectations from you and your work](../expectations.md).
 1.  Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link).
     It's a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
@@ -49,11 +47,9 @@ Happy reading/hacking!
 
 Are you ready for new challenges? Great!
 
-Your mentor should prepare a number of tasks for your smooth onboarding to the codebase. You will be assigned to your first Github issues, make your first contribution to our codebase, create your first PR — a lot of exciting stuff!
+Your onboarding buddy should prepare a number of tasks for your smooth onboarding to the codebase. You will be assigned to your first Github issues, make your first contribution to our codebase, create your first PR — a lot of exciting stuff!
 
 Your first Github issues will be tasks that take you through some of the core sub-systems of our codebase. That will give you a better overview of what these sub-systems do and the state of the code within each sub-system (e.g. what's the amount of technical debt versus up-to-date code in a given system). Don't be alarmed if some of the issues will lead you into areas of the codebase where you find technical debt or spaghetti. That's intentional so you get exposed to both great code and technical debt.
-
-Please contact your mentor and inform them that you are ready for new challenges.
 
 May the Force be with you!
 
