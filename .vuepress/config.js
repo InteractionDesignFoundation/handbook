@@ -44,8 +44,8 @@ module.exports = {
         lastUpdated: "Last Updated", // string | boolean
         nav: [
             { text: "Home", link: "/" },
-            { text: "Internal Docs", link: "https://docs.information-architecture.org" },
-            { text: "Design System", link: "https://www.interaction-design.org/admin/design-system" }
+            { text: "Design System", link: "https://design-system.interaction-design.org" },
+            { text: "Internal Docs", link: "https://docs.information-architecture.org" }
         ],
 
         sidebarDepth: 0,
