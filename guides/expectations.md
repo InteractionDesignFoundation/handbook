@@ -5,7 +5,6 @@ We are a small team of senior developers, and the IxDF does not employ junior or
 # Senior developer
 
 1.  A senior developer understands and is aligned with the IxDF Company Culture which is _very briefly_ [explained here](../company/about.md#culture) and **very** thoroughly explained in our "IxDF Company Culture Course" (taken during your onboarding phase).
-1.  A senior developer has printed out the [IxDF Zen Code](../README.md#the-ixdf-zen-code) and regularly re-reads it. Most importantly, he/she reminds the rest of the team when we are not actively **acting** by our own principles defined in the Zen Code. They must never become "pretty words". We must always correlate our actions with our words.
 1.  **Seriousness firstly means "responsibility"**. Responsibility for your decisions, solutions, code,
     and communication with the team.
 1.  A senior developer is [able to carry a message to Garcia](https://courses.csail.mit.edu/6.803/pdf/hubbard1899.pdf):
