@@ -1,37 +1,38 @@
-# Mentoring on Onboarding
+# Onboarding Buddy
 
-## About mentoring
+## How to be a great Onboarding Buddy
 
-Every new team-member should have a mentor for smooth onboarding process. Mentor should work in the [almost] same timezone as the new team member.
+Every new team-member will have on onboarding buddy smooth onboarding process. The onboarding buddy should work in the [almost] same timezone as the new team member.
 
-Your main work as a mentor is to help your mentee not to lose track, accumulate his feedback and transform it into actions like:
+We have an "Onboarding Buddy playbook" in our Dropbox folder that you should read and follow in order to create the ultimate onboarding experience for a new team member (in addition to all the ressources on [https://onboarding.interaction-design.org/](https://onboarding.interaction-design.org/) )
+
+Your main work as an Onboarding Buddy is to help the new team member feel welcome, not to lose track, and finally get his feedback and transform it into actions like:
 
 -   Update documentation
--   Create issue (e.g. `Make dev env works with latest version of VirtualBox`)
+-   Create issues (e.g. `Make dev env works with latest version of XYZ`)
 -   Make a proposal to optimize onboarding process
 -   etc.
 
 ## Expectations and duties
 
-It’s not the job of a mentor to ~teach~, although you might end up doing a little bit of that. Your role is to **guide** and inspire with your enthusiasm (and don’t lose a great talent).
+It’s not the job of an onboarding buddy to ~teach~, although you might end up doing a little bit of that. Your role is to **guide** and inspire with your enthusiasm.
 
-So while there’s an element of teaching to mentorship, the skills a mentor needs are different to those of a teacher.
-You need to be an attentive listener, and you need to have enough practical experience to be able to give your mentee the right advice at the right time.
+So while there’s an element of teaching to onboarding, the skills an onboarding buddy needs are different to those of a teacher.
+You need to be an attentive listener, and you need to have enough practical experience to be able to give your buddy the right advice at the right time.
 
 **Set expectations**: Communicate your expectations in a simple and direct manner.
 Clarify expected roles, processes and outcomes.
-Ensure your mentee understands your expectations and feels motivated to fill them.
+Ensure your buddy understands your expectations and feels motivated to fill them.
 
 ## Plan
 
 ### First day
 
-1.  Make mentor's availability hours clear for the new team member and try to maximize them especially for the first working week.
-1.  Ensure that your mentee has read all onboarding documents.
-1.  Ensure that your mentee has all accounts/permissions for our and 3rd party services (see [Tools and Services checklist](#checklist-for-tools-and-services)).
-1.  Ensure that your mentee has [🔒 properly installed developer environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md).
-1.  Arrange end-of-day meetings with your mentee with a specified agenda to get maximum feedback. The meeting should happen at the end of each day during the first week.
-    Why: It will help your mentee understand if they are doing things at the right pace and focusing on the correct tasks, as well as receive clear instructions, advice and constructive criticism to help them improve.
+1.  Ensure that your buddy has read all onboarding documents.
+1.  Ensure that your buddy has all accounts/permissions for our and 3rd party services (see [Tools and Services checklist](#checklist-for-tools-and-services)).
+1.  Ensure that your buddy has [🔒 properly installed developer environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md).
+1.  Arrange end-of-day meetings with your buddy with a specified agenda to get maximum feedback. The meeting should happen at the end of each day during the first week.
+    Why: It will help your buddy understand if they are doing things at the right pace and focusing on the correct tasks, as well as receive clear instructions, advice and constructive criticism to help them improve.
 1.  Start changing code: Prepare 3-10 tasks for smooth entry into the project. Examples:
     1. Write tests for feature X (the goal is to introduce feature X, introduce out tools and workflows (GitHub, git, CI))
     1. Pickup and fix any bug from our automated bug-report systems (New Relic, Bugsnag, etc.) (goal: introduce tools, fix a bug)
@@ -39,12 +40,12 @@ Ensure your mentee understands your expectations and feels motivated to fill the
 
 ### First week
 
-1.  Ensure that your mentee has a plan to read developer and general literature and materials from our shared folders (50/50 mix of general/developer literature).
+1.  Ensure that your buddy has a plan to read developer and general literature and materials from our shared folders (50/50 mix of general/developer literature).
 1.  Ask for a summary feedback for the first week.
 
 ### First month
 
-1.  Ensure that you got maximum feedback from your mentee and transformed it into actions.
+1.  Ensure that you got maximum feedback from your buddy and transformed it into actions.
 
 ### In a month: finish mentoring
 
