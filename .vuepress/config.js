@@ -45,7 +45,7 @@ module.exports = {
         nav: [
             { text: "Home", link: "/" },
             { text: "Design System", link: "https://design-system.interaction-design.org" },
-            { text: "Internal Docs", link: "https://docs.information-architecture.org" }
+            { text: "🔒Internal Docs", link: "https://docs.information-architecture.org" }
         ],
 
         sidebarDepth: 0,
