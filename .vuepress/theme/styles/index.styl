@@ -1,12 +1,18 @@
 :root {
-    font-size: 18px;
+    --font-size-default: 18px;
+    --font-serif: 'Merriweather', georgia, serif;
+    --font-sans-serif: 'Source Sans Pro', arial, sans-serif;
+    --font-monospace: 'Source Code Pro', monospace;
+
     @media (max-width: 767px) {
-        font-size: 16px;
+        --font-size-default: 16px;
     }
+
+    font-size: var(--font-size-default);
 }
 
 body {
-    font-family: 'Source Sans Pro', arial, sans-serif;
+    font-family: var(--font-sans-serif);
     font-size: 18px;
     @media (max-width: 767px) {
         font-size: 16px;
@@ -20,7 +26,7 @@ h4,
 h5,
 h6,
  {
-    font-family: 'Source Sans Pro', arial, sans-serif;
+    font-family: var(--font-sans-serif);
     font-weight: 700;
     line-height: 1.2;
 }
@@ -66,7 +72,7 @@ h6 {
 }
 
 p {
-    font-family: 'Merriweather', georgia, serif;
+    font-family: var(--font-serif);
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.78;
@@ -77,6 +83,10 @@ code {
     @media (max-width: 767px) {
         overflow-wrap: break-word;
     }
+}
+
+li {
+    font-family: var(--font-serif);
 }
 
 .navbar span.site-name {
@@ -103,3 +113,20 @@ code {
     }
 }
 
+.sidebar-link,
+.sidebar-heading {
+    font-weight: normal !important;
+    font-family: var(--font-sans-serif);
+}
+
+.sidebar-heading {
+    font-size: var(--font-size-default);
+}
+
+a.sidebar-link {
+    font-size: .9rem !important;
+}
+
+.sidebar > .sidebar-links > li {
+    margin: 0 0 8px !important;
+}
