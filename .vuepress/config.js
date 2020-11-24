@@ -8,7 +8,7 @@
 
 module.exports = {
     dest: ".vuepress/dist",
-
+    theme: "@interaction_design_foundation/ixdf",
     title: "IxDF Dev handbook",
     description: "Handbook and guidelines for 🦄 developers.",
     head: [

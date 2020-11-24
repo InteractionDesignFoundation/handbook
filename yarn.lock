@@ -862,6 +862,11 @@
   resolved "https://registry.yarnpkg.com/@braintree/sanitize-url/-/sanitize-url-3.1.0.tgz#8ff71d51053cd5ee4981e5a501d80a536244f7fd"
   integrity sha512-GcIY79elgB+azP74j8vqkiXz8xLFfIzbQJdlwOPisgbKT00tviJQuEghOXSMVxJ00HoYJbGswr4kcllUc4xCcg==
 
+"@interaction_design_foundation/vuepress-theme-ixdf@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@interaction_design_foundation/vuepress-theme-ixdf/-/vuepress-theme-ixdf-0.0.1.tgz#9326a6cbae7c2486304f11a48a99b44e8b40f750"
+  integrity sha512-JJUnEORpua6XV0+4LpKD6aqu5DkM0RpO7hLhzk1Gb/0SwTussMGW+wGK/Q5lMd4g9K41V82QU6u+P7WjCgG5rw==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
