@@ -65,7 +65,7 @@ When you add a relationship or scope, add appropriate PHPDoc block to the Model:
 
 ### Use safe defaults for attributes
 
-Model’’s attributes should not rely on DB’’s default values.
+Model’s attributes should not rely on DB’s default values.
 Instead, we should duplicate defaults in the model by filling the `$attributes` array.
 It helps us to be more independent of the DB and simplifies Model’s Factories as well as testing.
 
