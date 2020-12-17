@@ -4,9 +4,9 @@
 >
 > -Robert C. Martin (from Clean Code)
 
-We have, again and again, experienced that it's not enough to be a good developer — let alone be a developer. We also have
+We have, again and again, experienced that it’s not enough to be a good developer — let alone be a developer. We also have
 experienced in our team that once a developer has studied the correct content, the code quality and the collective peace of mind
-have multiplied. That's why we have curated a great deal of material for ourselves to become better.
+have multiplied. That’s why we have curated a great deal of material for ourselves to become better.
 
 In IxDF, it is essential for developers to study the content in our library. This list is not here for a developer to ignore.
 An IxDF developer should have read the whole library — **at the least**.
@@ -21,7 +21,7 @@ An IxDF developer should have read the whole library — **at the least**.
 ## Index
 
 You can find all books and videos on the shared folder `IxDF - Shared Reading - Library of Development literature and videos`.
-_Warning for devs having small SSDs:_ The videos may take up more than 10gb on your disk. That's why
+_Warning for devs having small SSDs:_ The videos may take up more than 10gb on your disk. That’s why
 you may want to selectively sync those you want to study into your computer when you want to study them.
 
 1. Back-end Foundations
@@ -42,7 +42,7 @@ Every frontend developer should have some backend knowledge to have basic workin
     [🔒 Authenticated Member instance](https://github.com/InteractionDesignFoundation/IxDF-web/docs/code/backend/hints/authenticated-member-instance.md)).
 1.  How to
     [🔒 create a new route and a new test view for it](https://github.com/InteractionDesignFoundation/IxDF-web/docs/code/backend/hints/create-test-route.md) for testing purposes.
-    Sometimes it's a faster way to implement a new feature.
+    Sometimes it’s a faster way to implement a new feature.
 
 For more back-end hints, please see [🔒 backend hints dir](https://github.com/InteractionDesignFoundation/IxDF-web/docs/code/backend/hints).
 
@@ -71,7 +71,7 @@ Every frontend developer should
 
 # Subscriptions
 
-It's very useful to subscribe to some weekly newsletters or podcasts and be aware of all the events and news in the front-end world.
+It’s very useful to subscribe to some weekly newsletters or podcasts and be aware of all the events and news in the front-end world.
 
 1.  JavaScript Weekly newsletter: [javascriptweekly](https://javascriptweekly.com/issues)
 1.  Frontend Focus weekly newsletter: [frontendfoc](https://frontendfoc.us/issues)

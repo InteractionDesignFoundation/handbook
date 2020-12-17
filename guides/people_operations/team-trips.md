@@ -10,7 +10,7 @@ To achieve that, we have a simple guide to use while working on the team trips.
 # How to get the most out of the team trip
 
 Most of the time, we have daily work sessions to define the future of the IxDF.
-Human brains are unreliable when it comes to remember something in detail; that's why we need the ideas written down as soon as they are discussed.
+Human brains are unreliable when it comes to remember something in detail; that’s why we need the ideas written down as soon as they are discussed.
 After the team trip, we are going to execute over those ideas.
 
 ## 1. Using GitHub to make action plans

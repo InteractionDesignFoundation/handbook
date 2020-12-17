@@ -4,8 +4,8 @@ Are you new to scrum? Please check out our [scrum overview](README.md).
 
 This guide is for **ProductOwner** scrum role. To read more about scrum roles please use this link: [scrum roles](README.md#scrum-roles).
 
-The ProductOwner is typically the project's key stakeholder.
-Part of the ProductOwner responsibilities is to have a vision of what's to build, and convey that vision to the ScrumTeam.
+The ProductOwner is typically the project’s key stakeholder.
+Part of the ProductOwner responsibilities is to have a vision of what’s to build, and convey that vision to the ScrumTeam.
 This is key to successfully start any agile software development project.
 The agile ProductOwner does this in part through the product backlog, which is a prioritized features list for the product.
 
@@ -23,7 +23,7 @@ ProductOwner should choose the highest priority features for the upcoming sprint
 -   **Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
 -   **Duration**: 10-45 mins
 
-It's optional for ProductOwner - nothing to do from their side. They can optionally ask about cumulative sprint progress,
+It’s optional for ProductOwner - nothing to do from their side. They can optionally ask about cumulative sprint progress,
 and rearrange priorities in the backlog.
 
 ## Meeting: Demo and Retrospective
