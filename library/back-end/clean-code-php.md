@@ -45,7 +45,7 @@
   7. [Tests](#tests)
      * [Insufficient Tests](#insufficient-tests)
      * [Use a Coverage Tool!](#use-a-coverage-tool)
-     * [Don’t Skip Trivial Tests](#dont-skip-trivial-tests)
+     * [Don’t Skip Trivial Tests](#don-t-skip-trivial-tests)
      * [An Ignored Test Is a Question about an Ambiguity](#an-ignored-test-is-a-question-about-an-ambiguity)
      * [Test Boundary Conditions](#test-boundary-conditions)
      * [Exhaustively Test Near Bugs](#exhaustively-test-near-bugs)
