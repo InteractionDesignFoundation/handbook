@@ -1209,85 +1209,25 @@ class Human extends Mammal {
 
 **[⬆ back to top](#table-of-contents)**
 
-### Use method chaining
 
-This pattern is very useful in JavaScript and you see it in many libraries such
-as jQuery and Lodash. It allows your code to be expressive, and less verbose.
-For that reason, I say, use method chaining and take a look at how clean your code
-will be. In your class functions, simply return `this` at the end of every function,
-and you can chain further class methods onto it.
+### Avoid fluent interfaces
 
-**Bad:**
+A [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) is an object
+oriented API that aims to improve the readability of the source code by using
+[Method chaining](https://en.wikipedia.org/wiki/Method_chaining).
 
-```javascript
-class Car {
-  constructor(make, model, color) {
-    this.make = make;
-    this.model = model;
-    this.color = color;
-  }
+While there can be some contexts, frequently builder objects, where this
+pattern reduces the verbosity of the code, more often it comes at some costs:
 
-  setMake(make) {
-    this.make = make;
-  }
+1. Breaks [Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_%28object-oriented_programming%29).
+2. Breaks [Decorators](https://en.wikipedia.org/wiki/Decorator_pattern).
+3. Is harder to [mock](https://en.wikipedia.org/wiki/Mock_object) in a test suite.
+4. Makes diffs of commits harder to read.
 
-  setModel(model) {
-    this.model = model;
-  }
+While fluent interfaces are great for [Builder pattern](https://refactoring.guru/design-patterns/builder),
+it’s considered harmful for other cases (and we know, it’s not a really popular decision in JavaScript community).
 
-  setColor(color) {
-    this.color = color;
-  }
 
-  save() {
-    console.log(this.make, this.model, this.color);
-  }
-}
-
-const car = new Car('Ford','F-150','red');
-car.setColor('pink');
-car.save();
-```
-
-**Good:**
-
-```javascript
-class Car {
-  constructor(make, model, color) {
-    this.make = make;
-    this.model = model;
-    this.color = color;
-  }
-
-  setMake(make) {
-    this.make = make;
-    // NOTE: Returning this for chaining
-    return this;
-  }
-
-  setModel(model) {
-    this.model = model;
-    // NOTE: Returning this for chaining
-    return this;
-  }
-
-  setColor(color) {
-    this.color = color;
-    // NOTE: Returning this for chaining
-    return this;
-  }
-
-  save() {
-    console.log(this.make, this.model, this.color);
-    // NOTE: Returning this for chaining
-    return this;
-  }
-}
-
-const car = new Car('Ford','F-150','red')
-  .setColor('pink')
-  .save();
-```
 
 **[⬆ back to top](#table-of-contents)**
 
