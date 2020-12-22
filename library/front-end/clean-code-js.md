@@ -1224,7 +1224,7 @@ pattern reduces the verbosity of the code, more often it comes at some costs:
 3. Is harder to [mock](https://en.wikipedia.org/wiki/Mock_object) in a test suite.
 4. Makes diffs of commits harder to read.
 
-While fluent interfaces are great for [Builder pattern](https://refactoring.guru/design-patterns/builder),
+While fluent interfaces are great for [Builder](https://refactoring.guru/design-patterns/builder) and (Composite)[https://en.wikipedia.org/wiki/Composite_pattern] patterns,
 it’s considered harmful for other cases (and we know, it’s not a really popular decision in JavaScript community).
 
 
