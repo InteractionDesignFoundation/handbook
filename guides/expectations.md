@@ -2,7 +2,7 @@
 
 We are a small team of senior developers, and the IxDF does not employ junior or medium level developers. That’s why this list only includes our expectations for senior developers.
 
-# Senior developer
+## Senior developer
 
 1.  A senior developer understands and is aligned with the IxDF Company Culture which is _very briefly_ [explained here](../company/about.md#culture) and **very** thoroughly explained in our "IxDF Company Culture Course" (taken during your onboarding phase).
 1.  **Seriousness firstly means "responsibility"**. Responsibility for your decisions, solutions, code,
@@ -14,7 +14,7 @@ We are a small team of senior developers, and the IxDF does not employ junior or
 1.  A senior developer **finds and fixes the root causes of the problem** and not just the symptoms.
 1.  A senior developer can **self-reliantly deliver working software**.
 1.  A senior developer understands that their job is to **provide solutions to problems**, not to write code.
-1.  A senior developer **knows their tools**: IDE, OS, debugging, etc.
+1.  A senior developer [**knows their tools**](https://stitcher.io/blog/craftsmen-know-their-tools): IDE, OS, debugging, etc.
 1.  A senior developer **knows how to choose a right tool and framework**.
 1.  A senior developer actively employs the Boyscout principle and helps update this documentation ("always leave the campground cleaner than you found it")
 1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what’s written on this page, written in the [IxDF Zen Code](../README.md#the-ixdf-zen-code), taught in the IxDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
