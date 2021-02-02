@@ -26,7 +26,7 @@ We want to maintain it in perfect condition, and your fresh look at the process 
 1.  Never stop learning 📖 Go through our library and create a plan on acquiring every bit of knowledge there.
     Once you have a plan, please discuss it with your mentor. (Are you full-stack? Then please open both links ☀️): - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md) - Literature/subscriptions [for front-end developers](../../library/front-end/literature.md)
 1.  We have an amazing course on IxDF’s company culture! You should have already completed lesson 0 and now you may continue with the rest of the lessons. [IxDF Onboarding & Company Culture Course
-, click here](https://www.interaction-design.org/courses/ixdf-company-culture-course).
+    , click here](https://www.interaction-design.org/courses/ixdf-company-culture-course).
 1.  Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md).
     1. [Scrum](../scrum/README.md)
