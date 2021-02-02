@@ -18,14 +18,15 @@ We want to maintain it in perfect condition, and your fresh look at the process 
 
 ## Plan
 
-1.  Simply head over to [🔒 http://onboarding.interaction-design.org/](http://onboarding.interaction-design.org/) where everything is explained.
+1.  To start, head over to [🔒 IxDF Onboarding & Company Culture Course](https://www.interaction-design.org/courses/ixdf-company-culture-course) and go through lesson 0 where the onboarding isexplained.
 1.  Know our [collaboration tools](../collaboration-tools.md).
 1.  Know our [expectations from you and your work](../expectations.md).
 1.  Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link).
     It’s a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
 1.  Never stop learning 📖 Go through our library and create a plan on acquiring every bit of knowledge there.
     Once you have a plan, please discuss it with your mentor. (Are you full-stack? Then please open both links ☀️): - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md) - Literature/subscriptions [for front-end developers](../../library/front-end/literature.md)
-1.  We have an amazing course on IxDF’s company culture! Ping the member experience team if they haven't already enrolled you in the course. To find a timeline and more information about the [IxDF company culture course, click here](https://onboarding.interaction-design.org/culture-course.html).
+1.  We have an amazing course on IxDF’s company culture! You should have already completed lesson 0 and now you may continue with the rest of the lessons. [IxDF Onboarding & Company Culture Course
+, click here](https://www.interaction-design.org/courses/ixdf-company-culture-course).
 1.  Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md).
     1. [Scrum](../scrum/README.md)
