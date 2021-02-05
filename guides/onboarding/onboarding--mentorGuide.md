@@ -4,7 +4,7 @@
 
 Every new team-member will have on onboarding buddy smooth onboarding process. The onboarding buddy should work in the [almost] same timezone as the new team member.
 
-We have an "Onboarding Buddy playbook" in our Dropbox folder that you should read and follow in order to create the ultimate onboarding experience for a new team member (in addition to all the ressources on [https://onboarding.interaction-design.org/](https://onboarding.interaction-design.org/) )
+We have an "Onboarding Buddy playbook" in our Dropbox folder that you should read and follow in order to create the ultimate onboarding experience for a new team member (in addition to all the resources on “Onboarding & Company Culture Course” you should be enrolled to).
 
 Your main work as an Onboarding Buddy is to help the new team member feel welcome, not to lose track, and finally get his feedback and transform it into actions like:
 
