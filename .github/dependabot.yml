@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 50
+    labels:
+      - "dependencies"
+      - "npm dependencies"
+      - "urgency:low"
+    reviewers:
+      - hasan-wajahat
+    assignees:
+      - ixdf-bot
