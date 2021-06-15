@@ -47,9 +47,9 @@ Happy reading/hacking!
 
 Are you ready for new challenges? Great!
 
-Your onboarding buddy should prepare a number of tasks for your smooth onboarding to the codebase. You will be assigned to your first Github issues, make your first contribution to our codebase, create your first PR — a lot of exciting stuff!
+Your onboarding buddy should prepare a number of tasks for your smooth onboarding to the codebase. You will be assigned to your first GitHub issues, make your first contribution to our codebase, create your first PR — a lot of exciting stuff!
 
-Your first Github issues will be tasks that take you through some of the core sub-systems of our codebase. That will give you a better overview of what these sub-systems do and the state of the code within each sub-system (e.g. what’s the amount of technical debt versus up-to-date code in a given system). Don’t be alarmed if some of the issues will lead you into areas of the codebase where you find technical debt or spaghetti. That’s intentional so you get exposed to both great code and technical debt.
+Your first GitHub issues will be tasks that take you through some core sub-systems of our codebase. That will give you a better overview of what these sub-systems do and the state of the code within each sub-system (e.g. what’s the amount of technical debt versus up-to-date code in a given system). Don’t be alarmed if some of the issues will lead you into areas of the codebase where you find technical debt or spaghetti. That’s intentional so you get exposed to both great code and technical debt.
 
 May the Force be with you!
 

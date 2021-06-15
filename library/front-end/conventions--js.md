@@ -15,10 +15,9 @@ To get a deeper understanding of how to write effective functional JS explore th
 
 ## Code style
 
-Our code-styling rules are based on [prettier](https://github.com/prettier/prettier) and `eslint:recommended` rules. We
-also use some ESLint plugins to extend these rules.
-
-We try to stick to Prettier’s defaults, but have a few overrides to keep our JavaScript code style consistent with PHP.
+Our code-styling rules are based on `eslint:recommended` rules. We
+also use some ESLint plugins to extend these rules. You can check all our custom rules at the
+[.eslintrc.js](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.eslintrc.js) file.
 
 The first two rules are actually configured with `.editorconfig` and connected to each other:
 

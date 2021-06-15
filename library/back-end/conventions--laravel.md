@@ -1,6 +1,9 @@
 # Laravel conventions
 
-First and foremost, Laravel provides the most value when you write things the way Laravel intended you to write.
+## Strategy
+
+First and foremost, Laravel provides the most value when you **write things the way Laravel intended you to write**.
+It means better and more extensive use of native laravel features or Laravel “products” like Nova.
 Whenever you do something differently, make sure you have a justification for why you didn’t follow the defaults.
 
 Secondary, Laravel often provides few ways/APIs to archive your goals, in this document
@@ -174,6 +177,24 @@ public function store(Request $request)
     $email = $request->get('email');
 }
 ```
+
+## Responses
+
+### Less magic
+
+```php
+// GOOD
+return redirect()->route('home');
+return redirect()->to($url);
+
+// BAD
+return redirect(route('home')); // mixed return type (RedirectResponse|Redirector)
+return redirect($url); // mixed return type (RedirectResponse|Redirector)
+```
+
+### Status Codes
+
+See [HTTP response status codes](/docs/code/http-response-status-codes.md).
 
 ## Routing
 
