@@ -29,7 +29,7 @@
         "pretty-quick": "^2.0.2"
     },
     "devDependencies": {
-        "@interaction_design_foundation/vuepress-theme-ixdf": "^0.0.1",
+        "@interaction_design_foundation/vuepress-theme-ixdf": "^0.0.2",
         "@vuepress/plugin-medium-zoom": "^1.7.1",
         "vuepress": "^1.7.1",
         "vuepress-plugin-mermaidjs": "^1.8.0"
