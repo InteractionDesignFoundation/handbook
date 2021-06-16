@@ -86,7 +86,7 @@ function scrollTo(offset) {
 // BAD
 // Using an arrow function doesn't provide any benefits here, while the
 // `function`  keyword immediately makes it clear that this is a function.
-const scrollTo = offset => {
+const scrollTo = (offset) => {
     // ...
 };
 ```
@@ -111,11 +111,11 @@ function sum(a, b) {
 }
 
 // GOOD
-const adder = a => b => sum(a, b);
+const adder = (a) => (b) => sum(a, b);
 
 // OK, but unnecessarily noisy.
 function adder(a) {
-    return function(b) {
+    return function (b) {
         return sum(a, b);
     };
 }
@@ -124,7 +124,7 @@ function adder(a) {
 Anonymous functions should use arrow functions (Unless they need access to `this`).
 
 ```js
-["a", "b"].map(a => a.toUpperCase());
+["a", "b"].map((a) => a.toUpperCase());
 ```
 
 ## Object and array destructuring
@@ -160,7 +160,7 @@ Or with our custom fetch promise
 ```js
 const response = await getHttpClient()
     .get("url")
-    .catch(error => log(error));
+    .catch((error) => log(error));
 if (response) {
     notify.success(response.message);
 }
