@@ -10,7 +10,7 @@ Our mission is to create low-cost, high-quality design education so as to change
 
 ## Culture
 
--   We love results, productivity, focus, and efficiency. And we believe this is achieved through an approach of "work hard, play hard," having a love for what we do, a thirst for learning, and by taking great care of each other. And well... a lot of other things. But you will learn about that in the "Onboarding & Company Culture Course", a special IxDF course that tells you everything about our company culture - along with exercises.
+-   We love results, productivity, focus, and efficiency. And we believe this is achieved through an approach of "work hard, play hard," having a love for what we do, a thirst for learning, and by taking great care of each other. And well... a lot of other things. But you will learn about that in the "Culture Course", a special onboarding course that tells you everything about our company culture - along with exercises.
 -   We pride ourselves on being friendly, compassionate and supportive; we also encourage a sense of fun in the things we do.
 -   We value concentration and believe that interruptions, meetings, and egos can kill productivity. That’s why work often does not happen at work.
 -   We think remarkable results are produced when being in a flow. That’s why we value location independent work.
