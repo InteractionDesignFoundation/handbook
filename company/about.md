@@ -1,6 +1,6 @@
 # About IxDF
 
-We are the biggest online design school globally. Since we were founded in 2002, our courses, webinars and open-source literature have guided over 110,000 current and aspiring designers through their UI/UX design journey. Our mission is to continue increasing the quality of design education while keeping it both accessible and affordable. With our help, learners all over the world can use our industry-recognized course certificates to make a life-changing shift into UX design or stay ahead in their careers.
+We are the biggest online design school globally. Since we were founded in 2002, our courses, webinars and open-source literature have guided over 110,000 current and aspiring designers through their UI/UX design journey. Our objective is to continue increasing the quality of design education while keeping it both accessible and affordable. With our help, learners all over the world can use our industry-recognized course certificates to make a life-changing shift into UX design or stay ahead in their careers.
 
 Read more [About IxDF](https://www.interaction-design.org/about).
 
