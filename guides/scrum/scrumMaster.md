@@ -2,7 +2,7 @@
 
 Are you new to scrum? Please check out our [scrum overview](README.md).
 
-This guide is for **ScrumMaster** scrum role. To read more about scrum roles please use this link: [scrum roles](README.md#scrum-roles).
+This guide is for the **ScrumMaster** scrum role. To read more about scrum roles please use this link: [scrum roles](README.md#scrum-roles).
 
 ## Meeting: Sprint planning
 
