@@ -15,9 +15,9 @@ Scrum started in Software Development but is now being used as an approach to pr
 
 ## Scrum Roles
 
--   **[ScrumMaster](scrumMaster.md)**: helps Scrum practitioners achieve their highest level of performance.
--   **[ProductOwner](productOwner.md)**: creates a compelling vision of the product, and then conveys that vision to the team through the product backlog.
--   **[ScrumTeam](scrumTeam.md)**: contributes in whatever way they can to complete the work of each sprint.
+-   **[Scrum Master](scrumMaster.md)**: helps Scrum practitioners achieve their highest level of performance.
+-   **[Product Owner](productOwner.md)**: creates a compelling vision of the product, and then conveys that vision to the team through the product backlog.
+-   **[Scrum Team](scrumTeam.md)**: contributes in whatever way they can to complete the work of each sprint.
 
 ## Scrum sprint
 
@@ -60,7 +60,7 @@ In Scrum, each sprint is required to deliver a potentially shippable product inc
 For example, in the case of the development team, this means that at the end of each sprint the team has produced a coded, tested and usable piece of software. In the case of the editorial team, it means that at the end of each sprint the team has produced a coherent and definable piece of work (e.g. a number of lesson items, a number of videos, etc) that can be demo'ed/viewed and potentially shipped.
 
 **Part 2: Sprint Retrospective**:
-No matter how good a Scrum team is, there is always opportunity to improve.
+No matter how good a Scrum team is, there is always an opportunity to improve.
 Although a good Scrum team will be constantly looking for improvement opportunities, the team should set aside a brief, dedicated period at the end of each sprint to deliberately reflect on how they are doing, and to find ways to improve.
 This occurs during the Sprint Retrospective.
 
