@@ -1,9 +1,7 @@
 # How to get domain knowledge
 
 We’ve developed a few onboarding activities to give you a much deeper understanding of our domain. Understanding our domain,
-i.e. the platform and its features FROM OUR USERS’ PERSPECTIVE (i.e. domain knowledge) is paramount to both understanding our codebase and writing
-awesome code. Great code has a small “conceptual distance” to the domain. In other words, it minimizes cognitive complexity enormously when variable
-naming, method naming, database table naming and likewise are named “closely” to the the names of the concepts the users use.
+i.e. the platform and its features FROM OUR USERS’ PERSPECTIVE (i.e. domain knowledge) is paramount to both understanding our codebase and writing awesome code. Great code has a small “conceptual distance” to the domain. In other words, it minimizes cognitive complexity enormously when variable naming, method naming, database table naming and likewise are named “closely” to the the names of the concepts the users use.
 
 Therefore, you should carry out the following activities in a thorough manner. Don’t worry if you can’t remember all of what you
 see and learn after you’ve done the activities. As long as you do the activities thoroughly, your brain will still remember lots of
