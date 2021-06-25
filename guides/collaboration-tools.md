@@ -78,10 +78,10 @@ if case of failed builds.
 Yeah, we still use email (and pigeons) from time to time.
 To make email less dull, we ask new team members to upload their most handsome/beautiful picture with a big smile!
 
-Also, please ensure that you have easy access to check your company email inbox (consider to install a browser extension (
+Also, please ensure that you have easy access to check your company email inbox (consider installing a browser extension such as
 [Chrome](https://chrome.google.com/webstore/detail/notifier-for-gmail/dcjichoefijpinlfnjghokpkojhlhkgl?hl=en),
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/gmail-notifier-restartless/),
 [Safari](https://safari-extensions.apple.com/details/?id=com.add0n.simple-notifier-RED8XKG2R4)
-) or use mail client).
+or use mail client).
 
 🦄
