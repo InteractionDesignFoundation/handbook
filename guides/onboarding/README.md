@@ -3,7 +3,7 @@
 Welcome aboard!
 
 We know you’re amazing because you’re here (otherwise you would’t be here).
-Congrats: You've landed on one of the greatest jobs in the world! 🎉
+Congrats: You've landed one of the greatest jobs in the world! 🎉
 
 ![image](https://cdn.shopify.com/s/files/1/2297/6885/collections/plain_no_back_235x235@2x.png)
 
@@ -18,14 +18,14 @@ We want to maintain it in perfect condition, and your fresh look at the process 
 
 ## Plan
 
-1.  To start, head over to [🔒 IxDF Onboarding & Company Culture Course](https://www.interaction-design.org/courses/ixdf-company-culture-course) and go through lesson 0 where the onboarding isexplained.
+1.  To start, head over to [🔒 IxDF Onboarding & Company Culture Course](https://www.interaction-design.org/courses/ixdf-company-culture-course) and go through Lesson 0 where the onboarding is explained.
 1.  Know our [collaboration tools](../collaboration-tools.md).
 1.  Know our [expectations from you and your work](../expectations.md).
 1.  Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link).
     It’s a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
 1.  Never stop learning 📖 Go through our library and create a plan on acquiring every bit of knowledge there.
     Once you have a plan, please discuss it with your mentor. (Are you full-stack? Then please open both links ☀️): - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md) - Literature/subscriptions [for front-end developers](../../library/front-end/literature.md)
-1.  We have an amazing course on IxDF’s company culture! Ping the member experience team if they haven't already enrolled you in the course. You should have already completed lesson 0 and now you may continue with the rest of the lessons.
+1.  If you have any issues accessing the platform, our company culture course or our collaboration tools, please ing the Member Experience team via Slack so they can assist you. By this point, you should have already completed lesson 0 of the IxDF Onboarding & Company Culture course so now you may continue with the rest of the lessons.
 1.  Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md).
     1. [Scrum](../scrum/README.md)
@@ -57,7 +57,7 @@ May the Force be with you!
 
 In a few weeks, you’ll have a chance to look back at your progress within the IxDF.
 The whole development team will be very excited to get your general feedback
-(apart from your continuous talks with your mentor) and learn your progress. What you can share:
+(apart from your continuous talks with your mentor) and learn about your progress. What you can share:
 
 -   Coding: What have you finished and deployed to production that is now used by hundreds of thousands of people?
 -   Learning: What is your progress on consuming our library? How did they change you?
