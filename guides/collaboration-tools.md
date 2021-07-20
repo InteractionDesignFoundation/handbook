@@ -7,7 +7,9 @@ Please note that you should be using your company email address with all the too
 
 ## [GitHub](https://github.com/InteractionDesignFoundation)
 
-Our issue tacker and code storage. Usage of [2FA](https://github.com/settings/security) is required. We also use real face photos for a profile picture to look more friendly to your colleagues.
+Our issue tacker and code storage. [GitHub Actions](https://github.com/features/actions) is our CI/CD. 
+
+Usage of [2FA](https://github.com/settings/security) is required. We also use real face photos for a profile picture to look more friendly to your colleagues.
 
 ## [Slack](https://slack.com/download)
 
@@ -65,13 +67,6 @@ Create an account and let your onboarding buddy know so that they can add you to
 
 We use LastPass to share login credentials, API keys and some top secret information. :-)
 Please head to [credentials.md](credentials.md) to know how.
-
-## [Codeship](https://codeship.com)
-
-Our main CI/CD. Developers should have personal accounts on this service,
-your mentor or team-lead should add you to our project and at the [Connected Services](https://app.codeship.com/authentications)
-page you should connect your account with your GitHub account, so codeship can send you emails
-if case of failed builds.
 
 ## Ye Olde Email
 
