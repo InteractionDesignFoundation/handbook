@@ -7,7 +7,7 @@ Please note that you should be using your company email address with all the too
 
 ## [GitHub](https://github.com/InteractionDesignFoundation)
 
-Our issue tacker and code storage. [GitHub Actions](https://github.com/features/actions) is our CI/CD. 
+Our issue tacker and code storage. [GitHub Actions](https://github.com/features/actions) is our CI/CD.
 
 Usage of [2FA](https://github.com/settings/security) is required. We also use real face photos for a profile picture to look more friendly to your colleagues.
 
