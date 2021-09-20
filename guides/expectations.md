@@ -15,7 +15,7 @@ We are a small team of senior developers, and the IxDF does not employ junior or
 1.  A senior developer can **self-reliantly deliver working software**.
 1.  A senior developer understands that their job is to **provide solutions to problems**, not to write code.
 1.  A senior developer [**knows their tools**](https://stitcher.io/blog/craftsmen-know-their-tools): IDE, OS/terminal, debugging, static analyzers, formatters, test frameworks, CI, CD, etc.
-1.  A senior developer **knows how to choose a right tool and framework**.
+1.  A senior developer **knows how to choose the right tool and framework**.
 1.  A senior developer actively employs the Boyscout principle and helps update this documentation ("always leave the campground cleaner than you found it")
 1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what’s written on this page, written in the [IxDF Zen Code](../README.md#the-ixdf-zen-code), taught in the IxDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
 
@@ -31,7 +31,7 @@ This list is an extension of our expectations from a senior developer (see prev.
 
 This list is an extension of our expectations from a senior developer (see prev. section) for senior frontend developers.
 
-1.  Strong knowledge of HTML technologies and at least one modern JS framework and understand how it works.
+1.  Strong knowledge of HTML technologies and at least one modern JS framework and an understanding of how it works.
 1.  Middle-level knowledge of at least one different JS framework OR strong understanding of design patterns.
 
 ## Short articles to read
