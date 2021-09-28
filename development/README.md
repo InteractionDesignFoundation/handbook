@@ -24,7 +24,7 @@ To achieve this, we want everyone to understand what is expected of them, the th
     -   [Our expectations from you and your work](/guides/expectations.md)
     -   [Collaboration tools](/guides/collaboration-tools.md)
     -   [Access to credentials](/guides/credentials.md)
--   [Library](/development/README.md)
+-   Library
     -   [Back end](/development/back-end/README.md)
     -   [Front end](/development/front-end/README.md)
 

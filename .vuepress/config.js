@@ -90,20 +90,20 @@ module.exports = {
                 title: "Back end",
                 collapsable: false,
                 children: [
-                    "/library/back-end/clean-code-php",
-                    "/library/back-end/conventions--php",
-                    "/library/back-end/conventions--laravel",
-                    "/library/back-end/SOLID",
-                    "/library/back-end/literature"
+                    "/development/back-end/clean-code-php",
+                    "/development/back-end/conventions--php",
+                    "/development/back-end/conventions--laravel",
+                    "/development/back-end/SOLID",
+                    "/development/back-end/literature"
                 ]
             },
             {
                 title: "Front end",
                 collapsable: false,
                 children: [
-                    "/library/front-end/clean-code-js",
-                    "/library/front-end/conventions--js",
-                    "/library/front-end/literature"
+                    "/development/front-end/clean-code-js",
+                    "/development/front-end/conventions--js",
+                    "/development/front-end/literature"
                 ]
             }
         ],
