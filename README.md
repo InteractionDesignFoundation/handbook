@@ -1,39 +1,22 @@
-<p align="center"><img src="https://public-media.interaction-design.org/images/idf-logo-full-expanded.svg" alt="In amazing things we trust" width="400"></p>
+---
+sidebar: false
+---
 
-# IxDF Dev Handbook
+# IxDF System
 
-At IxDF, we're building an open and transparent company, full of people who love their work and enjoy the challenges they face every day.
-To achieve this, we want everyone to understand what is expected of them, the things we value and the things we believe should be avoided.
+To accomplish our Mission and achieve our Vision efficiently, the IxDF relies on processes and tools.
 
-## Table of Contents
+The most widely-used is our OKR Process that helps us to work together and get things done within and across teams. The OKR Process is supported by our Product Process which is how we design and and deliver the future, and our Development Process which is how we build the future.
 
--   Company
-    -   [About](/company/about.md)
--   Guides
-    -   [Onboarding](/guides/onboarding/README.md)
-    -   People Operations
-        -   [Team Trips](/guides/people_operations/team-trips.md)
-        -   [Video Calls](/guides/people_operations/video-calls.md)
-    -   [Scrum](/guides/scrum/README.md)
-        -   [How to fill out your Backlog](/guides/scrum/backlog.md)
-        -   [Role: ProductOwner](/guides/scrum/productOwner.md)
-        -   [Role: ScrumMaster](/guides/scrum/scrumMaster.md)
-        -   [Role: ScrumTeam](/guides/scrum/scrumTeam.md)
-    -   [Our expectations from you and your work](/guides/expectations.md)
-    -   [Collaboration tools](/guides/collaboration-tools.md)
-    -   [Access to credentials](/guides/credentials.md)
--   [Library](/library/README.md)
-    -   [Back end](/library/back-end/README.md)
-    -   [Front end](/library/front-end/README.md)
+## Purpose
+Why we do what we do
 
-## Links
+## Process
+How we get things done
 
--   [Handbook contribution guide](CONTRIBUTING.md): how to make this document even better 🦄
--   🔒 Shared folders at [Dropbox.com](https://www.dropbox.com/share/) (ask **@madssoegaard** to give you access)
--   [🔒 developer docs](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/README.md) - development-related documents
+## Product
+How we design and deliver
 
-## The IxDF Zen Code
+## Development
+How we build
 
-![image](https://user-images.githubusercontent.com/13465519/45677743-8445e980-bb67-11e8-9243-9ae29dea255a.png)
-
-🦄

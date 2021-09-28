@@ -30,6 +30,7 @@
     },
     "devDependencies": {
         "@interaction_design_foundation/vuepress-theme-ixdf": "^0.0.2",
+        "@vuepress/plugin-back-to-top": "^1.8.2",
         "@vuepress/plugin-medium-zoom": "^1.7.1",
         "vuepress": "^1.7.1",
         "vuepress-plugin-mermaidjs": "^1.8.0"

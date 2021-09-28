@@ -1,5 +1,5 @@
 :root {
-    --font-size-default: 18px;
+    --font-size-default: 16px;
     --font-serif: 'Merriweather', georgia, serif;
     --font-sans-serif: 'Source Sans Pro', arial, sans-serif;
     --font-monospace: 'Source Code Pro', monospace;
@@ -13,7 +13,7 @@
 
 body {
     font-family: var(--font-sans-serif);
-    font-size: 18px;
+    font-size: 16px;
     @media (max-width: 767px) {
         font-size: 16px;
     }
@@ -24,8 +24,8 @@ h2,
 h3,
 h4,
 h5,
-h6,
- {
+h6
+{
     font-family: var(--font-sans-serif);
     font-weight: 700;
     line-height: 1.2;
@@ -53,6 +53,15 @@ h3 {
     margin-top: 40px;
 }
 
+.header {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: -0.75px;
+    text-align center
+}
+
 h4 {
     font-size: 1.25rem;
     margin-bottom: 16px;
@@ -71,12 +80,11 @@ h6 {
     margin-top: 24px;
 }
 
-p {
-    font-family: var(--font-serif);
+p, ul, ol {
+    font-family: var(--font-sans-serif);
     font-size: 1rem;
     font-weight: normal;
-    line-height: 1.78;
-    margin-bottom: 24px;
+    line-height: 1.7;
 }
 
 code {
@@ -86,7 +94,7 @@ code {
 }
 
 li {
-    font-family: var(--font-serif);
+    font-family: var(--font-sans-serif);
 }
 
 .navbar span.site-name {
@@ -132,6 +140,6 @@ a.sidebar-link {
     margin: 0 0 8px !important;
 }
 
-.sidebar-group.is-sub-group>.sidebar-heading {
+.sidebar-group.is-sub-group > .sidebar-heading {
     font-size: 1em !important;
 }

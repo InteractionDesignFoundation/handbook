@@ -9,7 +9,7 @@
 module.exports = {
     dest: ".vuepress/dist",
     theme: "@interaction_design_foundation/ixdf",
-    title: "IxDF Dev handbook",
+    title: "IxDF System",
     description: "Handbook and guidelines for 🦄 developers.",
     head: [
         [
@@ -32,7 +32,8 @@ module.exports = {
 
     plugins: [
         "mermaidjs", // @see https://vuepress-plugin-mermaidjs.efrane.com/ and @see https://mermaid-js.github.io/mermaid/#/
-        "@vuepress/medium-zoom" // @see https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html
+        "@vuepress/medium-zoom", // @see https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html
+        '@vuepress/plugin-back-to-top', // @see https://vuepress.vuejs.org/plugin/official/plugin-back-to-top.html
     ],
 
     // https://vuepress.vuejs.org/theme/default-theme-config.html#homepage
@@ -42,13 +43,19 @@ module.exports = {
         editLinks: true,
         editLinkText: "Improve this page",
         lastUpdated: "Last Updated", // string | boolean
+        smoothScroll: true,
+        logo: '/hydrogenlogo.svg',
         nav: [
-            { text: "Home", link: "/" },
-            { text: "Design System", link: "https://design-system.interaction-design.org" },
+            { text: 'Purpose', link: '/purpose/',},
+            { text: 'Process', link: '/process/',},
+            { text: 'Product', link: '/product/',},
+            { text: 'Development', link: '/development/',},
+            { text: 'Design System', link: 'https://design-system.interaction-design.org/'},
+            { text: 'Resources', link: '/resources/',},
             { text: "🔒Internal Docs", link: "https://docs.information-architecture.org" }
         ],
 
-        sidebarDepth: 0,
+        sidebarDepth: 1,
         sidebar: [
             "/company/about",
             {
