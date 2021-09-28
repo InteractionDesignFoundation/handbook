@@ -23,6 +23,3 @@ dolor. Egestas egestas fringilla phasellus faucibus. Adipiscing vitae proin sagi
 eu volutpat odio facilisis mauris. Volutpat ac tincidunt vitae semper quis lectus nulla at. Odio pellentesque diam
 volutpat commodo sed egestas. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. Placerat vestibulum lectus
 mauris ultrices eros.
-
-
-
