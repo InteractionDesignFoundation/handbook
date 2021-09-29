@@ -4,6 +4,8 @@ sidebar: auto
 
 # Process
 
+![A woman points at a whiteboard](/hero-three.png)
+
 ## WHY Do We Use OKRs?
 
 -   OKRs help us realize our vision and mission because OKRs bridge the gap between our vision, mission, and strategy to the way we form concrete Objectives and execute Key Results in our daily work.
@@ -11,13 +13,9 @@ sidebar: auto
 -   They help us track our individual and Team progress, create alignment in our Teams and across Teams so everyone moves towards achieving the same overall goals.
 -   OKRs improve our focus and increase transparency.
 
-## Subsections
+## Quick Links
 
--   [Benefits of OKRs](benefits-of-okrs)
--   [OKR Usage](okr-usage)
--   [Our OKR Process](okr-process)
--   [Quarterly Meeting](quarterly-meeting)
--   [OKR History](okr-history)
+<ChildTableOfContents :header="true"/>
 
 ## WHAT are Objectives And Key Results (OKRs)?
 

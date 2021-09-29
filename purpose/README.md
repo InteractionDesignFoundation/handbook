@@ -1,10 +1,10 @@
 ---
-sidebar: auto
+sidebar: false
 ---
 
 # Purpose
 
-![A woman points at a whiteboard](/purpose-hero.png)
+![A woman points at a whiteboard](/hero-two.png)
 
 ## Our Mission
 

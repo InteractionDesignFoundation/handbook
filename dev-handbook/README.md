@@ -2,7 +2,7 @@
 sidebar: false
 ---
 
-# IxDF Dev Handbook
+# Dev Handbook
 
 At IxDF, we're building an open and transparent company, full of people who love their work and enjoy the challenges they face every day.
 To achieve this, we want everyone to understand what is expected of them, the things we value and the things we believe should be avoided.
@@ -25,8 +25,8 @@ To achieve this, we want everyone to understand what is expected of them, the th
     -   [Collaboration tools](/guides/collaboration-tools.md)
     -   [Access to credentials](/guides/credentials.md)
 -   Library
-    -   [Back end](/development/back-end/README.md)
-    -   [Front end](/development/front-end/README.md)
+    -   [Back end](/dev-handbook/back-end/README.md)
+    -   [Front end](/dev-handbook/front-end/README.md)
 
 ## Links
 
