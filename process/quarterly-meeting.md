@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 aliqua. Nunc sed id semper risus in hendrerit. Condimentum lacinia quis vel eros donec ac odio tempor orci. Nullam
 vehicula ipsum a arcu cursus vitae.
 
-![](/42-end-of-quarter-meeting-metrics.svg)
+![](../images/42-end-of-quarter-meeting-metrics.svg)
 
 ## The Meeting
 
@@ -18,4 +18,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 aliqua. Nunc sed id semper risus in hendrerit. Condimentum lacinia quis vel eros donec ac odio tempor orci. Nullam
 vehicula ipsum a arcu cursus vitae.
 
-![](/43-end-of-quarter-meeting-team.svg)
+![](../images/43-end-of-quarter-meeting-team.svg)

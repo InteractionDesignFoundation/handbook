@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 aliqua. Nunc sed id semper risus in hendrerit. Condimentum lacinia quis vel eros donec ac odio tempor orci. Nullam
 vehicula ipsum a arcu cursus vitae.
 
-![](/45-okr-history-people.svg)
+![](../images/45-okr-history-people.svg)
 
 ### The OKR Approach and its Relation to Other Methods
 
@@ -18,4 +18,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 aliqua. Nunc sed id semper risus in hendrerit. Condimentum lacinia quis vel eros donec ac odio tempor orci. Nullam
 vehicula ipsum a arcu cursus vitae.
 
-![](/46-okr-history-timeline.svg)
+![](../images/46-okr-history-timeline.svg)

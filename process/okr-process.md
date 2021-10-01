@@ -9,21 +9,21 @@ sidebar: auto
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 aliqua. Nunc sed id semper risus in hendrerit.
 
-![](/24-okr-cascade-part-1.svg)
+![](../images/24-okr-cascade-part-1.svg)
 
 ## The OKR Quarter
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 aliqua. Nunc sed id semper risus in hendrerit.
 
-![](/25-okr-cascade-part-2.svg)
+![](../images/25-okr-cascade-part-2.svg)
 
 ## Familiarize yourself with the OKR Planning Spreadsheet
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 aliqua. Nunc sed id semper risus in hendrerit.
 
-![](/26-okr-quarter-reference.svg)
+![](../images/26-okr-quarter-reference.svg)
 
 ## Fill Out Spreadsheet Before Quarterly OKR Meeting
 
@@ -31,7 +31,7 @@ Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Egestas
 neque vitae tempus quam pellentesque. Semper viverra nam libero justo laoreet sit amet cursus sit. Purus in massa tempor
 nec feugiat.
 
-![](/27-okr-spreadsheet-part-1.svg)
+![](../images/27-okr-spreadsheet-part-1.svg)
 
 ## Define Your Objectives
 
@@ -39,7 +39,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/28-okr-spreadsheet-part-2.svg)
+![](../images/28-okr-spreadsheet-part-2.svg)
 
 ## Define Your Key Results
 
@@ -47,7 +47,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/29-okr-spreadsheet-part-3.svg)
+![](../images/29-okr-spreadsheet-part-3.svg)
 
 ## Define Your KPIs
 
@@ -55,7 +55,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/30-okr-spreadsheet-part-4.svg)
+![](../images/30-okr-spreadsheet-part-4.svg)
 
 ## Ramp Up Your Ambition
 
@@ -63,7 +63,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/31-okr-spreadsheet-part-5.svg)
+![](../images/31-okr-spreadsheet-part-5.svg)
 
 ## Ensure Your OKRs are S.M.A.R.T
 
@@ -71,7 +71,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/33-smart-okrs.svg)
+![](../images/33-smart-okrs.svg)
 
 ## Hold a Quarterly OKR Meeting
 
@@ -79,7 +79,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/34-quarterly-meeting.svg)
+![](../images/34-quarterly-meeting.svg)
 
 ## Prepare Yourself for a Sprint Planning Meeting
 
@@ -87,7 +87,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/35-sprint-planning-prep.svg)
+![](../images/35-sprint-planning-prep.svg)
 
 ## Hold a Sprint Planning Meeting
 
@@ -95,7 +95,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/36-sprint-planning-meeting.svg)
+![](../images/36-sprint-planning-meeting.svg)
 
 ## Do a Daily Standup
 
@@ -103,7 +103,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/37-daily-standup.svg)
+![](../images/37-daily-standup.svg)
 
 ## Prepare for Bi-Weekly OKR 1:1 Check-in Meeting
 
@@ -111,7 +111,7 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/38-one-to-one-checkin-prep.svg)
+![](../images/38-one-to-one-checkin-prep.svg)
 
 ## Hold the Bi-Weekly Team-wide OKR Check-in Meeting
 
@@ -119,4 +119,4 @@ Orci ac auctor augue mauris augue neque. Semper eget duis at tellus. Blandit lib
 vivamus. Montes nascetur ridiculus mus mauris vitae ultricies leo. Quam quisque id diam vel quam elementum pulvinar
 etiam non.
 
-![](/39-team-checkin.svg)
+![](../images/39-team-checkin.svg)
