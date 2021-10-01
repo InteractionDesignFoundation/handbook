@@ -13,10 +13,10 @@ OKR Process is supported by our [Product Process](/product) which is how we desi
 Process](/development) which is how we build and maintain them.
 
 ## Quick Links
-- [Purpose](about/purpose.md)
-- [Process](process)
-- [Product](product)
-- [Development](development)
-- [Design System](https://design-system.interaction-design.org/)
-- [Resources](resources)
 
+-   [Purpose](about/purpose.md)
+-   [Process](process)
+-   [Product](product)
+-   [Development](development)
+-   [Design System](https://design-system.interaction-design.org/)
+-   [Resources](resources)
