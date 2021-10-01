@@ -4,7 +4,7 @@ sidebar: false
 
 # IxDF System
 
-![A woman points at a whiteboard](/hero-one.png)
+![](./images/hero-all.svg)
 
 To accomplish our Mission and achieve our Vision efficiently, the IxDF relies on processes and tools.
 
@@ -13,9 +13,10 @@ OKR Process is supported by our [Product Process](/product) which is how we desi
 Process](/development) which is how we build and maintain them.
 
 ## Quick Links
+- [Purpose](about/purpose.md)
+- [Process](process)
+- [Product](product)
+- [Development](development)
+- [Design System](https://design-system.interaction-design.org/)
+- [Resources](resources)
 
-<ChildTableOfContents :max="1"/>
-
-## All Content
-
-<ChildTableOfContents :max="5"/>

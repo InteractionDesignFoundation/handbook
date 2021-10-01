@@ -4,7 +4,7 @@ sidebar: auto
 
 # Process
 
-![A woman points at a whiteboard](/hero-three.png)
+![](../images/hero-process.svg)
 
 ## About the IxDF Process
 

@@ -4,7 +4,7 @@ sidebar: false
 
 # Product
 
-![A woman points at a whiteboard](/hero-four.png)
+![](../images/hero-product.svg)
 
 ## How We Develop Products
 

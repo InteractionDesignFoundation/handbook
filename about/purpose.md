@@ -4,7 +4,7 @@ sidebar: false
 
 # Purpose
 
-![A woman points at a whiteboard](/hero-two.png)
+![](../images/hero-purpose.svg)
 
 ## Our Mission
 

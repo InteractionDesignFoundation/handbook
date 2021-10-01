@@ -24,16 +24,16 @@ sidebar: auto
 
 ## OKR Method — Alignment
 
-![Diagram of OKR alignment](/5-alignment.svg)
+![Diagram of OKR alignment](../images/5-alignment.svg)
 
 ## Objective, Key Result and Task — Part 1
 
-![Diagram of OKR alignment](/6-okr-part-1.svg)
+![Diagram of OKR alignment](../images/6-okr-part-1.svg)
 
 ## Objective, Key Result and Task — Part 2
 
-![Diagram of OKR alignment](/7-okr-part-2.svg)
+![Diagram of OKR alignment](../images/7-okr-part-2.svg)
 
 ## OKR Examples
 
-![Diagram of OKR alignment](/8-okr-examples.svg)
+![Diagram of OKR alignment](../images/8-okr-examples.svg)
