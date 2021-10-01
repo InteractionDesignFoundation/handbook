@@ -6,35 +6,23 @@ sidebar: auto
 
 ![A woman points at a whiteboard](/hero-three.png)
 
-## WHY Do We Use OKRs?
+## About the IxDF Process
 
--   OKRs help us realize our vision and mission because OKRs bridge the gap between our vision, mission, and strategy to the way we form concrete Objectives and execute Key Results in our daily work.
--   OKRs help us create a weekly, quarterly, and yearly overview over how our daily tasks are connected to our vision and help us decide individually, and in our Teams, which steps are the best to take.
--   They help us track our individual and Team progress, create alignment in our Teams and across Teams so everyone moves towards achieving the same overall goals.
--   OKRs improve our focus and increase transparency.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Nunc sed id semper risus in hendrerit. Condimentum lacinia quis vel eros donec ac odio tempor orci. Nullam
+vehicula ipsum a arcu cursus vitae. Cras tincidunt lobortis feugiat vivamus. Massa massa ultricies mi quis hendrerit
+dolor. Egestas egestas fringilla phasellus faucibus. Adipiscing vitae proin sagittis nisl rhoncus mattis. Orci sagittis
+eu volutpat odio facilisis mauris. Volutpat ac tincidunt vitae semper quis lectus nulla at. Odio pellentesque diam
+volutpat commodo sed egestas. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. Placerat vestibulum lectus
+mauris ultrices eros.
 
 ## Quick Links
 
-<ChildTableOfContents :header="true"/>
+- [About OKRs](/process/about-okrs.md)
+- [Benefits of OKRs](/process/benefits-of-okrs.md)
+- [How We Use OKRs at the IxDF](/process/okr-usage.md)
+- [Step-by-Step Process](/process/okr-process.md)
+- [Quarterly Meeting](/process/quarterly-meeting.md)
+- [History of OKRs](/process/okr-history.md)
 
-## WHAT are Objectives And Key Results (OKRs)?
 
--   The OKR method is a popular strategy for goal setting within organizations.
--   The OKR method combines vision, mission, values and strategy with day-to-day work
--   The OKR method is a collaborative goal-setting tool which we use to realize our vision and mission in the best possible way because OKRs connect our organization, Teams, and personal goals to measurable results while having all Team Members and Team Leads work together in one, unified direction.
-
-## OKR Method — Alignment
-
-![Diagram of OKR alignment](/okr-alignment.png)
-
-## Objective, Key Result and Task — Part 1
-
-![Diagram of OKR alignment](/okr-part-1.png)
-
-## Objective, Key Result and Task — Part 2
-
-![Diagram of OKR alignment](/okr-part-2.png)
-
-## OKR Examples
-
-![Diagram of OKR alignment](/okr-alignment.png)

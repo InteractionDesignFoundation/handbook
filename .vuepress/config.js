@@ -35,7 +35,6 @@ module.exports = {
         "@vuepress/medium-zoom", // @see https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html
         '@vuepress/plugin-back-to-top', // @see https://vuepress.vuejs.org/plugin/official/plugin-back-to-top.html,
         'vuepress-plugin-child-toc', // @see https://github.com/tchiotludo/vuepress-plugin-child-toc
-        'vuepress-plugin-global-toc' // @see https://github.com/sylvainpolletvillard/vuepress-plugin-global-toc
     ],
 
     // https://vuepress.vuejs.org/theme/default-theme-config.html#homepage
@@ -48,17 +47,19 @@ module.exports = {
         smoothScroll: true,
         logo: '/hydrogenlogo.svg',
         nav: [
-            { text: 'Purpose', link: '/purpose/',},
+            { text: 'Purpose', link: '/about/purpose/',},
             { text: 'Process', link: '/process/',},
             { text: 'Product', link: '/product/',},
-            { text: 'Dev Handbook', link: '/dev-handbook/',},
+            { text: 'Development', link: '/development/',},
             { text: 'Design System', link: 'https://design-system.interaction-design.org/'},
             { text: 'Resources', link: '/resources/',},
             { text: "🔒Internal Docs", link: "https://docs.information-architecture.org" }
         ],
 
         sidebarDepth: 1,
-        sidebar: [
+
+
+sidebar: [
             "/company/about",
             {
                 title: "Guides",
@@ -92,20 +93,20 @@ module.exports = {
                 title: "Back end",
                 collapsable: false,
                 children: [
-                    "/dev-handbook/back-end/clean-code-php",
-                    "/dev-handbook/back-end/conventions--php",
-                    "/dev-handbook/back-end/conventions--laravel",
-                    "/dev-handbook/back-end/SOLID",
-                    "/dev-handbook/back-end/literature"
+                    "/development/back-end/clean-code-php",
+                    "/development/back-end/conventions--php",
+                    "/development/back-end/conventions--laravel",
+                    "/development/back-end/SOLID",
+                    "/development/back-end/literature"
                 ]
             },
             {
                 title: "Front end",
                 collapsable: false,
                 children: [
-                    "/dev-handbook/front-end/clean-code-js",
-                    "/dev-handbook/front-end/conventions--js",
-                    "/dev-handbook/front-end/literature"
+                    "/development/front-end/clean-code-js",
+                    "/development/front-end/conventions--js",
+                    "/development/front-end/literature"
                 ]
             }
         ],
