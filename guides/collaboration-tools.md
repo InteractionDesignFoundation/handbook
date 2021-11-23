@@ -68,6 +68,10 @@ Create an account and let your onboarding buddy know so that they can add you to
 We use LastPass to share login credentials, API keys and some top secret information. :-)
 Please head to [credentials.md](credentials.md) to know how.
 
+## [Downnotifier](https://downnotifier.com/)
+
+Sends a alert when your website is down (via SMS). Please add your phone for our [premium account](https://www.downnotifier.com/list/edit?id=628289).
+
 ## Ye Olde Email
 
 Yeah, we still use email (and pigeons) from time to time.
