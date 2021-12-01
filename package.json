@@ -25,7 +25,7 @@
     "homepage": "https://github.com/InteractionDesignFoundation/handbook#readme",
     "dependencies": {
         "husky": "^7.0.0",
-        "prettier": "^2.4.1",
+        "prettier": "^2.5.0",
         "pretty-quick": "^3.1.1"
     },
     "devDependencies": {
