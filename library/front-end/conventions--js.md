@@ -64,7 +64,7 @@ Always use a triple equal to do variable comparisons. If you’re unsure of the 
 ```js
 // GOOD
 const one = 1;
-const another = '1';
+const another = "1";
 
 if (one === parseInt(another)) {
     // ...
@@ -120,8 +120,9 @@ function adder(a) {
 ```
 
 Anonymous functions should use arrow functions (Unless they need access to `this`).
+
 ```js
-['a', 'b'].map((a) => a.toUpperCase());
+["a", "b"].map((a) => a.toUpperCase());
 ```
 
 ## Object and array destructuring
@@ -130,10 +131,10 @@ Destructuring is preferred over assigning variables to the corresponding keys.
 
 ```js
 // GOOD
-const [hours, minutes] = '12:00'.split(':');
+const [hours, minutes] = "12:00".split(":");
 
 // BAD, unnecessarily verbose, and requires an extra assignment in this case.
-const time = '12:00'.split(':');
+const time = "12:00".split(":");
 const hours = time[0];
 const minutes = time[1];
 ```
@@ -155,7 +156,9 @@ try {
 Or with our custom fetch promise
 
 ```js
-const response = await getHttpClient().get('url').catch(error => log(error));
+const response = await getHttpClient()
+    .get("url")
+    .catch((error) => log(error));
 if (response) {
     notify.success(response.message);
 }
@@ -170,7 +173,7 @@ Many times we will need to select DOM elements in our JS, there can be multiple 
 ```
 
 ```js
-const card = document.querySelector('[data-course-card]');
+const card = document.querySelector("[data-course-card]");
 ```
 
 ## Back-end named routes
