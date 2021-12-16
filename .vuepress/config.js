@@ -96,6 +96,7 @@ module.exports = {
                 children: [
                     "/library/front-end/clean-code-js",
                     "/library/front-end/conventions--js",
+                    "/library/front-end/conventions--css",
                     "/library/front-end/literature"
                 ]
             }
