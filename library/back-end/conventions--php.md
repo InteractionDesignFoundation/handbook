@@ -40,7 +40,6 @@ You could for example rely more on composition, dependency injection and interfa
 Especially in the context of open source packages, you’re encouraged to think twice about making a method public or protected, or opening a class for extension.
 Every entry point in your code that is open for the public to use, is an entry point you’ll have to maintain with backwards compatibility in mind.
 
-
 ## Strict types
 
 We do use `declare(strict_types=1);` by default.
@@ -102,6 +101,7 @@ Because inheritance is implicit it may happen that it is not necessary to includ
 In order to avoid any confusion, please always use the `@inheritDoc` tag for classes and methods.
 
 Don’t use `@inheritDoc` for class properties. Instead copy the docblock from the parent class or interface.
+
 ```php
 // GOOD
 final class Tag
@@ -225,10 +225,12 @@ return self/new self() vs return ClassName/new ClassName() - we can of course us
 ## Exceptions
 
 ### Don’t use "Exception" suffix
+
 That forces developers to write better exception class-names.
 Details: [The "Exception" suffix](https://mnapoli.fr/approaching-coding-style-rationally/#:~:text=The%20%22Exception%22%20suffix)
 
 ### Be explicit about error
+
 ```php
 // GOOD
 abort(404, "The course with the ID $courseId could not be found.");
@@ -318,7 +320,6 @@ Want to learn more?
 
 [!["Cruddy by Design" by Adam Wathan, 40 mins](https://user-images.githubusercontent.com/5278175/65231387-2cbebe80-dad8-11e9-9be7-234e0be9a740.png)](https://www.youtube.com/watch?v=MF0jFKvS4SI)
 
-
 ## assert() vs throw
 
 Assertions should only be used to verify conditions that should be logically impossible to be false.
@@ -329,21 +330,20 @@ The best use case of `assert()` is to treat it as a docblock block to specify ty
 to check an expression in a runtime.
 
 From [official documentation](https://www.php.net/manual/en/function.assert.php):
+
 > Assertions should be used as a debugging feature only.
 > You may use them for sanity-checks that test for conditions that should always be true
 > and that indicate some programming errors if not or to check for the presence of certain features
 > like extension functions or certain system limits and features.
 
- - [assert on php.net](https://www.php.net/manual/en/function.assert.php)
- - [Should I be using assert in my PHP code?](https://stackoverflow.com/questions/4516419/should-i-be-using-assert-in-my-php-code)
- - [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
-
+-   [assert on php.net](https://www.php.net/manual/en/function.assert.php)
+-   [Should I be using assert in my PHP code?](https://stackoverflow.com/questions/4516419/should-i-be-using-assert-in-my-php-code)
+-   [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
 
 ## regex
 
 The biggest problem of regex is readability.
 Please read a perfect article [Writing better Regular Expressions in PHP](https://php.watch/articles/php-regex-readability) on this topic. There is nothing to add.
-
 
 ## Materials
 

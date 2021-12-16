@@ -35,6 +35,7 @@ Mass assignment SHOULD not be used when it’s easily possible. When it used in 
 it can add security vulnerabilities, it also allows creating Models with a wrong state.
 
 The preferred way to create or update models is to assign attributes line by line and call `save()` at the end:
+
 ```php
 // PREFERRED WAY
 $member = new Member();
@@ -116,7 +117,6 @@ $this->info("{$articles->count()} Articles has been updated");
 
 The idea behind it is to send email with console command outputs only when output is present (not empty).
 
-
 ## Controllers
 
 ### Singular resource name
@@ -176,7 +176,6 @@ public function update(Request $request, Team $team, DetachFromTeamToIndividualG
 
 The same for scalar GET params (good example: `public function update(int $teamId, Request $request`).
 
-
 ## Requests
 
 ### Use $request->input() instead of $request->get()
@@ -197,7 +196,6 @@ public function store(Request $request)
 }
 ```
 
-
 ## Responses
 
 ### Less magic
@@ -212,11 +210,9 @@ return redirect(route('home')); // mixed return type (RedirectResponse|Redirecto
 return redirect($url); // mixed return type (RedirectResponse|Redirector)
 ```
 
-
 ### Status Codes
 
 See [HTTP response status codes](/docs/code/http-response-status-codes.md).
-
 
 ## Routing
 
@@ -329,12 +325,10 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::name('home')->get('/', [HomeController::class, 'index']);
 ```
 
-
 ## Authorization
 
 1. Policies MUST use camelCase. Example: `@can('editPost', $post)` ([Laravel does it under the hood](https://github.com/illuminate/auth/blob/09d82d3a2966e6673495456f340855186a1962f5/Access/Gate.php#L718))
 1. Try to name abilities using default CRUD words. One exception: replace `show` with `view`. A server shows a resource, a user views it.
-
 
 ## Validation
 
@@ -364,7 +358,6 @@ All custom validation rules must use snake_case:
 ```php
 Validator::extend('is_null', fn ($attribute, $value, $parameters, $validator) => $value === null);
 ```
-
 
 ## Views
 
@@ -400,10 +393,10 @@ You MUST create and maintain PHPDoc blocks for components.
 
 Add PHP injection using `<?php` and `?>`. The `@php` and `@endphp` Blade directives pair looks better, but the tools we use (Psalm, Rector, PHPCS, PHP-CS-Fixer) can’t parse Blade syntax.
 
-
 ## Translations
 
-### Use __
+### Use \_\_
+
 Translations MUST be rendered with the `__()` function.
 We prefer using this over the `@lang` directive in Blade views because `__()` can be used in both Blade views and regular PHP code. Here’s an example:
 
@@ -427,8 +420,7 @@ trans('newsletter.form.title')
 
 ```php
 __('app.message', ['firstName' => 'Peter', 'productName' => 'Bananas']);
- ```
-
+```
 
 ## Exceptions
 
@@ -441,7 +433,6 @@ abort(404, "The course with the ID $courseId could not be found.");
 // BAD
 abort(404);
 ```
-
 
 ## Jobs
 
@@ -467,11 +458,9 @@ Bus::dispatch(new YouJob($parameter));
 YouJob::dispatch($parameter)
 ```
 
-
 ## Migrations
 
 We write `down()` methods because we should be able to rollback failed releases (see `deploy:rollback` deployer’s task).
-
 
 ## Configs
 
@@ -479,7 +468,6 @@ We use `ixdf_` prefix for our custom config files to separate our config vars fr
 It also helps us to migrate to new Laravel versions: we have fewer conflicts.
 
 Usually we have one config file per system.
-
 
 ## Security
 
@@ -584,7 +572,10 @@ Cross-Site Scripting can be very dangerous, for example an XSS attack in the adm
 
 ```html
 Some text
-<input onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });' autofocus/>
+<input
+    onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });'
+    autofocus
+/>
 test
 ```
 
@@ -593,7 +584,11 @@ Which will allow an attacker to create an admin user with his credentials and ta
 Laravel Blade protects from most XSS attacks, so for example an attack like this will not work:
 
 ```html
-// $name = 'John Doe <script>alert("xss");</script>';
+// $name = 'John Doe
+<script>
+    alert("xss");
+</script>
+';
 <div>{{ $name }}</div>
 ```
 
@@ -669,7 +664,6 @@ Prevention tips:
 1. Pass to Model only fields that have been validated: `$user->update($validator->validated());`
 1. Use whitelisting instead of blacklisting (prefer `$fillable` over `$guarded`, because it’s easy to forget to add a new column to `$guarded` when you add it to a Model)
 1. Use `$model->forceFill($data)` method with caution, make sure passed data cannot be manipulated by the user
-
 
 ## Materials
 
