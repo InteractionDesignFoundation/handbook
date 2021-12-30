@@ -49,10 +49,28 @@ module.exports = {
         logo: '/hydrogenlogo.svg',
         nav: [
             {text: 'Purpose', link: '/about/purpose/',},
-            {text: 'Process', link: '/process/',},
-            {text: 'Product', link: '/product/',},
+            {
+                text: 'Process',
+                items: [
+                    {text: 'Our Process', link: '/process/our-process.md'},
+                    {text: 'About OKRs', link: '/process/about-okrs.md'},
+                    {text: 'Benefits of OKRs', link: '/process/benefits-of-okrs.md'},
+                    {text: 'OKR History', link: '/process/okr-history.md'},
+                    {text: 'OKR Process', link: '/process/okr-process.md'},
+                    {text: 'Quarterly Meeting', link: '/process/quarterly-meeting.md'}
+                ]
+            },
+            {
+                text: 'Product',
+                items: [
+                    {text: 'Our Product', link: '/product/our-product.md'},
+                    {text: 'Design Principles', link: '/product/design-principles.md'},
+                    {text: 'Design Process', link: '/product/design-process.md'},
+                    {text: 'Delivery Process', link: '/product/delivery-process.md'},
+                ]
+            },
             {text: 'Development', link: '/development/',},
-            {text: 'Design System', link: 'https://design-system.interaction-design.org/'},
+            {text: 'IxDF UI Kit', link: 'https://design-system.interaction-design.org/'},
             {text: 'Resources', link: '/resources/',},
             {text: "🔒Internal Docs", link: "https://docs.information-architecture.org"}
         ],
