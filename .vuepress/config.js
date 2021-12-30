@@ -34,7 +34,8 @@ module.exports = {
         "mermaidjs", // @see https://vuepress-plugin-mermaidjs.efrane.com/ and @see https://mermaid-js.github.io/mermaid/#/
         "@vuepress/medium-zoom", // @see https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html
         '@vuepress/plugin-back-to-top', // @see https://vuepress.vuejs.org/plugin/official/plugin-back-to-top.html,
-        'vuepress-plugin-child-toc', // @see https://github.com/tchiotludo/vuepress-plugin-child-toc
+        'vuepress-plugin-child-toc', // @see https://github.com/tchiotludo/vuepress-plugin-child-toc,
+        'vuepress-plugin-global-toc', // @see https://github.com/sylvainpolletvillard/vuepress-plugin-global-toc
     ],
 
     // https://vuepress.vuejs.org/theme/default-theme-config.html#homepage
@@ -47,44 +48,43 @@ module.exports = {
         smoothScroll: true,
         logo: '/hydrogenlogo.svg',
         nav: [
-            { text: 'Purpose', link: '/about/purpose/',},
-            { text: 'Process', link: '/process/',},
-            { text: 'Product', link: '/product/',},
-            { text: 'Development', link: '/development/',},
-            { text: 'Design System', link: 'https://design-system.interaction-design.org/'},
-            { text: 'Resources', link: '/resources/',},
-            { text: "🔒Internal Docs", link: "https://docs.information-architecture.org" }
+            {text: 'Purpose', link: '/about/purpose/',},
+            {text: 'Process', link: '/process/',},
+            {text: 'Product', link: '/product/',},
+            {text: 'Development', link: '/development/',},
+            {text: 'Design System', link: 'https://design-system.interaction-design.org/'},
+            {text: 'Resources', link: '/resources/',},
+            {text: "🔒Internal Docs", link: "https://docs.information-architecture.org"}
         ],
 
-        sidebarDepth: 1,
+        sidebarDepth: 0,
 
-
-sidebar: [
+        sidebar: [
             "/company/about",
             {
                 title: "Guides",
                 collapsable: false,
                 children: [
-                    "/guides/expectations",
+                    "/development/guides/expectations",
                     {
                         title: "Onboarding",
                         children: [
-                            "/guides/onboarding/",
-                            "/guides/onboarding/onboarding--domain-knowledge",
-                            "/guides/onboarding/onboarding--mentorGuide",
-                            "/guides/onboarding/onboarding__forge"
+                            "/development/guides/onboarding/",
+                            "/development/guides/onboarding/onboarding--domain-knowledge",
+                            "/development/guides/onboarding/onboarding--mentorGuide",
+                            "/development/guides/onboarding/onboarding__forge"
                         ]
                     },
-                    "/guides/credentials",
-                    "/guides/collaboration-tools",
+                    "/development/guides/credentials",
+                    "/development/guides/collaboration-tools",
                     {
                         title: "Scrum",
                         children: [
-                            "/guides/scrum/",
-                            "/guides/scrum/scrumTeam",
-                            "/guides/scrum/productOwner",
-                            "/guides/scrum/scrumMaster",
-                            "/guides/scrum/backlog"
+                            "/development/guides/scrum/",
+                            "/development/guides/scrum/scrumTeam",
+                            "/development/guides/scrum/productOwner",
+                            "/development/guides/scrum/scrumMaster",
+                            "/development/guides/scrum/backlog"
                         ]
                     }
                 ]
@@ -93,29 +93,29 @@ sidebar: [
                 title: "Back end",
                 collapsable: false,
                 children: [
-                    "/development/back-end/clean-code-php",
-                    "/development/back-end/conventions--php",
-                    "/development/back-end/conventions--laravel",
-                    "/development/back-end/SOLID",
-                    "/development/back-end/literature"
+                    "/development/library/back-end/clean-code-php",
+                    "/development/library/back-end/conventions--php",
+                    "/development/library/back-end/conventions--laravel",
+                    "/development/library/back-end/SOLID",
+                    "/development/library/back-end/literature"
                 ]
             },
             {
                 title: "Front end",
                 collapsable: false,
                 children: [
-                    "/development/front-end/clean-code-js",
-                    "/development/front-end/conventions--js",
-                    "/development/front-end/literature"
+                    "/development/library/front-end/clean-code-js",
+                    "/development/library/front-end/conventions--js",
+                    "/development/library/front-end/literature"
                 ]
-            }
+            },
         ],
         displayAllHeaders: true
     },
 
     markdown: {
         lineNumbers: false,
-        anchor: { permalink: false }
+        anchor: {permalink: false}
     },
 
     evergreen: true

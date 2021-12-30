@@ -24,7 +24,7 @@ We want to maintain it in perfect condition, and your fresh look at the process 
 1.  Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md) (private repository link).
     It’s a time-consuming step. While your tools are being downloaded or installed, you can read/do the next step.
 1.  Never stop learning 📖 Go through our library and create a plan on acquiring every bit of knowledge there.
-    Once you have a plan, please discuss it with your mentor. (Are you full-stack? Then please open both links ☀️): - Literature/subscriptions [for back-end developers](../../development/back-end/literature.md) - Literature/subscriptions [for front-end developers](../../development/front-end/literature.md)
+    Once you have a plan, please discuss it with your mentor. (Are you full-stack? Then please open both links ☀️): - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md) - Literature/subscriptions [for front-end developers](../../library/front-end/literature.md)
 1.  If you have any issues accessing the platform, our company culture course or our collaboration tools, please ing the Member Experience team via Slack so they can assist you. By this point, you should have already completed lesson 0 of the IxDF Onboarding & Company Culture course so now you may continue with the rest of the lessons.
 1.  Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md).

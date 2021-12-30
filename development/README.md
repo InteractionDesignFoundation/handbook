@@ -1,5 +1,5 @@
 ---
-sidebar: false
+sidebar: true
 ---
 
 # Development
@@ -14,21 +14,21 @@ To achieve this, we want everyone to understand what is expected of them, the th
 -   Company
     -   [About](/company/about.md)
 -   Guides
-    -   [Onboarding](/guides/onboarding/README.md)
+    -   [Onboarding](/development/guides/onboarding/README.md)
     -   People Operations
-        -   [Team Trips](/guides/people_operations/team-trips.md)
-        -   [Video Calls](/guides/people_operations/video-calls.md)
-    -   [Scrum](/guides/scrum/README.md)
-        -   [How to fill out your Backlog](/guides/scrum/backlog.md)
-        -   [Role: ProductOwner](/guides/scrum/productOwner.md)
-        -   [Role: ScrumMaster](/guides/scrum/scrumMaster.md)
-        -   [Role: ScrumTeam](/guides/scrum/scrumTeam.md)
-    -   [Our expectations from you and your work](/guides/expectations.md)
-    -   [Collaboration tools](/guides/collaboration-tools.md)
-    -   [Access to credentials](/guides/credentials.md)
+        -   [Team Trips](/development/guides/people_operations/team-trips.md)
+        -   [Video Calls](/development/guides/people_operations/video-calls.md)
+    -   [Scrum](/development/guides/scrum/README.md)
+        -   [How to fill out your Backlog](/development/guides/scrum/backlog.md)
+        -   [Role: ProductOwner](/development/guides/scrum/productOwner.md)
+        -   [Role: ScrumMaster](/development/guides/scrum/scrumMaster.md)
+        -   [Role: ScrumTeam](/development/guides/scrum/scrumTeam.md)
+    -   [Our expectations from you and your work](/development/guides/expectations.md)
+    -   [Collaboration tools](/development/guides/collaboration-tools.md)
+    -   [Access to credentials](/development/guides/credentials.md)
 -   Library
-    -   [Back end](/development/back-end/README.md)
-    -   [Front end](/development/front-end/README.md)
+    -   [Back end](/development/library/back-end/README.md)
+    -   [Front end](/development/library/front-end/README.md)
 
 ## Links
 
