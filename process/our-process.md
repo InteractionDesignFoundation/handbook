@@ -2,11 +2,9 @@
 sidebar: auto
 ---
 
-# Process
+# The IxDF Process
 
 ![](../images/hero-process.svg)
-
-## About the IxDF Process
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 aliqua. Nunc sed id semper risus in hendrerit. Condimentum lacinia quis vel eros donec ac odio tempor orci. Nullam

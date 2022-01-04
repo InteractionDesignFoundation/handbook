@@ -63,7 +63,7 @@ module.exports = {
             {
                 text: 'Product',
                 items: [
-                    {text: 'Our Product', link: '/product/our-product.md'},
+                    {text: 'Product Process', link: '/product/product-process.md'},
                     {text: 'Design Principles', link: '/product/design-principles.md'},
                     {text: 'Design Process', link: '/product/design-process.md'},
                     {text: 'Delivery Process', link: '/product/delivery-process.md'},
