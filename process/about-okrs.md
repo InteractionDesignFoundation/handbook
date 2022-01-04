@@ -37,3 +37,22 @@ sidebar: auto
 ## OKR Examples
 
 ![Diagram of OKR alignment](../images/8-okr-examples.svg)
+
+## Benefits of OKRs
+
+![](../images/10-okr-benefits-part-1.svg)
+
+![](../images/11-okr-benefits-part-2.svg)
+
+![](../images/12-okr-benefits-part-3.svg)
+
+## OKR History
+
+### Historical Development of OKRs
+
+![](../images/45-okr-history-people.svg)
+
+### The OKR Approach and its Relation to Other Methods
+
+![](../images/46-okr-history-timeline.svg)
+

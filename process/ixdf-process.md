@@ -11,8 +11,6 @@ To achieve our [Mission and Vision](/about/purpose.md), the IxDF [develops our o
 ## Quick Links
 
 -   [About OKRs](/process/about-okrs.md)
--   [Benefits of OKRs](/process/benefits-of-okrs.md)
 -   [How We Use OKRs at the IxDF](/process/okr-usage.md)
 -   [Step-by-Step Process](/process/okr-process.md)
 -   [Quarterly Meeting](/process/quarterly-meeting.md)
--   [History of OKRs](/process/okr-history.md)
