@@ -72,5 +72,4 @@ sidebar: auto
 
 ### The Meeting
 
-
 ![](../images/43-end-of-quarter-meeting-team.svg)
