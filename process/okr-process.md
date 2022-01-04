@@ -63,3 +63,14 @@ sidebar: auto
 ## Hold the Bi-Weekly Team-wide OKR Check-in Meeting
 
 ![](../images/39-team-checkin.svg)
+
+## Hold the Quarterly Meeting
+
+### Review OKRs
+
+![](../images/42-end-of-quarter-meeting-metrics.svg)
+
+### The Meeting
+
+
+![](../images/43-end-of-quarter-meeting-team.svg)

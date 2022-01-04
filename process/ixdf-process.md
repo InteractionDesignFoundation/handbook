@@ -13,4 +13,3 @@ To achieve our [Mission and Vision](/about/purpose.md), the IxDF [develops our o
 -   [About OKRs](/process/about-okrs.md)
 -   [How We Use OKRs at the IxDF](/process/okr-usage.md)
 -   [Step-by-Step Process](/process/okr-process.md)
--   [Quarterly Meeting](/process/quarterly-meeting.md)

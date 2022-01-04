@@ -54,8 +54,7 @@ module.exports = {
                 items: [
                     {text: 'Our Process', link: '/process/ixdf-process.md'},
                     {text: 'About OKRs', link: '/process/about-okrs.md'},
-                    {text: 'OKR Process', link: '/process/okr-process.md'},
-                    {text: 'Quarterly Meeting', link: '/process/quarterly-meeting.md'}
+                    {text: 'OKR Process', link: '/process/okr-process.md'}
                 ]
             },
             {
