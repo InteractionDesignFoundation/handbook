@@ -14,10 +14,9 @@ Process](/development) which is how we build and maintain them.
 
 ## Quick Links
 
-- [Purpose](about/purpose.md)
-- [Process](process/our-process.md)
-- [Product](product/product-process.md)
-- [Development](development)
-- [Design System](https://design-system.interaction-design.org/)
-- [Resources](resources)
-
+-   [Purpose](about/purpose.md)
+-   [Process](process/our-process.md)
+-   [Product](product/product-process.md)
+-   [Development](development)
+-   [Design System](https://design-system.interaction-design.org/)
+-   [Resources](resources)
