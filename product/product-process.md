@@ -2,11 +2,10 @@
 sidebar: false
 ---
 
-# Product
+# Our Product Process
 
 ![](../images/hero-product.svg)
 
-## How We Develop Products
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 aliqua. Nunc sed id semper risus in hendrerit. Condimentum lacinia quis vel eros donec ac odio tempor orci. Nullam
@@ -15,7 +14,3 @@ dolor. Egestas egestas fringilla phasellus faucibus. Adipiscing vitae proin sagi
 eu volutpat odio facilisis mauris. Volutpat ac tincidunt vitae semper quis lectus nulla at. Odio pellentesque diam
 volutpat commodo sed egestas. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. Placerat vestibulum lectus
 mauris ultrices eros.
-
-## Quick Links
-
-<ChildTableOfContents />
