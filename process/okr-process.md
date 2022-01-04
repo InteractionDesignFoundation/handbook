@@ -6,7 +6,6 @@ sidebar: auto
 
 ## The Cascade Process of Creating OKRs for One Quarter
 
-
 ![](../images/24-okr-cascade-part-1.svg)
 
 ## The OKR Quarter
@@ -19,46 +18,37 @@ sidebar: auto
 
 ## Fill Out Spreadsheet Before Quarterly OKR Meeting
 
-
 ![](../images/27-okr-spreadsheet-part-1.svg)
 
 ## Define Your Objectives
-
 
 ![](../images/28-okr-spreadsheet-part-2.svg)
 
 ## Define Your Key Results
 
-
 ![](../images/29-okr-spreadsheet-part-3.svg)
 
 ## Define Your KPIs
-
 
 ![](../images/30-okr-spreadsheet-part-4.svg)
 
 ## Ramp Up Your Ambition
 
-
 ![](../images/31-okr-spreadsheet-part-5.svg)
 
 ## Ensure Your OKRs are S.M.A.R.T
-
 
 ![](../images/33-smart-okrs.svg)
 
 ## Hold a Quarterly OKR Meeting
 
-
 ![](../images/34-quarterly-meeting.svg)
 
 ## Prepare Yourself for a Sprint Planning Meeting
 
-
 ![](../images/35-sprint-planning-prep.svg)
 
 ## Hold a Sprint Planning Meeting
-
 
 ![](../images/36-sprint-planning-meeting.svg)
 
@@ -67,7 +57,6 @@ sidebar: auto
 ![](../images/37-daily-standup.svg)
 
 ## Prepare for Bi-Weekly OKR 1:1 Check-in Meeting
-
 
 ![](../images/38-one-to-one-checkin-prep.svg)
 

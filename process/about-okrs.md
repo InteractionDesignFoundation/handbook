@@ -55,4 +55,3 @@ sidebar: auto
 ### The OKR Approach and its Relation to Other Methods
 
 ![](../images/46-okr-history-timeline.svg)
-
