@@ -61,7 +61,7 @@ When you add a relationship or scope, add appropriate PHPDoc block to the Model:
 ```php
 // Models/Member.php
 /**
- * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Permission\Role> $roles Member’s Roles  (added by a Member::roles() relationship)
+ * @property-read \Illuminate\Database\Eloquent\Collection<\App\Models\Permission\Role> $roles Member’s Roles  (added by a Member::roles() relationship)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Member\Member canceled() Cancelled Member state (added by a Member::scopeCanceled())
  */
 ```
@@ -157,6 +157,24 @@ public function update(Course $course)
     $name = request('name');
 }
 ```
+
+### Inject route params, then other dependencies
+
+```php
+// GOOD
+public function update(Team $team, Request $request, DetachFromTeamToIndividualGracePeriodAction $detachAction)
+{
+    ...
+}
+
+// BAD
+public function update(Request $request, Team $team, DetachFromTeamToIndividualGracePeriodAction $detachAction)
+{
+    ...
+}
+```
+
+The same for scalar GET params (good example: `public function update(int $teamId, Request $request`).
 
 ## Requests
 
@@ -377,6 +395,8 @@ Add PHP injection using `<?php` and `?>`. The `@php` and `@endphp` Blade directi
 
 ## Translations
 
+### Use \_\_
+
 Translations MUST be rendered with the `__()` function.
 We prefer using this over the `@lang` directive in Blade views because `__()` can be used in both Blade views and regular PHP code. Here’s an example:
 
@@ -394,6 +414,12 @@ __('newsletter.form.title')
 
 // BAD
 trans('newsletter.form.title')
+```
+
+### Use camelCase for translation parameters
+
+```php
+__('app.message', ['firstName' => 'Peter', 'productName' => 'Bananas']);
 ```
 
 ## Exceptions
@@ -557,9 +583,13 @@ Which will allow an attacker to create an admin user with his credentials and ta
 
 Laravel Blade protects from most XSS attacks, so for example an attack like this will not work:
 
-```blade
-// $name = 'John Doe <script>alert("xss");</script>';
-<div>{{$name}}</div>
+```html
+// $name = 'John Doe
+<script>
+    alert("xss");
+</script>
+';
+<div>{{ $name }}</div>
 ```
 
 Blade’s `{{ }}` statement automatically encodes the output. So the server will send the following properly encoded code to the browser (which will prevent the XSS attack):
@@ -606,7 +636,7 @@ Prevention tips:
 When you write a custom directive, don’t forget to use Laravel’s `e` function to escape any code that is user provided.
 An example of vulnerable code:
 
-```
+```php
 // Registering the directive code
 Blade::directive('hello', function ($name) {
     return "<?php echo 'Hello ' . $name; ?>";

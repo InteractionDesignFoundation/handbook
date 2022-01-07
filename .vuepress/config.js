@@ -121,6 +121,7 @@ module.exports = {
                 children: [
                     "/development/library/front-end/clean-code-js",
                     "/development/library/front-end/conventions--js",
+                    "/development/library/front-end/conventions--css",
                     "/development/library/front-end/literature"
                 ]
             },
