@@ -21,7 +21,7 @@ We use automated tools to check our code on CI:
 ⚠️ Our codebase has some legacy code that do not fully follow our standards, please tread this document as the main source of truth.
 Main legacy parts:
 
-1.  Setters. We SHOULD use [domain-specific](./conventions--php.md#use-domain-logic-methods-instead-of-setters) methods to change model’s state.
+1.  Setters. We SHOULD use [domain-specific](conventions--php.md#use-domain-logic-methods-instead-of-setters) methods to change model’s state.
 1.  Getters (deprecation is not approved yet, please keep using them).
 
 ---

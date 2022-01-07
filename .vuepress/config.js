@@ -9,7 +9,7 @@
 module.exports = {
     dest: ".vuepress/dist",
     theme: "@interaction_design_foundation/ixdf",
-    title: "IxDF Dev handbook",
+    title: "IxDF System",
     description: "Handbook and guidelines for 🦄 developers.",
     head: [
         [
@@ -32,7 +32,10 @@ module.exports = {
 
     plugins: [
         "mermaidjs", // @see https://vuepress-plugin-mermaidjs.efrane.com/ and @see https://mermaid-js.github.io/mermaid/#/
-        "@vuepress/medium-zoom" // @see https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html
+        "@vuepress/medium-zoom", // @see https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html
+        '@vuepress/plugin-back-to-top', // @see https://vuepress.vuejs.org/plugin/official/plugin-back-to-top.html,
+        'vuepress-plugin-child-toc', // @see https://github.com/tchiotludo/vuepress-plugin-child-toc,
+        'vuepress-plugin-global-toc', // @see https://github.com/sylvainpolletvillard/vuepress-plugin-global-toc
     ],
 
     // https://vuepress.vuejs.org/theme/default-theme-config.html#homepage
@@ -42,39 +45,61 @@ module.exports = {
         editLinks: true,
         editLinkText: "Improve this page",
         lastUpdated: "Last Updated", // string | boolean
+        smoothScroll: true,
+        logo: '/hydrogenlogo.svg',
         nav: [
-            { text: "Home", link: "/" },
-            { text: "Design System", link: "https://design-system.interaction-design.org" },
-            { text: "🔒Internal Docs", link: "https://docs.information-architecture.org" }
+            {text: 'Our Purpose', link: '/about/purpose/',},
+            {
+                text: 'IxDF Process',
+                items: [
+                    {text: 'Our Process', link: '/process/ixdf-process.md'},
+                    {text: 'About OKRs', link: '/process/about-okrs.md'},
+                    {text: 'OKR Process', link: '/process/okr-process.md'}
+                ]
+            },
+            {
+                text: 'Product',
+                items: [
+                    {text: 'Product Process', link: '/product/product-process.md'},
+                    {text: 'Design Principles', link: '/product/design-principles.md'},
+                    // {text: 'Design Process', link: '/product/design-process.md'},
+                    {text: 'Delivery Process', link: '/product/delivery-process.md'},
+                ]
+            },
+            {text: 'Development', link: '/development/',},
+            {text: 'IxDF UI Kit', link: 'https://design-system.interaction-design.org/'},
+            // {text: 'Resources', link: '/resources/',},
+            {text: "🔒Internal Docs", link: "https://docs.information-architecture.org"}
         ],
 
         sidebarDepth: 0,
+
         sidebar: [
             "/company/about",
             {
                 title: "Guides",
                 collapsable: false,
                 children: [
-                    "/guides/expectations",
+                    "/development/guides/expectations",
                     {
                         title: "Onboarding",
                         children: [
-                            "/guides/onboarding/",
-                            "/guides/onboarding/onboarding--domain-knowledge",
-                            "/guides/onboarding/onboarding--mentorGuide",
-                            "/guides/onboarding/onboarding__forge"
+                            "/development/guides/onboarding/",
+                            "/development/guides/onboarding/onboarding--domain-knowledge",
+                            "/development/guides/onboarding/onboarding--mentorGuide",
+                            "/development/guides/onboarding/onboarding__forge"
                         ]
                     },
-                    "/guides/credentials",
-                    "/guides/collaboration-tools",
+                    "/development/guides/credentials",
+                    "/development/guides/collaboration-tools",
                     {
                         title: "Scrum",
                         children: [
-                            "/guides/scrum/",
-                            "/guides/scrum/scrumTeam",
-                            "/guides/scrum/productOwner",
-                            "/guides/scrum/scrumMaster",
-                            "/guides/scrum/backlog"
+                            "/development/guides/scrum/",
+                            "/development/guides/scrum/scrumTeam",
+                            "/development/guides/scrum/productOwner",
+                            "/development/guides/scrum/scrumMaster",
+                            "/development/guides/scrum/backlog"
                         ]
                     }
                 ]
@@ -83,30 +108,30 @@ module.exports = {
                 title: "Back end",
                 collapsable: false,
                 children: [
-                    "/library/back-end/clean-code-php",
-                    "/library/back-end/conventions--php",
-                    "/library/back-end/conventions--laravel",
-                    "/library/back-end/SOLID",
-                    "/library/back-end/literature"
+                    "/development/library/back-end/clean-code-php",
+                    "/development/library/back-end/conventions--php",
+                    "/development/library/back-end/conventions--laravel",
+                    "/development/library/back-end/SOLID",
+                    "/development/library/back-end/literature"
                 ]
             },
             {
                 title: "Front end",
                 collapsable: false,
                 children: [
-                    "/library/front-end/clean-code-js",
-                    "/library/front-end/conventions--js",
-                    "/library/front-end/conventions--css",
-                    "/library/front-end/literature"
+                    "/development/library/front-end/clean-code-js",
+                    "/development/library/front-end/conventions--js",
+                    "/development/library/front-end/conventions--css",
+                    "/development/library/front-end/literature"
                 ]
-            }
+            },
         ],
         displayAllHeaders: true
     },
 
     markdown: {
         lineNumbers: false,
-        anchor: { permalink: false }
+        anchor: {permalink: false}
     },
 
     evergreen: true
