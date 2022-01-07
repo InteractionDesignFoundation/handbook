@@ -46,9 +46,7 @@ We don’t add spacing inside `{}` for consistency with PHP:
 developers to check types. It will also simplify our work on migrating to TypeScript.
 
 We also use JSDoc directives to indicate the type of members of objects in JavaScript:
-`@private`/`@protected`/`@abstract`/`@override`.
-Though JavaScript doesn’t have truly private members by default, this
-convention served both as a warning and a hint.
+`@protected`/`@abstract`/`@override`.
 
 ## Variable Names
 
@@ -84,14 +82,14 @@ function scrollTo(offset) {
 }
 
 // BAD
-// Using an arrow function doesn't provide any benefits here, while the
+// Using an arrow function doesn’t provide any benefits here, while the
 // `function`  keyword immediately makes it clear that this is a function.
 const scrollTo = (offset) => {
     // ...
 };
 ```
 
-Terse, single line functions may also use the arrow syntax. There's no hard rule here.
+Terse, single line functions may also use the arrow syntax. There’s no hard rule here.
 
 ```js
 // GOOD
