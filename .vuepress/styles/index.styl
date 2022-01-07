@@ -1,71 +1,29 @@
 :root {
     --font-size-default: 16px;
     --font-serif: 'Source Sans Serif', georgia, serif;
-    --font-sans-serif: 'Source Sans Pro', arial, sans-serif;
-    --font-monospace: 'Source Code Pro', monospace;
-
-    @media (max-width: 767px) {
-        --font-size-default: 16px;
-    }
-
-    font-size: var(--font-size-default);
 }
 
 body {
-    font-family: var(--font-sans-serif);
-    font-size: 16px;
-    @media (max-width: 767px) {
-        font-size: 16px;
-    }
+    font-size: var(--font-size-default);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-sans-serif);
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-p, ul, ol {
+ul, ol {
     font-family: var(--font-sans-serif);
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.7;
 }
 
-code {
-    @media (max-width: 767px) {
-        overflow-wrap: break-word;
-    }
-}
-
-li {
-    font-family: var(--font-sans-serif);
-}
 
 .theme-default-content:not(.custom) {
     margin: 0 auto;
-    padding: 2rem 64px 2rem 16px;
     max-width: 672px;
-
-    @media (max-width: 767px) {
-        padding-right: 16px;
-    }
 }
 
 .page {
     .page-edit, .page-nav {
         margin: 0 auto;
-        padding: 2rem 64px 2rem 16px;
         max-width: 672px;
-
-        @media (max-width: 767px) {
-            padding-right: 16px;
-        }
     }
 }
 
