@@ -10,7 +10,7 @@ module.exports = {
     dest: ".vuepress/dist",
     theme: "@interaction_design_foundation/ixdf",
     title: "IxDF System",
-    description: "Handbook and guidelines for 🦄 developers.",
+    description: "Handbook and guidelines for IxDF.",
     head: [
         [
             "link",
@@ -41,7 +41,7 @@ module.exports = {
     // https://vuepress.vuejs.org/theme/default-theme-config.html#homepage
     themeConfig: {
         repo: "InteractionDesignFoundation/handbook",
-        docsBranch: "master",
+        docsBranch: "main",
         editLinks: true,
         editLinkText: "Improve this page",
         lastUpdated: "Last Updated", // string | boolean
