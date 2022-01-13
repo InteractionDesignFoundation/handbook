@@ -17,6 +17,7 @@ newPRWelcomeComment: >
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
   Congrats on merging your first pull request! 🎉🎉🎉
+
   ![image](https://media.giphy.com/media/5gXYzsVBmjIsw/giphy.gif)
 
 # It is recommended to include as many gifs and emojis as possible!
