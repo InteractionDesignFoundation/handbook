@@ -1,7 +1,7 @@
 # Collaboration tools
 
 Collaboration is a keystone in IxDF’s success, and we couldn't make it happen without the right tools and processes.
-These are the ones we use almost every day.
+These are the tools we use almost every day.
 
 Please note that you should be using your company email address with all the tools listed below (except probably GitHub).
 
@@ -63,6 +63,11 @@ We use [Zeplin](https://zeplin.io) to share designs and assets between designers
 It makes life easier for both parties as all details such as spacing, font size, colors, etc. are listed directly on the designs.
 Create an account and let your onboarding buddy know so that they can add you to the project.
 
+
+## [Figma](https://figma.com)
+
+We also use Figma(https://figma.com) to share designs. Ask for an invite in case you need to access anything on Figma.
+
 ## [LastPass](https://www.lastpass.com)
 
 We use LastPass to share login credentials, API keys and some top secret information. :-)
@@ -70,11 +75,12 @@ Please head to [credentials.md](credentials.md) to know how.
 
 ## [Downnotifier](https://downnotifier.com/)
 
-Sends a alert when your website is down (via SMS). Please add your phone to our [premium account](https://www.downnotifier.com/list/edit?id=628289).
+Sends a alert when your website is down (via SMS). Please add your phone number to our [premium account](https://www.downnotifier.com/list/edit?id=628289).
 
 ## Ye Olde Email
 
-Yeah, we still use email (and pigeons) from time to time.
+Yeah, we still use email (and pigeons) from time to time, but make sure to check your email after pushing a new change
+since you will receive a notification in case the build (CI) fails.
 To make email less dull, we ask new team members to upload their most handsome/beautiful picture with a big smile!
 
 Also, please ensure that you have easy access to check your company email inbox (consider installing a browser extension such as
