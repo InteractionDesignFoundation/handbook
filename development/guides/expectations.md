@@ -17,21 +17,21 @@ We are a small team of senior developers, and the IxDF does not employ junior or
 1.  A senior developer [**knows their tools**](https://stitcher.io/blog/craftsmen-know-their-tools): IDE, OS/terminal, debugging, static analyzers, formatters, test frameworks, CI, CD, etc.
 1.  A senior developer **knows how to choose the right tool and framework**.
 1.  A senior developer actively employs the Boyscout principle and helps update this documentation ("always leave the campground cleaner than you found it")
-1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what’s written on this page, written in the [IxDF Zen Code](../../README.md#the-ixdf-zen-code), taught in the IxDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
+1.  **Most importantly**, a senior developer reminds us all, or reminds a given individual developer, when we do not live up to what’s written on this page, written in the [IxDF Zen Code](../README.md#the-ixdf-zen-code), taught in the IxDF Culture Course, or considered a best practice among senior developers. A senior developer is thus a "guarantor" that we continually optimize our team spirit, fun, productivity, learning, results, impact on the world, and programming practices.
 
 ### Senior backend developer
 
-This list is an extension of our expectations from a senior developer (see prev. section) for senior backend developers.
+This list is an extension of our expectations from a senior developer (see prev. section).
 
 1.  Broad and extensive knowledge of the software development process and its technologies.
-1.  Strong understanding of the primary programming language to use in IxDF.
-1.  Experience in design patterns.
+1.  Strong understanding of the primary programming language used in IxDF.
+1.  Experience in using object-oriented design principles and patterns.
 
 ### Senior frontend developer
 
-This list is an extension of our expectations from a senior developer (see prev. section) for senior frontend developers.
+This list is an extension of our expectations from a senior developer (see prev. section).
 
-1.  Strong knowledge of HTML technologies and at least one modern JS framework and an understanding of how it works.
+1.  Strong knowledge of HTML and at least one modern JS framework and an understanding of how it works.
 1.  Middle-level knowledge of at least one different JS framework OR strong understanding of design patterns.
 
 ## Short articles to read
