@@ -197,7 +197,7 @@ $greeting = sprintf('Hello, my name is %s', ucfirst(auth()->user()->name));
 Comments SHOULD be avoided as much as possible by writing expressive code.
 If you do need to use a comment to explain the what, then
 [refactor](https://refactoring.guru/refactoring/techniques) the code.
-Ig you need to explain the reason (why), then format the comments as follows:
+If you need to explain the reason (why), then format the comments as follows:
 
 ```
 // There should be a space before a single line comment.
