@@ -7,35 +7,35 @@ Congrats: You've landed one of the greatest jobs in the world! 🎉
 
 ![image](https://cdn.shopify.com/s/files/1/2297/6885/collections/plain_no_back_235x235@2x.png)
 
-Now it’s time to get you up to speed with all the things you need to know 
+Now it’s time to get you up to speed with all the things you need to know
 about your role at the IxDF and your day-to-day work as a developer.
 
-Before you start, please ensure that you know your mentor (onboarding buddy) 
+Before you start, please ensure that you know your mentor (onboarding buddy)
 to make your onboarding process smooth and easy.
 
 Please also share all of your ideas & thoughts regarding our onboarding documents
-with your mentor. We simply want our documents to be perfect and your fresh look 
+with your mentor. We simply want our documents to be perfect and your fresh look
 at the process is precious to us.
 
 ## Plan
 
 1. To start, head over to [🔒 IxDF Onboarding & Company Culture Course](https://www.interaction-design.org/courses/ixdf-company-culture-course)
-    and go through Lesson 0 where the onboarding is explained.
+   and go through Lesson 0 where the onboarding is explained.
 2. Know our [collaboration tools](../collaboration-tools.md).
 3. Know our [expectations from you and your work](../expectations.md).
-4. Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md) 
-    (private repository link) -- It’s time-consuming (2-3 hours), so don't wait. 
+4. Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md)
+   (private repository link) -- It’s time-consuming (2-3 hours), so don't wait.
    While your tools are being downloaded/installed, you can continue with the list.
-5. Never stop learning 📖 Go through our library and create a plan on acquiring 
-    every bit of knowledge there. Once you have a plan, please discuss it with 
-    your mentor. (Are you full-stack? Then please open both links☀): 
-    - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md) 
+5. Never stop learning 📖 Go through our library and create a plan on acquiring
+   every bit of knowledge there. Once you have a plan, please discuss it with
+   your mentor. (Are you full-stack? Then please open both links☀):
+    - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md)
     - Literature/subscriptions [for front-end developers](../../library/front-end/literature.md)
-6. If you have any issues accessing the platform, company culture course 
-    or our collaboration tools, please ping the Member Experience team (`@member-experience-team`) 
-    via Slack (#onboarding-buddy-chat), so they can assist you. By this point, 
-    you should have already completed lesson 0 of the IxDF Onboarding & Company Culture course,
-    so now you may continue with the rest of the lessons.
+6. If you have any issues accessing the platform, company culture course
+   or our collaboration tools, please ping the Member Experience team (`@member-experience-team`)
+   via Slack (#onboarding-buddy-chat), so they can assist you. By this point,
+   you should have already completed lesson 0 of the IxDF Onboarding & Company Culture course,
+   so now you may continue with the rest of the lessons.
 7. Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md).
     1. [Scrum](../scrum/README.md)
@@ -49,7 +49,7 @@ at the process is precious to us.
         - [🔒 Backend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/backend/architecture.md)
         - [🔒 Frontend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/frontend/architecture.md)
 10. [🔒 Setup your IDE](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/IDE/README.md)
-     for the project.
+    for the project.
 
 Happy reading/hacking!
 
@@ -78,11 +78,11 @@ very often with your onboarding buddy, so you'll have a good opportunity to ask
 for directions, new issues, get answer for your questions, and get feedback.
 Here's a list of things you can share with your onboardnig buddy or your colleagues:
 
-- Coding: What have you finished and deployed to production that is now used by hundreds or thousands of people?
-- Learning: What is your progress on consuming our library? Do you find them effective?
-- Domain: What have you learned about the IxDF and our platform?
+-   Coding: What have you finished and deployed to production that is now used by hundreds or thousands of people?
+-   Learning: What is your progress on consuming our library? Do you find them effective?
+-   Domain: What have you learned about the IxDF and our platform?
     How can you help improve the most-critical parts of our platform?
-- Culture: Can you list our vision, mission, and core values? What can you do to
+-   Culture: Can you list our vision, mission, and core values? What can you do to
     help IxDF accomplish its audacious goals.
 
 🦄
