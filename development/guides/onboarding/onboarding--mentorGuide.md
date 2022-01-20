@@ -50,13 +50,13 @@ Here's a list of things to consider when we try to onboard a new member:
 
 1. Ensure that your buddy has read all onboarding documents.
 2. Ensure that your buddy has all accounts/permissions for our internal and 3rd-party
-    services (see [Tools and Services checklist](#checklist-for-tools-and-services)).
+   services (see [Tools and Services checklist](#checklist-for-tools-and-services)).
 3. Ensure that your buddy has [🔒 properly installed developer environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md).
 4. Arrange end-of-day meetings with your buddy with a specified agenda to get maximum feedback.
-    The meeting should happen at the end of each day during the first week.
-    Why: It will help your buddy understand if they are doing what's expected of the
-    at the right pace and are focused on the correct tasks, as well as receive
-    clear instructions, advice and constructive criticism to help them improve.
+   The meeting should happen at the end of each day during the first week.
+   Why: It will help your buddy understand if they are doing what's expected of the
+   at the right pace and are focused on the correct tasks, as well as receive
+   clear instructions, advice and constructive criticism to help them improve.
 5. Start changing code: Prepare 3-10 tasks for smooth entry into the project. Examples:
     1. Write tests for feature X (the goal is to introduce feature X, introduce our tools and workflows (GitHub, git, CI))
     1. Pickup and fix any bug from our automated bug-report systems (Slack, New Relic, Bugsnag, etc.) (goal: introduce tools, fix a bug)
@@ -65,7 +65,7 @@ Here's a list of things to consider when we try to onboard a new member:
 ### First week
 
 1. Ensure that your buddy has a plan to read developer and general literature
-    as well as materials from our shared folders (50/50 mix of general/developer literature).
+   as well as materials from our shared folders (50/50 mix of general/developer literature).
 2. Ask for a summary feedback for the first week.
 
 ### First month
