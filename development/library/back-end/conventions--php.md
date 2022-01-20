@@ -147,7 +147,7 @@ You may know it as a structure / dictionary / hash / map / hashmap, what is [the
 ## Generic types and templates
 
 PHP doesn't support generic types out of the box, but there's a workaround that helps us
-have a cleaner type interface, and therefore less bugs, which is 
+have a cleaner type interface, and therefore less bugs, which is
 [psalm template annotations](https://psalm.dev/docs/annotating_code/templated_annotations/).
 Here's an example:
 
@@ -195,7 +195,7 @@ $greeting = sprintf('Hello, my name is %s', ucfirst(auth()->user()->name));
 ## Comments
 
 Comments SHOULD be avoided as much as possible by writing expressive code.
-If you do need to use a comment to explain the what, then 
+If you do need to use a comment to explain the what, then
 [refactor](https://refactoring.guru/refactoring/techniques) the code.
 Ig you need to explain the reason (why), then format the comments as follows:
 
@@ -305,7 +305,7 @@ A great video on this topic: [Marco Pivetta «Extremely defensive PHP»](https:/
 ## Use domain-specific operations
 
 Similar to the previous rule, instead of creating setters to modify model properties
-or directly modifying public properties, encapsulate the logic in domain-specific methods. 
+or directly modifying public properties, encapsulate the logic in domain-specific methods.
 This way you can make sure that your models have valid/consistent state at all times.
 
 ```php
@@ -379,6 +379,7 @@ Please read a perfect article [Writing better Regular Expressions in PHP](https:
 You can also use `DEFINE` to declare recurring patterns in you regex. Here's an example regex that
 declares `attr`, which captures HTML attributes and its use-case in declaring an image tag.
 It also uses `sprintf` to create reusable regex definitions.
+
 ```php
 class RegexHelper
 {
@@ -390,17 +391,17 @@ class RegexHelper
                 (?P>img) # Recurse img subpattern from definitions
             )
         '
-    
+
         preg_match_all($this->createRegex($pattern), $htmlContent, $matches);
-        
-        return $matches['image'];   
+
+        return $matches['image'];
     }
-    
+
     private function createRegex(string $pattern): string
     {
         return sprintf($this->getDefinitions(), preg_quote($pattern, '~'));
     }
-    
+
     private function getDefinitions(): string
     {
         return "~
@@ -409,7 +410,7 @@ class RegexHelper
                 (?'img'<img(?P>params)>) # Capture HTML img tag with its attributes
             )
             %s #Allows adding dynamic regex using sprintf
-            ~ix";    
+            ~ix";
     }
 }
 
