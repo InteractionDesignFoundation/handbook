@@ -45,11 +45,11 @@ Every entry point in your code that is open for the public to use, is an entry p
 We do use `declare(strict_types=1);` by default.
 [Strict typing](https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration.strict) applies to function calls made from within the file with strict typing enabled.
 It helps us to catch some tricky bugs. On other hand, it requires a developer to think more possible variable types,
-but at the end of the day he has more stable code.
+but at the end of the day they have more stable code.
 
 ## Typed properties
 
-You should type a property whenever possible. Don’t use a docblock when you can use typed properties.
+You should specify property types whenever possible. Don’t use a docblock when you can use typed properties.
 
 ## Void return types
 
@@ -71,7 +71,7 @@ final class Foo
     /** @var string[] */
     private array $urls;
 
-    /** @var Collection<\App\Models\User> */
+    /** @var \Illuminate\Database\Eloquent\Collection<\App\Models\User> */
     private Collection $users;
 }
 
@@ -100,11 +100,11 @@ Always use fully qualified class names in docblocks.
 Because inheritance is implicit it may happen that it is not necessary to include a PHPDoc for an element.
 In order to avoid any confusion, please always use the `@inheritDoc` tag for classes and methods.
 
-Don’t use `@inheritDoc` for class properties. Instead copy the docblock from the parent class or interface.
+Don’t use `@inheritDoc` for class properties, instead copy the docblock from the parent class or interface.
 
 ```php
 // GOOD
-final class Tag
+final class Tag extends BaseTag
 {
     /** @var string[] The attributes that are mass assignable. */
     protected $fillable = [
@@ -113,7 +113,7 @@ final class Tag
 }
 
 // BAD
-final class Tag
+final class Tag extends BaseTag
 {
     /** @inheritDoc  */
     protected $fillable = [
@@ -122,9 +122,9 @@ final class Tag
 }
 ```
 
-### Describe array content by docblocks
+### Describe traversable types
 
-Use [Psalm syntax](https://psalm.dev/docs/annotating_code/type_syntax/array_types/#generic-arrays) to describe array content:
+Use [Psalm syntax](https://psalm.dev/docs/annotating_code/type_syntax/array_types) to describe traversable types:
 
 #### Lists / Ordered maps
 
@@ -137,16 +137,41 @@ Use [Psalm syntax](https://psalm.dev/docs/annotating_code/type_syntax/array_type
 
 #### Key-value store
 
-You may know it as a structure / dictionary / hash / map / hashmap, what is [the same](https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_1/Fundamentals_of_data_structures/Dictionaries)).
+You may know it as a structure / dictionary / hash / map / hashmap, what is [the same](https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_1/Fundamentals_of_data_structures/Dictionaries).
 
 ```php
 /** @return array{foo: string, bar: int} */
 /** @return array{optional?: string, bar: int} */
 ```
 
+## Generic types and templates
+
+PHP doesn't support generic types out of the box, but there's a workaround that helps us
+have a cleaner type interface, and therefore less bugs, which is 
+[psalm template annotations](https://psalm.dev/docs/annotating_code/templated_annotations/).
+Here's an example:
+
+```php
+    /**
+     * @template T of \Illuminate\Notifications\Notification
+     * @param class-string<T> $notificationFQCN
+     * @return T
+     */
+    protected function initialize(string $notificationFQCN): Notification
+    {
+        $reflectionClass = new \ReflectionClass($notificationFQCN);
+        $constructor = $reflectionClass->getConstructor();
+
+        // Checks to make sure we can instantiate the object
+
+        return $reflectionClass->newInstance();
+    }
+```
+
 ## Strings
 
-When possible prefer string interpolation above `sprintf` and the concatenation `.` operator.
+Prefer string interpolation above `sprintf` and the concatenation `.` operator whenever possible.
+Always wrap the variables in curly-braces `{}` when using interpolation.
 
 ```php
 // GOOD
@@ -154,6 +179,8 @@ $greeting = "Hi, I am {$name}.";
 ```
 
 ```php
+// BAD (hard to distinguish the variable)
+$greeting = "Hi, I am $name.";
 // BAD (less readable)
 $greeting = 'Hi, I am '.$name.'.';
 ```
@@ -168,7 +195,9 @@ $greeting = sprintf('Hello, my name is %s', ucfirst(auth()->user()->name));
 ## Comments
 
 Comments SHOULD be avoided as much as possible by writing expressive code.
-If you do need to use a comment, format it like this:
+If you do need to use a comment to explain the what, then 
+[refactor](https://refactoring.guru/refactoring/techniques) the code.
+Ig you need to explain the reason (why), then format the comments as follows:
 
 ```
 // There should be a space before a single line comment.
@@ -179,8 +208,6 @@ If you do need to use a comment, format it like this:
  * lines long or three characters shorter than the previous line.
  */
 ```
-
-Use [extract method](https://refactoring.guru/extract-method) and [extract variable](https://refactoring.guru/extract-variable) refactors to make your code more readable and remove comments.
 
 ## Class name resolution
 
@@ -233,7 +260,7 @@ Details: [The "Exception" suffix](https://mnapoli.fr/approaching-coding-style-ra
 
 ```php
 // GOOD
-abort(404, "The course with the ID $courseId could not be found.");
+abort(404, "The course with the ID {$courseId} could not be found.");
 
 // BAD
 abort(404);
@@ -275,10 +302,11 @@ public static function createFromSignup(AlmostMember $almostMember): Team
 Reason: have robust API that do not allow developers to create objects with invalid state (e.g. missing parameter/dependency).
 A great video on this topic: [Marco Pivetta «Extremely defensive PHP»](https://youtu.be/Gl9td0zGLhw?t=1238)
 
-## Use domain logic methods instead of setters
+## Use domain-specific operations
 
-Similar to previous rule.
-Do not create a setter for each model property. Instead, encapsulate them around the domain logic.
+Similar to the previous rule, instead of creating setters to modify model properties
+or directly modifying public properties, encapsulate the logic in domain-specific methods. 
+This way you can make sure that your models have valid/consistent state at all times.
 
 ```php
 // GOOD
@@ -300,10 +328,6 @@ public function store(): void
 
 // BAD =====================================
 
-// Models\Member.php
-public function setEmail(string $email): Member;
-public function setEmailWaitingConfirmation(string $email): Member;
-
 // Controllers\MemberEmailConfirmationController.php
 public function store(): void
 {
@@ -314,20 +338,27 @@ public function store(): void
 }
 ```
 
-Note that this convention aligns with the idea of putting domain logic into models and not into controllers.
+Note that this convention aligns with the idea of putting domain logic into models and not into controllers,
+hence having rich domain models and thin controllers/services.
 
 Want to learn more?
 
 [!["Cruddy by Design" by Adam Wathan, 40 mins](https://user-images.githubusercontent.com/5278175/65231387-2cbebe80-dad8-11e9-9be7-234e0be9a740.png)](https://www.youtube.com/watch?v=MF0jFKvS4SI)
+Read more about [class invariants](https://www.geeksforgeeks.org/what-is-class-invariant/)
+for a better understanding of dangers of modifying class properties from controllers/services.
 
 ## assert() vs throw
 
 Assertions should only be used to verify conditions that should be logically impossible to be false.
-These conditions should only be based on inputs generated by your own code. Any checks based on external inputs should use exceptions.
+These conditions should only be based on inputs generated by your own code.
+Any checks based on external inputs should use exceptions.
 
-The best use case of `assert()` is to treat it as a docblock block to specify types (great to nullables and polymorphic types).
+The best use case of `assert()` is to treat it as a docblock to specify types (great to nullables and polymorphic types).
 `assert()` may be disabled on production, so please do not rely on it in a runtime, prefer Exceptions instead if you need
 to check an expression in a runtime.
+
+Make sure you add a description to `assert` so that it's easy to reason about the code when
+a failure occurs.
 
 From [official documentation](https://www.php.net/manual/en/function.assert.php):
 
@@ -344,6 +375,47 @@ From [official documentation](https://www.php.net/manual/en/function.assert.php)
 
 The biggest problem of regex is readability.
 Please read a perfect article [Writing better Regular Expressions in PHP](https://php.watch/articles/php-regex-readability) on this topic. There is nothing to add.
+
+You can also use `DEFINE` to declare recurring patterns in you regex. Here's an example regex that
+declares `attr`, which captures HTML attributes and its use-case in declaring an image tag.
+It also uses `sprintf` to create reusable regex definitions.
+```php
+class RegexHelper
+{
+    /** @return array<string, string> */
+    public function images(string $htmlContent): array
+    {
+        $pattern = '
+            (?'image' # Capture named group
+                (?P>img) # Recurse img subpattern from definitions
+            )
+        '
+    
+        preg_match_all($this->createRegex($pattern), $htmlContent, $matches);
+        
+        return $matches['image'];   
+    }
+    
+    private function createRegex(string $pattern): string
+    {
+        return sprintf($this->getDefinitions(), preg_quote($pattern, '~'));
+    }
+    
+    private function getDefinitions(): string
+    {
+        return "~
+            (?(DEFINE) # Allows defining reusable patterns
+                (?'attr'(?:\s[^>]++)?) # Capture HTML attributes
+                (?'img'<img(?P>params)>) # Capture HTML img tag with its attributes
+            )
+            %s #Allows adding dynamic regex using sprintf
+            ~ix";    
+    }
+}
+
+```
+
+You can use [Regex101](https://regex101.com/) to test your patterns.
 
 ## Materials
 
