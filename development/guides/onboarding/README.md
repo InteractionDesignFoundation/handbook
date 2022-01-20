@@ -13,9 +13,15 @@ about your role at the IxDF and your day-to-day work as a developer.
 Before you start, please ensure that you know your mentor (onboarding buddy)
 to make your onboarding process smooth and easy.
 
-Please also share all of your ideas & thoughts regarding our onboarding documents
-with your mentor. We simply want our documents to be perfect and your fresh look
-at the process is precious to us.
+## Contribute to our documents
+
+From here on, you will read a lot of documents in different places. Your first
+contribution to IxDF is to help us make those documents as perfect as humanly possible
+and your fresh look is invaluable.
+We don't expect you to spend too much time and feel pressured, however you can:
+1. Fix broken-links, invalid/obsolete statements, typos, incorrect instructions, etc.
+   Don't be afraid to commit your changes 🙂
+2. Share your feedback with your onboarding buddy
 
 ## Plan
 
