@@ -19,6 +19,7 @@ From here on, you will read a lot of documents in different places. Your first
 contribution to IxDF is to help us make those documents as perfect as humanly possible
 and your fresh look is invaluable.
 We don't expect you to spend too much time and feel pressured, however you can:
+
 1. Fix broken-links, invalid/obsolete statements, typos, incorrect instructions, etc.
    Don't be afraid to commit your changes 🙂
 2. Share your feedback with your onboarding buddy
