@@ -14,7 +14,7 @@ We generally observe the standards from the [PHP FIG](http://www.php-fig.org/).
 We use automated tools to check our code on CI:
 
 -   [phpcs](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.phpcs/IxDFCodingStandard/ruleset.xml))
--   [PHP-CS-Fixer](https://cs.symfony.com/) (([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.php_cs))
+-   [PHP-CS-Fixer](https://cs.symfony.com/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.php_cs))
 -   [psalm](https://psalm.dev/docs/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/psalm.xml))
 -   [rector](https://github.com/rectorphp/rector) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/rector.php))
 
