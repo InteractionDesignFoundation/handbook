@@ -21,9 +21,9 @@ not to lose track, and finally get their feedback and transform it into actions 
 ## Expectations and duties
 
 It’s not the job of an onboarding buddy to ~teach~, although you might end up doing
-a little bit of that. Your role is to **guide** and inspire with your enthusiasm.
+a little of that. Your role is to **guide** and inspire with your enthusiasm.
 
-So while there’s an element of teaching to onboarding, the skills an onboarding buddy
+So while there’s an element of teaching, the skills an onboarding buddy
 needs are different to those of a teacher. You need to be an attentive listener,
 and you need to have enough practical experience to be able to give your buddy
 the right advice at the right time.
@@ -44,7 +44,7 @@ Here's a list of things to consider when we try to onboard a new member:
 4. Let them know why and how much they matter
 5. Try to offload as much information as we can into our shared folders and documents
 6. Make it easy for them to access all necessary information
-7. Simplify the feedback loop (bi-directional)
+7. Simplify the feedback loop (bidirectional)
 
 ### First day
 
