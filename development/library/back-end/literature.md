@@ -61,23 +61,24 @@ Every back-end developer should
 
 ## Foundations
 
-1.  Classic programming (books): `Robert Martin - Clean Code - 2008` and/or
+1. Classic programming (books): `Robert Martin - Clean Code - 2008` and/or
     `Steve McConnell - Code Complete, 2nd edition - 2014`.
-1.  Framework: Official Laravel [documentation](https://laravel.com/docs/) :smile:
-1.  Design Patterns (book): `Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides - Design Patterns - 1994` or `Eric Freeman - Head First Design Patterns - 2004`.
-1.  Server management (book): `Chris Fidao - Servers for Hackers - 2016.pdf`.
-1.  Clean Architecture (book): `Robert Martin - Clean Architecture: A Craftsman's Guide to Software Structure and Design - 2017`.
-1.  Topic:
+2. Framework: Official Laravel [documentation](https://laravel.com/docs/) :smile:
+3. Design Patterns (book): `Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides - Design Patterns - 1994`
+    , `Eric Freeman - Head First Design Patterns - 2004`, or [Dive Into design patterns](https://refactoring.guru/design-patterns/book)
+4. Server management (book): `Chris Fidao - Servers for Hackers - 2016.pdf`.
+5. Clean Architecture (book): `Robert Martin - Clean Architecture: A Craftsman's Guide to Software Structure and Design - 2017`.
+6. Topic:
     [S](https://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074).[O](https://code.tutsplus.com/tutorials/solid-part-2-the-openclosed-principle--net-36600).[L](https://code.tutsplus.com/tutorials/solid-part-3-liskov-substitution-interface-segregation-principles--net-36710).[I](https://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872).[D](https://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872).
     principles ([short version](https://jokiruiz.com/software/solid-principles-php/)). There are also videos on the topic inside `SOLID Principles in PHP` directory.
-1.  Topic:
+7. Topic:
     [KISS, YAGNI & DRY Principles](https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161).
-1.  Topic: [How to use xdebug on your local env](https://deliciousbrains.com/xdebug-advanced-php-debugging/).
-1.  Optional: TDD in Laravel: [`Course videos for Test-Driven Laravel`](https://course.testdrivenlaravel.com/) video course by [Adam Wathan](https://github.com/adamwathan).
-1.  Optional: Classic programming (book):
-    `Hunt A., Thomas D. - The Pragmatic Programmer. From Journeyman to Master - 1999`.
-1.  Optional: DDD (book): `Vernon V. - Domain-Driven Design Distilled - 2016`.
-1.  Optional: Articles inside `Articles` shared folder.
+8. Topic: [How to use xdebug on your local env](https://deliciousbrains.com/xdebug-advanced-php-debugging/).
+9. Optional: TDD in Laravel: [`Course videos for Test-Driven Laravel`](https://course.testdrivenlaravel.com/) video course by [Adam Wathan](https://github.com/adamwathan).
+10. Optional: Classic programming (book):
+     `Hunt A., Thomas D. - The Pragmatic Programmer. From Journeyman to Master - 1999`.
+11. Optional: DDD (book): `Vernon V. - Domain-Driven Design Distilled - 2016`.
+12. Optional: Articles inside `Articles` shared folder.
 
 # References
 
