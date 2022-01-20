@@ -1,12 +1,14 @@
 # How to get domain knowledge
 
-We’ve developed a few onboarding activities to give you a much deeper understanding of our domain. Understanding our domain,
-i.e. the platform and its features FROM OUR USERS’ PERSPECTIVE (i.e. domain knowledge) is paramount to both understanding our codebase and writing awesome code. Great code has a small “conceptual distance” to the domain. In other words, it minimizes cognitive complexity enormously when variable naming, method naming, database table naming and likewise are named “closely” to the the names of the concepts the users use.
+We’ve developed a few onboarding activities to give you a much deeper understanding
+of our domain. Understanding our domain, i.e. the platform and its features from
+our **users’ perspective** (i.e. domain knowledge) is paramount to both understanding
+our codebase and writing awesome code. Great code has a **“small conceptual distance”**
+to the domain. In other words, it brings cognitive ease when variables, methods, database tables,
+models, services, operations, and likewise come directly from domain-specific vocabulary.
 
-Therefore, you should carry out the following activities in a thorough manner. Don’t worry if you can’t remember all of what you
-see and learn after you’ve done the activities. As long as you do the activities thoroughly, your brain will still remember lots of
-things, and in the future you will get that feeling of “hmm... I remember seeing something that’s related to that...” and then you will
-know where to go look for the information. So it’s much like constructing a “map” in your mind.
+Don't expect to grasp/understand/remember everything you read during your onboarding.
+Look at it as a map which you can refer to down the road.
 
 ## Read docs from `/docs/domain`
 
@@ -16,9 +18,11 @@ During onboarding you need to read `README.md` files for every system.
 
 ## Test email notifications
 
-Go to the notification control panel on our staging/test sites. On that page, you will see information on how to test an email notification.
-Please be **absolutely sure** you're not on production server but on a **staging/test site**. Ask your mentor for the URL to the test site
-and the password.
+Go to the [notification control panel](https://develop.information-architecture.org/admin/notifications)
+on our staging/test sites (You can find the basic-auth credentials in lastpass).
+On that page, you will see information on how to test an email notification.
 
-Doing this activity can feel a bit grinding perhaps. But rest assured that it will pay off in the long run. It will make your work in
-the codebase considerably easier in the long run.
+Please be **absolutely sure** you're not on production server but on a **staging/test site**.
+
+Doing this activity can feel a bit grinding, but rest assured that it will pay off
+in the long run. It will make your work in the codebase considerably easier.
