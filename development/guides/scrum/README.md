@@ -1,81 +1,100 @@
-# Scrum in IxDF teams
+# Scrum
 
-Scrum is an agile and simple framework for effective team collaboration on complex products.
+According to the official definition, “Scrum is a framework within which people
+can address complex adaptive problems, while productively and creatively delivering
+products of the highest possible value.”.
 
-Instead of providing complete, detailed descriptions of how everything is to be done on a project,
-much of it is left up to the Scrum team. Afterall, the team will know best how to solve the problems and challenges they are presented with.
+Scrum is a simple, empricial framework which helps us deal with unpredictable, complex problems.
 
-Scrum started in Software Development but is now being used as an approach to project management in all sorts of projects.
+![image](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/scrumorg-scrum-framework-3000.png)
 
-## External, introductory ressources
+Scrum implements an empirical process where progress is based on observations of reality, not fictitious plans.
 
--   **[What is Scrum?](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
--   **[Scrum Glossary](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
-    _There are more external ressources at the bottom of this page_
+## The Scrum Framework
 
-## Scrum Roles
+### Scrum Values
 
--   **[Scrum Master](scrumMaster.md)**: helps Scrum practitioners achieve their highest level of performance.
--   **[Product Owner](productOwner.md)**: creates a compelling vision of the product, and then conveys that vision to the team through the product backlog.
--   **[Scrum Team](scrumTeam.md)**: contributes in whatever way they can to complete the work of each sprint.
+![image](https://user-images.githubusercontent.com/77272856/150678447-cafcd33b-23df-4595-8292-e94f79a8edca.png)
 
-## Scrum sprint
+### Scrum Team
 
-A scrum sprint is a regular, repeatable work cycle in scrum methodology during which work is completed and made ready for review.
-In the IxDF, we usually use 2-weeks sprints.
+Small team of people, consists of:
+- **[Scrum Master](https://www.scrum.org/resources/what-is-a-scrum-master)**: TBC 
+- **[Product Owner](https://www.scrum.org/resources/what-is-a-product-owner)**: TBC
+- **[Developers](https://www.scrum.org/resources/what-is-a-scrum-developer)**: TBC
 
-Once Sprint Planning is finished - it should not be possible to add new tasks to sprint backlog. There are 2 exceptions for this rule:
+### [Scrum Pilars](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum)
+- **Transparency**: This means presenting the facts as is
+- **Inspection** (by the Scrum Team): Check the product, processes, people, and practices and you work.
+- **Adaptation**: Continuous improvement base on the result of Inspection
 
--   tasks with `urgency: high` label
--   tasks with `blink of an eye` label if they are relevant to other issues from your backlog
+### Scrum Events
+The main goal of these events is to create regularity and minimize the need for meetings.
+- **[Sprint](https://www.scrum.org/resources/what-is-a-sprint-in-scrum)**: 
+    It is the heart-beat of scrum, which encompasses all the work necessary to achive the Product Goal.
+    It's a fixed-length event of one month or less.
+- **[Sprint Planning](https://www.scrum.org/resources/what-is-sprint-planning)**: Initiates the sprint by laying out the work to be done.
+  - Questions: 
+    - Why is this sprint valuable?
+    - What can be done this sprint?
+    - How will the chosen work get done?
+  - Outcome: Sprint Backlog
+  - See: Definition of Done
+- **[Daily Scrum](https://www.scrum.org/resources/what-is-a-daily-scrum)**: 
+  - Purpose:
+    - Inspect progress toward Sprint Goal
+    - Synchronize activities
+    - Plan for the next 24 hours
+  - Team members often meet immediately after the Daily Scrum for detailed discussions or replan.
+  - How:
+    - It's 15 minutes (timebox) to keep everyone focused
+    - It happens at the same time & location to reduce complexity
+    - It happens everyday
+    - It's by developers and for developers
+    - It's not a status meeting (update on the tasks they've been working on)
+- **[Sprint Review](https://www.scrum.org/resources/what-is-a-sprint-review)**:
+  - Inspect the outcome of the Sprint & determine future adaptation
+  - Progress toward Product Goal is discussed with stakeholders
+  - Maximum of 4-hour timeboxed event for a 4-week Sprint
+  - See: Backlog Refinement
+- **[Sprint Retrospective](https://www.scrum.org/resources/what-is-a-sprint-retrospective)**:
+  - Inspect individuals, interactions, processes, tools, and their Definition of Done.
+  - Identify the most helpful changes to improve effectiveness.
+  - It's timeboxed to a maximum of 3 hours for a 4-week Sprint.
 
-### Sprint planning
+### Scrum Artifacts
 
--   **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
--   **Duration**: 1-2 hours
+Scrum Artifacts enable inspection & adaptation by providing transparency on the work and the value.
+- **[Product Backlog](https://www.scrum.org/resources/what-is-a-product-backlog)**: 
+  - Definition: An emergent, ordered-list of what's needed to improve the product. 
+  - Commitment: Product Goal, which is a future state of the product that helps
+    Scrum Team to plan their future Sprints. It's either fulfilled or abandoned.
+- **[Sprint Backlog](https://www.scrum.org/resources/what-is-a-sprint-backlog)**:
+  - Definition:
+    - Sprint Goal (Why)
+    - Set of Product Backlog Items (What)
+    - Actionable plan for delivering the Increment (How)
+    - Commitment: Sprint Goal, which is a single commitment for the sprint. It has
+      flexibility in terms of the exact work needed to achive it.
+- **[Increment](https://www.scrum.org/resources/what-is-an-increment)**:
+  - Definition: 
+    - Concrete stepping stone toward the Product Goal.
+    - Each increment is added to the previous
+    - All increments should work with each other
+  - Commitment: Definition of Done, which is a formal description of the minimum
+    quality required for an increment to be accepted.
 
-The output of the sprint planning is a new backlog (todo-list) along with clear and short sprint goals.
 
-### Daily scrum
+Scrum works not because it has [three roles](#Scrum Team), [five events](#Scrum Events),
+and [three artifacts](#Scrum Artifacts), but because it adheres to the underlying
+Agile principles of iterative, value-based incremental delivery by frequently gathering
+customer feedback and embracing change.
 
--   **Attendees**: ScrumMaster, ScrumTeam, and optionally ProductOwner.
--   **Duration**: 10-45 mins
+### External, introductory ressources
 
-In Scrum, on each day of a sprint the team holds a daily scrum meeting called the "daily scrum.”
-Meetings are typically held at the same time each day.
-
-This is a short daily call where ScrumTeam should answer 3 questions:
-
-1.  What have you done starting from last daily scrum until now?
-1.  What are you going to do until next daily scrum?
-1.  Is there anything blocking you?
-
-### Demo and retrospective
-
--   **Attendees**: ScrumMaster, ScrumTeam, and ProductOwner.
--   **Duration**: 1-2 hours
-
-**Part 1: Demo**:
-In Scrum, each sprint is required to deliver a potentially shippable product increment.
-For example, in the case of the development team, this means that at the end of each sprint the team has produced a coded, tested and usable piece of software. In the case of the editorial team, it means that at the end of each sprint the team has produced a coherent and definable piece of work (e.g. a number of lesson items, a number of videos, etc) that can be demo'ed/viewed and potentially shipped.
-
-**Part 2: Sprint Retrospective**:
-No matter how good a Scrum team is, there is always an opportunity to improve.
-Although a good Scrum team will be constantly looking for improvement opportunities, the team should set aside a brief, dedicated period at the end of each sprint to deliberately reflect on how they are doing, and to find ways to improve.
-This occurs during the Sprint Retrospective.
-
-## Scrum Board
-
-The Scrum Board is a visual representation of a Scrum Sprint.
-There are 4 task statuses available to be used for the ScrumTeam:
-
-1.  **backlog**: current sprint backlog, usually ordered by priorities.
-1.  **in progress**: tasks that our developers are currently working on (one issue per developer).
-1.  **on review/blocked**: issues that are on review or blocked. ScrumMaster should try to minimize the number of tasks in this column.
-1.  **done**: finished issues (no matter if shipped to production or not)
-
-An example of Scrum Board at the middle of a Sprint:
-![image](https://user-images.githubusercontent.com/5278175/35347434-28fb2300-0146-11e8-87f2-0ab9dbc24a66.png)
+- **[What is Scrum?](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
+- **[Scrum Glossary](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
+- **[Scrum Values](https://kissflow.com/project/agile/how-to-apply-5-scrum-values/)**: Pracical examples of applying Scrum Values
 
 ## More external ressources
 
@@ -83,5 +102,9 @@ An example of Scrum Board at the middle of a Sprint:
 -   [Daily scrum](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum)
 -   [Demo/Review meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-review-meeting)
 -   [Sprint retrospective](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-retrospective)
+
+## Scrum in IxDF
+
+TBC
 
 🦄
