@@ -19,10 +19,6 @@ To achieve this, we want everyone to understand what is expected of them, the th
         -   [Team Trips](/development/guides/people_operations/team-trips.md)
         -   [Video Calls](/development/guides/people_operations/video-calls.md)
     -   [Scrum](/development/guides/scrum/README.md)
-        -   [How to fill out your Backlog](/development/guides/scrum/backlog.md)
-        -   [Role: ProductOwner](/development/guides/scrum/productOwner.md)
-        -   [Role: ScrumMaster](/development/guides/scrum/scrumMaster.md)
-        -   [Role: ScrumTeam](/development/guides/scrum/scrumTeam.md)
     -   [Our expectations from you and your work](/development/guides/expectations.md)
     -   [Collaboration tools](/development/guides/collaboration-tools.md)
     -   [Access to credentials](/development/guides/credentials.md)
@@ -33,7 +29,7 @@ To achieve this, we want everyone to understand what is expected of them, the th
 ## Links
 
 -   [Handbook contribution guide](CONTRIBUTING.md): how to make this document even better 🦄
--   🔒 Shared folders at [Dropbox.com](https://www.dropbox.com/share/) (ask **@madssoegaard** to give you access)
+-   🔒 Shared folders at [Dropbox.com](https://www.dropbox.com/share/) (ask **@mads** to give you access)
 -   [🔒 developer docs](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/README.md) - development-related documents
 
 ## The IxDF Zen Code
