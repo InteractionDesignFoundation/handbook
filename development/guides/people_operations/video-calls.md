@@ -18,6 +18,6 @@ These communication guidelines are meant to facilitate smooth communication in a
     and not feel like talking to a computer screen :-)
 1.  Pay attention to other team members; they may ask for help, OR you may notice that they need help without directly asking.
     Especially the daily calls are a chance for all of us to be on the same page AND help others to save time & sanity so that we operate as efficiently as possible.
-1.  Make sure you've read and re-read the guidelines on [Scrum Updates](/development/guidespment/guides/scrum/scrumTeam.md) and [Scrum overview](/development/guidespment/guides/scrum/README.md) so that you, for example, don’t give lengthy updates on insignificant stuff ("..and then I corrected a typo on page XYZ..." :-) )
+1.  Make sure you've read and re-read the guidelines on [Scrum overview](/development/guides/scrum/README.md) so that you, for example, don’t give lengthy updates on insignificant stuff ("..and then I corrected a typo on page XYZ..." :-) )
 
 🦄

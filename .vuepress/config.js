@@ -96,10 +96,6 @@ module.exports = {
                         title: "Scrum",
                         children: [
                             "/development/guides/scrum/",
-                            "/development/guides/scrum/scrumTeam",
-                            "/development/guides/scrum/productOwner",
-                            "/development/guides/scrum/scrumMaster",
-                            "/development/guides/scrum/backlog"
                         ]
                     }
                 ]
