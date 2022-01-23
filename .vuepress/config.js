@@ -92,12 +92,7 @@ module.exports = {
                     },
                     "/development/guides/credentials",
                     "/development/guides/collaboration-tools",
-                    {
-                        title: "Scrum",
-                        children: [
-                            "/development/guides/scrum/",
-                        ]
-                    }
+                    "/development/guides/scrum/",
                 ]
             },
             {
