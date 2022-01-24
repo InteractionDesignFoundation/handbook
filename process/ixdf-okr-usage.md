@@ -8,13 +8,11 @@ sidebar: auto
 
 ![](../images/14-okr-quarter-part-1.svg)
 
-
 ![](../images/15-okr-quarter-part-2.svg)
 
 ## The OKR Year and Quarter
 
 ![](../images/16-okr-year-and-quarter-part-1.svg)
-
 
 ![](../images/17-okr-year-and-quarter-part-2.svg)
 
