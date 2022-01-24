@@ -54,7 +54,8 @@ module.exports = {
                 items: [
                     {text: 'Our Process', link: '/process/ixdf-process.md'},
                     {text: 'About OKRs', link: '/process/about-okrs.md'},
-                    {text: 'OKR Process', link: '/process/okr-process.md'}
+                    {text: 'How the IxDF Uses OKRs', link: '/process/ixdf-okr-usage.md'},
+                    {text: 'IxDF OKR Process', link: '/process/ixdf-okr-process.md'}
                 ]
             },
             {

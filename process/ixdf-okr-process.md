@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# OKR Process
+# IxDF OKR Process
 
 ## The Cascade Process of Creating OKRs for One Quarter
 
