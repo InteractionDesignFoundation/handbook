@@ -69,7 +69,6 @@ module.exports = {
             },
             {text: 'Development', link: '/development/',},
             {text: 'IxDF UI Kit', link: 'https://design-system.interaction-design.org/'},
-            // {text: 'Resources', link: '/resources/',},
             {text: "🔒Internal Docs", link: "https://docs.information-architecture.org"}
         ],
 
