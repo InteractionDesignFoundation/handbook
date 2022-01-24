@@ -18,5 +18,4 @@ Process](/development) which is how we build and maintain them.
 -   [Process](process/ixdf-process.md)
 -   [Product](product/product-process.md)
 -   [Development](development)
--   [Design System](https://design-system.interaction-design.org/)
--   [Resources](resources)
+-   [IxDF UI Kit](https://design-system.interaction-design.org/)
