@@ -68,8 +68,8 @@ module.exports = {
                 ]
             },
             {text: 'Development', link: '/development/',},
-            {text: 'IxDF UI Kit', link: 'https://design-system.interaction-design.org/'},
-            {text: "🔒Internal Docs", link: "https://docs.information-architecture.org"}
+            {text: 'UI Kit', link: 'https://design-system.interaction-design.org/'},
+            {text: "Development Docs", link: "https://docs.information-architecture.org"}
         ],
 
         sidebarDepth: 0,
