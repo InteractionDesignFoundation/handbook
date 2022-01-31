@@ -10,7 +10,6 @@ The IxDF System is our way of working efficiently to achieve our [Purpose](/abou
 
 The system enables us to [Coordinate](/process/ixdf-process.md) our [Product Design](/product/product-process.md), [Software Development](/development) and Content Creation to support our purpose.
 
-
 ## Quick Links
 
 -   [Purpose](about/purpose.md)
