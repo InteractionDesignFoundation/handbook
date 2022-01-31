@@ -4,18 +4,17 @@ sidebar: false
 
 # IxDF System
 
-![](./images/hero-all.svg)
+![](./images/hero-all-v2.svg)
 
-To accomplish our Mission and achieve our Vision efficiently, the IxDF relies on processes and tools.
+The IxDF System is our way of working efficiently to achieve our [Purpose](/about/purpose).
 
-The most widely-used is our [IxDF Process](/process/ixdf-process.md) that helps us to work together and get things done within and across teams. The
-IxDF Process is supported by our [Product Process](/product/product-process.md) which is how we design and and deliver new things and our [Development
-Process](/development) which is how we build and maintain them.
+The system enables us to [Coordinate](/process/ixdf-process.md) our [Product Design](/product/product-process.md), [Software Development](/development) and Content Creation to support our purpose.
+
 
 ## Quick Links
 
 -   [Purpose](about/purpose.md)
--   [Process](process/ixdf-process.md)
+-   [Coordinate](process/ixdf-process.md)
 -   [Product](product/product-process.md)
 -   [Development](development)
 -   [IxDF UI Kit](https://design-system.interaction-design.org/)

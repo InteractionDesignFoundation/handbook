@@ -48,9 +48,9 @@ module.exports = {
         smoothScroll: true,
         logo: '/hydrogenlogo.svg',
         nav: [
-            {text: 'Our Purpose', link: '/about/purpose/',},
+            {text: 'Purpose', link: '/about/purpose/',},
             {
-                text: 'IxDF Process',
+                text: 'Coordination',
                 items: [
                     {text: 'Our Process', link: '/process/ixdf-process.md'},
                     {text: 'About OKRs', link: '/process/about-okrs.md'},
@@ -59,7 +59,7 @@ module.exports = {
                 ]
             },
             {
-                text: 'Product',
+                text: 'Design',
                 items: [
                     {text: 'Product Process', link: '/product/product-process.md'},
                     {text: 'Design Principles', link: '/product/design-principles.md'},
