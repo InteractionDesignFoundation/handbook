@@ -4,6 +4,8 @@ sidebar: false
 
 # Purpose
 
+![](../images/hero-purpose.svg)
+
 ## Our Mission
 
 Our mission is to genuinely improve the world by creating design education of the highest quality and lowest possible cost. We help as many designers, companies and students as possible improve their skills and future prospects—regardless of their location or background. This is the reason we exist. We LOVE that we make a big difference to millions of people around the world.
