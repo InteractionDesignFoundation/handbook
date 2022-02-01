@@ -6,7 +6,7 @@ sidebar: false
 
 ![](./images/hero-all.svg)
 
-The IxDF System is a collection of processes and tools that help the teams of the Interaction Design Foundation (IxDF) [Coordinate](/process/ixdf-process.md) our efforts to [Design Products](/product/product-process.md), [Develop Software](/development) and Create Learning Content that is focused on achieving our [Purpose](/about/purpose.md).
+The IxDF System consists of processes and tools that the Interaction Design Foundation (IxDF) [Coordinate](/process/ixdf-process.md) how we [Design Products](/product/product-process.md), [Develop Software](/development) and Create Learning Content to achieve our [Purpose](/about/purpose.md).
 
 This site is our living documentation, used daily by our teams, and shared openly with anyone who finds it useful.
 
