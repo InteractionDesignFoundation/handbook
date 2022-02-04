@@ -59,7 +59,7 @@ module.exports = {
         sidebarDepth: 0,
 
         sidebar: [
-            "/company/about",
+            "/development/",
             {
                 title: "Guides",
                 collapsable: false,

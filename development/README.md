@@ -11,8 +11,6 @@ To achieve this, we want everyone to understand what is expected of them, the th
 
 ## Table of Contents
 
--   Company
-    -   [About](/company/about.md)
 -   Guides
     -   [Onboarding](/development/guides/onboarding/README.md)
     -   People Operations
