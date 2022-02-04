@@ -2,7 +2,7 @@
 sidebar: true
 ---
 
-# Development
+# Develop
 
 ![](../images/hero-development.svg)
 
