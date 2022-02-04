@@ -49,9 +49,9 @@ module.exports = {
         logo: '/hydrogenlogo.svg',
         nav: [
             {text: 'Purpose', link: '/about/purpose/',},
-            {text: 'Coordination', link: '/process/ixdf-process',},
+            {text: 'Coordinate', link: '/process/ixdf-process',},
             {text: 'Design', link: '/product/product-process',},
-            {text: 'Development', link: '/development/',},
+            {text: 'Develop', link: '/development/',},
             {text: 'UI Kit', link: 'https://ui-kit.interaction-design.org/'},
             {text: "Development Docs", link: "https://docs.information-architecture.org"}
         ],
