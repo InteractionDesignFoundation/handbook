@@ -56,56 +56,58 @@ module.exports = {
             {text: "Development Docs", link: "https://docs.information-architecture.org"}
         ],
 
+        sidebar: {
 
+            // development-specific sidebar
+            '/development': [
+                {
+                    title: "Guides",
+                    collapsable: false,
+                    sidebarDepth: 0,
+                    children: [
+                        "/development/guides/expectations",
+                        {
+                            title: "Onboarding",
+                            children: [
+                                "/development/guides/onboarding/",
+                                "/development/guides/onboarding/onboarding--domain-knowledge",
+                                "/development/guides/onboarding/onboarding--mentorGuide",
+                                "/development/guides/onboarding/onboarding__forge"
+                            ]
+                        },
+                        "/development/guides/credentials",
+                        "/development/guides/collaboration-tools",
+                        "/development/guides/scrum/",
+                    ]
+                },
+                {
+                    title: "Back end",
+                    collapsable: false,
+                    sidebarDepth: 0,
+                    children: [
+                        "/development/library/back-end/clean-code-php",
+                        "/development/library/back-end/conventions--php",
+                        "/development/library/back-end/conventions--laravel",
+                        "/development/library/back-end/SOLID",
+                        "/development/library/back-end/literature"
+                    ]
+                },
+                {
+                    title: "Front end",
+                    collapsable: false,
+                    sidebarDepth: 0,
+                    children: [
+                        "/development/library/front-end/clean-code-js",
+                        "/development/library/front-end/conventions--js",
+                        "/development/library/front-end/conventions--css",
+                        "/development/library/front-end/literature"
+                    ]
+                },
 
-        sidebar: [
+            ]
 
-
-            "/development/", // the development-specific sidebar
-            {
-                title: "Guides",
-                collapsable: false,
-                sidebarDepth: 0,
-                children: [
-                    "/development/guides/expectations",
-                    {
-                        title: "Onboarding",
-                        children: [
-                            "/development/guides/onboarding/",
-                            "/development/guides/onboarding/onboarding--domain-knowledge",
-                            "/development/guides/onboarding/onboarding--mentorGuide",
-                            "/development/guides/onboarding/onboarding__forge"
-                        ]
-                    },
-                    "/development/guides/credentials",
-                    "/development/guides/collaboration-tools",
-                    "/development/guides/scrum/",
-                ]
-            },
-            {
-                title: "Back end",
-                collapsable: false,
-                sidebarDepth: 0,
-                children: [
-                    "/development/library/back-end/clean-code-php",
-                    "/development/library/back-end/conventions--php",
-                    "/development/library/back-end/conventions--laravel",
-                    "/development/library/back-end/SOLID",
-                    "/development/library/back-end/literature"
-                ]
-            },
-            {
-                title: "Front end",
-                collapsable: false,
-                sidebarDepth: 0,
-                children: [
-                    "/development/library/front-end/clean-code-js",
-                    "/development/library/front-end/conventions--js",
-                    "/development/library/front-end/conventions--css",
-                    "/development/library/front-end/literature"
-                ]
-            },
-        ],
+        },
+        
         displayAllHeaders: true
     },
 
