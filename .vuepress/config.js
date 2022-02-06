@@ -56,13 +56,16 @@ module.exports = {
             {text: "Development Docs", link: "https://docs.information-architecture.org"}
         ],
 
-        sidebarDepth: 0,
+
 
         sidebar: [
-            "/development/",
+
+
+            "/development/", // the development-specific sidebar
             {
                 title: "Guides",
                 collapsable: false,
+                sidebarDepth: 0,
                 children: [
                     "/development/guides/expectations",
                     {
@@ -82,6 +85,7 @@ module.exports = {
             {
                 title: "Back end",
                 collapsable: false,
+                sidebarDepth: 0,
                 children: [
                     "/development/library/back-end/clean-code-php",
                     "/development/library/back-end/conventions--php",
@@ -93,6 +97,7 @@ module.exports = {
             {
                 title: "Front end",
                 collapsable: false,
+                sidebarDepth: 0,
                 children: [
                     "/development/library/front-end/clean-code-js",
                     "/development/library/front-end/conventions--js",
