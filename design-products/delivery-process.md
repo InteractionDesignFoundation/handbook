@@ -1,39 +1,16 @@
 ---
-sidebar: auto
-sidebarDepth: 1
+sidebar: true
 ---
 
-# Design
-
-![](../images/hero-design.svg)
-
-The IxDF Design Process is heavily informed by our design principles and enables us to deliver value to our Members. It includes Design and Delivery.
-
-## Design Principles
-
-Design is the art of making smart, effective decisions that create a desirable outcome. We use a set of 11 Design Principles to help guide our decisions. We began with the Ten Principles of Good Design by Industrial Designer Dieter Rams which we continue to adapt for our own purposes.
-
-1. Good design is innovative—It does not automatically follow convention.
-1. Good design makes a product useful—It does work for people.
-1. Good design is aesthetic beautiful—It makes your heart skip a beat.
-1. Good design makes a product understandable—Anyone can use it instantly.
-1. Good design is unobtrusive—It lets the content, learner, instructors shine.
-1. Good design is honest—”I know exactly who designed this!”
-1. Good design is long-lasting—Hot new trends don’t worry us.
-1. Good design is thorough down to the last detail—We care about it all.
-1. Good design is good for everyone—All people and the living things around them.
-1. Good design is as little design as possible—If it doesn’t add value, it’s not going in the design.
-1. Good design teaches—Experiencing it should help me then apply it
-
-## Design and Delivery Process
+# Delivery Process
 
 This is the process we use to turn product designs into actual products.
 
-### Agile Teams
+## Agile Teams
 
 ![](../images/agile-teams.svg)
 
-#### Agile Team Members
+### Agile Team Members
 
 -   Member Experience
 -   Growth
@@ -43,19 +20,19 @@ This is the process we use to turn product designs into actual products.
 -   Product Owner
 -   Design
 
-### Agile Organization
+## Agile Organization
 
 ![](../images/agile-organization.svg)
 
 Leverage **epics**, **milestones**, **issues** and **labels** to manage execution of tasks.
 
-#### Epics
+### Epics
 
 **Epics** are high level product requirements and/or features requests that require multiple issues to achieve. Epics
 may extend into multiple milestones “sprints” or continue indefinitely for iterative improvements (e.g. accessibility
 improvements).
 
-#### Milestones (Sprints)
+### Milestones (Sprints)
 
 ![](../images/agile-sprints.svg)
 
@@ -69,7 +46,7 @@ issues that will be addressed in a given sprint.
 **Please Note**: Alternative naming conventions for milestones include a **numeric** (#01, #02, #03) or **date** (
 DD-MM-YYYY) approaches.
 
-#### Scrum Board
+### Scrum Board
 
 ![](../images/scrum-board.svg)
 
@@ -83,20 +60,20 @@ everything the team does. It shows how far along they are in the sprint, as well
 -   **In-Review**: Issues ready for review or blocked.
 -   **Done**: Issues that have been completed.
 
-#### Issues
+### Issues
 
 ![](../images/issue-types.svg)
 
 **Issues** are tasks, design requests, new features or bugs that will be addressed in each milestone.
 
-##### Github Issue Types
+#### Github Issue Types
 
 -   Design Request: Design a landing page.
 -   Bug Report: Fix broken cta button.
 -   Feature or Idea: Add note taking feature.
 -   Design Edit: Make the logo bigger.
 
-##### How to Create a GitHub Issue?
+#### How to Create a GitHub Issue?
 
 -   Issue added to Github by a team member. The team member will then assign the appropriate colleague(s) and the issue is
     automatically added to the backlog.
@@ -104,41 +81,41 @@ everything the team does. It shows how far along they are in the sprint, as well
 -   Issue(s) will be assigned by the appropriate Epic by the team member assigned.
 -   Issue(s) will then be placed in a Milestone based on priority during sprint planning.
 
-#### Labels
+### Labels
 
 **Labels** are assigned tags that help organize individual issues (e.g. design request, bootcamp, bug) and indicate the
 level of priority (e.g. low, medium, high).
 
-### Agile Software
+## Agile Software
 
 ![](../images/agile-software.svg)
 
-#### GitHub
+### GitHub
 
 **GitHub** as a way to manage execution of tasks (how, when, what).
 
 -   Leverage Github to track progress of tasks.
 
-#### AirTable
+### AirTable
 
 **AirTable** to display roadmap, discovery, and gather user research and feedback from the MEx team.
 
 -   Leverage Gantt View to display high-level roadmap.
 -   Leverage individual records to gather user feedback and research.
 
-#### Docs
+### Docs
 
 **Docs** for notes and documentation (e.g. this document).
 
-#### Slack
+### Slack
 
 **Slack** for communication and updates. MIRO MIRO for collaboration and ideation sessions.
 
-### Delivery Criteria
+## Delivery Criteria
 
 ![](../images/delivery-criteria.svg)
 
-#### How to Determine Priority?
+### How to Determine Priority?
 
 Use **Delivery Criteria** to determine priority of issues. The criteria include the **C.H.I.M.E. Metric** of
 Maintainability, Impact, Confidence and Ease.
@@ -149,19 +126,19 @@ Maintainability, Impact, Confidence and Ease.
 -   **Maintainability**: How easy is this to maintain over the long-term?
 -   **Ease/Effort**: What is the development time investment for this feature?
 
-### Design Decisions
+## Design Decisions
 
 How to Make Design Decisions? In order to create the best possible user experience, you should leverage best practices
 to help make decisions. We should ask ourselves; **does it violate any of
-our Design Principles**?
+our [Design Principles](product/design-principles.md)**?
 
 **If not, then proceed** :)
 
-### Discovery and Delivery Sprints
+## Discovery and Delivery Sprints
 
 ![](../images/continuous-delivery.svg)
 
-#### Discovery: AirTable
+### Discovery: AirTable
 
 -   Christian comes up with an idea for electric shock-enabled education and adds it to AirTable as a record that is labeled as an **idea**.
 -   Christian Mentions the appropriate team members in an AirTable discussion.
@@ -178,13 +155,13 @@ our Design Principles**?
     -   Adoption (e.g., x number of users by 21Q4)
     -   Dates (e.g., launch feature by 21Q3)
 
-#### Delivery: Github
+### Delivery: Github
 
 -   Create related Github epic with associated issues.
     -   Team members assigned, requirements explained, added to milestone (See Sprint Planning Process).
     -   Insert design and/or dev issue template link here.
 
-### Design Meetings
+## Design Meetings
 
 If helpful, you may use these meetings as a guide for your team.
 
@@ -201,7 +178,7 @@ If helpful, you may use these meetings as a guide for your team.
     -   Bi-Weekly (Fortnightly) / Monday / Independently Prior to Sprint Planning
     -   Clean up backlog issues, determine priority, make sure issues are in alignment with goals, organize in preparation for planning.
 
-### Design Sprint Planning
+## Design Sprint Planning
 
 If helpful, you may use this sprint planning agenda as a guide for your team.
 
@@ -222,7 +199,7 @@ If helpful, you may use this sprint planning agenda as a guide for your team.
 8. **Determine** 100% Consensus.
     1. If not, repeat step 3 :)
 
-### Helpful Agile Terms
+## Helpful Agile Terms
 
 ![](../images/helpful-agile-terms.svg)
 

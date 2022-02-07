@@ -1,5 +1,5 @@
 ---
-sidebar: auto
+sidebar: true
 ---
 
 # Design Process
