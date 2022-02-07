@@ -41,4 +41,3 @@ sidebar: true
 ## Pillars of the OKR Method
 
 ![](../images/19-okr-pillars.svg)
-

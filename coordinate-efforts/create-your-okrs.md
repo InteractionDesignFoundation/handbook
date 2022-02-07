@@ -1,11 +1,10 @@
 ---
 sidebar:true
 ---
+
 # Create Your OKRs
 
 ## Familiarize yourself with the OKR Planning Spreadsheet
-
-
 
 What you do now:
 
@@ -15,7 +14,6 @@ What you do now:
 4. Don’t worry if you don’t fully understand what’s going on when you read the spreadsheet. We’ll explain on the next slides.
 
 After you’re done, proceed to the next slide. Now it’s your turn to define Objectives, Key Results, and some KPIs to measure the progress of your Key Results before your Quarterly OKR Planning Meeting.
-
 
 ## Fill Out Spreadsheet Before Quarterly OKR Meeting
 
@@ -29,12 +27,12 @@ What you do next:
 2. Now you’re prepared to hold the Quarterly OKR Meeting, which is the next step in the process.
     1. If you are a Team Lead you FIRST hold a Quarterly OKR Meeting with the Executive Level to get their feedback and approval. THEN, you hold a Quarterly OKR Meeting with your Team.
 
-
 ## Define Your Objectives
 
 ![](../images/28-okr-spreadsheet-part-2.svg)
 
 Now, write down your Personal – or your Team’s Objectives. If you’re a Team Lead, you write down your Team’s Objectives. If you’re a Team Member, you write down your Personal Objectives .
+
 1. What are the most important impact(s) that I – or my Team – need to make in the coming quarter?
     1. If you are defining Personal Objectives, then based it on my Team’s Objectives for this quarter
     2. If you are a Team Lead defining your Team’s Objectives, then base it on the IxDF-wide Objectives)
@@ -51,13 +49,13 @@ Please refer to the examples you just read in the “OKR Planning Spreadsheet”
 
 Define your Key Results for each Objective
 
-- How do you measure progress toward a qualitative goal that is inherently un-measurable? You identify measurable outcomes that indicate you’ve achieved your Objective!
-    - Many people struggle to set Key Results for a qualitative goal. Often they think that qualitative Objectives are unmeasurable. However, by focusing on outcomes it becomes easier.
-- Now, for each Objective that you just defined, think about the results you would see (and can measure) if you reached that objective. Again, these are not tasks or to-dos. These are outcomes/results.
-    - Wrong: “Ship feature X by the end of the quarter.”Right: “Shipping feature X increases new user sign-ups by 10% this quarter.”
-    - Wrong: “Improve customer experience by the end of the quarter.”Right: “Lower customer service calls by X by end of quarter.”
-- If you are the Team Lead:
-    - Assign each Key Result an Owner on the Team. If a Key Result will require collaboration with another Team, great! The Owner should follow up with them afterwards and make sure they’re on board.
+-   How do you measure progress toward a qualitative goal that is inherently un-measurable? You identify measurable outcomes that indicate you’ve achieved your Objective!
+    -   Many people struggle to set Key Results for a qualitative goal. Often they think that qualitative Objectives are unmeasurable. However, by focusing on outcomes it becomes easier.
+-   Now, for each Objective that you just defined, think about the results you would see (and can measure) if you reached that objective. Again, these are not tasks or to-dos. These are outcomes/results.
+    -   Wrong: “Ship feature X by the end of the quarter.”Right: “Shipping feature X increases new user sign-ups by 10% this quarter.”
+    -   Wrong: “Improve customer experience by the end of the quarter.”Right: “Lower customer service calls by X by end of quarter.”
+-   If you are the Team Lead:
+    -   Assign each Key Result an Owner on the Team. If a Key Result will require collaboration with another Team, great! The Owner should follow up with them afterwards and make sure they’re on board.
 
 Please refer to the examples you just read in the “OKR Planning Spreadsheet”.
 
@@ -66,9 +64,10 @@ Please refer to the examples you just read in the “OKR Planning Spreadsheet”
 ![](../images/30-okr-spreadsheet-part-4.svg)
 
 A KPI (Key Performance Indicator) is a metric used to measure something, i.e. it’s an “indicator of performance”. Here’s an example:
-- Objective 1: Become the most popular bootcamp in UX
-    - Key Result 1 for Objective 1: Double the amount of sign-ups from 50 to 100 students per cohort.
-        - KPI for Key Result 1: Number of Students per cohort
+
+-   Objective 1: Become the most popular bootcamp in UX
+    -   Key Result 1 for Objective 1: Double the amount of sign-ups from 50 to 100 students per cohort.
+        -   KPI for Key Result 1: Number of Students per cohort
 
 As mentioned, the KPI for the Key Result 1 would be “Number of Students per cohort” and you would be able to publish a direct link to the NOVA Bootcamp Control Panel where you can read the always-updated value of that KPI, which may currently be 73 students per cohort.
 
@@ -94,6 +93,3 @@ Please do the following:
 ## Ensure Your OKRs are S.M.A.R.T
 
 ![](../images/33-smart-okrs.svg)
-
-
-

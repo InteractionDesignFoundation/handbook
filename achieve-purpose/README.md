@@ -1,6 +1,7 @@
 ---
 sidebar: true
 ---
+
 # Achieve Our Purpose
 
 ![](../images/hero-purpose.svg)
