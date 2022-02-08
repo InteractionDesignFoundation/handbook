@@ -36,13 +36,13 @@ Prepare yourself before a Sprint Planning Meeting
 
 Hold the Sprint Planning Meeting
 
-- The Team Lead says welcome and reminds everyone that:
-  - The meeting should be full of energy and ambition – not drain our energy.
-  - “You get out what you put in”. Work is like any other aspect of life: The more energy and ambition you put into it, the more it will give back. Positivity, energy, excitement are intentional states of mind…. and this meeting is your chance to add that your work life.
-  - Preparation is key and everyone needs to prepare thoroughly before these meetings: If not, the meetings will be “yada yada” and drain everyone’s energy.
-- Everyone takes turns and presents their Sprint Planning.
-- Share your screen so you can point at the item you are talking about
-- At the end of the meeting, everyone will have visibility into what their Team Members are doing. We will we able to move forward like a Team of Leaders.
+-   The Team Lead says welcome and reminds everyone that:
+    -   The meeting should be full of energy and ambition – not drain our energy.
+    -   “You get out what you put in”. Work is like any other aspect of life: The more energy and ambition you put into it, the more it will give back. Positivity, energy, excitement are intentional states of mind…. and this meeting is your chance to add that your work life.
+    -   Preparation is key and everyone needs to prepare thoroughly before these meetings: If not, the meetings will be “yada yada” and drain everyone’s energy.
+-   Everyone takes turns and presents their Sprint Planning.
+-   Share your screen so you can point at the item you are talking about
+-   At the end of the meeting, everyone will have visibility into what their Team Members are doing. We will we able to move forward like a Team of Leaders.
 
 ## Do a Daily Standup
 
@@ -50,9 +50,9 @@ Hold the Sprint Planning Meeting
 
 “Daily standups” are – in Scrum/Agile Terminology – a daily meeting in the morning where all Team Members give a short update on 3 key things:
 
-1.   What have you **accomplished** since last meeting?
-2.   What are your **plans** for today?
-3.   Is anything **blocking** you?
+1.  What have you **accomplished** since last meeting?
+2.  What are your **plans** for today?
+3.  Is anything **blocking** you?
 
 Because we value concentration time so much, we’ve decided to skip the Daily Standup meetings – and then use the [#daily-updates](https://interaction-design.slack.com/archives/CPRN9JWHK) channel on Slack instead.
 

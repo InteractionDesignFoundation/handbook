@@ -9,9 +9,9 @@ Once you know [about OKRs](/coordinate-efforts/why-okrs.md), about the IxDF's [O
 ## Familiarize yourself with the OKR Planning Spreadsheet
 
 1. Please familiarize yourself with the spreadsheet called “IxDF OKR Planning.xlsx”, which you will find in the folder [IxDF / IxDF - PeopleAndCulture - Job Roles and Organizational Structure](https://www.dropbox.com/home/IxDF%20-%20PeopleAndCulture%20-%20Job%20Roles%20and%20Organizational%20Structure) on our DropBox instance—Available only to IxDF team members.
-4. Study some examples of Objectives, Key Results, and how we measure them really closely.
-5. Read all the “help bubbles” that explain the contents of the cells.
-6. Don’t worry if you don’t fully understand what’s going on when you read the spreadsheet. We’ll explain on the next steps.
+2. Study some examples of Objectives, Key Results, and how we measure them really closely.
+3. Read all the “help bubbles” that explain the contents of the cells.
+4. Don’t worry if you don’t fully understand what’s going on when you read the spreadsheet. We’ll explain on the next steps.
 
 After you’re done, proceed to the next step. Now it’s your turn to define Objectives, Key Results, and some KPIs to measure the progress of your Key Results before your Quarterly OKR Planning Meeting.
 
