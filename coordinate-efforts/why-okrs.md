@@ -19,6 +19,7 @@ Every OKR has three parts—an Objective, a Key Result and a Task.
 ![Diagram of OKR alignment](../images/7-okr-part-2.svg)
 
 ## OKR Examples
+
 Below are three example OKRs.
 
 ![Diagram of OKR alignment](../images/8-okr-examples.svg)
@@ -26,10 +27,11 @@ Below are three example OKRs.
 Note that in these examples the KPI's and tasks are combined. For example, in Example 02, "Develop five free articles" is a task, and "improve signups from X% to Y%" is a KPI that measures signups which indicates progress toward the Objective.
 
 ## WHY Do We Use OKRs?
-- OKRs bridge the gap between our [Vision](/achieve-purpose/vision.md), [Mission](achieve-purpose/mission.md), Strategy and the concrete Objectives and Key Results in our daily work.
-- OKRs help us create a weekly, quarterly, and yearly overview over how our daily tasks are connected to our vision, and therefore help us decide individually, and in our Teams, which steps are the best to take.
-- They help us track our individual and Team progress, create alignment in our Teams and across Teams so everyone moves towards achieving the same overall goals.
-- OKRs improve our focus and increase transparency within and across teams.
+
+-   OKRs bridge the gap between our [Vision](/achieve-purpose/vision.md), [Mission](achieve-purpose/mission.md), Strategy and the concrete Objectives and Key Results in our daily work.
+-   OKRs help us create a weekly, quarterly, and yearly overview over how our daily tasks are connected to our vision, and therefore help us decide individually, and in our Teams, which steps are the best to take.
+-   They help us track our individual and Team progress, create alignment in our Teams and across Teams so everyone moves towards achieving the same overall goals.
+-   OKRs improve our focus and increase transparency within and across teams.
 
 ![](../images/19-okr-pillars.svg)
 

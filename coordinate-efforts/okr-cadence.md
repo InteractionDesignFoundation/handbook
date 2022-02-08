@@ -10,8 +10,6 @@ A good process is repeatable, has a good cadence. The IxDF OKR process is broken
 
 At the start of each cycle, Quarterly Goals are set for the whole IxDF based on the [Vision](/achieve-purpose/vision.md) and [Mission](/achieve-purpose/mission.md). Teams and Individuals plan and align their OKRs and begin a series of six 2-week Sprints.
 
-
-
 ![](../images/15-okr-quarter-part-2.svg)
 
 At the end of the cycle, each team has an OKR Retrospective to improve the OKR Process and an OKR Review to analyze the progress on each OKR.
@@ -31,5 +29,3 @@ Below is a more detailed view of the our yearly IxDF-wide OKR process.
 And here is a view of what this looks like at the team level.
 
 ![](../images/20-how-we-use-okrs-in-teams.svg)
-
-
