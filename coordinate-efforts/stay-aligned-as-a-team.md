@@ -10,16 +10,16 @@ sidebar: true
 
 The Quarterly OKR Planning Meeting
 
--   The Team Lead makes a new entry for a new quarter for their team by creating a new section in the first tab of the spreadsheet “IxDF OKR Planning.xlsx”
--   The Team Lead closely studies the IxDF-wide Objectives
+- The Team Lead makes a new entry for a new quarter for their team by creating a new section in the first tab of the spreadsheet “IxDF OKR Planning.xlsx”
+- The Team Lead closely studies the IxDF-wide Objectives
     -   The Team Lead takes a call with the IxDF Executive Level and asks questions. The better aligned we are, the smoother everything goes.
--   The Team Lead fills out all OKRs for their team as best as possible.
+- The Team Lead fills out all OKRs for their team as best as possible.
     -   This is a concentration-demanding and lengthy process. It requires strategic overview, long-term thinking, and the ability to constantly switch mindset from “strategic, high-level, long-term thinking” to “concrete execution-level work”.
     -   Expect this to take up to a full day of high-concentration work – perhaps spread out over several days if your brain starts to burn.
--   The Team Lead meets with the Executive Level to verify and refine the Team’s OKRs.
--   The Team Lead then meets with their Team where the Team Lead presents the plan for the next quarter.
--   Each Team Member then develops Personal OKRs based on the Team’s OKRs.
--   Each Team Member meets 1:1 with the Team Lead to verify and refined their Personal OKRs.
+- The Team Lead meets with the Executive Level to verify and refine the Team’s OKRs.
+- The Team Lead then meets with their Team where the Team Lead presents the plan for the next quarter.
+- Each Team Member then develops Personal OKRs based on the Team’s OKRs.
+- Each Team Member meets 1:1 with the Team Lead to verify and refined their Personal OKRs.
 
 ## Prepare Yourself for a Sprint Planning Meeting
 
