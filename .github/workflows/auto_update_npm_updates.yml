@@ -1,0 +1,16 @@
+name: NPM PRs auto-merge
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+
+jobs:
+  merge:
+    name: Auto-merge patch updates
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: koj-co/dependabot-pr-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          merge-minor: false
+          merge-patch: true
