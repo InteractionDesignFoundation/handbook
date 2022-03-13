@@ -2,5 +2,5 @@
 
 TDC
 
-- Open Access Publications
-- UX Daily Articles
+-   Open Access Publications
+-   UX Daily Articles

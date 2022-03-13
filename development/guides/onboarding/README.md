@@ -50,12 +50,12 @@ We don't expect you to spend too much time and feel pressured, however you can:
     1. [🔒 Git Flow](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/workflows/git-flow.md)
 9. [How to get domain knowledge](onboarding--domain-knowledge.md)
 10. Coding (finally! 🎉)
-     1. [🔒 File-naming conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/naming-conventions.md)
-     1. [🔒 Contributing standards](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/CONTRIBUTING.md)
-     1. [🔒 Platform glossary](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/glossary.md)
-     1. Architecture (Are you full-stack? You know what to do 😊)
-         - [🔒 Backend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/backend/architecture.md)
-         - [🔒 Frontend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/frontend/architecture.md)
+    1. [🔒 File-naming conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/naming-conventions.md)
+    1. [🔒 Contributing standards](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/CONTRIBUTING.md)
+    1. [🔒 Platform glossary](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/glossary.md)
+    1. Architecture (Are you full-stack? You know what to do 😊)
+        - [🔒 Backend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/backend/architecture.md)
+        - [🔒 Frontend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/frontend/architecture.md)
 11. [🔒 Setup your IDE](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/IDE/README.md)
     for the project.
 
