@@ -8,9 +8,8 @@ updates:
     labels:
       - "dependencies"
       - "npm dependencies"
-      - "urgency:low"
     reviewers:
-      - hasan-wajahat
+      - lptn
     assignees:
       - ixdf-bot
     ignore:
