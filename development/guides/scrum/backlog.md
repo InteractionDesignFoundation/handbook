@@ -1,7 +1,7 @@
 # How to plan your backlog
 
 -   When choosing issues for an upcoming sprint, you can use "6 ideal work hours per day" as a reference point. An ideal work hour is an hour spent on an issue with a complete focus — no interruptions. It makes 60 ideal work hours per sprint (30 hours per week). During these "ideal work hours" you're in complete focus/concentration, i.e. "in the zone". The rest of your time, you’ll spend on coordination, "work about work", small-ish issues, meetings, and lots of other stuff.
--   Search for issues with the label `urgency: high` assigned to you (for developers, this would usually be critical bugs). You should include them into your next sprint - or do them right now if you have an empty backlog.
+-   Search for issues with the label `urgency:X` (where X is a number from 8 to 10) assigned to you (for developers, this would usually be critical bugs). You should include them into your next sprint - or do them right now if you have an empty backlog.
 -   After that, choose all unfinished "important"(1) issues from the previous sprint that you've not managed to finish. They should be carried over to the next sprint.
 -   Next pick "important"(1) issues selected by ProductOwner as goals for next sprint.
 -   Finally, choose any other issues that will fill up your backlog so you have enough to do for the following sprint. Remember to pick these issues on what will get us most effectively/effeciently towards our short/mid/long-term goals and our vision.

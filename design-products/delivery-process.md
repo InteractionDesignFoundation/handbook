@@ -75,9 +75,9 @@ everything the team does. It shows how far along they are in the sprint, as well
 
 #### How to Create a GitHub Issue?
 
--   Issue added to Github by a team member. The team member will then assign the appropriate colleague(s) and the issue is
+-   Issue added to GitHub by a team member. The team member will then assign the appropriate colleague(s) and the issue is
     automatically added to the backlog.
--   Label added to issue (e.g. low-urgency).
+-   Label added to issue (e.g. `urgency:3`).
 -   Issue(s) will be assigned by the appropriate Epic by the team member assigned.
 -   Issue(s) will then be placed in a Milestone based on priority during sprint planning.
 
