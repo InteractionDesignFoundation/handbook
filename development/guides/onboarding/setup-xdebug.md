@@ -21,7 +21,8 @@ If Xdebug works now, then simply skip the rest of this document. 🥷
 1. Open Xdebug settings and enter IDE key & port
    ![image](https://user-images.githubusercontent.com/77272856/164239456-36da203e-4975-4ccc-98a7-fb2cee9c694c.png)
 2. Go to servers and create a server with the mappings
-   ![image](https://user-images.githubusercontent.com/77272856/164239584-842213e7-ea49-4cc4-bed7-9575d9bc9159.png)
+   ![PHPStorm settings](https://user-images.githubusercontent.com/77272856/164242590-0f16b4f1-8b84-47ce-bcdb-b3d7291e3e3d.png)
+
 
 Your setup should be working now. 🦄
 
