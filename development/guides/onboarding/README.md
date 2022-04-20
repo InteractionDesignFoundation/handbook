@@ -48,6 +48,7 @@ We don't expect you to spend too much time and feel pressured, however you can:
     1. [Create a Laravel Forge account](onboarding__forge.md).
     1. [Scrum](../scrum/README.md)
     1. [🔒 Git Flow](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/workflows/git-flow.md)
+    1. [Setup Xdebug)(./setup-xdebug.md)
 9. [How to get domain knowledge](onboarding--domain-knowledge.md)
 10. Coding (finally! 🎉)
     1. [🔒 File-naming conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/naming-conventions.md)
