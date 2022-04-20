@@ -23,7 +23,6 @@ If Xdebug works now, then simply skip the rest of this document. 🥷
 2. Go to servers and create a server with the mappings
    ![PHPStorm settings](https://user-images.githubusercontent.com/77272856/164242590-0f16b4f1-8b84-47ce-bcdb-b3d7291e3e3d.png)
 
-
 Your setup should be working now. 🦄
 
 External docs:
