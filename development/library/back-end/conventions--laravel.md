@@ -6,7 +6,7 @@ First and foremost, Laravel provides the most value when you **write things the 
 It means better and more extensive use of native laravel features or Laravel “products” like Nova.
 Whenever you do something differently, make sure you have a justification for why you didn’t follow the defaults.
 
-Secondary, Laravel often provides few ways/APIs to archive your goals, in this document
+Secondary, Laravel often provides few ways/APIs to achieve your goals, in this document
 we try to list all our conventions to keep our code more consistent and use only one way.
 
 [[toc]]
@@ -31,7 +31,7 @@ Member::firstWhere('id', 42);
 
 ### Don’t use mass assignment
 
-Mass assignment SHOULD not be used when it’s easily possible. When it used in a wrong way,
+Mass assignment SHOULD not be used when it’s easily possible. When it's used in a wrong way,
 it can add security vulnerabilities, it also allows creating Models with a wrong state.
 
 The preferred way to create or update models is to assign attributes line by line and call `save()` at the end:
