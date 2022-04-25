@@ -592,7 +592,7 @@ Laravel Blade protects from most XSS attacks, so for example an attack like this
 <div>{{ $name }}</div>
 ```
 
-Blade’s `{{ }}` statement automatically encodes the output. So the server will send the following properly encoded code to the browser (which will prevent the XSS attack):
+Blade’s `@{{ }}` statement automatically encodes the output. So the server will send the following properly encoded code to the browser (which will prevent the XSS attack):
 
 ```html
 <div>John Doe&lt;script&gt;alert(&quot;xss&quot;);&lt;/script&gt;</div>
