@@ -9,7 +9,7 @@ updates:
       - "dependencies"
       - "npm dependencies"
     reviewers:
-      - lptn
+      - InteractionDesignFoundation/frontend-devs
     assignees:
       - ixdf-bot
     ignore:
