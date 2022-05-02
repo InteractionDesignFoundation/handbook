@@ -1,5 +1,6 @@
 version: 2
 updates:
+
   - package-ecosystem: npm
     directory: "/"
     schedule:
@@ -7,7 +8,6 @@ updates:
     open-pull-requests-limit: 50
     labels:
       - "dependencies"
-      - "npm dependencies"
     reviewers:
       - InteractionDesignFoundation/frontend-devs
     assignees:
@@ -16,3 +16,15 @@ updates:
       # For all packages, ignore all patch updates
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: monthly
+    labels:
+      - "dependencies"
+      - "urgency:2"
+    reviewers:
+      - InteractionDesignFoundation/dev-ops
+    assignees:
+      - ixdf-bot
