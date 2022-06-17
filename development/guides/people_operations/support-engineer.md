@@ -78,16 +78,22 @@ and how much it will affect your ability to work on other important support engi
 
 #### Notify another developer
 
-If the error is severe enough to warrant immediate action, but too large or complex for you to resolve, you might need to
+If the issue is severe enough to warrant immediate action, but too large or complex for you to resolve, you might need to
 determine who the system owners are for the related system and ping one of them on Slack. Before you get them involved,
 try and get as much information as you can about the problem, for example:
 
--   Who does the error affect?
--   How can the error be reproduced?
+-   Who does the issue affect?
+-   How can the issue be reproduced?
 -   Is there any additional context that you know which could help the developer?
 
 The higher the quality of the information you provide to the developer, the sooner they can resolve the issue
 and get back to working on their sprint goals.
+
+:::tip
+If the issue affects members and guests, and it would be helpful for them to be aware of it,
+you can add an announcement to the site by navigating to the [Application announcements panel](https://www.interaction-design.org/admin/announcements)
+and creating a 'site status' announcement.
+:::
 
 #### Keep an eye on it
 
