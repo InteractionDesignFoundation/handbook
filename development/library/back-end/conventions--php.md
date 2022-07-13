@@ -8,7 +8,7 @@ We strive to minimize magic and help IDE and static code analyzers to help us.
 
 We use [PSR-12](<(https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)>)
 extended by other rules (mostly by powerful [Slevomat Coding Standard](https://github.com/slevomat/coding-standard)).
-Additionally, we like [Spatie’s code guidelines](https://guidelines.spatie.be/) and borrow some rules from them.
+Additionally, we like [Spatie’s code guidelines](https://spatie.be/guidelines/laravel-php) and borrow some rules from them.
 
 We generally observe the standards from the [PHP FIG](http://www.php-fig.org/).
 We use automated tools to check our code on CI:
