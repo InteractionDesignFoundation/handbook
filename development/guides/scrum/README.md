@@ -24,7 +24,7 @@ Small team of people, consists of:
 -   **[Product Owner](https://www.scrum.org/resources/what-is-a-product-owner)**: TBC
 -   **[Developers](https://www.scrum.org/resources/what-is-a-scrum-developer)**: TBC
 
-### [Scrum Pilars](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum)
+### [Scrum Pillars](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum)
 
 -   **Transparency**: This means presenting the facts as is
 -   **Inspection** (by the Scrum Team): Check the product, processes, people, and practices and you work.
@@ -94,13 +94,13 @@ and [three artifacts](#Scrum Artifacts), but because it adheres to the underlyin
 Agile principles of iterative, value-based incremental delivery by frequently gathering
 customer feedback and embracing change.
 
-### External, introductory ressources
+### External, introductory resources
 
 -   **[What is Scrum?](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
 -   **[Scrum Glossary](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
 -   **[Scrum Values](https://kissflow.com/project/agile/how-to-apply-5-scrum-values/)**: Pracical examples of applying Scrum Values
 
-## More external ressources
+## More external resources
 
 -   [Sprint planning](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting)
 -   [Daily scrum](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum)
