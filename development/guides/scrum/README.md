@@ -89,8 +89,8 @@ Scrum Artifacts enable inspection & adaptation by providing transparency on the 
     -   Commitment: Definition of Done, which is a formal description of the minimum
         quality required for an increment to be accepted.
 
-Scrum works not because it has [three roles](#Scrum Team), [five events](#Scrum Events),
-and [three artifacts](#Scrum Artifacts), but because it adheres to the underlying
+Scrum works not because it has three roles, five events,
+and three artifacts, but because it adheres to the underlying
 Agile principles of iterative, value-based incremental delivery by frequently gathering
 customer feedback and embracing change.
 
