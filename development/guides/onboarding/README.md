@@ -13,7 +13,6 @@ about your role at the IxDF and your day-to-day work as a developer.
 Before you start, please ensure that you know your mentor (onboarding buddy)
 to make your onboarding process smooth and easy.
 
-
 ## Contribute to our documents
 
 From here on, you will read a lot of documents in different places. Your first
@@ -58,10 +57,9 @@ We don't expect you to spend too much time and feel pressured, however you can:
         - [🔒 Backend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/backend/architecture.md)
         - [🔒 Frontend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/frontend/architecture.md)
 1. [🔒 Setup your IDE](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/IDE/README.md)
-    for the project.
+   for the project.
 
 Happy reading/hacking!
-
 
 ## What’s next?
 
@@ -79,7 +77,6 @@ of the issues will lead you into areas of the codebase where you find technical-
 or spaghetti code. That’s intentional, so you get exposed to both great code and technical-debts.
 
 May the Force be with you!
-
 
 ## Provide feedback and present your progress
 

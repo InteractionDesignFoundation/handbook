@@ -3,7 +3,6 @@
 Every new team-member will be paired with an onboarding buddy to make their onboarding
 smooth. The onboarding buddy should work in _almost_ the same timezone as the new team member.
 
-
 ## How to be a great Onboarding Buddy
 
 We have an "Onboarding Buddy playbook" in our shared folder that you should read
@@ -19,7 +18,6 @@ not to lose track, and finally get their feedback and transform it into actions 
 -   Make a proposal to optimize the onboarding process
 -   etc.
 
-
 ## Expectations and duties
 
 It’s not the job of an onboarding buddy to ~teach~, although you might end up doing
@@ -33,7 +31,6 @@ the right advice at the right time.
 **Set expectations**: Communicate your expectations in a simple and direct manner.
 Clarify expected roles, processes and outcomes.
 Ensure your buddy understands your expectations and feels motivated to fill them.
-
 
 ## Plan
 
@@ -85,7 +82,6 @@ following questions:
 
 1. Do we have an effective mentoring program?
 2. What/how can we improve? This includes documents, processes, tools, etc.
-
 
 ## Checklist for Tools and Services
 
