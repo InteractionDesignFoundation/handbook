@@ -13,6 +13,7 @@ about your role at the IxDF and your day-to-day work as a developer.
 Before you start, please ensure that you know your mentor (onboarding buddy)
 to make your onboarding process smooth and easy.
 
+
 ## Contribute to our documents
 
 From here on, you will read a lot of documents in different places. Your first
@@ -28,39 +29,39 @@ We don't expect you to spend too much time and feel pressured, however you can:
 
 1. To start, head over to [🔒 IxDF Onboarding & Company Culture Course](https://www.interaction-design.org/courses/ixdf-company-culture-course)
    and go through Lesson 0 where the onboarding is explained.
-2. Read about [our products](./onboarding--products.md) and [the Publication System](./onboarding--publications.md)
-3. Know our [collaboration tools](../collaboration-tools.md).
-4. Know our [expectations from you and your work](../expectations.md).
-5. Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md)
+1. Setup and know your [collaboration tools](../collaboration-tools.md).
+1. Know our [expectations from you and your work](../expectations.md).
+1. Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md)
    (private repository link) -- It’s time-consuming (2-3 hours), so don't wait.
    While your tools are being downloaded/installed, you can continue with the list.
-6. Never stop learning 📖 Go through our library and create a plan on acquiring
+1. Never stop learning 📖 Go through our library and create a plan on acquiring
    every bit of knowledge there. Once you have a plan, please discuss it with
    your mentor. (Are you full-stack? Then please open both links☀):
     - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md)
     - Literature/subscriptions [for front-end developers](../../library/front-end/literature.md)
-7. If you have any issues accessing the platform, company culture course
+1. If you have any issues accessing the platform, company culture course
    or our collaboration tools, please ping the Member Experience team (`@member-experience-team`)
    via Slack (#onboarding-buddy-chat), so they can assist you. By this point,
    you should have already completed lesson 0 of the IxDF Onboarding & Company Culture course,
    so now you may continue with the rest of the lessons.
-8. Go through our guides:
+1. Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md).
     1. [Scrum](../scrum/README.md)
     1. [🔒 Git Flow](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/workflows/git-flow.md)
     1. [Setup Xdebug](./setup-xdebug.md)
-9. [How to get domain knowledge](onboarding--domain-knowledge.md)
-10. Coding (finally! 🎉)
+1. [How to get domain knowledge](onboarding--domain-knowledge.md)
+1. Coding (finally! 🎉)
     1. [🔒 File-naming conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/naming-conventions.md)
     1. [🔒 Contributing standards](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/CONTRIBUTING.md)
     1. [🔒 Platform glossary](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/glossary.md)
     1. Architecture (Are you full-stack? You know what to do 😊)
         - [🔒 Backend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/backend/architecture.md)
         - [🔒 Frontend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/frontend/architecture.md)
-11. [🔒 Setup your IDE](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/IDE/README.md)
+1. [🔒 Setup your IDE](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/IDE/README.md)
     for the project.
 
 Happy reading/hacking!
+
 
 ## What’s next?
 
@@ -78,6 +79,7 @@ of the issues will lead you into areas of the codebase where you find technical-
 or spaghetti code. That’s intentional, so you get exposed to both great code and technical-debts.
 
 May the Force be with you!
+
 
 ## Provide feedback and present your progress
 

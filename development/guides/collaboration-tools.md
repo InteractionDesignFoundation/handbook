@@ -74,7 +74,8 @@ Please head to [credentials.md](credentials.md) to know how.
 
 ## [Downnotifier](https://downnotifier.com/)
 
-Sends a alert when your website is down (via SMS). Please add your phone number to our [premium account](https://www.downnotifier.com/list/edit?id=628289).
+Sends a alert when your website is down (via SMS).
+**Please [add your cell phone number](https://www.downnotifier.com/list/edit?id=628289) to receive text messages in case of emergency**.
 
 ## Ye Olde Email
 

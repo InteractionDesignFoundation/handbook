@@ -3,6 +3,7 @@
 Every new team-member will be paired with an onboarding buddy to make their onboarding
 smooth. The onboarding buddy should work in _almost_ the same timezone as the new team member.
 
+
 ## How to be a great Onboarding Buddy
 
 We have an "Onboarding Buddy playbook" in our shared folder that you should read
@@ -18,6 +19,7 @@ not to lose track, and finally get their feedback and transform it into actions 
 -   Make a proposal to optimize the onboarding process
 -   etc.
 
+
 ## Expectations and duties
 
 It’s not the job of an onboarding buddy to ~teach~, although you might end up doing
@@ -31,6 +33,7 @@ the right advice at the right time.
 **Set expectations**: Communicate your expectations in a simple and direct manner.
 Clarify expected roles, processes and outcomes.
 Ensure your buddy understands your expectations and feels motivated to fill them.
+
 
 ## Plan
 
@@ -83,6 +86,7 @@ following questions:
 1. Do we have an effective mentoring program?
 2. What/how can we improve? This includes documents, processes, tools, etc.
 
+
 ## Checklist for Tools and Services
 
 This is a list of tools and services that a new member should have access to:
@@ -98,6 +102,7 @@ This is a list of tools and services that a new member should have access to:
 -   [GTmetrix](https://gtmetrix.com/): Analyze web page's speed performance (get shared credentials from credential management tool).
 -   [Figma](https://figma.com/): Share designs and assets between designers and developers.
 -   [Zeplin](https://zeplin.io/): Share designs and assets between designers and developers -- old designs.
+-   [Downnotifier](https://downnotifier.com/): Set cell phone numbers to subscribe to ecergency notifications.
 -   Optional: [Google analytics](https://analytics.google.com): Analytics service that tracks and reports website traffic.
 -   Optional: [Google search console](https://www.google.com/webmasters/tools): Monitor Google Search results data.
 
