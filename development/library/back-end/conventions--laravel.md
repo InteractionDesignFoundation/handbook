@@ -61,7 +61,7 @@ When you add a relationship or scope, add appropriate PHPDoc block to the Model:
 ```php
 // Models/Member.php
 /**
- * @property-read \Illuminate\Database\Eloquent\Collection<\App\Models\Permission\Role> $roles Member’s Roles  (added by a Member::roles() relationship)
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Permission\Role> $roles Member’s Roles  (added by a Member::roles() relationship)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Member\Member canceled() Cancelled Member state (added by a Member::scopeCanceled())
  */
 ```
@@ -71,6 +71,15 @@ When you add a relationship or scope, add appropriate PHPDoc block to the Model:
 Model’s attributes should not rely on DB’s default values.
 Instead, we should duplicate defaults in the model by filling the `$attributes` array.
 It helps us to be more independent of the DB and simplifies Model’s Factories as well as testing.
+
+
+### Do not use `created_at`, `updated_at` and `deleted_at` attributes for domain logic
+
+It's always better to use for specific column names. Examples:
+ - `created_at` -> `registered_at`, `issued_at`, etc
+ - `updated_at` -> `reviewed_at`, etc
+ - `deleted_at` -> `rejected_at`, `caleled_at`, etc
+
 
 ## Artisan commands
 
@@ -108,14 +117,23 @@ foreach($articles as $article) {
     // ...
     $this->info("\t Article #{$article->id} has been updated", 'vvv');
 }
+
 $this->info("{$articles->count()} Articles has been updated");
 ```
 
 1. `quiet` mode: only errors and important warnings.
-1. `default` mode: errors, all warnings and general feedback like `All OK, processed XX records!`.
+1. `normal` mode: errors, all warnings and general feedback like `All OK, processed XX records!`.
 1. `v`, `vv`, `vvv` modes: errors, warnings and any additional info.
 
 The idea behind it is to send email with console command outputs only when output is present (not empty).
+
+
+#### Use non-zero exit codes on errors
+
+Use non-zero exit codes if a command execution failed (alternatively throw an exception — this is the same as exit code 1).
+This allows to use global on-error handlers, e.g. for automated reporting about failed console commands, please see
+`\Illuminate\Console\Scheduling\Event::emailOutputOnFailure` as an example.
+
 
 ## Controllers
 
@@ -176,6 +194,7 @@ public function update(Request $request, Team $team, DetachFromTeamToIndividualG
 
 The same for scalar GET params (good example: `public function update(int $teamId, Request $request`).
 
+
 ## Requests
 
 ### Use $request->input() instead of $request->get()
@@ -196,6 +215,7 @@ public function store(Request $request)
 }
 ```
 
+
 ## Responses
 
 ### Less magic
@@ -210,9 +230,11 @@ return redirect(route('home')); // mixed return type (RedirectResponse|Redirecto
 return redirect($url); // mixed return type (RedirectResponse|Redirector)
 ```
 
+
 ### Status Codes
 
 See [HTTP response status codes](/docs/code/http-response-status-codes.md).
+
 
 ## Routing
 
@@ -237,7 +259,7 @@ Route::get('about', [AboutPageController::class, 'index'])->name('about.index');
 <a href="{{ route('about.index') }}">About</a>
 ```
 
-Route names SHOULD include the plural form of the resource name and the action: `paymentMethods.show`, `paymentMethods.delete`.
+Route names SHOULD include the plural form of the resource name and the action: `articles.show`, `articles.delete`.
 
 ### route()
 
@@ -325,10 +347,12 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::name('home')->get('/', [HomeController::class, 'index']);
 ```
 
+
 ## Authorization
 
 1. Policies MUST use camelCase. Example: `@can('editPost', $post)` ([Laravel does it under the hood](https://github.com/illuminate/auth/blob/09d82d3a2966e6673495456f340855186a1962f5/Access/Gate.php#L718))
 1. Try to name abilities using default CRUD words. One exception: replace `show` with `view`. A server shows a resource, a user views it.
+
 
 ## Validation
 
@@ -358,6 +382,7 @@ All custom validation rules must use snake_case:
 ```php
 Validator::extend('is_null', fn ($attribute, $value, $parameters, $validator) => $value === null);
 ```
+
 
 ## Views
 
@@ -393,10 +418,10 @@ You MUST create and maintain PHPDoc blocks for components.
 
 Add PHP injection using `<?php` and `?>`. The `@php` and `@endphp` Blade directives pair looks better, but the tools we use (Psalm, Rector, PHPCS, PHP-CS-Fixer) can’t parse Blade syntax.
 
+
 ## Translations
 
-### Use \_\_
-
+### Use __
 Translations MUST be rendered with the `__()` function.
 We prefer using this over the `@lang` directive in Blade views because `__()` can be used in both Blade views and regular PHP code. Here’s an example:
 
@@ -422,6 +447,7 @@ trans('newsletter.form.title')
 __('app.message', ['firstName' => 'Peter', 'productName' => 'Bananas']);
 ```
 
+
 ## Exceptions
 
 ### Be explicit about error
@@ -433,6 +459,7 @@ abort(404, "The course with the ID $courseId could not be found.");
 // BAD
 abort(404);
 ```
+
 
 ## Jobs
 
@@ -447,7 +474,8 @@ You can find more details on awesome talk: [Matt Stauffer - Patterns That Pay Of
 
 ### Dispatching
 
-You SHOULD use `Bus::dispatch()` instead of `YourJobClass::dispatch()` magic to make code readable for static analyzers:
+You SHOULD use `Bus::dispatch()` Facade or `\Illuminate\Contracts\Bus\Dispatcher` DI
+instead of `YourJobClass::dispatch()` magic to make code readable for static analyzers:
 
 ```php
 // GOOD
@@ -458,9 +486,11 @@ Bus::dispatch(new YouJob($parameter));
 YouJob::dispatch($parameter)
 ```
 
+
 ## Migrations
 
 We write `down()` methods because we should be able to rollback failed releases (see `deploy:rollback` deployer’s task).
+
 
 ## Configs
 
@@ -468,6 +498,18 @@ We use `ixdf_` prefix for our custom config files to separate our config vars fr
 It also helps us to migrate to new Laravel versions: we have fewer conflicts.
 
 Usually we have one config file per system.
+
+
+## Nova
+
+### Minimize usages of Nova packages
+
+Minimize usages of Nova packages. Reasons:
+ - Updatability: Nova packages often not very stable on Nova updates and often have bad community support. They can block Nova updated (even patch versions)
+ - Performance: JS and CSS assets of all Nova packages loaded on every page load, and these assets are served by webserver-PHP-webserver chain (not by web-server directly and thus produces more load to the server), see `\Laravel\Nova\Http\Controllers\ScriptController::class`.
+
+For these reasons it’s better to avoid using Nova packages and always use native functionality when it’s possible.
+
 
 ## Security
 
@@ -572,10 +614,7 @@ Cross-Site Scripting can be very dangerous, for example an XSS attack in the adm
 
 ```html
 Some text
-<input
-    onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });'
-    autofocus
-/>
+<input onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });' autofocus/>
 test
 ```
 
@@ -584,11 +623,7 @@ Which will allow an attacker to create an admin user with his credentials and ta
 Laravel Blade protects from most XSS attacks, so for example an attack like this will not work:
 
 ```html
-// $name = 'John Doe
-<script>
-    alert("xss");
-</script>
-';
+// $name = 'John Doe <script>alert("xss");</script>';
 <div>{{ $name }}</div>
 ```
 
@@ -607,10 +642,10 @@ But frameworks can’t handle all cases for developers.
 Sometimes you need to output a text that contains HTML, and for it you will use `{!! !!}`:
 
 ```blade
-<div>{{$ $htmlDescription }}</div>
+<div>{!! $htmlDescription !!}</div>
 ```
 
-In this case Laravel can’t do anything for you and if the \$userBio contains JavaScript code, it will be executed as-is and we will get an XSS attack.
+In this case Laravel can’t do anything for you and if the `$htmlDescription` contains JavaScript code, it will be executed as-is and we will get an XSS attack.
 
 Prevention tips:
 
@@ -666,6 +701,7 @@ Prevention tips:
 1. Pass to Model only fields that have been validated: `$user->update($validator->validated());`
 1. Use whitelisting instead of blacklisting (prefer `$fillable` over `$guarded`, because it’s easy to forget to add a new column to `$guarded` when you add it to a Model)
 1. Use `$model->forceFill($data)` method with caution, make sure passed data cannot be manipulated by the user
+
 
 ## Materials
 

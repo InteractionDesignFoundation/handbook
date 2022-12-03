@@ -1,6 +1,6 @@
 # PHP conventions
 
-## tl;dr
+## TL;DR
 
 There are main approaches to use modern PHP: like Ruby or like Java. We prefer Java-way: less magic, more types.
 
@@ -14,7 +14,7 @@ We generally observe the standards from the [PHP FIG](http://www.php-fig.org/).
 We use automated tools to check our code on CI:
 
 -   [phpcs](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.phpcs/IxDFCodingStandard/ruleset.xml))
--   [PHP-CS-Fixer](https://cs.symfony.com/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.php_cs))
+-   [PHP-CS-Fixer](https://cs.symfony.com/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.php-cs-fixer.php))
 -   [psalm](https://psalm.dev/docs/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/psalm.xml))
 -   [rector](https://github.com/rectorphp/rector) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/rector.php))
 
@@ -39,6 +39,7 @@ You could for example rely more on composition, dependency injection and interfa
 
 Especially in the context of open source packages, you’re encouraged to think twice about making a method public or protected, or opening a class for extension.
 Every entry point in your code that is open for the public to use, is an entry point you’ll have to maintain with backwards compatibility in mind.
+
 
 ## Strict types
 
@@ -71,7 +72,7 @@ final class Foo
     /** @var string[] */
     private array $urls;
 
-    /** @var \Illuminate\Database\Eloquent\Collection<\App\Models\User> */
+    /** @var \Illuminate\Support\Collection<int, \App\Models\User> */
     private Collection $users;
 }
 
@@ -209,6 +210,7 @@ If you need to explain the reason (why), then format the comments as follows:
  */
 ```
 
+
 ## Class name resolution
 
 Do not use hardcoded fully-qualified class names in code.
@@ -216,11 +218,11 @@ Instead, use resolution via ClassName[`::class`](http://php.net/manual/en/langua
 
 ```php
 // GOOD
-use App\Models\Billing\Invoice;
-echo Invoice::class;
+use App\Modules\Payment\Models\Order;
+echo Order::class;
 
 // BAD
-echo 'App\Models\Billing\Invoice';
+echo 'App\Modules\Payment\Models\Order';
 ```
 
 ## Use the class name instead of the self keyword
@@ -265,6 +267,9 @@ abort(404, "The course with the ID {$courseId} could not be found.");
 // BAD
 abort(404);
 ```
+
+[More info about exceptions](/app/Exceptions/README.md).
+
 
 ## Type-casting
 
@@ -321,17 +326,21 @@ public function confirmEmailWaitingConfirmation(): void
 // Controllers\MemberEmailConfirmationController.php
 public function store(): void
 {
-    $member = Auth::user();
+    $member = Auth::guard('member')->user();
     $member->confirmEmailWaitingConfirmation();
     $member->save();
 }
 
 // BAD =====================================
 
+// Models\Member.php
+public function setEmail(string $email): Member;
+public function setEmailWaitingConfirmation(string $email): Member;
+
 // Controllers\MemberEmailConfirmationController.php
 public function store(): void
 {
-    $member = Auth::user();
+    $member = Auth::guard('member')->user();
     $member->email = $member->emailWaitingConfirmation;
     $member->emailWaitingConfirmation = null;
     $member->save();
@@ -367,9 +376,10 @@ From [official documentation](https://www.php.net/manual/en/function.assert.php)
 > and that indicate some programming errors if not or to check for the presence of certain features
 > like extension functions or certain system limits and features.
 
--   [assert on php.net](https://www.php.net/manual/en/function.assert.php)
--   [Should I be using assert in my PHP code?](https://stackoverflow.com/questions/4516419/should-i-be-using-assert-in-my-php-code)
--   [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
+- [assert on php.net](https://www.php.net/manual/en/function.assert.php)
+- [Should I be using assert in my PHP code?](https://stackoverflow.com/questions/4516419/should-i-be-using-assert-in-my-php-code)
+- [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
+
 
 ## regex
 
