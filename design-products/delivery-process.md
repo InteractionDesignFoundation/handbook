@@ -130,7 +130,7 @@ Maintainability, Impact, Confidence and Ease.
 
 How to Make Design Decisions? In order to create the best possible user experience, you should leverage best practices
 to help make decisions. We should ask ourselves; **does it violate any of
-our [Design Principles](product/design-principles.md)**?
+our [Design Principles](/design-products/design-principles.md)**?
 
 **If not, then proceed** :)
 

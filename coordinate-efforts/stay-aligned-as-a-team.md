@@ -10,7 +10,7 @@ To make the OKR process work, we have to stay aligned as a team every day, week 
 
 ![](../images/35-sprint-planning-prep.svg)
 
-_Note: We use Agile/Scrum in all our teams. It’s really just a fancy word for something simple so don’t be scared about the terminology or think you need to read books about it. There is some background information on how the Dev Team uses Scrum [here](https://handbook.interaction-design.org/guides/scrum/)._
+_Note: We use Agile/Scrum in all our teams. It’s really just a fancy word for something simple so don’t be scared about the terminology or think you need to read books about it. There is some background information on how the Dev Team uses Scrum [here](https://handbook.interaction-design.org/development/guides/scrum/)._
 
 Prepare yourself before a Sprint Planning Meeting
 
