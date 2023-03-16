@@ -1,6 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base"
+        "local>InteractionDesignFoundation/.github:renovate-config-security-updates-only"
     ]
 }
