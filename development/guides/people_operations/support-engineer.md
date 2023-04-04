@@ -124,9 +124,9 @@ You should be able to find the login details for the IxDF New Relic and Bug Snag
 the dev team lead for assistance.
 :::
 
-### Monitor `#cron-production` channel
+### Monitor `#cron--production` channel
 
-As support engineer, you are responsible for keeping an eye on the `#cron-production` channel.
+As support engineer, you are responsible for keeping an eye on the `#cron--production` channel.
 
 :::tip
 If you created a custom sidebar section for support engineer channels, you can add this channel there as well
