@@ -22,21 +22,21 @@ You have done a great job as a support engineer when:
 
 There are a number of channels on Slack which display errors. You should unmute all of them once you are the support engineer:
 
--   `#errors-dev-01`
--   `#errors-dev-02`
--   `#errors-dev-03`
--   `#errors-dev-04`
--   `#errors-develop`
--   `#errors-production`
--   `#js-errors-production`
+-   `#errors--dev-01`
+-   `#errors--dev-02`
+-   `#errors--dev-03`
+-   `#errors--dev-04`
+-   `#errors--develop`
+-   `#errors--production`
+-   `#js-errors--production`
 
 :::tip
 Create a new sidebar section on Slack and add these channels to that section. [Click here to learn how to do this](https://slack.com/help/articles/360043207674-Organize-your-sidebar-with-custom-sections)
 :::
 
-The highest priority channel is `#errors-production` as errors shown here are likely affecting a guest, member or admin user on [interaction-design.org](https://interaction-design.org).
+The highest priority channel is `#errors--production` as errors shown here are likely affecting a guest, member or admin user on [interaction-design.org](https://interaction-design.org).
 In addition to unmuting this channel, you should change the notification settings to alert you whenever a message is sent in this
-channel. You might want to do the same for `#js-errors-production`, but JS errors there generally don't break critical site functionality.
+channel. You might want to do the same for `#js-errors--production`, but JS errors there generally don't break critical site functionality.
 
 The other error channels can sometimes be quite 'noisy' and the errors aren't directly impacting users, so you don't need to be alerted
 whenever a message is sent in them. It's sufficient to look through these channels once every few hours.
