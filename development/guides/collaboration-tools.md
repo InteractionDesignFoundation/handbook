@@ -11,6 +11,11 @@ Our issue tacker and code storage. [GitHub Actions](https://github.com/features/
 
 Usage of [2FA](https://github.com/settings/security) is required. We also use real face photos for a profile picture to look more friendly to your colleagues.
 
+## [Asana](https://app.asana.com/)
+
+Developers collaborate with other teams here. This is the main task tracker and project management tools for non-dev teams.
+Use your Google account to join the company on Asana.
+
 ## [Slack](https://slack.com/download)
 
 We use [Slack](https://slack.com/download) as our main tool for written communication and important notifications.
