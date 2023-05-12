@@ -26,7 +26,7 @@ We don't expect you to spend too much time and feel pressured, however you can:
 
 ## Plan
 
-1. To start, head over to [🔒 IxDF Onboarding & Company Culture Course](https://www.interaction-design.org/courses/ixdf-company-culture-course)
+1. To start, head over to [🔒 IxDF Handbook Course](https://www.interaction-design.org/courses/ixdf-handbook)
    and go through Lesson 0 where the onboarding is explained.
 1. Setup and know your [collaboration tools](../collaboration-tools.md).
 1. Know our [expectations from you and your work](../expectations.md).
