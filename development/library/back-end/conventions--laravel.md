@@ -75,10 +75,10 @@ It helps us to be more independent of the DB and simplifies Model’s Factories 
 ### Do not use `created_at`, `updated_at` and `deleted_at` attributes for domain logic
 
 It's always better to use for specific column names. Examples:
- - `created_at` -> `registered_at`, `issued_at`, etc
- - `updated_at` -> `reviewed_at`, etc
- - `deleted_at` -> `rejected_at`, `caleled_at`, etc
 
+-   `created_at` -> `registered_at`, `issued_at`, etc
+-   `updated_at` -> `reviewed_at`, etc
+-   `deleted_at` -> `rejected_at`, `caleled_at`, etc
 
 ## Artisan commands
 
