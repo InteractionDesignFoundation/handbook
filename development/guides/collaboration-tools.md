@@ -62,7 +62,6 @@ Via Dropbox you will get access to our literature library, exported designs and 
 
 When you see the phrase "shared folders", we mean the "shared folders" on Dropbox.
 
-
 ## [Figma](https://figma.com)
 
 We also use Figma(https://figma.com) to share designs. Ask for an invitation in case you need to access anything on Figma.
