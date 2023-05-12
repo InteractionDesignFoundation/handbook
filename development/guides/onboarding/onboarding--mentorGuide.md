@@ -97,7 +97,6 @@ This is a list of tools and services that a new member should have access to:
 -   [New Relic](https://newrelic.com/): Log errors and monitor application performance (get shared credentials from credential management tool).
 -   [GTmetrix](https://gtmetrix.com/): Analyze web page's speed performance (get shared credentials from credential management tool).
 -   [Figma](https://figma.com/): Share designs and assets between designers and developers.
--   [Zeplin](https://zeplin.io/): Share designs and assets between designers and developers -- old designs.
 -   [Downnotifier](https://downnotifier.com/): Set cell phone numbers to subscribe to ecergency notifications.
 -   Optional: [Google analytics](https://analytics.google.com): Analytics service that tracks and reports website traffic.
 -   Optional: [Google search console](https://www.google.com/webmasters/tools): Monitor Google Search results data.

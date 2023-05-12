@@ -57,15 +57,10 @@ Via Dropbox you will get access to our literature library, exported designs and 
 
 When you see the phrase "shared folders", we mean the "shared folders" on Dropbox.
 
-## [Zeplin](https://zeplin.io/)
-
-We use [Zeplin](https://zeplin.io) to share designs and assets between designers and developers.
-It makes life easier for both parties as all details such as spacing, font size, colors, etc. are listed directly on the designs.
-Create an account and let your onboarding buddy know so that they can add you to the project.
 
 ## [Figma](https://figma.com)
 
-We also use Figma(https://figma.com) to share designs. Ask for an invite in case you need to access anything on Figma.
+We also use Figma(https://figma.com) to share designs. Ask for an invitation in case you need to access anything on Figma.
 
 ## [LastPass](https://www.lastpass.com)
 
