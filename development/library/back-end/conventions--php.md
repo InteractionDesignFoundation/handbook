@@ -68,7 +68,7 @@ Good example: reveal what your arrays and collections contain:
 // GOOD
 final class Foo
 {
-    /** @var string[] */
+    /** @var list<string> */
     private array $urls;
 
     /** @var \Illuminate\Support\Collection<int, \App\Models\User> */
@@ -106,7 +106,7 @@ Don’t use `@inheritDoc` for class properties, instead copy the docblock from t
 // GOOD
 final class Tag extends BaseTag
 {
-    /** @var string[] The attributes that are mass assignable. */
+    /** @var list<string> The attributes that are mass assignable. */
     protected $fillable = [
         'name',
     ];
@@ -115,7 +115,7 @@ final class Tag extends BaseTag
 // BAD
 final class Tag extends BaseTag
 {
-    /** @inheritDoc  */
+    /** @inheritDoc */
     protected $fillable = [
         'name',
     ];

@@ -61,8 +61,8 @@ When you add a relationship or scope, add appropriate PHPDoc block to the Model:
 ```php
 // Models/Member.php
 /**
- * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Permission\Role> $roles Member’s Roles  (added by a Member::roles() relationship)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Member\Member canceled() Cancelled Member state (added by a Member::scopeCanceled())
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Modules\Permission\Models\Role> $roles Member’s Roles  (added by a Member::roles() relationship)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Modules\Member\Models\Member canceled() Cancelled Member state (added by a Member::scopeCanceled())
  */
 ```
 
@@ -75,10 +75,10 @@ It helps us to be more independent of the DB and simplifies Model’s Factories 
 ### Do not use `created_at`, `updated_at` and `deleted_at` attributes for domain logic
 
 It's always better to use for specific column names. Examples:
+ - `created_at` -> `registered_at`, `issued_at`, etc
+ - `updated_at` -> `reviewed_at`, etc
+ - `deleted_at` -> `rejected_at`, `caleled_at`, etc
 
--   `created_at` -> `registered_at`, `issued_at`, etc
--   `updated_at` -> `reviewed_at`, etc
--   `deleted_at` -> `rejected_at`, `caleled_at`, etc
 
 ## Artisan commands
 
@@ -260,7 +260,7 @@ There are few valid options on how to use `route()` helper for named routes:
 
 ```php
 // route: '/meetups/{meetupId}'
-$meetup = \App\Models\LocalGroup\Meetup::query()->find($meetupId);
+$meetup = \App\Modules\LocalGroup\Models\Meetup::query()->find($meetupId);
 
 route('meetups.show', $meetup); // GOOD (RECOMMENDED) for routes with a single parameter
 route('meetups.show', $meetupId); // GOOD for cases when you don’t have Meetup object but have an ID/key
@@ -274,7 +274,7 @@ route('meetups.show', ['meetupId' => $meetup->id]); // ERROR: Missing required p
 
 ```php
 // route: '/master-classes/{masterclass}/registrations/{registration}'
-$registration = \App\Models\Masterclass\Registration::query()->first();
+$registration = \App\Modules\Masterclass\Models\Registration::query()->first();
 
 route('masterclasses.registrations.show', [$registration->masterclass, $registration]);
 route('masterclasses.registrations.show', ['masterclass' => $registration->masterclass, 'registration' => $registration]); // GOOD, RECOMMENDED
