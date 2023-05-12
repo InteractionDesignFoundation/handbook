@@ -94,8 +94,8 @@ Dev specific (usually handled by a dev team lead):
 -   [Downnotifier](https://downnotifier.com/): Set cell phone numbers to subscribe to emergency notifications.
 -   Optional: [Google Analytics](https://analytics.google.com): Analytics service that tracks and reports website traffic.
 -   Optional: [Google search console](https://www.google.com/webmasters/tools): Monitor Google Search results data.
--   [GTmetrix](https://gtmetrix.com/): [👥 shared account] Analyze web page's speed performance (get shared credentials from credential management tool).
--   [New Relic](https://newrelic.com/): [👥 shared account] Log errors and monitor application performance (get shared credentials from credential management tool).
+-   [GTmetrix](https://gtmetrix.com/): Analyze web page's speed performance [👥 shared account].
+-   [New Relic](https://newrelic.com/): Log errors and monitor application performance [👥 shared account].
 
 Company-wide services (usually handled by a Hiring Process Manager):
 
