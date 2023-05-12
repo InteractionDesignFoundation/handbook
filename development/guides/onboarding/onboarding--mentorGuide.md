@@ -86,7 +86,8 @@ following questions:
 ## Checklist for Tools and Services
 
 This is a list of tools and services that a new member should have access to.
- Dev specific (usually handled by a dev team lead):
+Dev specific (usually handled by a dev team lead):
+
 -   [GitHub](https://github.com): Source code storage, issue tracker and CI/CD tool. Ensure that the new developer is attached to the `devs` team.
 -   [Laravel Forge](https://forge.laravel.com/circles/4114/edit): Server Provision service for our servers & sites. Mentee should be added to "Development Team" circle. Ensure 2FA is enabled.
 -   [PHPStorm license](https://account.jetbrains.com/assets/subscriptions): send an invitation to a corporate gmail account.
@@ -96,7 +97,8 @@ This is a list of tools and services that a new member should have access to.
 -   [GTmetrix](https://gtmetrix.com/): [👥 shared account] Analyze web page's speed performance (get shared credentials from credential management tool).
 -   [New Relic](https://newrelic.com/): [👥 shared account] Log errors and monitor application performance (get shared credentials from credential management tool).
 
- Company-wide services (usually handled by a Hiring Process Manager):
+Company-wide services (usually handled by a Hiring Process Manager):
+
 -   [Gmail](https://gmail.com): Corporate email box.
 -   [Slack](https://interaction-design.slack.com): Our main communication tool. Ensure that the new developer is attached to `Developers` slack team/user-group.
 -   [Dropbox.com](https://sync.com): Cloud service to share materials, literature, media, etc. Ensure that the new developer has access to all directories that they need: designs, literature (both: general and developers), etc.
