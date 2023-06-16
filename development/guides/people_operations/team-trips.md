@@ -4,26 +4,28 @@ A team that meets together, stays together.
 Remote working does not mean working in isolation – we meet up with the rest of the team several times a year at spectacular locations,
 from exotic islands in Thailand to the breathtaking mountains of Patagonia in Argentina.
 
-"Ideas are worthless without execution" — that means we should maximize effect of our team-trips.
+“Ideas are worthless without execution” — that means we should maximize effect of our team-trips.
 To achieve that, we have a simple guide to use while working on the team trips.
 
-# How to get the most out of the team trip
+## How to get the most out of the team trip
 
 Most of the time, we have daily work sessions to define the future of the IxDF.
 Human brains are unreliable when it comes to remember something in detail; that’s why we need the ideas written down as soon as they are discussed.
 After the team trip, we are going to execute over those ideas.
 
-## 1. Using GitHub to make action plans
+### 1. Using GitHub to make action plans
 
-GitHub is the IxDF’s main project management tool. We will be using [🔒 IxDF-web's Issues](https://github.com/InteractionDesignFoundation/IxDF-web/issues) to make action plans for whatever we talk in and out of the work sessions during the trip. To create a new issue, you can simply click [IxDF-web/issues](https://github.com/InteractionDesignFoundation/IxDF-web/issues).
+GitHub is the IxDF’s main project management tool. We will be using [🔒 IxDF-web's Issues](https://github.com/InteractionDesignFoundation/IxDF-web/issues) to make action plans for whatever we talk in and out of the work sessions during the trip.
+To create a new issue, you can simply click [IxDF-web/issues](https://github.com/InteractionDesignFoundation/IxDF-web/issues).
 
 Here is a screenshot of a new issue, briefly explaining how you can customize it:
 
-   <img width="1064" src="https://cloud.githubusercontent.com/assets/832544/26652631/3050cf54-4659-11e7-8937-c26e17160c42.png">
+<img width="1064" src="https://cloud.githubusercontent.com/assets/832544/26652631/3050cf54-4659-11e7-8937-c26e17160c42.png">
 
 After you fill out the details, remember to click on **Submit new issue**. :-)
 
-## 2. Applying SMART criteria for action plans
+
+### 2. Applying SMART criteria for action plans
 
 When making action plans for the future of the IxDF, make sure that it fits to the [SMART criteria](https://en.wikipedia.org/wiki/SMART_criteria):
 
