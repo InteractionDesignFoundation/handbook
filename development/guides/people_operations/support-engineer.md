@@ -16,7 +16,6 @@ a large feature or some other large task who need some time to keep an eye on th
 The main goal is to allow other developers to focus on bigger tasks while support engineers work ongoing bug reports
 and help other teams to with their tasks.
 
-
 ## Your responsibilities
 
 This role can be a challenging one as it involves a lot of critical thinking and initiative.

@@ -24,7 +24,6 @@ Here is a screenshot of a new issue, briefly explaining how you can customize it
 
 After you fill out the details, remember to click on **Submit new issue**. :-)
 
-
 ### 2. Applying SMART criteria for action plans
 
 When making action plans for the future of the IxDF, make sure that it fits to the [SMART criteria](https://en.wikipedia.org/wiki/SMART_criteria):
