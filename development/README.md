@@ -28,7 +28,7 @@ To achieve this, we want everyone to understand what is expected of them, the th
 
 -   [Handbook contribution guide](CONTRIBUTING.md): how to make this document even better 🦄
 -   🔒 Shared folders at [Dropbox.com](https://www.dropbox.com/share/) (ask **@mads** to give you access)
--   [🔒 developer docs](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/README.md) - development-related documents
+-   [🔒 developer docs](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/README.md) - development-related documents
 
 ## The IxDF Zen Code
 

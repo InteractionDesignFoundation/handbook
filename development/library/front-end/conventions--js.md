@@ -17,7 +17,7 @@ To get a deeper understanding of how to write effective functional JS explore th
 
 Our code-styling rules are based on `eslint:recommended` rules. We
 also use some ESLint plugins to extend these rules. You can check all our custom rules at the
-[.eslintrc.js](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.eslintrc.js) file.
+[.eslintrc.js](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/.eslintrc.js) file.
 
 The first two rules are actually configured with `.editorconfig` and connected to each other:
 

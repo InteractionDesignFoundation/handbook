@@ -13,10 +13,10 @@ Additionally, we like [Spatie’s code guidelines](https://spatie.be/guidelines/
 We generally observe the standards from the [PHP FIG](http://www.php-fig.org/).
 We use automated tools to check our code on CI:
 
--   [phpcs](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.phpcs/IxDFCodingStandard/ruleset.xml))
--   [PHP-CS-Fixer](https://cs.symfony.com/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.php-cs-fixer.php))
--   [psalm](https://psalm.dev/docs/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/psalm.xml))
--   [rector](https://github.com/rectorphp/rector) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/rector.php))
+-   [phpcs](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/.phpcs/IxDFCodingStandard/ruleset.xml))
+-   [PHP-CS-Fixer](https://cs.symfony.com/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/.php-cs-fixer.php))
+-   [psalm](https://psalm.dev/docs/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/psalm.xml))
+-   [rector](https://github.com/rectorphp/rector) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/rector.php))
 
 ⚠️ Our codebase has some legacy code that do not fully follow our standards, please tread this document as the main source of truth.
 Main legacy parts:

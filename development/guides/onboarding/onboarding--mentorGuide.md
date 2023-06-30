@@ -51,7 +51,7 @@ Here's a list of things to consider when we try to onboard a new member:
 1. Ensure that your buddy has read all onboarding documents.
 2. Ensure that your buddy has all accounts/permissions for our internal and 3rd-party
    services (see [Tools and Services checklist](#checklist-for-tools-and-services)).
-3. Ensure that your buddy has [🔒 properly installed developer environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/environment/first-run/README.md).
+3. Ensure that your buddy has [🔒 properly installed developer environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/first-run/README.md).
 4. Arrange end-of-day meetings with your buddy with a specified agenda to get maximum feedback.
    The meeting should happen at the end of each day during the first week.
    Why: It will help your buddy understand if they are doing what's expected of the
