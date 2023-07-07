@@ -8,62 +8,62 @@ sidebar: auto
 
 ## Table of Contents
 
-  1. [Introduction](#introduction)
-  2. [Variables](#variables)
-     * [Use meaningful and pronounceable variable names](#use-meaningful-and-pronounceable-variable-names)
-     * [Use the same vocabulary for the same type of variable](#use-the-same-vocabulary-for-the-same-type-of-variable)
-     * [Use searchable names (part 1)](#use-searchable-names-part-1)
-     * [Use searchable names (part 2)](#use-searchable-names-part-2)
-     * [Use explanatory variables](#use-explanatory-variables)
-     * [Avoid nesting too deeply and return early (part 1)](#avoid-nesting-too-deeply-and-return-early-part-1)
-     * [Avoid nesting too deeply and return early (part 2)](#avoid-nesting-too-deeply-and-return-early-part-2)
-     * [Avoid Mental Mapping](#avoid-mental-mapping)
-     * [Don't add unneeded context](#dont-add-unneeded-context)
-     * [Use default arguments instead of short circuiting or conditionals](#use-default-arguments-instead-of-short-circuiting-or-conditionals)
-  3. [Comparison](#comparison)
-     * [Use identical comparison](#use-identical-comparison)
-     * [Null coalescing operator](#null-coalescing-operator)
-  4. [Functions](#functions)
-     * [Function arguments (2 or fewer ideally)](#function-arguments-2-or-fewer-ideally)
-     * [Functions should do one thing](#functions-should-do-one-thing)
-     * [Function names should say what they do](#function-names-should-say-what-they-do)
-     * [Functions should only be one level of abstraction](#functions-should-only-be-one-level-of-abstraction)
-     * [Don't use flags as function parameters](#dont-use-flags-as-function-parameters)
-     * [Avoid Side Effects](#avoid-side-effects)
-     * [Names should describe side effects](#names-should-describe-side-effects)
-     * [Don't write to global functions](#dont-write-to-global-functions)
-     * [Don't use a Singleton pattern](#dont-use-a-singleton-pattern)
-     * [Encapsulate conditionals](#encapsulate-conditionals)
-     * [Avoid negative conditionals](#avoid-negative-conditionals)
-     * [Avoid conditionals](#avoid-conditionals)
-     * [Avoid type-checking (part 1)](#avoid-type-checking-part-1)
-     * [Avoid type-checking (part 2)](#avoid-type-checking-part-2)
-     * [Remove dead code](#remove-dead-code)
-  5. [Objects and Data Structures](#objects-and-data-structures)
-     * [Use object encapsulation](#use-object-encapsulation)
-     * [Make objects have private/protected members](#make-objects-have-privateprotected-members)
-  6. [Classes](#classes)
-     * [Prefer composition over inheritance](#prefer-composition-over-inheritance)
-     * [Avoid fluent interfaces](#avoid-fluent-interfaces)
-     * [Prefer final classes](#prefer-final-classes)
-  7. [Tests](#tests)
-     * [Insufficient Tests](#insufficient-tests)
-     * [Use a Coverage Tool!](#use-a-coverage-tool)
-     * [Don’t Skip Trivial Tests](#don-t-skip-trivial-tests)
-     * [An Ignored Test Is a Question about an Ambiguity](#an-ignored-test-is-a-question-about-an-ambiguity)
-     * [Test Boundary Conditions](#test-boundary-conditions)
-     * [Exhaustively Test Near Bugs](#exhaustively-test-near-bugs)
-     * [Patterns of Failure Are Revealing](#patterns-of-failure-are-revealing)
-     * [Test Coverage Patterns Can Be Revealing](#test-coverage-patterns-can-be-revealing)
-     * [Tests Should Be Fast](#tests-should-be-fast)
-  8. [SOLID](#solid)
-     * [Single Responsibility Principle (SRP)](#single-responsibility-principle-srp)
-     * [Open/Closed Principle (OCP)](#openclosed-principle-ocp)
-     * [Liskov Substitution Principle (LSP)](#liskov-substitution-principle-lsp)
-     * [Interface Segregation Principle (ISP)](#interface-segregation-principle-isp)
-     * [Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dip)
-  9. [Don’t repeat yourself (DRY)](#dont-repeat-yourself-dry)
-  10. [Translations](#translations)
+1.  [Introduction](#introduction)
+1.  [Variables](#variables)
+    * [Use meaningful and pronounceable variable names](#use-meaningful-and-pronounceable-variable-names)
+    * [Use the same vocabulary for the same type of variable](#use-the-same-vocabulary-for-the-same-type-of-variable)
+    * [Use searchable names (part 1)](#use-searchable-names-part-1)
+    * [Use searchable names (part 2)](#use-searchable-names-part-2)
+    * [Use explanatory variables](#use-explanatory-variables)
+    * [Avoid nesting too deeply and return early (part 1)](#avoid-nesting-too-deeply-and-return-early-part-1)
+    * [Avoid nesting too deeply and return early (part 2)](#avoid-nesting-too-deeply-and-return-early-part-2)
+    * [Avoid Mental Mapping](#avoid-mental-mapping)
+    * [Don't add unneeded context](#dont-add-unneeded-context)
+    * [Use default arguments instead of short circuiting or conditionals](#use-default-arguments-instead-of-short-circuiting-or-conditionals)
+1.  [Comparison](#comparison)
+    * [Use identical comparison](#use-identical-comparison)
+    * [Null coalescing operator](#null-coalescing-operator)
+1.  [Functions](#functions)
+    * [Function arguments (2 or fewer ideally)](#function-arguments-2-or-fewer-ideally)
+    * [Functions should do one thing](#functions-should-do-one-thing)
+    * [Function names should say what they do](#function-names-should-say-what-they-do)
+    * [Functions should only be one level of abstraction](#functions-should-only-be-one-level-of-abstraction)
+    * [Don't use flags as function parameters](#dont-use-flags-as-function-parameters)
+    * [Avoid Side Effects](#avoid-side-effects)
+    * [Names should describe side effects](#names-should-describe-side-effects)
+    * [Don't write to global functions](#dont-write-to-global-functions)
+    * [Don't use a Singleton pattern](#dont-use-a-singleton-pattern)
+    * [Encapsulate conditionals](#encapsulate-conditionals)
+    * [Avoid negative conditionals](#avoid-negative-conditionals)
+    * [Avoid conditionals](#avoid-conditionals)
+    * [Avoid type-checking (part 1)](#avoid-type-checking-part-1)
+    * [Avoid type-checking (part 2)](#avoid-type-checking-part-2)
+    * [Remove dead code](#remove-dead-code)
+1.  [Objects and Data Structures](#objects-and-data-structures)
+    * [Use object encapsulation](#use-object-encapsulation)
+    * [Make objects have private/protected members](#make-objects-have-privateprotected-members)
+1.  [Classes](#classes)
+    * [Prefer composition over inheritance](#prefer-composition-over-inheritance)
+    * [Avoid fluent interfaces](#avoid-fluent-interfaces)
+    * [Prefer final classes](#prefer-final-classes)
+1.  [Tests](#tests)
+    * [Insufficient Tests](#insufficient-tests)
+    * [Use a Coverage Tool!](#use-a-coverage-tool)
+    * [Don’t Skip Trivial Tests](#don-t-skip-trivial-tests)
+    * [An Ignored Test Is a Question about an Ambiguity](#an-ignored-test-is-a-question-about-an-ambiguity)
+    * [Test Boundary Conditions](#test-boundary-conditions)
+    * [Exhaustively Test Near Bugs](#exhaustively-test-near-bugs)
+    * [Patterns of Failure Are Revealing](#patterns-of-failure-are-revealing)
+    * [Test Coverage Patterns Can Be Revealing](#test-coverage-patterns-can-be-revealing)
+    * [Tests Should Be Fast](#tests-should-be-fast)
+1.  [SOLID](#solid)
+    * [Single Responsibility Principle (SRP)](#single-responsibility-principle-srp)
+    * [Open/Closed Principle (OCP)](#openclosed-principle-ocp)
+    * [Liskov Substitution Principle (LSP)](#liskov-substitution-principle-lsp)
+    * [Interface Segregation Principle (ISP)](#interface-segregation-principle-isp)
+    * [Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dip)
+1.  [Don’t repeat yourself (DRY)](#dont-repeat-yourself-dry)
+1.  [Translations](#translations)
 
 ## Introduction
 
@@ -393,7 +393,7 @@ This is not good because `$breweryName` can be `NULL`.
 ```php
 function createMicrobrewery($breweryName = 'Hipster Brew Co.'): void
 {
-    // ...
+    // ...
 }
 ```
 
@@ -404,7 +404,7 @@ This opinion is more understandable than the previous version, but it better con
 ```php
 function createMicrobrewery($name = null): void
 {
-    $breweryName = $name ?: 'Hipster Brew Co.';
+    $breweryName = $name ?: 'Hipster Brew Co.';
     // ...
 }
 ```
@@ -416,7 +416,7 @@ You can use [type hinting](https://php.net/manual/en/functions.arguments.php#fun
 ```php
 function createMicrobrewery(string $breweryName = 'Hipster Brew Co.'): void
 {
-    // ...
+    // ...
 }
 ```
 
@@ -435,7 +435,7 @@ $a = '42';
 $b = 42;
 
 if ($a != $b) {
-   // The expression will always pass
+    // The expression will always pass
 }
 ```
 
@@ -849,12 +849,12 @@ Names should describe everything that a function, variable, or class is or does.
 ```php
 public function getProfile(): Profile
 {
-   if ($this->profile === null) {
-      $this->profile = new Profile($this);
-      $this->save();
-   }
+    if ($this->profile === null) {
+        $this->profile = new Profile($this);
+        $this->save();
+    }
 
-   return $this->profile;
+    return $this->profile;
 }
 ```
 
@@ -863,12 +863,12 @@ public function getProfile(): Profile
 ```php
 public function createOrReturnProfile(): Profile
 {
-   if ($this->profile === null) {
-      $this->profile = new Profile($this);
-      $this->save();
-   }
+    if ($this->profile === null) {
+        $this->profile = new Profile($this);
+        $this->save();
+    }
 
-   return $this->profile;
+    return $this->profile;
 }
 ```
 
@@ -928,10 +928,11 @@ And now you must use instance of `Configuration` in your application.
 ### Don't use a Singleton pattern
 
 Singleton is an [anti-pattern](https://en.wikipedia.org/wiki/Singleton_pattern). Paraphrased from Brian Button:
- 1. They are generally used as a **global instance**, why is that so bad? Because **you hide the dependencies** of your application in your code, instead of exposing them through the interfaces. Making something global to avoid passing it around is a [code smell](https://en.wikipedia.org/wiki/Code_smell).
- 2. They violate the [single responsibility principle](#single-responsibility-principle-srp): by virtue of the fact that **they control their own creation and lifecycle**.
- 3. They inherently cause code to be tightly [coupled](https://en.wikipedia.org/wiki/Coupling_%28computer_programming%29). This makes faking them out under **test rather difficult** in many cases.
- 4. They carry state around for the lifetime of the application. Another hit to testing since **you can end up with a situation where tests need to be ordered** which is a big no for unit tests. Why? Because each unit test should be independent from the other.
+
+1.  They are generally used as a **global instance**, why is that so bad? Because **you hide the dependencies** of your application in your code, instead of exposing them through the interfaces. Making something global to avoid passing it around is a [code smell](https://en.wikipedia.org/wiki/Code_smell).
+1.  They violate the [single responsibility principle](#single-responsibility-principle-srp): by virtue of the fact that **they control their own creation and lifecycle**.
+1.  They inherently cause code to be tightly [coupled](https://en.wikipedia.org/wiki/Coupling_%28computer_programming%29). This makes faking them out under **test rather difficult** in many cases.
+1.  They carry state around for the lifetime of the application. Another hit to testing since **you can end up with a situation where tests need to be ordered** which is a big no for unit tests. Why? Because each unit test should be independent from the other.
 
 There is also very good thoughts by [Misko Hevery](http://misko.hevery.com/about/) about the [root of problem](http://misko.hevery.com/2008/08/25/root-cause-of-singletons/).
 
@@ -972,7 +973,7 @@ class DBConnection
         // ...
     }
 
-     // ...
+    // ...
 }
 ```
 
@@ -1258,7 +1259,7 @@ class BankAccount
 
     public function __construct(int $balance = 1000)
     {
-      $this->balance = $balance;
+        $this->balance = $balance;
     }
 
     public function withdraw(int $amount): void
@@ -1275,7 +1276,7 @@ class BankAccount
         $this->balance += $amount;
     }
 
-    public function getBalance(): int
+    public function getBalance(): int
     {
         return $this->balance;
     }
@@ -1500,10 +1501,10 @@ class Car
 }
 
 $car = (new Car())
-  ->setColor('pink')
-  ->setMake('Ford')
-  ->setModel('F-150')
-  ->dump();
+    ->setColor('pink')
+    ->setMake('Ford')
+    ->setModel('F-150')
+    ->dump();
 ```
 
 **Good:**
@@ -1675,11 +1676,11 @@ A slow test is a test that won’t get run. When things get tight, it’s the sl
 
 **SOLID** is the mnemonic acronym introduced by Michael Feathers for the first five principles named by Robert Martin, which meant five basic principles of object-oriented programming and design.
 
- * [S: Single Responsibility Principle (SRP)](#single-responsibility-principle-srp)
- * [O: Open/Closed Principle (OCP)](#openclosed-principle-ocp)
- * [L: Liskov Substitution Principle (LSP)](#liskov-substitution-principle-lsp)
- * [I: Interface Segregation Principle (ISP)](#interface-segregation-principle-isp)
- * [D: Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dip)
+* [S: Single Responsibility Principle (SRP)](#single-responsibility-principle-srp)
+* [O: Open/Closed Principle (OCP)](#openclosed-principle-ocp)
+* [L: Liskov Substitution Principle (LSP)](#liskov-substitution-principle-lsp)
+* [I: Interface Segregation Principle (ISP)](#interface-segregation-principle-isp)
+* [D: Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dip)
 
 ### Single Responsibility Principle (SRP)
 
@@ -1982,8 +1983,8 @@ class Square implements Shape
 
     public function getArea(): int
     {
-        return $this->length ** 2;
-    }
+        return $this->length ** 2;
+    }
 }
 
 function printArea(Shape $shape): void
@@ -2293,25 +2294,25 @@ This document originally belongs to https://github.com/jupeter/clean-code-php
 
 This is also available in other languages:
 
-- :cn: **Chinese:**
-  - [php-cpm/clean-code-php](https://github.com/php-cpm/clean-code-php)
-- :ru: **Russian:**
-  - [peter-gribanov/clean-code-php](https://github.com/peter-gribanov/clean-code-php)
-- :es: **Spanish:**
-  - [fikoborquez/clean-code-php](https://github.com/fikoborquez/clean-code-php)
-- :brazil: **Portuguese:**
-  - [fabioars/clean-code-php](https://github.com/fabioars/clean-code-php)
-  - [jeanjar/clean-code-php](https://github.com/jeanjar/clean-code-php/tree/pt-br)
-- :thailand: **Thai:**
-  - [panuwizzle/clean-code-php](https://github.com/panuwizzle/clean-code-php)
-- :fr: **French:**
-  - [errorname/clean-code-php](https://github.com/errorname/clean-code-php)
-- :vietnam: **Vietnamese**
-  - [viethuongdev/clean-code-php](https://github.com/viethuongdev/clean-code-php)
-- :kr: **Korean:**
-  - [yujineeee/clean-code-php](https://github.com/yujineeee/clean-code-php)
-- :tr: **Turkish:**
-  - [anilozmen/clean-code-php](https://github.com/anilozmen/clean-code-php)
+-   :cn: **Chinese:**
+    - [php-cpm/clean-code-php](https://github.com/php-cpm/clean-code-php)
+-   :ru: **Russian:**
+    - [peter-gribanov/clean-code-php](https://github.com/peter-gribanov/clean-code-php)
+-   :es: **Spanish:**
+    - [fikoborquez/clean-code-php](https://github.com/fikoborquez/clean-code-php)
+-   :brazil: **Portuguese:**
+    - [fabioars/clean-code-php](https://github.com/fabioars/clean-code-php)
+    - [jeanjar/clean-code-php](https://github.com/jeanjar/clean-code-php/tree/pt-br)
+-   :thailand: **Thai:**
+    - [panuwizzle/clean-code-php](https://github.com/panuwizzle/clean-code-php)
+-   :fr: **French:**
+    - [errorname/clean-code-php](https://github.com/errorname/clean-code-php)
+-   :vietnam: **Vietnamese**
+    - [viethuongdev/clean-code-php](https://github.com/viethuongdev/clean-code-php)
+-   :kr: **Korean:**
+    - [yujineeee/clean-code-php](https://github.com/yujineeee/clean-code-php)
+-   :tr: **Turkish:**
+    - [anilozmen/clean-code-php](https://github.com/anilozmen/clean-code-php)
 
 **[⬆ back to top](#table-of-contents)**
 

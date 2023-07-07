@@ -4,18 +4,18 @@
 
 ## Table of Contents
 
-  1. [Introduction](#introduction)
-  2. [Variables](#variables)
-  3. [Functions](#functions)
-  4. [Objects and Data Structures](#objects-and-data-structures)
-  5. [Classes](#classes)
-  6. [SOLID](#solid)
-  7. [Testing](#testing)
-  8. [Concurrency](#concurrency)
-  9. [Error Handling](#error-handling)
-  10. [Formatting](#formatting)
-  11. [Comments](#comments)
-  12. [Translation](#translation)
+1.  [Introduction](#introduction)
+1.  [Variables](#variables)
+1.  [Functions](#functions)
+1.  [Objects and Data Structures](#objects-and-data-structures)
+1.  [Classes](#classes)
+1.  [SOLID](#solid)
+1.  [Testing](#testing)
+1.  [Concurrency](#concurrency)
+1.  [Error Handling](#error-handling)
+1.  [Formatting](#formatting)
+1.  [Comments](#comments)
+1.  [Translation](#translation)
 
 ## Introduction
 
@@ -249,14 +249,14 @@ To make it obvious what properties the function expects, you can use the ES2015/
 destructuring syntax. This has a few advantages:
 
 1. When someone looks at the function signature, it's immediately clear what
-   properties are being used.
+  properties are being used.
 2. It can be used to simulate named parameters.
 3. Destructuring also clones the specified primitive values of the argument
-   object passed into the function. This can help prevent side effects. Note:
-   objects and arrays that are destructured from the argument object are NOT
-   cloned.
+  object passed into the function. This can help prevent side effects. Note:
+  objects and arrays that are destructured from the argument object are NOT
+  cloned.
 4. Linters can warn you about unused properties, which would be impossible
-   without destructuring.
+  without destructuring.
 
 **Bad:**
 
@@ -667,14 +667,14 @@ holding onto a reference of the shopping cart will be affected by any changes.
 Two caveats to mention to this approach:
 
 1. There might be cases where you actually want to modify the input object,
-   but when you adopt this programming practice you will find that those cases
-   are pretty rare. Most things can be refactored to have no side effects!
+  but when you adopt this programming practice you will find that those cases
+  are pretty rare. Most things can be refactored to have no side effects!
 
 2. Cloning big objects can be very expensive in terms of performance. Luckily,
-   this isn't a big issue in practice because there are
-   [great libraries](https://facebook.github.io/immutable-js/) that allow
-   this kind of programming approach to be fast and not as memory intensive as
-   it would be for you to manually clone objects and arrays.
+  this isn't a big issue in practice because there are
+  [great libraries](https://facebook.github.io/immutable-js/) that allow
+  this kind of programming approach to be fast and not as memory intensive as
+  it would be for you to manually clone objects and arrays.
 
 **Bad:**
 
@@ -1245,10 +1245,10 @@ depends on your problem at hand, but this is a decent list of when inheritance
 makes more sense than composition:
 
 1. Your inheritance represents an "is-a" relationship and not a "has-a"
-   relationship (Human->Animal vs. User->UserDetails).
+  relationship (Human->Animal vs. User->UserDetails).
 2. You can reuse code from the base classes (Humans can move like all animals).
 3. You want to make global changes to derived classes by changing a base class.
-   (Change the caloric expenditure of all animals when they move).
+  (Change the caloric expenditure of all animals when they move).
 
 **Bad:**
 
@@ -1656,9 +1656,9 @@ const $ = new DOMTraverser({
 This principle states two essential things:
 
 1. High-level modules should not depend on low-level modules. Both should
-   depend on abstractions.
+  depend on abstractions.
 2. Abstractions should not depend upon details. Details should depend on
-   abstractions.
+  abstractions.
 
 This can be hard to understand at first, but if you've worked with AngularJS,
 you've seen an implementation of this principle in the form of Dependency
