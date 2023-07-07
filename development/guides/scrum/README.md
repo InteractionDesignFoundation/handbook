@@ -35,7 +35,7 @@ Small team of people, consists of:
 The main goal of these events is to create regularity and minimize the need for meetings.
 
 -   **[Sprint](https://www.scrum.org/resources/what-is-a-sprint-in-scrum)**:
-    It is the heart-beat of scrum, which encompasses all the work necessary to achive the Product Goal.
+    It is the heart-beat of scrum, which encompasses all the work necessary to achieve the Product Goal.
     It's a fixed-length event of one month or less.
 -   **[Sprint Planning](https://www.scrum.org/resources/what-is-sprint-planning)**: Initiates the sprint by laying out the work to be done.
     -   Questions:
@@ -80,7 +80,7 @@ Scrum Artifacts enable inspection & adaptation by providing transparency on the 
         -   Set of Product Backlog Items (What)
         -   Actionable plan for delivering the Increment (How)
         -   Commitment: Sprint Goal, which is a single commitment for the sprint. It has
-            flexibility in terms of the exact work needed to achive it.
+            flexibility in terms of the exact work needed to achieve it.
 -   **[Increment](https://www.scrum.org/resources/what-is-an-increment)**:
     -   Definition:
         -   Concrete stepping stone toward the Product Goal.

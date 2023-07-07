@@ -1300,7 +1300,7 @@ $balance = $bankAccount->getBalance();
 
 Therefore, use `private` by default and `public/protected` when you need to provide access for external classes.
 
-For more informations you can read the [blog post](http://fabien.potencier.org/pragmatism-over-theory-protected-vs-private.html) on this topic written by [Fabien Potencier](https://github.com/fabpot).
+For more information you can read the [blog post](http://fabien.potencier.org/pragmatism-over-theory-protected-vs-private.html) on this topic written by [Fabien Potencier](https://github.com/fabpot).
 
 **Bad:**
 
@@ -1457,7 +1457,7 @@ more often it comes at some costs:
 3. Is harder to [mock](https://en.wikipedia.org/wiki/Mock_object) in a test suite.
 4. Makes diffs of commits harder to read.
 
-For more informations you can read the full [blog post](https://ocramius.github.io/blog/fluent-interfaces-are-evil/)
+For more information you can read the full [blog post](https://ocramius.github.io/blog/fluent-interfaces-are-evil/)
 on this topic written by [Marco Pivetta](https://github.com/Ocramius).
 
 **Bad:**
@@ -1557,7 +1557,7 @@ The `final` should be used whenever possible:
 
 The only condition is that your class should implement an interface and no other public methods are defined.
 
-For more informations you can read [the blog post](https://ocramius.github.io/blog/when-to-declare-classes-final/) on this topic written by [Marco Pivetta (Ocramius)](https://ocramius.github.io/).
+For more information you can read [the blog post](https://ocramius.github.io/blog/when-to-declare-classes-final/) on this topic written by [Marco Pivetta (Ocramius)](https://ocramius.github.io/).
 
 **Bad:**
 
