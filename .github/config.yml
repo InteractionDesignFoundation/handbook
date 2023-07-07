@@ -10,7 +10,7 @@ newIssueWelcomeComment: >
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
-  Thanks for opening this pull request 🦄! Do you want to improve your PR? - Please check out our [contributing guidelines](https://github.com/InteractionDesignFoundation/handbook/blob/main/CONTRIBUTING.md).
+  Thanks for opening this pull request 🦄! Do you want to improve your PR? - Please check out our [contributing guidelines](https://github.com/InteractionDesignFoundation/handbook/blob/main/resources/contributing.md).
 
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 
