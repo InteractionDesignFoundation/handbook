@@ -39,6 +39,5 @@ This list is an extension of our expectations from a senior developer (see prev.
 Now, please read the following very short articles:
 
 1.  [So You Want To Be a Senior Developer?](https://css-tricks.com/want-senior-developer/)
-1.  [The Role of a Senior Developer](http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer/)
 
 🦄
