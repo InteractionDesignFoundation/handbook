@@ -21,7 +21,7 @@ We use automated tools to check our code on CI:
 -   [Deptrac](https://qossmic.github.io/deptrac/) ([🔒 app config](/deptrac.yaml) and [🔒 modules config](/deptrac_modules.yaml))
 -   [ComposerRequireChecker](https://github.com/maglnet/ComposerRequireChecker) ([🔒 config](/composer-require-checker.json))
 -   [composer-unused](https://github.com/composer-unused/composer-unused) ([🔒 config](/composer-unused.php))
-- and more...
+-   and more...
 
 ⚠️ Our codebase has some legacy code that do not fully follow our standards, please tread this document as the main source of truth.
 Main legacy parts:
@@ -44,7 +44,6 @@ You could, for example, rely more on composition, dependency injection, and inte
 
 Especially in the context of open source packages, you’re encouraged to think twice about making a method public or protected, or opening a class for extension.
 Every entry point in your code that is open for the public to use is an entry point you’ll have to maintain with backwards compatibility in mind.
-
 
 ## Strict types
 
@@ -215,7 +214,6 @@ If you need to explain the reason (why), then format the comments as follows:
  */
 ```
 
-
 ## Class name resolution
 
 Do not use hardcoded fully qualified class names in code.
@@ -272,7 +270,6 @@ abort(404, "The course with the ID {$courseId} could not be found.");
 // BAD
 abort(404);
 ```
-
 
 ## Type-casting
 
@@ -379,10 +376,9 @@ From [official documentation](https://www.php.net/manual/en/function.assert.php)
 > and that indicate some programming errors if not or to check for the presence of certain features
 > like extension functions or certain system limits and features.
 
- - [assert on php.net](https://www.php.net/manual/en/function.assert.php)
- - [Should I be using assert in my PHP code?](https://stackoverflow.com/questions/4516419/should-i-be-using-assert-in-my-php-code)
- - [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
-
+-   [assert on php.net](https://www.php.net/manual/en/function.assert.php)
+-   [Should I be using assert in my PHP code?](https://stackoverflow.com/questions/4516419/should-i-be-using-assert-in-my-php-code)
+-   [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
 
 ## regex
 

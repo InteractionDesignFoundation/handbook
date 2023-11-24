@@ -5,9 +5,10 @@
 We use `postcss-preset-env` and CSS features from [stage 3+](https://preset-env.cssdb.org/features#stage-3).
 
 ### Reduce the cognitive load
-- Use as many native CSS features as possible;
-- SHOULD not use PostCSS magic like `&` (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
-- SHOULD not use nesting, because BEM names are unique enough (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
+
+-   Use as many native CSS features as possible;
+-   SHOULD not use PostCSS magic like `&` (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
+-   SHOULD not use nesting, because BEM names are unique enough (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
 
 ## CSS Class Naming conventions
 
@@ -18,7 +19,6 @@ We use [ITCSS](http://www.creativebloq.com/web-design/manage-large-css-projects-
 -   [ITCSS: Harry Roberts - Managing CSS Projects with ITCSS (video)](https://youtu.be/1OKZOV-iLj4?t=404)
 -   [BEM quick-start](https://en.bem.info/methodology/quick-start)
 -   [Battling BEM CSS: 10 Common Problems And How To Avoid Them](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/)
-
 
 Additionally, we prefer to use camelCase, as follows:
 
