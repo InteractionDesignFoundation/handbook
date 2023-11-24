@@ -2,21 +2,26 @@
 
 ## TL;DR
 
-There are main approaches to use modern PHP: like Ruby or like Java. We prefer Java-way: less magic, more types.
+There are the main approaches to using modern PHP: like Ruby or like Java. We prefer Java-way: less magic, more types.
 
 We strive to minimize magic and help IDE and static code analyzers to help us.
 
-We use [PSR-12](<(https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)>)
+We use [PSR-12](<(https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-12-extended-coding-style-guide.md)>)
 extended by other rules (mostly by powerful [Slevomat Coding Standard](https://github.com/slevomat/coding-standard)).
 Additionally, we like [Spatie’s code guidelines](https://spatie.be/guidelines/laravel-php) and borrow some rules from them.
 
 We generally observe the standards from the [PHP FIG](http://www.php-fig.org/).
 We use automated tools to check our code on CI:
 
--   [phpcs](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/.phpcs/IxDFCodingStandard/ruleset.xml))
--   [PHP-CS-Fixer](https://cs.symfony.com/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/.php-cs-fixer.php))
--   [psalm](https://psalm.dev/docs/) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/psalm.xml))
--   [rector](https://github.com/rectorphp/rector) ([🔒 config](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/rector.php))
+-   [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([🔒 config](/phpcs.xml))
+-   [PHP-CS-Fixer](https://cs.symfony.com/) ([🔒 config](/.php-cs-fixer.php))
+-   [Psalm](https://psalm.dev/docs/) ([🔒 config](/psalm.xml))
+-   [PHPStan](https://phpstan.org/user-guide/getting-started) ([🔒 config](/phpstan.neon))
+-   [Rector](https://github.com/rectorphp/rector) ([🔒 config](/rector.php))
+-   [Deptrac](https://qossmic.github.io/deptrac/) ([🔒 app config](/deptrac.yaml) and [🔒 modules config](/deptrac_modules.yaml))
+-   [ComposerRequireChecker](https://github.com/maglnet/ComposerRequireChecker) ([🔒 config](/composer-require-checker.json))
+-   [composer-unused](https://github.com/composer-unused/composer-unused) ([🔒 config](/composer-unused.php))
+- and more...
 
 ⚠️ Our codebase has some legacy code that do not fully follow our standards, please tread this document as the main source of truth.
 Main legacy parts:
@@ -35,16 +40,17 @@ That’s why you should use private as the default visibility modifier, and `fin
 
 This way you’re encouraged to think before opening up your classes to the outside world.
 You should take a moment to think about possible other ways to solve a problem instead of opening up classes.
-You could for example rely more on composition, dependency injection and interfaces; instead of extending classes.
+You could, for example, rely more on composition, dependency injection, and interfaces; instead of extending classes.
 
 Especially in the context of open source packages, you’re encouraged to think twice about making a method public or protected, or opening a class for extension.
-Every entry point in your code that is open for the public to use, is an entry point you’ll have to maintain with backwards compatibility in mind.
+Every entry point in your code that is open for the public to use is an entry point you’ll have to maintain with backwards compatibility in mind.
+
 
 ## Strict types
 
 We do use `declare(strict_types=1);` by default.
 [Strict typing](https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration.strict) applies to function calls made from within the file with strict typing enabled.
-It helps us to catch some tricky bugs. On other hand, it requires a developer to think more possible variable types,
+It helps us to catch some tricky bugs. On another hand, it requires a developer to think more possible variable types,
 but at the end of the day they have more stable code.
 
 ## Typed properties
@@ -97,8 +103,8 @@ Always use fully qualified class names in docblocks.
 
 ### Make inheritance explicit using the `@inheritDoc` tag
 
-Because inheritance is implicit it may happen that it is not necessary to include a PHPDoc for an element.
-In order to avoid any confusion, please always use the `@inheritDoc` tag for classes and methods.
+Because inheritance is implicit, it may happen that it is not necessary to include a PHPDoc for an element.
+To avoid any confusion, please always use the `@inheritDoc` tag for classes and methods.
 
 Don’t use `@inheritDoc` for class properties, instead copy the docblock from the parent class or interface.
 
@@ -209,9 +215,10 @@ If you need to explain the reason (why), then format the comments as follows:
  */
 ```
 
+
 ## Class name resolution
 
-Do not use hardcoded fully-qualified class names in code.
+Do not use hardcoded fully qualified class names in code.
 Instead, use resolution via ClassName[`::class`](http://php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class) keyword.
 
 ```php
@@ -247,7 +254,7 @@ public function createFromName(string $name): self
 }
 ```
 
-return self/new self() vs return ClassName/new ClassName() - we can of course use both, but it would be good to be consistent
+return self/new self() vs return ClassName/new ClassName()—we can use both, but it would be good to be consistent
 
 ## Exceptions
 
@@ -266,7 +273,6 @@ abort(404, "The course with the ID {$courseId} could not be found.");
 abort(404);
 ```
 
-[More info about exceptions](/app/Exceptions/README.md).
 
 ## Type-casting
 
@@ -308,16 +314,16 @@ A great video on this topic: [Marco Pivetta «Extremely defensive PHP»](https:/
 
 Similar to the previous rule, instead of creating setters to modify model properties
 or directly modifying public properties, encapsulate the logic in domain-specific methods.
-This way you can make sure that your models have valid/consistent state at all times.
+This way you can make sure that your models have a valid/consistent state at all times.
 
 ```php
 // GOOD
 
 // Models\Member.php
-public function confirmEmailWaitingConfirmation(): void
+public function confirmEmailAwaitingConfirmation(): void
 {
-    $this->email = $this->email_waiting_confirmation;
-    $this->email_waiting_confirmation = null;
+    $this->email = $this->email_awaiting_confirmation;
+    $this->email_awaiting_confirmation = null;
 }
 
 // Controllers\MemberEmailConfirmationController.php
@@ -351,7 +357,7 @@ Want to learn more?
 
 [!["Cruddy by Design" by Adam Wathan, 40 mins](https://user-images.githubusercontent.com/5278175/65231387-2cbebe80-dad8-11e9-9be7-234e0be9a740.png)](https://www.youtube.com/watch?v=MF0jFKvS4SI)
 Read more about [class invariants](https://www.geeksforgeeks.org/what-is-class-invariant/)
-for a better understanding of dangers of modifying class properties from controllers/services.
+for a better understanding of the dangers of modifying class properties from controllers/services.
 
 ## assert() vs throw
 
@@ -373,9 +379,10 @@ From [official documentation](https://www.php.net/manual/en/function.assert.php)
 > and that indicate some programming errors if not or to check for the presence of certain features
 > like extension functions or certain system limits and features.
 
--   [assert on php.net](https://www.php.net/manual/en/function.assert.php)
--   [Should I be using assert in my PHP code?](https://stackoverflow.com/questions/4516419/should-i-be-using-assert-in-my-php-code)
--   [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
+ - [assert on php.net](https://www.php.net/manual/en/function.assert.php)
+ - [Should I be using assert in my PHP code?](https://stackoverflow.com/questions/4516419/should-i-be-using-assert-in-my-php-code)
+ - [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
+
 
 ## regex
 

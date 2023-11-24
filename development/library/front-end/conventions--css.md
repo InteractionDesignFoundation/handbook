@@ -4,11 +4,10 @@
 
 We use `postcss-preset-env` and CSS features from [stage 3+](https://preset-env.cssdb.org/features#stage-3).
 
-### Reduce cognitive load
-
--   Use as much native CSS features as possible;
--   SHOULD not use PostCSS magic like `&` (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
--   SHOULD not use nesting, because BEM names are unique enough (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
+### Reduce the cognitive load
+- Use as many native CSS features as possible;
+- SHOULD not use PostCSS magic like `&` (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
+- SHOULD not use nesting, because BEM names are unique enough (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
 
 ## CSS Class Naming conventions
 
@@ -19,6 +18,7 @@ We use [ITCSS](http://www.creativebloq.com/web-design/manage-large-css-projects-
 -   [ITCSS: Harry Roberts - Managing CSS Projects with ITCSS (video)](https://youtu.be/1OKZOV-iLj4?t=404)
 -   [BEM quick-start](https://en.bem.info/methodology/quick-start)
 -   [Battling BEM CSS: 10 Common Problems And How To Avoid Them](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/)
+
 
 Additionally, we prefer to use camelCase, as follows:
 
@@ -33,7 +33,7 @@ Additionally, we prefer to use camelCase, as follows:
 
 ## Utility classes
 
-Along with our BEM based classes we have our utility classes. For all components and page specific classes we use BEM but when it comes to utility classes we have chosen to follow [Tailwind 3](https://tailwindcss.com/). This makes it easier for any new developer to come in to our project and know classnames without even having to go through our docs. Examples of utility classes
+Along with our BEM-based classes, we have our utility classes. For all components and page specific classes we use BEM but when it comes to utility classes we have chosen to follow [Tailwind 3](https://tailwindcss.com/). This makes it easier for any new developer to come in to our project and know classnames without even having to go through our docs. Examples of utility classes
 
 ```html
 <div class="flex justify-center">
@@ -44,7 +44,7 @@ Along with our BEM based classes we have our utility classes. For all components
 
 ### Using utility classes
 
-Whenever a function can be performed using utility classes then the utility class should be used instead of creating custom BEM classes. One of the most common example is margin and padding utility classes that are needed in almost every page.
+Whenever a function can be performed using utility classes, then the utility class should be used instead of creating custom BEM classes. One of the most common example is margin and padding utility classes that are needed in almost every page.
 
 ```html
 <div class="blockName p-large">
@@ -55,7 +55,7 @@ Whenever a function can be performed using utility classes then the utility clas
 
 ### Using BEM along with utility classes
 
-Sometimes a page will require its custom CSS and in that case its good to combine utility classes along with the BEM bases classes for the page/component.
+Sometimes a page will require its custom CSS, and in that case, it is good to combine utility classes along with the BEM bases classes for the page/component.
 
 ```html
 <article class="card radius-lg col-md-6">

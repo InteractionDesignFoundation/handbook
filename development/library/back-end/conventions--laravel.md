@@ -37,17 +37,21 @@ it can add security vulnerabilities, it also allows creating Models with a wrong
 The preferred way to create or update models is to assign attributes line by line and call `save()` at the end:
 
 ```php
-// PREFERRED WAY
+// PREFERRED WAY:
 $member = new Member();
 $member->name = $request->input('name');
 $member->email = $request->input('email');
 $member->save();
 
-// TRY TO AVOID
+// AVOID THIS:
 $member->forceFill([
     'name' => $request->input('name'),
     'email' => $request->input('email'),
 ])->save();
+
+// NEVER DO THIS:
+$member->forceFill($request->all())
+    ->save();
 ```
 
 ### Minimize magic
@@ -56,7 +60,7 @@ Don’t use magic `where{Something}` methods.
 
 ### Document all magic using PHPDoc
 
-When you add a relationship or scope, add appropriate PHPDoc block to the Model:
+When you add a relationship or scope, add the appropriate PHPDoc block to the Model:
 
 ```php
 // Models/Member.php
@@ -72,13 +76,89 @@ Model’s attributes should not rely on DB’s default values.
 Instead, we should duplicate defaults in the model by filling the `$attributes` array.
 It helps us to be more independent of the DB and simplifies Model’s Factories as well as testing.
 
+
+### Use scopes method instead of using magic methods
+```php
+User::query()->scopes(['trial'])->...
+```
+
+For scopes with parameters, we recommend to use [tappable scopes](https://muhammedsari.me/unorthodox-eloquent#tappable-scopes):
+```php
+$unverifiedUsers = User::query()
+    ->tap(new Unverified())
+    ->get();
+```
+
+
+### Use custom EloquentBuilder classes to simplify models
+To simplify models & enable better type-hint by IDE for big Models,
+we should extract a [custom query builder class](https://timacdonald.me/dedicated-eloquent-model-query-builders/).
+
+It's a recommendation for Models with 4+ query scopes and a requirement for Models with 10+ query scopes.
+
+Here's how we can add the builder to the model class.
+
+```php
+class User extends Model
+{
+    /**
+     * @inheritDoc
+     * @param \Illuminate\Database\Query\Builder $query
+     * @return \App\Models\UserEloquentBuilder<self>
+     */
+    public function newEloquentBuilder($query): UserEloquentBuilder
+    {
+        return new UserEloquentBuilder($query);
+    }
+}
+```
+
+This is the builder with one custom query:
+
+```php
+/** @extends \Illuminate\Database\Eloquent\Builder<\App\Models\User> */
+final class UserEloquentBuilder extends Builder
+{
+    public function confirmed(): self
+    {
+        return $this->whereNotNull('confirmed_at');
+    }
+}
+```
+
+And here's how we can use it:
+```php
+$confirmedUsers = User::query()->confirmed()->get();
+```
+
+Make sure to wrap `orWhere` clauses inside another where clause to make a query safe for other "where" conditions:
+
+```diff
+final class UserEloquentBuilder extends Builder
+{
+    public function publishedOrCanceled(): self
+    {
+-        return $this->withTrashed()->whereNotNull('published_at')->orWhereNotNull('deleted_at');
++        return $this->withTrashed()->where(static function (\Illuminate\Database\Eloquent\Builder $builder): void {
++            $builder->whereNotNull('published_at');
++            $builder->orWhereNotNull('deleted_at');
++        })
+    }
+}
+```
+
+Read more:
+1. [Laravel beyond CRUD blog post](https://stitcher.io/blog/laravel-beyond-crud-04-models#scaling-down-models)
+2. [Dedicated query builders for Eloquent models](https://timacdonald.me/dedicated-eloquent-model-query-builders/)
+
+
 ### Do not use `created_at`, `updated_at` and `deleted_at` attributes for domain logic
 
 It's always better to use for specific column names. Examples:
+ - `created_at` -> `registered_at`, `issued_at`, etc
+ - `updated_at` -> `reviewed_at`, etc
+ - `deleted_at` -> `rejected_at`, `caleled_at`, etc
 
--   `created_at` -> `registered_at`, `issued_at`, etc
--   `updated_at` -> `reviewed_at`, etc
--   `deleted_at` -> `rejected_at`, `caleled_at`, etc
 
 ## Artisan commands
 
@@ -126,11 +206,13 @@ $this->info("{$articles->count()} Articles has been updated");
 
 The idea behind it is to send email with console command outputs only when output is present (not empty).
 
+
 #### Use non-zero exit codes on errors
 
 Use non-zero exit codes if a command execution failed (alternatively throw an exception — this is the same as exit code 1).
 This allows to use global on-error handlers, e.g. for automated reporting about failed console commands, please see
 `\Illuminate\Console\Scheduling\Event::emailOutputOnFailure` as an example.
+
 
 ## Controllers
 
@@ -191,6 +273,7 @@ public function update(Request $request, Team $team, DetachFromTeamToIndividualG
 
 The same for scalar GET params (good example: `public function update(int $teamId, Request $request`).
 
+
 ## Requests
 
 ### Use $request->input() instead of $request->get()
@@ -211,6 +294,7 @@ public function store(Request $request)
 }
 ```
 
+
 ## Responses
 
 ### Less magic
@@ -225,9 +309,11 @@ return redirect(route('home')); // mixed return type (RedirectResponse|Redirecto
 return redirect($url); // mixed return type (RedirectResponse|Redirector)
 ```
 
+
 ### Status Codes
 
-See [HTTP response status codes](/docs/code/http-response-status-codes.md).
+Limit the number of HTTP codes the app can return and process them in a consistent way.
+
 
 ## Routing
 
@@ -340,10 +426,12 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::name('home')->get('/', [HomeController::class, 'index']);
 ```
 
+
 ## Authorization
 
 1. Policies MUST use camelCase. Example: `@can('editPost', $post)` ([Laravel does it under the hood](https://github.com/illuminate/auth/blob/09d82d3a2966e6673495456f340855186a1962f5/Access/Gate.php#L718))
 1. Try to name abilities using default CRUD words. One exception: replace `show` with `view`. A server shows a resource, a user views it.
+
 
 ## Validation
 
@@ -373,6 +461,7 @@ All custom validation rules must use snake_case:
 ```php
 Validator::extend('is_null', fn ($attribute, $value, $parameters, $validator) => $value === null);
 ```
+
 
 ## Views
 
@@ -408,10 +497,10 @@ You MUST create and maintain PHPDoc blocks for components.
 
 Add PHP injection using `<?php` and `?>`. The `@php` and `@endphp` Blade directives pair looks better, but the tools we use (Psalm, Rector, PHPCS, PHP-CS-Fixer) can’t parse Blade syntax.
 
+
 ## Translations
 
-### Use \_\_
-
+### Use __
 Translations MUST be rendered with the `__()` function.
 We prefer using this over the `@lang` directive in Blade views because `__()` can be used in both Blade views and regular PHP code. Here’s an example:
 
@@ -437,6 +526,7 @@ trans('newsletter.form.title')
 __('app.message', ['firstName' => 'Peter', 'productName' => 'Bananas']);
 ```
 
+
 ## Exceptions
 
 ### Be explicit about error
@@ -448,6 +538,7 @@ abort(404, "The course with the ID $courseId could not be found.");
 // BAD
 abort(404);
 ```
+
 
 ## Jobs
 
@@ -462,7 +553,7 @@ You can find more details on awesome talk: [Matt Stauffer - Patterns That Pay Of
 
 ### Dispatching
 
-You SHOULD use `Bus::dispatch()` Facade or `\Illuminate\Contracts\Bus\Dispatcher` DI
+You SHOULD use `Bus::dispatch()` Facade or use `\Illuminate\Contracts\Bus\Dispatcher` DI
 instead of `YourJobClass::dispatch()` magic to make code readable for static analyzers:
 
 ```php
@@ -473,6 +564,29 @@ Bus::dispatch(new YouJob($parameter));
 // BAD
 YouJob::dispatch($parameter)
 ```
+
+
+## Events
+
+### Minimize the number of traits
+
+By default, Laravel adds few traits to a new Event class, even if it’s not needed in your particular case.
+We fixed it in our custom stub file for Event, but it’s still better to control traits more explicitly.
+
+```diff
+-use Dispatchable, InteractsWithSockets, SerializesModels;
++use SerializesModels; // only if the Event will be used with Queued Event Listeners
+```
+
+ - `Dispatchable` is to add static methods to simplify event dispatching, like `YourEvent::dispatch()`. We do not use this syntax, so we don’t need this trait. Please use `\Illuminate\Support\Facades\Event` facade instead, e.g. `Event::dispatch(new YourEvent())`.
+ - `SerializesModels` is to gracefully serialize any Eloquent models if the event object contains Eloquent models and going to be serialized using PHP's `serialize` function, such as when utilizing queued listeners.
+ - `InteractsWithSockets` is for broadcasting only, e.g. using Laravel Echo.
+
+Best Practices:
+ - Tailor Event class traits based on specific needs rather than using the default set.
+ - Understand the implications of each trait to avoid unnecessary overhead or missing functionality.
+ - Event class should be `final readonly`
+
 
 ## Migrations
 
@@ -485,16 +599,6 @@ It also helps us to migrate to new Laravel versions: we have fewer conflicts.
 
 Usually we have one config file per system.
 
-## Nova
-
-### Minimize usages of Nova packages
-
-Minimize usages of Nova packages. Reasons:
-
--   Updatability: Nova packages often not very stable on Nova updates and often have bad community support. They can block Nova updated (even patch versions)
--   Performance: JS and CSS assets of all Nova packages loaded on every page load, and these assets are served by webserver-PHP-webserver chain (not by web-server directly and thus produces more load to the server), see `\Laravel\Nova\Http\Controllers\ScriptController::class`.
-
-For these reasons it’s better to avoid using Nova packages and always use native functionality when it’s possible.
 
 ## Security
 
@@ -693,6 +797,7 @@ Prevention tips:
 1. Pass to Model only fields that have been validated: `$user->update($validator->validated());`
 1. Use whitelisting instead of blacklisting (prefer `$fillable` over `$guarded`, because it’s easy to forget to add a new column to `$guarded` when you add it to a Model)
 1. Use `$model->forceFill($data)` method with caution, make sure passed data cannot be manipulated by the user
+
 
 ## Materials
 
