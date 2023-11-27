@@ -162,6 +162,61 @@ It's always better to use for specific column names. Examples:
 -   `updated_at` -> `reviewed_at`, etc
 -   `deleted_at` -> `rejected_at`, `caleled_at`, etc
 
+
+## Eloquent Factories
+
+### Use Eloquent Factories for tests only
+Eloquent Factory classes SHOULD be used only for tests.
+In the application context, Model methods, Actions and Services SHOULD be used instead.
+
+To even more separate "application" and "test" contexts, please:
+ - keep all factories at the `tests/Factories` directory (`Tests\Factories` namespace)
+ - do not use `HasFactory` trait in Model classes
+ - in tests, call Factory classes directly: `$user = UserFactory::new()->create([...]);`
+
+
+## `Factory::definition()` should not set any state or set a default state only
+
+For Models that have finite number of states
+([Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine),
+e.g. `Article` can be one of  `draft`, `published`, `archiced` states),
+the `Factory::definition` method SHOULD NOT make a Model of any non-default state: the state should be set explicitly in the test.
+
+For cases, when the state is not important, the recommendation is to create a method alias that underlines this (see `ofAnyValidState`):
+
+```php
+final class ArticleFactory extends Factory
+{
+    /** @inheritDoc */
+    public function definition(): array
+    {
+        return [
+            'title' => $this->faker->sentence,
+            'body' => $this->faker->paragraph,
+        ];
+    }
+
+    public function draft(): self
+    {
+        return $this->state(['published_at' => null]);
+    }
+
+    public function published(): self
+    {
+        return $this->state([
+            'published_at' => today(),
+            'meta_description' => $this->faker->sentence,
+        ]);
+    }
+
+    public function ofAnyValidState(): self
+    {
+        return $this->draft(); // or even return a random valid state
+    }
+}
+```
+
+
 ## Artisan commands
 
 ### Names
@@ -580,7 +635,10 @@ Best Practices:
 
 ## Migrations
 
-We write `down()` methods because we should be able to rollback failed releases (see `deploy:rollback` deployer’s task).
+Write `down()` methods because:
+ - it should be possible to rollback failed releases
+ - developer experience: simplify switching between branches
+
 
 ## Configs
 
@@ -712,7 +770,7 @@ Laravel Blade protects from most XSS attacks, so for example an attack like this
 <div>{{ $name }}</div>
 ```
 
-::: v-pre
+:::v-pre
 Blade’s `{{ }}` statement automatically encodes the output. So the server will send the following properly encoded code to the browser (which will prevent the XSS attack):
 :::
 
