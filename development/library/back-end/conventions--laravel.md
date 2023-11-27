@@ -175,7 +175,7 @@ To even more separate "application" and "test" contexts, please:
 -   do not use `HasFactory` trait in Model classes
 -   in tests, call Factory classes directly: `$user = UserFactory::new()->create([...]);`
 
-## `Factory::definition()` should not set any state or set a default state only
+### `Factory::definition()` should not set any state or set a default state only
 
 For Models that have finite number of states
 ([Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine),
