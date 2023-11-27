@@ -162,24 +162,24 @@ It's always better to use for specific column names. Examples:
 -   `updated_at` -> `reviewed_at`, etc
 -   `deleted_at` -> `rejected_at`, `caleled_at`, etc
 
-
 ## Eloquent Factories
 
 ### Use Eloquent Factories for tests only
+
 Eloquent Factory classes SHOULD be used only for tests.
 In the application context, Model methods, Actions and Services SHOULD be used instead.
 
 To even more separate "application" and "test" contexts, please:
- - keep all factories at the `tests/Factories` directory (`Tests\Factories` namespace)
- - do not use `HasFactory` trait in Model classes
- - in tests, call Factory classes directly: `$user = UserFactory::new()->create([...]);`
 
+-   keep all factories at the `tests/Factories` directory (`Tests\Factories` namespace)
+-   do not use `HasFactory` trait in Model classes
+-   in tests, call Factory classes directly: `$user = UserFactory::new()->create([...]);`
 
 ## `Factory::definition()` should not set any state or set a default state only
 
 For Models that have finite number of states
 ([Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine),
-e.g. `Article` can be one of  `draft`, `published`, `archiced` states),
+e.g. `Article` can be one of `draft`, `published`, `archiced` states),
 the `Factory::definition` method SHOULD NOT make a Model of any non-default state: the state should be set explicitly in the test.
 
 For cases, when the state is not important, the recommendation is to create a method alias that underlines this (see `ofAnyValidState`):
@@ -215,7 +215,6 @@ final class ArticleFactory extends Factory
     }
 }
 ```
-
 
 ## Artisan commands
 
@@ -636,9 +635,9 @@ Best Practices:
 ## Migrations
 
 Write `down()` methods because:
- - it should be possible to rollback failed releases
- - developer experience: simplify switching between branches
 
+-   it should be possible to rollback failed releases
+-   developer experience: simplify switching between branches
 
 ## Configs
 
