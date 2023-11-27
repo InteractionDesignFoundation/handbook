@@ -2,7 +2,6 @@
 
 We are a small team of senior developers, and the IxDF does not employ junior or medium level developers. That’s why this list only includes our expectations for senior developers.
 
-
 ## Senior developer
 
 1.  A senior developer understands and is aligned with the IxDF Company Culture which is **very** thoroughly explained in our "IxDF Company Culture Course" (taken during your onboarding phase).
