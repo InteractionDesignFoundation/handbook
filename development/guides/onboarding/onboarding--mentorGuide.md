@@ -38,35 +38,35 @@ Ensure your buddy understands your expectations and feels motivated to fill them
 
 Here's a list of things to consider when we try to onboard a new member:
 
-1. Make them feel welcome
-2. Make them feel proud of what they do
-3. Connect them to the bigger picture (the WHY)
-4. Let them know why and how much they matter
-5. Try to offload as much information as we can into our shared folders and documents
-6. Make it easy for them to access all necessary information
-7. Simplify the feedback loop (bidirectional)
+1.  Make them feel welcome
+1.  Make them feel proud of what they do
+1.  Connect them to the bigger picture (the WHY)
+1.  Let them know why and how much they matter
+1.  Try to offload as much information as we can into our shared folders and documents
+1.  Make it easy for them to access all necessary information
+1.  Simplify the feedback loop (bidirectional)
 
 ### First day
 
-1. Ensure that your buddy has read all onboarding documents.
-2. Ensure that your buddy has all accounts/permissions for our internal and 3rd-party
-   services (see [Tools and Services checklist](#checklist-for-tools-and-services)).
-3. Ensure that your buddy has [🔒 properly installed developer environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/first-run/README.md).
-4. Arrange end-of-day meetings with your buddy with a specified agenda to get maximum feedback.
-   The meeting should happen at the end of each day during the first week.
-   Why: It will help your buddy understand if they are doing what's expected of the
-   at the right pace and are focused on the correct tasks, as well as receive
-   clear instructions, advice and constructive criticism to help them improve.
-5. Start changing code: Prepare 3-10 tasks for smooth entry into the project. Examples:
+1.  Ensure that your buddy has read all onboarding documents.
+1.  Ensure that your buddy has all accounts/permissions for our internal and 3rd-party
+    services (see [Tools and Services checklist](#checklist-for-tools-and-services)).
+1.  Ensure that your buddy has [🔒 properly installed developer environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/first-run/README.md).
+1.  Arrange end-of-day meetings with your buddy with a specified agenda to get maximum feedback.
+    The meeting should happen at the end of each day during the first week.
+    Why: It will help your buddy understand if they are doing what's expected of the
+    at the right pace and are focused on the correct tasks, as well as receive
+    clear instructions, advice and constructive criticism to help them improve.
+1.  Start changing code: Prepare 3-10 tasks for smooth entry into the project. Examples:
     1. Write tests for feature X (the goal is to introduce feature X, introduce our tools and workflows (GitHub, git, CI))
     1. Pickup and fix any bug from our automated bug-report systems (Slack, New Relic, Bugsnag, etc.) (goal: introduce tools, fix a bug)
     1. Review a Pull Request (goal: introduce our Pull Request flow and a new piece of code).
 
 ### First week
 
-1. Ensure that your buddy has a plan to read developer and general literature
-   as well as materials from our shared folders (50/50 mix of general/developer literature).
-2. Ask for a summary feedback for the first week.
+1.  Ensure that your buddy has a plan to read developer and general literature
+    as well as materials from our shared folders (50/50 mix of general/developer literature).
+1.  Ask for a summary feedback for the first week.
 
 ### First month
 
@@ -80,8 +80,8 @@ process to make sure that everything is up to the standard.
 When evaluating the process, simply refer to [our goals](#goals) and answer the
 following questions:
 
-1. Do we have an effective mentoring program?
-2. What/how can we improve? This includes documents, processes, tools, etc.
+1.  Do we have an effective mentoring program?
+1.  What/how can we improve? This includes documents, processes, tools, etc.
 
 ## Checklist for Tools and Services
 

@@ -20,44 +20,44 @@ contribution to IxDF is to help us make those documents as perfect as humanly po
 and your fresh look is invaluable.
 We don't expect you to spend too much time and feel pressured, however you can:
 
-1. Fix broken-links, invalid/obsolete statements, typos, incorrect instructions, etc.
-   Don't be afraid to commit your changes 🙂
-2. Share your feedback with your onboarding buddy
+1.  Fix broken-links, invalid/obsolete statements, typos, incorrect instructions, etc.
+    Don't be afraid to commit your changes 🙂
+1.  Share your feedback with your onboarding buddy
 
 ## Plan
 
-1. To start, head over to [🔒 IxDF Handbook Course](https://www.interaction-design.org/courses/ixdf-handbook)
-   and go through Lesson 0 where the onboarding is explained.
-1. Setup and know your [collaboration tools](../collaboration-tools.md).
-1. Know our [expectations from you and your work](../expectations.md).
-1. Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/first-run/README.md)
-   (private repository link) -- It’s time-consuming (2-3 hours), so don't wait.
-   While your tools are being downloaded/installed, you can continue with the list.
-1. Never stop learning 📖 Go through our library and create a plan on acquiring
-   every bit of knowledge there. Once you have a plan, please discuss it with
-   your mentor. (Are you full-stack? Then please open both links☀):
+1.  To start, head over to [🔒 IxDF Handbook Course](https://www.interaction-design.org/courses/ixdf-handbook)
+    and go through Lesson 0 where the onboarding is explained.
+1.  Setup and know your [collaboration tools](../collaboration-tools.md).
+1.  Know our [expectations from you and your work](../expectations.md).
+1.  Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/first-run/README.md)
+    (private repository link) -- It’s time-consuming (2-3 hours), so don't wait.
+    While your tools are being downloaded/installed, you can continue with the list.
+1.  Never stop learning 📖 Go through our library and create a plan on acquiring
+    every bit of knowledge there. Once you have a plan, please discuss it with
+    your mentor. (Are you full-stack? Then please open both links☀):
     - Literature/subscriptions [for back-end developers](../../library/back-end/literature.md)
     - Literature/subscriptions [for front-end developers](../../library/front-end/literature.md)
-1. If you have any issues accessing the platform, company culture course
-   or our collaboration tools, please ping the Member Experience team (`@member-experience-team`)
-   via Slack (#onboarding-buddy-chat), so they can assist you. By this point,
-   you should have already completed lesson 0 of the IxDF Onboarding & Company Culture course,
-   so now you may continue with the rest of the lessons.
-1. Go through our guides:
+1.  If you have any issues accessing the platform, company culture course
+    or our collaboration tools, please ping the Member Experience team (`@member-experience-team`)
+    via Slack (#onboarding-buddy-chat), so they can assist you. By this point,
+    you should have already completed lesson 0 of the IxDF Onboarding & Company Culture course,
+    so now you may continue with the rest of the lessons.
+1.  Go through our guides:
     1. [Create a Laravel Forge account](onboarding__forge.md). Enable 2FA for it.
     1. [Scrum](../scrum/README.md)
     1. [🔒 Git Flow](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/workflows/git-flow.md)
     1. [Setup Xdebug](./setup-xdebug.md)
-1. [How to get domain knowledge](onboarding--domain-knowledge.md)
-1. Coding (finally! 🎉)
+1.  [How to get domain knowledge](onboarding--domain-knowledge.md)
+1.  Coding (finally! 🎉)
     1. [🔒 File-naming conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/code/naming-conventions.md)
     1. [🔒 Contributing standards](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/CONTRIBUTING.md)
     1. [🔒 Platform glossary](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/glossary.md)
     1. Architecture (Are you full-stack? You know what to do 😊)
         - [🔒 Backend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/code/backend/architecture.md)
         - [🔒 Frontend](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/code/frontend/architecture.md)
-1. [🔒 Setup your IDE](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/IDE/README.md)
-   for the project.
+1.  [🔒 Setup your IDE](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/IDE/README.md)
+    for the project.
 
 Happy reading/hacking!
 
