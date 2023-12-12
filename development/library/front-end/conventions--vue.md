@@ -272,17 +272,17 @@ Component templates should only include simple expressions, with more complex ex
 
 **Bad**
 
-````javascript
+```js
 {{
     fullName.split(' ').map((word) => {
     return word[0].toUpperCase() + word.slice(1)
     }).join```(' ')
 }}
-````
+```
 
 **Good**
 
-```javascript
+```js
 <!-- In a template -->
 {{ normalizedFullName }}
 
@@ -301,7 +301,7 @@ Complex computed properties should be split into as many simpler properties as p
 
 **Bad**
 
-```javascript
+```js
 const price = computed(() => {
     const basePrice = manufactureCost.value / (1 - profitMargin.value);
     return basePrice - basePrice * (discountPercent.value || 0);
@@ -310,7 +310,7 @@ const price = computed(() => {
 
 **Good**
 
-```javascript
+```js
 const basePrice = computed(() => manufactureCost.value / (1 - profitMargin.value));
 
 const discount = computed(() => basePrice.value * (discountPercent.value || 0));
