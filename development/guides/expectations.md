@@ -21,7 +21,7 @@ We are a small team of senior developers, and the IxDF does not employ junior or
 
 ### Senior backend developer
 
-This list is an extension of our expectations from a senior developer (see prev. section).
+This list is an extension of our expectations from a senior developer (see the previous section).
 
 1.  Broad and extensive knowledge of the software development process and its technologies.
 1.  Strong understanding of the primary programming language used in IxDF.
@@ -29,16 +29,16 @@ This list is an extension of our expectations from a senior developer (see prev.
 
 ### Senior frontend developer
 
-This list is an extension of our expectations from a senior developer (see prev. section).
+This list is an extension of our expectations from a senior developer (see the previous section).
 
 1.  Strong knowledge of HTML and at least one modern JS framework and an understanding of how it works.
 1.  Middle-level knowledge of at least one different JS framework OR strong understanding of design patterns.
 
 ## Short articles to read
 
-Now, please read the following very short articles:
+Now, please read the following articles:
 
 1.  [So You Want To Be a Senior Developer?](https://css-tricks.com/want-senior-developer/)
-1.  [The Role of a Senior Developer](http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer/)
+1.  [The Role of a Senior Developer](https://web.archive.org/web/20160609115315/http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer/)
 
 🦄

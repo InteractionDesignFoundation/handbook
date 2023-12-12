@@ -12,7 +12,7 @@ Look at it as a map which you can refer to down the road.
 
 ## Read docs from `/docs/domain`
 
-In our main repository we have [🔒 `/docs/domain/`](https://github.com/InteractionDesignFoundation/IxDF-web/tree/develop/docs/domain) directory with README.md file for every system/module we have on our application.
+In our main repository we have [🔒 `/docs/domain/`](https://github.com/InteractionDesignFoundation/IxDF-web/tree/main/docs/domain) directory with README.md file for every system/module we have on our application.
 Such `README.md` files provide a brief overview of the system and usually contains links to other docs with deeper technical details.
 During onboarding you need to read `README.md` files for every system.
 

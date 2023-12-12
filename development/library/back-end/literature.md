@@ -49,7 +49,7 @@ Every back-end developer should have some front-end knowledge to have basic work
 1.  Topic: ITCSS/BEM methodology:
     [MindBEMding](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
-For more frontend hints please see [🔒 frontend hints dir](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/frontend/hints/).
+For more frontend hints please see [🔒 frontend hints dir](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/code/frontend/hints/).
 
 # Backend
 
@@ -87,7 +87,7 @@ Every back-end developer should
 # References
 
 1.  [Clean Code concepts adapted for PHP](clean-code-php.md)
-1.  [🔒 IxDF’s back-end conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/docs/code/backend/conventions.md)
+1.  [🔒 IxDF’s back-end conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/code/backend/conventions.md)
 
 # Subscriptions
 

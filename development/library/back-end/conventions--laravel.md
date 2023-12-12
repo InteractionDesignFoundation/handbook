@@ -37,17 +37,21 @@ it can add security vulnerabilities, it also allows creating Models with a wrong
 The preferred way to create or update models is to assign attributes line by line and call `save()` at the end:
 
 ```php
-// PREFERRED WAY
+// PREFERRED WAY:
 $member = new Member();
 $member->name = $request->input('name');
 $member->email = $request->input('email');
 $member->save();
 
-// TRY TO AVOID
+// AVOID THIS:
 $member->forceFill([
     'name' => $request->input('name'),
     'email' => $request->input('email'),
 ])->save();
+
+// NEVER DO THIS:
+$member->forceFill($request->all())
+    ->save();
 ```
 
 ### Minimize magic
@@ -56,7 +60,7 @@ Don’t use magic `where{Something}` methods.
 
 ### Document all magic using PHPDoc
 
-When you add a relationship or scope, add appropriate PHPDoc block to the Model:
+When you add a relationship or scope, add the appropriate PHPDoc block to the Model:
 
 ```php
 // Models/Member.php
@@ -72,6 +76,84 @@ Model’s attributes should not rely on DB’s default values.
 Instead, we should duplicate defaults in the model by filling the `$attributes` array.
 It helps us to be more independent of the DB and simplifies Model’s Factories as well as testing.
 
+### Use scopes method instead of using magic methods
+
+```php
+User::query()->scopes(['trial'])->...
+```
+
+For scopes with parameters, we recommend to use [tappable scopes](https://muhammedsari.me/unorthodox-eloquent#tappable-scopes):
+
+```php
+$unverifiedUsers = User::query()
+    ->tap(new Unverified())
+    ->get();
+```
+
+### Use custom EloquentBuilder classes to simplify models
+
+To simplify models & enable better type-hint by IDE for big Models,
+we should extract a [custom query builder class](https://timacdonald.me/dedicated-eloquent-model-query-builders/).
+
+It's a recommendation for Models with 4+ query scopes and a requirement for Models with 10+ query scopes.
+
+Here's how we can add the builder to the model class.
+
+```php
+class User extends Model
+{
+    /**
+     * @inheritDoc
+     * @param \Illuminate\Database\Query\Builder $query
+     * @return \App\Models\UserEloquentBuilder<self>
+     */
+    public function newEloquentBuilder($query): UserEloquentBuilder
+    {
+        return new UserEloquentBuilder($query);
+    }
+}
+```
+
+This is the builder with one custom query:
+
+```php
+/** @extends \Illuminate\Database\Eloquent\Builder<\App\Models\User> */
+final class UserEloquentBuilder extends Builder
+{
+    public function confirmed(): self
+    {
+        return $this->whereNotNull('confirmed_at');
+    }
+}
+```
+
+And here's how we can use it:
+
+```php
+$confirmedUsers = User::query()->confirmed()->get();
+```
+
+Make sure to wrap `orWhere` clauses inside another where clause to make a query safe for other "where" conditions:
+
+```diff
+final class UserEloquentBuilder extends Builder
+{
+    public function publishedOrCanceled(): self
+    {
+-        return $this->withTrashed()->whereNotNull('published_at')->orWhereNotNull('deleted_at');
++        return $this->withTrashed()->where(static function (\Illuminate\Database\Eloquent\Builder $builder): void {
++            $builder->whereNotNull('published_at');
++            $builder->orWhereNotNull('deleted_at');
++        })
+    }
+}
+```
+
+Read more:
+
+1. [Laravel beyond CRUD blog post](https://stitcher.io/blog/laravel-beyond-crud-04-models#scaling-down-models)
+2. [Dedicated query builders for Eloquent models](https://timacdonald.me/dedicated-eloquent-model-query-builders/)
+
 ### Do not use `created_at`, `updated_at` and `deleted_at` attributes for domain logic
 
 It's always better to use for specific column names. Examples:
@@ -79,6 +161,60 @@ It's always better to use for specific column names. Examples:
 -   `created_at` -> `registered_at`, `issued_at`, etc
 -   `updated_at` -> `reviewed_at`, etc
 -   `deleted_at` -> `rejected_at`, `caleled_at`, etc
+
+## Eloquent Factories
+
+### Use Eloquent Factories for tests only
+
+Eloquent Factory classes SHOULD be used only for tests.
+In the application context, Model methods, Actions and Services SHOULD be used instead.
+
+To even more separate "application" and "test" contexts, please:
+
+-   keep all factories at the `tests/Factories` directory (`Tests\Factories` namespace)
+-   do not use `HasFactory` trait in Model classes
+-   in tests, call Factory classes directly: `$user = UserFactory::new()->create([...]);`
+
+### `Factory::definition()` should not set any state or set a default state only
+
+For Models that have finite number of states
+([Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine),
+e.g. `Article` can be one of `draft`, `published`, `archiced` states),
+the `Factory::definition` method SHOULD NOT make a Model of any non-default state: the state should be set explicitly in the test.
+
+For cases, when the state is not important, the recommendation is to create a method alias that underlines this (see `ofAnyValidState`):
+
+```php
+final class ArticleFactory extends Factory
+{
+    /** @inheritDoc */
+    public function definition(): array
+    {
+        return [
+            'title' => $this->faker->sentence,
+            'body' => $this->faker->paragraph,
+        ];
+    }
+
+    public function draft(): self
+    {
+        return $this->state(['published_at' => null]);
+    }
+
+    public function published(): self
+    {
+        return $this->state([
+            'published_at' => today(),
+            'meta_description' => $this->faker->sentence,
+        ]);
+    }
+
+    public function ofAnyValidState(): self
+    {
+        return $this->draft(); // or even return a random valid state
+    }
+}
+```
 
 ## Artisan commands
 
@@ -227,7 +363,7 @@ return redirect($url); // mixed return type (RedirectResponse|Redirector)
 
 ### Status Codes
 
-See [HTTP response status codes](/docs/code/http-response-status-codes.md).
+Limit the number of HTTP codes the app can return and process them in a consistent way.
 
 ## Routing
 
@@ -462,7 +598,7 @@ You can find more details on awesome talk: [Matt Stauffer - Patterns That Pay Of
 
 ### Dispatching
 
-You SHOULD use `Bus::dispatch()` Facade or `\Illuminate\Contracts\Bus\Dispatcher` DI
+You SHOULD use `Bus::dispatch()` Facade or use `\Illuminate\Contracts\Bus\Dispatcher` DI
 instead of `YourJobClass::dispatch()` magic to make code readable for static analyzers:
 
 ```php
@@ -474,9 +610,34 @@ Bus::dispatch(new YouJob($parameter));
 YouJob::dispatch($parameter)
 ```
 
+## Events
+
+### Minimize the number of traits
+
+By default, Laravel adds few traits to a new Event class, even if it’s not needed in your particular case.
+We fixed it in our custom stub file for Event, but it’s still better to control traits more explicitly.
+
+```diff
+-use Dispatchable, InteractsWithSockets, SerializesModels;
++use SerializesModels; // only if the Event will be used with Queued Event Listeners
+```
+
+-   `Dispatchable` is to add static methods to simplify event dispatching, like `YourEvent::dispatch()`. We do not use this syntax, so we don’t need this trait. Please use `\Illuminate\Support\Facades\Event` facade instead, e.g. `Event::dispatch(new YourEvent())`.
+-   `SerializesModels` is to gracefully serialize any Eloquent models if the event object contains Eloquent models and going to be serialized using PHP's `serialize` function, such as when utilizing queued listeners.
+-   `InteractsWithSockets` is for broadcasting only, e.g. using Laravel Echo.
+
+Best Practices:
+
+-   Tailor Event class traits based on specific needs rather than using the default set.
+-   Understand the implications of each trait to avoid unnecessary overhead or missing functionality.
+-   Event class should be `final readonly`
+
 ## Migrations
 
-We write `down()` methods because we should be able to rollback failed releases (see `deploy:rollback` deployer’s task).
+Write `down()` methods because:
+
+-   it should be possible to rollback failed releases
+-   developer experience: simplify switching between branches
 
 ## Configs
 
@@ -484,17 +645,6 @@ We use `ixdf_` prefix for our custom config files to separate our config vars fr
 It also helps us to migrate to new Laravel versions: we have fewer conflicts.
 
 Usually we have one config file per system.
-
-## Nova
-
-### Minimize usages of Nova packages
-
-Minimize usages of Nova packages. Reasons:
-
--   Updatability: Nova packages often not very stable on Nova updates and often have bad community support. They can block Nova updated (even patch versions)
--   Performance: JS and CSS assets of all Nova packages loaded on every page load, and these assets are served by webserver-PHP-webserver chain (not by web-server directly and thus produces more load to the server), see `\Laravel\Nova\Http\Controllers\ScriptController::class`.
-
-For these reasons it’s better to avoid using Nova packages and always use native functionality when it’s possible.
 
 ## Security
 
@@ -619,7 +769,7 @@ Laravel Blade protects from most XSS attacks, so for example an attack like this
 <div>{{ $name }}</div>
 ```
 
-::: v-pre
+:::v-pre
 Blade’s `{{ }}` statement automatically encodes the output. So the server will send the following properly encoded code to the browser (which will prevent the XSS attack):
 :::
 

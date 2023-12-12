@@ -1,0 +1,25 @@
+name: "Spelling"
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - "main"
+
+permissions:
+  contents: "read"
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  typos_check:
+    name: "Typos check"
+    runs-on: ubuntu-22.04
+    timeout-minutes: 1
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: crate-ci/typos@master

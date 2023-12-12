@@ -12,13 +12,13 @@ This prevents conflicts with existing and future HTML elements, since all HTML e
 
 **Bad**
 
-```HTML
+```html
 <item />
 ```
 
 **Good**
 
-```HTML
+```html
 <todo-item />
 ```
 
@@ -28,13 +28,13 @@ Prop definitions should always be as detailed as possible.
 
 **Bad**
 
-```javascript
+```js
 const props = defineProps(["status"]);
 ```
 
 **Good**
 
-```javascript
+```js
 // With TypeScript (recommended)
 const props = defineProps<{
     status: string
@@ -107,10 +107,10 @@ components/
 |- MyComponent.vue
 ```
 
-## Append 'Base' prefix to any foundational components
+## Append "Base" prefix to any foundational components
 
-Foundational components, such as buttons, tables or icons that get used within more specific components should all begin with the 'Base' prefix. This
-ensures they don't clash with HTML element names and also ensures that they are neatly organised together in the codebase.
+Foundational components, such as buttons, tables or icons that get used within more specific components should all begin with the 'Base' prefix.
+This ensures they don't clash with HTML element names and also ensures that they are neatly organized together in the codebase.
 
 **Bad**
 
@@ -146,7 +146,6 @@ components/
 ```
 
 ```
-
 components/
 |- SearchSidebar.vue
 |- NavigationForSearchSidebar.vue
@@ -162,7 +161,6 @@ components/
 ```
 
 ```
-
 components/
 |- SearchSidebar.vue
 |- SearchSidebarNavigation.vue
@@ -201,7 +199,7 @@ components/
 Components should always be PascalCase in both .vue and .js files. This has a few advantages over kebab-case:
 
 -   Editors can autocomplete component names in templates, because PascalCase is also used in JavaScript.
--   <MyComponent> is more visually distinct from a single-word HTML element than <my-component>, because there are two character differences (the two capitals), rather than just one (a hyphen).
+-   `<MyComponent>` is more visually distinct from a single-word HTML element than `<my-component>`, because there are two character differences (the two capitals), rather than just one (a hyphen).
 -   If you use any non-Vue custom elements in your templates, such as a web component, PascalCase ensures that your Vue components remain distinctly visible.
 
 **Bad**
@@ -274,7 +272,7 @@ Component templates should only include simple expressions, with more complex ex
 
 **Bad**
 
-````javascript
+````js
 {{
     fullName.split(' ').map((word) => {
     return word[0].toUpperCase() + word.slice(1)
@@ -284,7 +282,7 @@ Component templates should only include simple expressions, with more complex ex
 
 **Good**
 
-```javascript
+```js
 <!-- In a template -->
 {{ normalizedFullName }}
 
@@ -303,7 +301,7 @@ Complex computed properties should be split into as many simpler properties as p
 
 **Bad**
 
-```javascript
+```js
 const price = computed(() => {
     const basePrice = manufactureCost.value / (1 - profitMargin.value);
     return basePrice - basePrice * (discountPercent.value || 0);
@@ -312,7 +310,7 @@ const price = computed(() => {
 
 **Good**
 
-```javascript
+```js
 const basePrice = computed(() => manufactureCost.value / (1 - profitMargin.value));
 
 const discount = computed(() => basePrice.value * (discountPercent.value || 0));
@@ -374,7 +372,7 @@ Within the IxDF codebases, directive shorthands (`:` for `v-bind:`, `@` for `v-o
 
 ## Single-file component top-level element order
 
-Single-File Components should always order `<script>`, `<template>`, and `<style>` tags consistently, with <style> last, because at least one of the other two is always necessary.
+Single-File Components should always order `<script>`, `<template>`, and `<style>` tags consistently, with `<style>` last, because at least one of the other two is always necessary.
 
 **Bad**
 

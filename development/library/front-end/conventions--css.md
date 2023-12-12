@@ -4,9 +4,9 @@
 
 We use `postcss-preset-env` and CSS features from [stage 3+](https://preset-env.cssdb.org/features#stage-3).
 
-### Reduce cognitive load
+### Reduce the cognitive load
 
--   Use as much native CSS features as possible;
+-   Use as many native CSS features as possible;
 -   SHOULD not use PostCSS magic like `&` (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
 -   SHOULD not use nesting, because BEM names are unique enough (exceptions: pseudo-elements and pseudo-classes and `@media` rules);
 
@@ -33,7 +33,7 @@ Additionally, we prefer to use camelCase, as follows:
 
 ## Utility classes
 
-Along with our BEM based classes we have our utility classes. For all components and page specific classes we use BEM but when it comes to utility classes we have chosen to follow [Tailwind 3](https://tailwindcss.com/). This makes it easier for any new developer to come in to our project and know classnames without even having to go through our docs. Examples of utility classes
+Along with our BEM-based classes, we have our utility classes. For all components and page specific classes we use BEM but when it comes to utility classes we have chosen to follow [Tailwind 3](https://tailwindcss.com/). This makes it easier for any new developer to come in to our project and know classnames without even having to go through our docs. Examples of utility classes
 
 ```html
 <div class="flex justify-center">
@@ -44,7 +44,7 @@ Along with our BEM based classes we have our utility classes. For all components
 
 ### Using utility classes
 
-Whenever a function can be performed using utility classes then the utility class should be used instead of creating custom BEM classes. One of the most common example is margin and padding utility classes that are needed in almost every page.
+Whenever a function can be performed using utility classes, then the utility class should be used instead of creating custom BEM classes. One of the most common example is margin and padding utility classes that are needed in almost every page.
 
 ```html
 <div class="blockName p-large">
@@ -55,7 +55,7 @@ Whenever a function can be performed using utility classes then the utility clas
 
 ### Using BEM along with utility classes
 
-Sometimes a page will require its custom CSS and in that case its good to combine utility classes along with the BEM bases classes for the page/component.
+Sometimes a page will require its custom CSS, and in that case, it is good to combine utility classes along with the BEM bases classes for the page/component.
 
 ```html
 <article class="card radius-lg col-md-6">

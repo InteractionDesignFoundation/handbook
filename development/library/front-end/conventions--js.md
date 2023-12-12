@@ -17,7 +17,7 @@ To get a deeper understanding of how to write effective functional JS explore th
 
 Our code-styling rules are based on `eslint:recommended` rules. We
 also use some ESLint plugins to extend these rules. You can check all our custom rules at the
-[.eslintrc.js](https://github.com/InteractionDesignFoundation/IxDF-web/blob/develop/.eslintrc.js) file.
+[.eslintrc.js](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/.eslintrc.js) file.
 
 The first two rules are actually configured with `.editorconfig` and connected to each other:
 
@@ -42,11 +42,18 @@ We don’t add spacing inside `{}` for consistency with PHP:
 
 ## Docblocks
 
-[Use JSDoc](./hints/jsdoc.md) to for type definitions and inline documentation. It will help both your IDE and
+Use JSDoc to for type definitions and inline documentation. It will help both your IDE and
 developers to check types. It will also simplify our work on migrating to TypeScript.
 
 We also use JSDoc directives to indicate the type of members of objects in JavaScript:
 `@protected`/`@abstract`/`@override`.
+
+## Explicit type definitions
+
+Use JSDoc and type checks in code to avoid errors like a null pointer: `TypeError: null is not an object`.
+If a variable type described as `@param {HTMLElement} element`,
+it should not contain `null` or `undefined` or other types.
+If the variable can contain a `null`, please describe it explicitly: `@param {HTMLElement|null} element`.
 
 ## Variable Names
 
