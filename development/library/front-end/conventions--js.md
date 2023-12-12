@@ -42,7 +42,7 @@ We don’t add spacing inside `{}` for consistency with PHP:
 
 ## Docblocks
 
-[Use JSDoc](./hints/jsdoc.md) to for type definitions and inline documentation. It will help both your IDE and
+Use JSDoc to for type definitions and inline documentation. It will help both your IDE and
 developers to check types. It will also simplify our work on migrating to TypeScript.
 
 We also use JSDoc directives to indicate the type of members of objects in JavaScript:

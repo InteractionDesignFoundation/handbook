@@ -28,11 +28,12 @@ Note that in these examples the KPI's and tasks are combined. For example, in Ex
 
 ## WHY Do We Use OKRs?
 
--   OKRs bridge the gap between our [Vision](/achieve-purpose/vision.md), [Mission](achieve-purpose/mission.md), Strategy and the concrete Objectives and Key Results in our daily work.
+-   OKRs bridge the gap between our [Vision](/achieve-purpose/vision.md), [Mission](../achieve-purpose/mission.md), Strategy and the concrete Objectives and Key Results in our daily work.
 -   OKRs help us create a weekly, quarterly, and yearly overview over how our daily tasks are connected to our vision, and therefore help us decide individually, and in our Teams, which steps are the best to take.
 -   They help us track our individual and Team progress, create alignment in our Teams and across Teams so everyone moves towards achieving the same overall goals.
 -   OKRs improve our focus and increase transparency within and across teams.
 
 ![](../images/19-okr-pillars.svg)
 
-If you are still wondering, here are some more [benefits of OKRs](/coordinate-efforts/benefits-of-okrs.md). Otherwise if you are ready to start using OKRs at the IxDF, let's start with [our OKR cadence](/coordinate-efforts/okr-cadence.md).
+If you are still wondering, here are some more [benefits of OKRs](/coordinate-efforts/benefits-of-okrs.md).
+Otherwise, if you are ready to start using OKRs at the IxDF, let's start with [our OKR cadence](/coordinate-efforts/okr-cadence.md).
