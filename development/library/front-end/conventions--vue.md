@@ -272,13 +272,13 @@ Component templates should only include simple expressions, with more complex ex
 
 **Bad**
 
-```javascript
+````javascript
 {{
     fullName.split(' ').map((word) => {
     return word[0].toUpperCase() + word.slice(1)
     }).join```(' ')
 }}
-```
+````
 
 **Good**
 
