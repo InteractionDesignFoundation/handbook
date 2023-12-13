@@ -14,7 +14,7 @@
         "docs:fix": "prettier \"**/*.md\" --write"
     },
     "engines": {
-        "node": ">=20.0"
+        "node": ">=18.19"
     },
     "repository": {
         "type": "git",
