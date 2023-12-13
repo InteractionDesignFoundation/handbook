@@ -4,7 +4,7 @@ sidebar: true
 
 # IxDF System
 
-![](./images/hero-all.svg)
+![Full development cycle](./images/hero-all.svg)
 
 The IxDF System consists of processes and tools that the Interaction Design Foundation (IxDF) use
 to [achieve our purpose](/achieve-purpose/README.md) by [coordinating efforts](/coordinate-efforts/README.md)
