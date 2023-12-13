@@ -21,9 +21,9 @@ const config = defineConfig({
         logo: '/images/hydrogenlogo.svg',
         nav: [
             {text: 'Home', link: '/'},
-            {text: "Development Docs", link: "https://docs.information-architecture.org"},
+            {text: "🔐 Development Docs", link: "https://docs.information-architecture.org"},
             {text: 'UI Kit', link: 'https://ui-kit.interaction-design.org/'},
-            {text: 'IxDF Home Page', link: 'https://www.interaction-design.org/'},
+            {text: 'IxDF Courses', link: 'https://www.interaction-design.org/'},
         ],
 
         sidebar: generateSidebar({
