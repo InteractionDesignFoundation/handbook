@@ -18,7 +18,7 @@ const config = defineConfig({
         search: {
             provider: 'local',
         },
-        logo: '/hydrogenlogo.svg',
+        logo: '/images/hydrogenlogo.svg',
         nav: [
             {text: 'Home', link: '/'},
             {text: "Development Docs", link: "https://docs.information-architecture.org"},
@@ -39,16 +39,6 @@ const config = defineConfig({
                 'CONTRIBUTING.md',
             ],
         }),
-/*
-        sidebar: [
-            {
-                items: [
-                    {text: 'Start here', link: '/achieve-purpose/README.md'},
-                    {text: 'Our Mission', link: '/achieve-purpose/mission.md'},
-                    {text: 'Our Vision', link: '/achieve-purpose/vision.md'},
-                ],
-            },
-        ],*/
     },
 
     markdown: {
