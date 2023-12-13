@@ -49,7 +49,7 @@ const config = defineConfig({
         toc: {level: [1, 2]},
     },
 
-    ignoreDeadLinks: true, // @todo use false
+    ignoreDeadLinks: false,
 });
 
 // eslint-disable-next-line import/no-default-export
