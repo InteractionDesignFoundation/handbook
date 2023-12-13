@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Design Principles
 
 Design is the art of making smart, effective decisions that create a desirable outcome. We use a set of 11 Design Principles to help guide our decisions. We began with the Ten Principles of Good Design by Industrial Designer Dieter Rams which we continue to adapt for our own purposes.

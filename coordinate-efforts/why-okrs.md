@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # About OKRs
 
 ## WHAT are Objectives And Key Results (OKRs)?

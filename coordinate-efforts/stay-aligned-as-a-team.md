@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Stay Aligned as a Team
 
 To make the OKR process work, we have to stay aligned as a team every day, week and month. At the IxDF, we use two-week Sprints to plan and execute our tasks. Each Sprint begins with a planning meeting.

@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Benefits of OKRs
 
 ![](../images/10-okr-benefits-part-1.svg)

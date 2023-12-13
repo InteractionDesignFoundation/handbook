@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Develop Software
 
 ![](../images/hero-development.svg)

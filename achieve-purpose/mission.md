@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Our Mission
 
 Our mission is to genuinely improve the world by creating design education of the highest quality and the lowest possible cost.

@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Design Products
 
 ![](../images/hero-design.svg)

@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # IxDF System
 
 ![Full development cycle](./images/hero-all.svg)

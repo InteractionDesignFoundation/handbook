@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Vision for the future of the IxDF
 
 So, what’s the vision of the IxDF? What’s the future path for our mission, so to speak?

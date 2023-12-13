@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Our OKR Cadence
 
 A good process is repeatable, has a good cadence. The IxDF OKR process is broken into 3 month cycles.

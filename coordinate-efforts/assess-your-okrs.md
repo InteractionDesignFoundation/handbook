@@ -1,10 +1,6 @@
----
-sidebar: true
----
-
 # Assess Your OKRs
 
-By the end of the quarter you and your Team give each Key Result a final score, and reflect on your OKRs as a whole. Using a retrospective approach, pose some (or all) of these questions to your Team:
+By the end of the quarter, you and your Team give each Key Result a final score, and reflect on your OKRs as a whole. Using a retrospective approach, pose some (or all) of these questions to your Team:
 
 -   Were our Objectives ambitious enough?
 -   Were our Key Results measurable? Did we know what our baseline was at the start of the quarter?

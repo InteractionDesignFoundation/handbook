@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # OKR History
 
 ## Historical Development of OKRs

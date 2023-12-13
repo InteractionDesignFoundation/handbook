@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Delivery Process
 
 This is the process we use to turn product designs into actual products.

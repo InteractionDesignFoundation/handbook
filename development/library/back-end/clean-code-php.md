@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # Clean Code PHP
 
 <!-- prettier-ignore-start -->

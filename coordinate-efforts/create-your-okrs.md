@@ -1,7 +1,3 @@
----
-sidebar:true
----
-
 # Create Your OKRs
 
 Once you know [about OKRs](/coordinate-efforts/why-okrs.md), about the IxDF's [OKR cadence](/coordinate-efforts/okr-cadence.md) and our [cascading OKR's](/coordinate-efforts/cascading-okrs.md), you are ready to begin creating your own OKR's.

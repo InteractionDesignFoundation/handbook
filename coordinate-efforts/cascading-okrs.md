@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Cascading OKRs
 
 What are Cascading OKR's? Like similar systems (e.g., [Cascading Stylesheets](https://developer.mozilla.org/en-US/docs/Web/CSS)), attributes and changes at one level of OKR are reflected in other levels of OKR. For example, when a new IxDF-wide OKR is created or changed and communicated by the IxDF Executive Level, each Team and Individual OKR as adjusted each quarter to support it.

@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Coordinate Efforts
 
 ![](../images/hero-coordination.svg)
