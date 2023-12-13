@@ -6,16 +6,18 @@ That's why we have additional steps during a building process.
 ## Build
 
 Build and preview:
+
 ```shell
 yarn docs:build
 yarn docs:preview
 ```
 
 Live view (with live reload):
+
 ```shell
 yarn docs:dev
 ```
 
 ## Materials
- - https://vitepress.dev/guide/getting-started
- 
+
+-   https://vitepress.dev/guide/getting-started

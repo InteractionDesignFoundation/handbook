@@ -3,23 +3,22 @@
 layout: home
 
 hero:
-  name: "IxDF Employee Handbook"
-  text: ''
-#  tagline:
-  actions:
-    - theme: brand
-      text: ⚙️ Laravel conventions
-      link: /development/library/back-end/conventions--laravel.md
-    - theme: alt
-      text: ⚙️ PHP conventions
-      link: /development/library/back-end/conventions--php.md
-    - theme: alt
-      text: ⚙️ JS conventions
-      link: /development/library/front-end/conventions--js.md
-    - theme: alt
-      text: ⚙️ CSS conventions
-      link: /development/library/front-end/conventions--css.md
-
+    name: "IxDF Employee Handbook"
+    text: ""
+    #  tagline:
+    actions:
+        - theme: brand
+          text: ⚙️ Laravel conventions
+          link: /development/library/back-end/conventions--laravel.md
+        - theme: alt
+          text: ⚙️ PHP conventions
+          link: /development/library/back-end/conventions--php.md
+        - theme: alt
+          text: ⚙️ JS conventions
+          link: /development/library/front-end/conventions--js.md
+        - theme: alt
+          text: ⚙️ CSS conventions
+          link: /development/library/front-end/conventions--css.md
 ---
 
 <section class="container" style="max-width: 1152px; margin: 0 auto; padding: 20px;">
