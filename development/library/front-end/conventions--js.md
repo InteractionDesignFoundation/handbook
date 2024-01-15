@@ -5,11 +5,9 @@ This document extends
 
 [[toc]]
 
-
 ## Browsers
 
 Support evergreen browsers only, usually all versions released latest 3 years (depends on info from Google Analytics).
-
 
 ## Code style
 
@@ -17,17 +15,15 @@ Our code-styling rules are based on `eslint:recommended` rules. We
 also use some ESLint plugins to extend these rules. You can check all our custom rules at the
 [.eslintrc.js](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/.eslintrc.js) file.
 
-
 ## Docblocks
 
 Use JSDoc for type definitions and inline documentation.
 Treat JSDoc as the source of truth.
 It will help both your IDE and developers to check types.
-For complex types feel free to use `.d.ts` files: they complement JSDoc pretty well. 
+For complex types feel free to use `.d.ts` files: they complement JSDoc pretty well.
 
 We also use JSDoc directives to indicate the type of members of objects in JavaScript:
 `@protected`/`@abstract`/`@override`.
-
 
 ## Explicit type definitions
 
@@ -36,17 +32,14 @@ If a variable type described as `@param {HTMLElement} element`,
 it should not contain `null` or `undefined` or other types.
 If the variable can contain a `null`, please describe it explicitly: `@param {HTMLElement|null} element`.
 
-
 ## Variable Names
 
 1. Variable names generally shouldn’t be abbreviated.
 1. You SHOULD use camelCase to name variables.
 
-
 ## Variable assignment
 
 Prefer `const` over `let`. Only use `let` to indicate that a variable will be reassigned. Never use `var`.
-
 
 ## Strict comparisons
 
@@ -116,7 +109,6 @@ Anonymous functions should use arrow functions (Unless they need access to `this
 ["a", "b"].map((a) => a.toUpperCase());
 ```
 
-
 ## Object and array destructuring
 
 Destructuring is preferred over assigning variables to the corresponding keys.
@@ -132,7 +124,6 @@ const minutes = time[1];
 ```
 
 Destructuring is precious for passing around configuration-like objects.
-
 
 ## Promise
 
@@ -159,7 +150,6 @@ if (response) {
 }
 ```
 
-
 ## Interacting with the DOM
 
 Many times we will need to select DOM elements in our JS, there can be multiple approaches for getting the DOM element.
@@ -172,7 +162,6 @@ But for consistency and clarity purposes, we SHOULD use data attributes as selec
 ```js
 const card = document.querySelector("[data-course-card]");
 ```
-
 
 ## Back-end named routes
 
