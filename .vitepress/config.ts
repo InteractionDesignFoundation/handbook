@@ -46,7 +46,7 @@ const config = defineConfig({
 
         // options for @mdit-vue/plugin-toc
         // https://github.com/mdit-vue/mdit-vue/tree/main/packages/plugin-toc#options
-        toc: {level: [1, 2]},
+        toc: {level: [2, 3]},
     },
 
     ignoreDeadLinks: false,
