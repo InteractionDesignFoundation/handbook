@@ -5,25 +5,50 @@ This document extends
 
 [[toc]]
 
-## Browsers
+## Browser support
 
 Support evergreen browsers only, usually all versions released latest 3 years (depends on info from Google Analytics).
 
 ## Code style
 
-Our code-styling rules are based on `eslint:recommended` rules. We
-also use some ESLint plugins to extend these rules. You can check all our custom rules at the
-[.eslintrc.js](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/.eslintrc.js) file.
+Our code-styling rules are based on `eslint:recommended` rules.
+We also use some ESLint plugins to extend these rules.
+You can check all our custom rules at the [.eslintrc.js](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/.eslintrc.js) file.
+
 
 ## Docblocks
 
-Use JSDoc for type definitions and inline documentation.
-Treat JSDoc as the source of truth.
+[Use JSDoc](./conventions--jsdoc.md) together with type definitions files.
 It will help both your IDE and developers to check types.
-For complex types feel free to use `.d.ts` files: they complement JSDoc pretty well.
+This provides main benefits from TypeScript, but without translation cost and improved readability.
 
-We also use JSDoc directives to indicate the type of members of objects in JavaScript:
-`@protected`/`@abstract`/`@override`.
+Example:
+```js
+// file: userAuthPolicy.js
+/**
+ * @typedef {import('./user.d.ts').User} User
+ */
+
+/**
+ * @param {User} user
+ * @returns {boolean}
+ */
+function isAdmin(user) {
+    return user.roles.includes('admin');
+}
+```
+
+```ts
+// file: user.d.ts
+export interface User {
+    first_name: string;
+    last_name: string;
+    email: string;
+    profil_image_url: string;
+    roles: string[];
+}
+```
+
 
 ## Explicit type definitions
 
@@ -32,23 +57,26 @@ If a variable type described as `@param {HTMLElement} element`,
 it should not contain `null` or `undefined` or other types.
 If the variable can contain a `null`, please describe it explicitly: `@param {HTMLElement|null} element`.
 
+
 ## Variable Names
 
 1. Variable names generally shouldn’t be abbreviated.
 1. You SHOULD use camelCase to name variables.
 
+
 ## Variable assignment
 
 Prefer `const` over `let`. Only use `let` to indicate that a variable will be reassigned. Never use `var`.
 
-## Strict comparisons
+
+## Strict Comparisons
 
 Always use a triple equal to do variable comparisons. If you’re unsure of the type, cast it first.
 
 ```js
 // GOOD
 const one = 1;
-const another = "1";
+const another = '1';
 
 if (one === parseInt(another)) {
     // ...
@@ -106,7 +134,7 @@ function adder(a) {
 Anonymous functions should use arrow functions (Unless they need access to `this`).
 
 ```js
-["a", "b"].map((a) => a.toUpperCase());
+['a', 'b'].map((a) => a.toUpperCase());
 ```
 
 ## Object and array destructuring
@@ -115,10 +143,10 @@ Destructuring is preferred over assigning variables to the corresponding keys.
 
 ```js
 // GOOD
-const [hours, minutes] = "12:00".split(":");
+const [hours, minutes] = '12:00'.split(':');
 
 // BAD, unnecessarily verbose, and requires an extra assignment in this case.
-const time = "12:00".split(":");
+const time = '12:00'.split(':');
 const hours = time[0];
 const minutes = time[1];
 ```
@@ -129,7 +157,7 @@ Destructuring is precious for passing around configuration-like objects.
 
 We actively use `async/await` in our code.
 So for promises the recommended approach is to use async/await instead of `Promise.then()`.
-Reason for using async/await is that its clean and has an easy-to-read syntax.
+The Reason for using async/await is that it’s clean and has an easy-to-read syntax.
 
 ```js
 try {
@@ -143,7 +171,7 @@ Or with our custom fetch promise
 
 ```js
 const response = await getHttpClient()
-    .get("url")
+    .get('url')
     .catch((error) => log(error));
 if (response) {
     notify.success(response.message);
@@ -160,7 +188,7 @@ But for consistency and clarity purposes, we SHOULD use data attributes as selec
 ```
 
 ```js
-const card = document.querySelector("[data-course-card]");
+const card = document.querySelector('[data-course-card]');
 ```
 
 ## Back-end named routes
