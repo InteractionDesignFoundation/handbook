@@ -9,7 +9,7 @@ jobs:
     name: Auto-merge patch updates
     runs-on: ubuntu-latest
     steps:
-      - uses: koj-co/dependabot-pr-action@master
+      - uses: AnandChowdhary/dependabot-pr-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           merge-minor: false
