@@ -2,7 +2,7 @@
 
 Welcome aboard!
 
-We know you’re amazing because you’re here (otherwise you would’t be here).
+We know you’re amazing because you’re here (otherwise, you wouldn’t be here).
 Congrats: You've landed one of the greatest jobs in the world! 🎉
 
 ![image](https://cdn.shopify.com/s/files/1/2297/6885/collections/plain_no_back_235x235@2x.png)
@@ -20,20 +20,20 @@ contribution to IxDF is to help us make those documents as perfect as humanly po
 and your fresh look is invaluable.
 We don't expect you to spend too much time and feel pressured, however you can:
 
-1.  Fix broken-links, invalid/obsolete statements, typos, incorrect instructions, etc.
+1.  Fix broken links, invalid/obsolete statements, typos, incorrect instructions, etc.
     Don't be afraid to commit your changes 🙂
 1.  Share your feedback with your onboarding buddy
 
 ## Plan
 
 1.  To start, head over to [🔒 IxDF Handbook Course](https://www.interaction-design.org/courses/ixdf-handbook)
-    and go through Lesson 0 where the onboarding is explained.
-1.  Setup and know your [collaboration tools](../collaboration-tools.md).
+    and go through Lesson 1 and Lesson 2 where the onboarding is explained.
+1.  Set up and know your [collaboration tools](../collaboration-tools.md).
 1.  Know our [expectations from you and your work](../expectations.md).
 1.  Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/first-run/README.md)
     (private repository link) -- It’s time-consuming (2-3 hours), so don't wait.
     While your tools are being downloaded/installed, you can continue with the list.
-1.  Never stop learning 📖 Go through our library and create a plan on acquiring
+1.  Never stop learning 📖 Go through our library and create a plan to acquire
     every bit of knowledge there. Once you have a plan, please discuss it with
     your mentor. (Are you full-stack? Then please open both links☀):
     -   Literature/subscriptions [for back-end developers](../../library/back-end/literature.md)
@@ -67,14 +67,14 @@ Are you ready for new challenges? Great!
 
 Your onboarding buddy should prepare a number of tasks for your smooth onboarding
 to the codebase. You will be assigned to your first GitHub issues, make your first
-contribution to our codebase, create your first PR — a lot of exciting stuff!
+contribution to our codebase, and create your first PR — a lot of exciting stuff!
 
 Your first GitHub issues will be tasks that take you through some [core sub-systems](https://docs.information-architecture.org/domain/systems-and-code-owners.html)
 of our codebase. That will give you a better overview of what these sub-systems
 do and the state of the code within each sub-system (e.g. what’s the amount of
 technical debt versus up-to-date code in a given system). Don’t be alarmed if some
 of the issues will lead you into areas of the codebase where you find technical-debt
-or spaghetti code. That’s intentional, so you get exposed to both great code and technical-debts.
+or spaghetti code. That’s intentional, so you get exposed to both great code and technical debt.
 
 May the Force be with you!
 
@@ -83,13 +83,13 @@ May the Force be with you!
 In a few weeks, you’ll have a chance to look back at your progress within the IxDF.
 The entire development team will be very excited to hear your feedback. You'll meet
 very often with your onboarding buddy, so you'll have a good opportunity to ask
-for directions, new issues, get answer for your questions, and get feedback.
-Here's a list of things you can share with your onboardnig buddy or your colleagues:
+for directions, and new issues, get answers for your questions, and get feedback.
+Here's a list of things you can share with your onboarding buddy or your colleagues:
 
 -   Coding: What have you finished and deployed to production that is now used by hundreds or thousands of people?
 -   Learning: What is your progress on consuming our library? Do you find them effective?
 -   Domain: What have you learned about the IxDF and our platform?
-    How can you help improve the most-critical parts of our platform?
+    How can you help improve the most critical parts of our platform?
 -   Culture: Can you list our vision, mission, and core values? What can you do to
     help IxDF accomplish its audacious goals.
 
