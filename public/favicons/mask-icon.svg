@@ -6,7 +6,7 @@
 
         @media (prefers-color-scheme: dark) {
             circle, path {
-                fill: #BFBFBF;
+                fill: #EBEBEB;
             }
         }
     </style>
