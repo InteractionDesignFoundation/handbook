@@ -5,15 +5,16 @@ import {generateSidebar} from 'vitepress-sidebar';
 // https://vitepress.dev/reference/site-config
 const config = defineConfig({
     lang: 'en-US',
-    title: 'IxDF Employee Handbook"',
-    description: 'Handbook and guidelines for IxDF.',
+    title: 'IxDF Open Handbook"',
+    description: 'Handbook and guidelines for IxDF technical staff.',
     head: [
         ['link', {rel: 'icon', href: '/favicons/favicon.svg'}],
-        ['link', {rel: 'mask-icon', href: '/favicons/favicon.svg', color: '#ffffff'}],
+        ['link', {rel: 'mask-icon', href: '/favicons/mask-icon.svg', color: '#ffffff'}],
+        ['link', {rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon.png'}],
     ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        siteTitle: 'IxDF Employee Handbook',
+        siteTitle: 'IxDF Open Handbook',
         editLink: {
             pattern: 'https://github.com/InteractionDesignFoundation/handbook/edit/main/:path',
             text: 'Edit this page on GitHub',

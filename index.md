@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-    name: "IxDF Employee Handbook"
+    name: "IxDF Open Handbook"
     text: ""
     #  tagline:
     actions:
