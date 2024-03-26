@@ -7,6 +7,10 @@ const config = defineConfig({
     lang: 'en-US',
     title: 'IxDF Employee Handbook"',
     description: 'Handbook and guidelines for IxDF.',
+    head: [
+        ['link', {rel: 'icon', href: '/favicons/favicon.svg'}],
+        ['link', {rel: 'mask-icon', href: '/favicons/favicon.svg', color: '#ffffff'}],
+    ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         siteTitle: 'IxDF Employee Handbook',
