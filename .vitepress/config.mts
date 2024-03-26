@@ -31,6 +31,7 @@ const config = defineConfig({
             {text: 'IxDF Courses', link: 'https://www.interaction-design.org/'},
         ],
 
+        // see https://github.com/jooy2/vitepress-sidebar
         sidebar: generateSidebar({
             useTitleFromFileHeading: true,
             capitalizeFirst: true,
@@ -54,7 +55,10 @@ const config = defineConfig({
         toc: {level: [2, 3]},
     },
 
-    ignoreDeadLinks: false,
+    ignoreDeadLinks: [
+        /\.neon/,
+        /\.php/,
+    ],
 });
 
 // eslint-disable-next-line import/no-default-export

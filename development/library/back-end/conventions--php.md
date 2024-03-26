@@ -13,8 +13,8 @@ Additionally, we like [Spatie’s code guidelines](https://spatie.be/guidelines/
 We generally observe the standards from the [PHP FIG](http://www.php-fig.org/).
 We use automated tools to check our code on CI:
 
--   [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([🔒 config](/phpcs.xml))
--   [PHP-CS-Fixer](https://cs.symfony.com/) ([🔒 config](/.php-cs-fixer.php))
+-   [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer/wiki) ([config](https://github.com/InteractionDesignFoundation/coding-standard))
+-   [PHP-CS-Fixer](https://cs.symfony.com/) ([config](https://github.com/InteractionDesignFoundation/coding-standard))
 -   [Psalm](https://psalm.dev/docs/) ([🔒 config](/psalm.xml))
 -   [PHPStan](https://phpstan.org/user-guide/getting-started) ([🔒 config](/phpstan.neon))
 -   [Rector](https://github.com/rectorphp/rector) ([🔒 config](/rector.php))
