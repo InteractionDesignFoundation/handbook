@@ -44,7 +44,6 @@ We don't expect you to spend too much time and feel pressured, however you can:
     you should have already completed lesson 0 of the IxDF Onboarding & Company Culture course,
     so now you may continue with the rest of the lessons.
 1.  Go through our guides:
-    1. [Create a Laravel Forge account](onboarding__forge.md). Enable 2FA for it.
     1. [Scrum](../../outdated/scrum/README.md)
     1. [🔒 Git Flow](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/workflows/git-flow.md)
     1. [Setup Xdebug](setup-xdebug.md)
