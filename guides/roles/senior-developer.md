@@ -1,14 +1,14 @@
 # Expectations from Developers
 
-We are a small team of senior developers, and the IxDF does not employ junior or medium level developers. That’s why this list only includes our expectations for senior developers.
+We are a small team of senior developers, and the IxDF does not employ junior or medium level developers.
+That’s why this list only includes our expectations for senior developers.
 
 ## Senior developer
 
 1.  A senior developer understands and is aligned with the IxDF Company Culture which is **very** thoroughly explained in our "IxDF Company Culture Course" (taken during your onboarding phase).
-1.  **Seriousness firstly means "responsibility"**. Responsibility for your decisions, solutions, code,
-    and communication with the team.
+1.  **Seriousness firstly means "responsibility"**. Responsibility for your decisions, solutions, code, and communication with the team.
 1.  A senior developer is [able to carry a message to Garcia](https://courses.csail.mit.edu/6.803/pdf/hubbard1899.pdf):
-    They **can take the initiative** when carrying out a difficult assignment.
+    They **can take the initiative** when carrying out a challenging assignment.
 1.  A senior developer **has experience**; because they are able to learn from their mistakes.
 1.  A senior developer **helps their team get better every day**. E.g. by energizing his/her colleagues on group calls, setting an example of awesome code that awes the rest of the team, inspiring colleagues with his/her results/help, etc. etc.
 1.  A senior developer **finds and fixes the root causes of the problem** and not just the symptoms.

@@ -1,20 +1,20 @@
 # Support engineer
 
-:::tip More your can find in internal documentation
-This is only basic version of the documentation.
+:::tip More you can find in internal documentation
+This is only a basic version of the documentation.
 [Full documentation](https://docs.information-architecture.org/workflows/support-engineer.md) contains some content that we don’t want to open-source for security reasons.
 :::
 
 [[toc]]
 
-By agreement, least one engineer is assigned the support engineer role and usually stay on it for 1-2 weeks only.
+By agreement, at least one engineer is assigned the support engineer role and usually stay on it for 1-2 weeks only.
 This role is usually assigned to developers who have just completed
 a large feature or some other large task who need some time to keep an eye on things and recover energy.
 
 ## Why do we have this role?
 
 The main goal is to allow other developers to focus on bigger tasks while support engineers work ongoing bug reports
-and help other teams to with their tasks.
+and help other teams with their tasks.
 
 ## Your responsibilities
 
