@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-    name: "IxDF Open Handbook"
-    text: ""
+    name: 'IxDF Open Handbook'
+    text: ''
     #  tagline:
     actions:
         - theme: brand

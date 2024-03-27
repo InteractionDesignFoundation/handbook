@@ -193,7 +193,7 @@ Then you can import this type using JSDoc:
  * @param {string} user.name - The name property.
  * @param {?string} user.phone - The phone property, which is nullable.
  */
-function logUser({ name, phone }) {
+function logUser({name, phone}) {
     //
 }
 ```

@@ -29,7 +29,7 @@ Prop definitions should always be as detailed as possible.
 **Bad**
 
 ```js
-const props = defineProps(["status"]);
+const props = defineProps(['status']);
 ```
 
 **Good**

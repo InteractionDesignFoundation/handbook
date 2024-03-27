@@ -749,10 +749,7 @@ Cross-Site Scripting can be very dangerous, for example an XSS attack in the adm
 
 ```html
 Some text
-<input
-    onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });'
-    autofocus
-/>
+<input onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });' autofocus />
 test
 ```
 
