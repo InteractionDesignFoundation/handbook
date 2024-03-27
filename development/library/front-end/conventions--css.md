@@ -1,5 +1,7 @@
 # CSS conventions
 
+[[toc]]
+
 ## PostCSS
 
 We use `postcss-preset-env` and CSS features from [stage 3+](https://preset-env.cssdb.org/features#stage-3).

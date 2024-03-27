@@ -465,7 +465,7 @@ Route::get('members/{memberId}', [MembersController::class, 'show']);
 
 ### Verbs
 
-All routes have a http verb, that’s why we put the verb first when defining a route.
+All routes have an HTTP verb; that’s why we put the verb first when defining a route.
 It makes a group of routes very readable. Any other route options MUST come after it.
 
 ```php
@@ -731,9 +731,9 @@ PUT /api/users/1,id,name,444|unique:users,secret_col_name_here
 }
 ```
 
-But important to mention since using unique we are able to provide both custom column name
-and values (values are not going through PDO parameter binding) possibilities of SQL injection here could be not limited
-to just a simple attack vector that is mentioned above.
+But important to mention, since using unique, we are able to provide both custom column name
+and values (values are not going through PDO parameter binding), the possibilities of SQL injection here could be not limited
+to just a simple attack vector mentioned above.
 For more details, check out Laravel Blog’s post "[Unique Rule SQL Injection Warning](https://blog.laravel.com/unique-rule-sql-injection-warning)".
 
 Resume: The best prevention here is to not use user-provided data to create a validation rule.
@@ -749,7 +749,10 @@ Cross-Site Scripting can be very dangerous, for example an XSS attack in the adm
 
 ```html
 Some text
-<input onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });' autofocus />
+<input
+    onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });'
+    autofocus
+/>
 test
 ```
 
@@ -760,13 +763,13 @@ Laravel Blade protects from most XSS attacks, so for example an attack like this
 ```html
 // $name = 'John Doe
 <script>
-    alert("xss");
+    alert('xss');
 </script>
 ';
 <div>{{ $name }}</div>
 ```
 
-:::v-pre
+::: v-pre
 Blade’s `{{ }}` statement automatically encodes the output. So the server will send the following properly encoded code to the browser (which will prevent the XSS attack):
 :::
 

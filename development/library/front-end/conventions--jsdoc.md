@@ -15,6 +15,14 @@ This document is created to avoid confusion and increase consistency.
 
 [[toc]]
 
+## JSDoc vs. PHPDoc
+
+Comparing with [PHPDoc](./../backend/conventions--php.md#docblocks), there are some differences:
+
+1.  JSDoc uses`@returns` instead of `@return`;
+2.  Curly brackets are used as wrappers for variable types, e.g., `{Object}`, `{Array<string>}`.
+3.  `{number}` is used instead of `integer` and `float` in PHPDoc.
+
 A good example of using JSDoc:
 
 ```js
@@ -23,11 +31,10 @@ A good example of using JSDoc:
  *
  * @param {string} errorMessage Message to send.
  * @param {string} [fileName] Name of the file where the logging event was discovered
- * @param {string} [functionName=Name] Name of the function where logging event was discovered
  * @param {Object} [postedData = {}] POST body data, provides some context of the logging event (optional with default value).
  * @returns {boolean} Whether it was sent.
  */
-function logError(errorMessage, fileName, functionName, postedData = {}) {
+function logError(errorMessage, fileName, postedData = {}) {
     // some code
 }
 ```
@@ -203,8 +210,8 @@ function logUser({ name, phone }) {
  */
 function initialize({
     config: {
-        user: { name, phone },
-        settings: { isActive },
+        user: {name, phone},
+        settings: {isActive},
     },
 }) {
     // function body
@@ -226,7 +233,7 @@ consider refactoring the function or using a type definition to simplify the doc
  */
 export function assertNonNull(thing) {
     if (thing === null) {
-        throw new Error("Unexpected null.");
+        throw new Error('Unexpected null.');
     }
     return thing;
 }
@@ -241,7 +248,7 @@ export function assertNonNull(thing) {
  */
 export function assertNonNull(thing) {
     if (thing === null) {
-        throw new Error("Unexpected null.");
+        throw new Error('Unexpected null.');
     }
     return thing;
 }

@@ -34,7 +34,7 @@ Example:
  * @returns {boolean}
  */
 function isAdmin(user) {
-    return user.roles.includes("admin");
+    return user.roles.includes('admin');
 }
 ```
 
@@ -72,7 +72,7 @@ Always use a triple equal to do variable comparisons. If you’re unsure of the 
 ```js
 // GOOD
 const one = 1;
-const another = "1";
+const another = '1';
 
 if (one === parseInt(another)) {
     // ...
@@ -130,7 +130,7 @@ function adder(a) {
 Anonymous functions should use arrow functions (Unless they need access to `this`).
 
 ```js
-["a", "b"].map((a) => a.toUpperCase());
+['a', 'b'].map((a) => a.toUpperCase());
 ```
 
 ## Object and array destructuring
@@ -139,10 +139,10 @@ Destructuring is preferred over assigning variables to the corresponding keys.
 
 ```js
 // GOOD
-const [hours, minutes] = "12:00".split(":");
+const [hours, minutes] = '12:00'.split(':');
 
 // BAD, unnecessarily verbose, and requires an extra assignment in this case.
-const time = "12:00".split(":");
+const time = '12:00'.split(':');
 const hours = time[0];
 const minutes = time[1];
 ```
@@ -167,7 +167,7 @@ Or with our custom fetch promise
 
 ```js
 const response = await getHttpClient()
-    .get("url")
+    .get('url')
     .catch((error) => log(error));
 if (response) {
     notify.success(response.message);
@@ -184,13 +184,23 @@ But for consistency and clarity purposes, we SHOULD use data attributes as selec
 ```
 
 ```js
-const card = document.querySelector("[data-course-card]");
+const cards = document.querySelectorAll('[data-course-card]');
+```
+
+Unique elements should be selected by their `id` attribute:
+
+```html
+<form id="subscribe-form">...</form>
+```
+
+```js
+const subscribeForm = document.getElementById('subscribe-form');
 ```
 
 ## Back-end named routes
 
 Use `@route` annotations/comments to specify Laravel route names.
 
-Example: `@route 'api.course.enrollment.store`.
+Example: `@route 'api.course.enrollment.store'`.
 It solves a problem when we change the URL for a route on back-end (where we use named routes)
 but forget to change it in JS code (where we may hardcode it).
