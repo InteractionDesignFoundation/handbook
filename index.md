@@ -7,28 +7,43 @@ hero:
     text: ''
     #  tagline:
     actions:
-        - theme: brand
-          text: ⚙️ Laravel conventions
-          link: /development/library/back-end/conventions--laravel.md
         - theme: alt
-          text: ⚙️ PHP conventions
-          link: /development/library/back-end/conventions--php.md
-        - theme: alt
-          text: ⚙️ JS conventions
-          link: /development/library/front-end/conventions--js.md
-        - theme: alt
-          text: ⚙️ CSS conventions
-          link: /development/library/front-end/conventions--css.md
+          text: Start (about these docs)
+          link: /README.md
 ---
 
-<section class="container" style="max-width: 1152px; margin: 0 auto; padding: 20px;">
-<img src="./images/hero-all.svg" alt="levitating man with a laptop on knees">
-<div class="grid-item">
-            The IxDF System consists of processes and tools that the Interaction Design Foundation (IxDF) use
-            to <a href="/achieve-purpose/README.md" class="link">achieve our purpose</a>
-            by <a href="/coordinate-efforts/README.md" class="link">coordinating efforts</a>
-            to <a href="/development/README.md" class="link">develop software</a>,
-            create content and <a href="/design-products/README.md" class="link">design products</a>.
-            This site is our living documentation, used daily by our teams, and shared openly with anyone who finds it useful.
-</div>
+<section class="container" style="max-width: 1152px; margin: 0 auto">
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2 class="h2">Zen of coding</h2>
+                <ol class="ul list-disc">
+                    <li>Explicit is better than implicit.</li>
+                    <li>Delegate work to tool when possible.</li>
+                    <li>Simple is better than complex.</li>
+                    <li>Complex is better than complicated.</li>
+                    <li>Flat is better than nested.</li>
+                    <li>Errors should never pass silently.</li>
+                    <li>There should be one <i>(and preferably only one)</i> obvious way to do it.</li>
+                    <li>It should be easy to do run popular actions.</li>
+                    <li>Bad stuff should be difficult to do.</li>
+                    <li>If the implementation is hard to explain, it's a bad idea.</li>
+                    <li>If the implementation is easy to explain, it may be a good idea.</li>
+                </ol>
+        </div>
+        <div class="grid-item">
+            <picture>
+                <source srcset="/images/levitating-man.avif" type="image/avif">
+                <img src="/images/levitating-man.png" alt="levitating man with a laptop on knees" class="levitating-man">
+            </picture>
+        </div>
+    </div>
+    <div class="vp-doc">
+        <h2 class="h2">Quick links: Coding conventions</h2>
+        <ul class="ul list-disc">
+            <li><a href="/library/backend/conventions--php.html">PHP</a> and <a href="/library/backend/conventions--laravel.html">Laravel</a></li>
+            <li><a href="/library/backend/conventions--sql.html">SQL</a></li>
+            <li><a href="/library/frontend/conventions--js.html">JS</a> and <a href="/code/frontend/conventions--jsdoc.html">JSDoc</a></li>
+            <li><a href="/library/frontend/conventions--css.html">CSS</a></li>
+        </ul>
+    </div>
 </section>
