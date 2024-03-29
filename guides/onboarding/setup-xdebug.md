@@ -1,4 +1,4 @@
-# Setup XDebug on PHPStorm
+# Setup Xdebug on PHPStorm
 
 ### Enable Xdebug in env
 
@@ -6,9 +6,9 @@ Simply set `XDEBUG_MODE` to `debug` in your `.env` file and restart the app cont
 
 ### Install the Browser Extension
 
-For Firefox and Chrome, you have to install Xdebug helper extension
+For Firefox and Chrome, you have to install an Xdebug helper extension.
 
-If Xdebug works now, then simply skip the rest of this document. 🥷
+If Xdebug works now, then skip the rest of this document. 🥷
 
 ### Configure the Browser extension
 
