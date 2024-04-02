@@ -4,8 +4,7 @@ layout: home
 
 hero:
     name: 'IxDF Open Handbook'
-    text: 'Open handbook for developers (Laravel+JS) created by IxDF tech team.'
-    #  tagline:
+    tagline: 'Open handbook for developers (Laravel+JS) created by IxDF tech team.'
     actions:
         - theme: brand
           text: Start here
