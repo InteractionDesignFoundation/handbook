@@ -39,7 +39,7 @@ hero:
             <ul class="ul list-disc">
                 <li><a href="/library/backend/conventions--php.html">PHP</a> and <a href="/library/backend/conventions--laravel.html">Laravel</a></li>
                 <li><a href="/library/backend/conventions--sql.html">SQL</a></li>
-                <li><a href="/library/frontend/conventions--js.html">JS</a> and <a href="/code/frontend/conventions--jsdoc.html">JSDoc</a></li>
+                <li><a href="/library/frontend/conventions--js.html">JS</a> and <a href="/library/frontend/conventions--jsdoc.html">JSDoc</a></li>
                 <li><a href="/library/frontend/conventions--css.html">CSS</a></li>
             </ul>
         </div>
