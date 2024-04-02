@@ -832,7 +832,7 @@ protected $fillable = ['name', 'email', 'password', 'role'];
 ```
 
 If in a Controller a developer uses something like `$user->fill($request->all());` or `$user->update($request->all());`,
-a user/attacker can add an input with a `role` name and submit the form ans thus, set a role, e.g. to "administrator".
+a user/attacker can add an input with a `role` name and submit the form and thus, set a role, e.g. to "administrator".
 
 Prevention tips:
 
