@@ -5,7 +5,7 @@ import {generateSidebar} from 'vitepress-sidebar';
 // https://vitepress.dev/reference/site-config
 const config = defineConfig({
     lang: 'en-US',
-    title: 'IxDF Open Handbook"',
+    title: 'IxDF Open Handbook',
     description: 'Handbook and guidelines for IxDF technical staff.',
     head: [
         ['link', {rel: 'icon', href: '/favicons/favicon.svg'}],
