@@ -32,8 +32,8 @@ hero:
         </div>
         <div class="grid-item">
             <picture>
-                <source srcset="/images/levitating-man.avif" type="image/avif">
-                <img src="/images/levitating-man.png" alt="levitating man with a laptop on knees" class="levitating-man">
+                <source srcset="/images/spaceship.avif" type="image/avif">
+                <img src="/images/spaceship.jpg" alt="levitating man with a laptop on knees" class="levitating-man">
             </picture>
         </div>
     </div>
