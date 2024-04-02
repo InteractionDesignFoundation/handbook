@@ -31,9 +31,9 @@ We don't expect you to spend too much time and feel pressured, however you can:
 1.  Set up and know your [collaboration tools](../collaboration-tools.md).
 1.  Know our [expectations from you and your work](../roles/senior-developer).
 1.  Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/first-run/README.md)
-    (private repository link) -- It’s time-consuming (2-3 hours), so don't wait.
+    (private repository link) — It’s time-consuming (2-3 hours), so don't wait.
     While your tools are being downloaded/installed, you can continue with the list.
-1.  Never stop learning 📖 Go through our library and create a plan to acquire
+1.  Never stop learning 📖. Go through our library and create a plan to acquire
     every bit of knowledge there. Once you have a plan, please discuss it with
     your mentor. (Are you full-stack? Then please open both links☀):
     -   Literature/subscriptions [for back-end developers](../../library/backend/literature.md)
@@ -46,7 +46,7 @@ We don't expect you to spend too much time and feel pressured, however you can:
 1.  Go through our guides:
     1. [Scrum](../../outdated/scrum/README.md)
     1. [🔒 Git Flow](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/workflows/git-flow.md)
-    1. [Setup Xdebug](setup-xdebug.md)
+    1. Setup Xdebug
 1.  [How to get domain knowledge](onboarding--domain-knowledge.md)
 1.  Coding (finally! 🎉)
     1. [🔒 File-naming conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/code/naming-conventions.md)
@@ -90,6 +90,6 @@ Here's a list of things you can share with your onboarding buddy or your colleag
 -   Domain: What have you learned about the IxDF and our platform?
     How can you help improve the most critical parts of our platform?
 -   Culture: Can you list our vision, mission, and core values? What can you do to
-    help IxDF accomplish its audacious goals.
+    help IxDF accomplish its audacious goals?
 
 🦄
