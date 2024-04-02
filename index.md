@@ -7,9 +7,15 @@ hero:
     text: ''
     #  tagline:
     actions:
-        - theme: alt
-          text: Start (about these docs)
+        - theme: brand
+          text: Start here
           link: /README.md
+        - theme: alt
+          text: Backend dev docs
+          link: /library/backend/README.md
+        - theme: alt
+          text: Frontend dev docs
+          link: /library/backend/README.md
 ---
 
 <section class="container" style="max-width: 1152px; margin: 0 auto">
