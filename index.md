@@ -22,19 +22,26 @@ hero:
     <div class="grid-container">
         <div class="grid-item">
             <h2 class="h2">Zen of coding</h2>
-                <ol class="ul list-disc">
-                    <li>Explicit is better than implicit.</li>
-                    <li>Delegate work to tool when possible.</li>
-                    <li>Simple is better than complex.</li>
-                    <li>Complex is better than complicated.</li>
-                    <li>Flat is better than nested.</li>
-                    <li>Errors should never pass silently.</li>
-                    <li>There should be one <i>(and preferably only one)</i> obvious way to do it.</li>
-                    <li>It should be easy to do run popular actions.</li>
-                    <li>Bad stuff should be difficult to do.</li>
-                    <li>If the implementation is hard to explain, it's a bad idea.</li>
-                    <li>If the implementation is easy to explain, it may be a good idea.</li>
-                </ol>
+            <ol class="ul list-disc">
+                <li>Explicit is better than implicit.</li>
+                <li>Delegate work to tool when possible.</li>
+                <li>Simple is better than complex.</li>
+                <li>Complex is better than complicated.</li>
+                <li>Flat is better than nested.</li>
+                <li>Errors should never pass silently.</li>
+                <li>There should be one <i>(and preferably only one)</i> obvious way to do it.</li>
+                <li>It should be easy to do run popular actions.</li>
+                <li>Bad stuff should be difficult to do.</li>
+                <li>If the implementation is hard to explain, it's a bad idea.</li>
+                <li>If the implementation is easy to explain, it may be a good idea.</li>
+            </ol>
+            <h2 class="h2">Quick links: Coding conventions</h2>
+            <ul class="ul list-disc">
+                <li><a href="/library/backend/conventions--php.html">PHP</a> and <a href="/library/backend/conventions--laravel.html">Laravel</a></li>
+                <li><a href="/library/backend/conventions--sql.html">SQL</a></li>
+                <li><a href="/library/frontend/conventions--js.html">JS</a> and <a href="/code/frontend/conventions--jsdoc.html">JSDoc</a></li>
+                <li><a href="/library/frontend/conventions--css.html">CSS</a></li>
+            </ul>
         </div>
         <div class="grid-item">
             <picture>
@@ -43,13 +50,5 @@ hero:
             </picture>
         </div>
     </div>
-    <div class="vp-doc">
-        <h2 class="h2">Quick links: Coding conventions</h2>
-        <ul class="ul list-disc">
-            <li><a href="/library/backend/conventions--php.html">PHP</a> and <a href="/library/backend/conventions--laravel.html">Laravel</a></li>
-            <li><a href="/library/backend/conventions--sql.html">SQL</a></li>
-            <li><a href="/library/frontend/conventions--js.html">JS</a> and <a href="/code/frontend/conventions--jsdoc.html">JSDoc</a></li>
-            <li><a href="/library/frontend/conventions--css.html">CSS</a></li>
-        </ul>
-    </div>
+
 </section>
