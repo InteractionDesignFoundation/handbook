@@ -83,7 +83,6 @@ It’s very useful to subscribe to some weekly newsletters or podcasts and be aw
 1.  Optional: Inclusive Components: all about designing inclusive web interfaces:
     [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://inclusive-components.design/rss/)
     https://inclusive-components.design/
-1.  Optional: Articles inside `Articles` directory.
 
 # Awesome lists
 
