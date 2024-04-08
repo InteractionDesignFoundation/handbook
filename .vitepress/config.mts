@@ -44,6 +44,10 @@ const config = defineConfig({
                 'README.md',
                 'CONTRIBUTING.md',
             ],
+            excludeFolders: [
+                'development',
+                'outdated',
+            ],
         }),
     },
 
