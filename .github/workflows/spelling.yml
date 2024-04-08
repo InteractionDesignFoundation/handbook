@@ -17,9 +17,9 @@ concurrency:
 jobs:
   typos_check:
     name: "Typos check"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     timeout-minutes: 1
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: crate-ci/typos@master
