@@ -5,6 +5,7 @@
 ## Introduction
 
 These conventions aim to standardize our Laravel development practices, focusing on:
+
 1. Reducing ambiguity
 1. Enhancing consistency
 1. Optimizing tool integration (IDEs, static analyzers, etc.)
@@ -23,6 +24,7 @@ It focuses on our specific conventions and rationales rather than explaining bas
 
 For large projects (> 100 Models), use modules to separate the codebase into smaller parts.
 Use the standard Laravel structure for each module:
+
 ```
 Modules/
     ...
@@ -55,8 +57,9 @@ They are not reusable and often have the same reason for change as the Controlle
 Modules are relatively independent parts of the application that can be developed and tested separately.
 Of course, modules should communicate with each other, but they should not depend on each other.
 Such communication possible using:
-- [Dependency injection](https://laravel.com/docs/master/controllers#dependency-injection-and-controllers) using interfaces (it's ok to use **interfaces** from other modules)
-- [Events and Listeners](https://laravel.com/docs/events)
+
+-   [Dependency injection](https://laravel.com/docs/master/controllers#dependency-injection-and-controllers) using interfaces (it's ok to use **interfaces** from other modules)
+-   [Events and Listeners](https://laravel.com/docs/events)
 
 ## DI vs. Facades vs. Facade aliases vs. helper functions
 
@@ -64,94 +67,98 @@ Such communication possible using:
 
 Don’t use Facade root aliases (comment out `Facade::defaultAliases()->merge([...])`): it’s extra magic that’s easy to avoid.
 Exceptions:
-- `\Vite` alias for `\Illuminate\Support\Facades\Vite` (why: there are no helper alternatives for `Vite::asset()` that is commonly used in Blade views)
+
+-   `\Vite` alias for `\Illuminate\Support\Facades\Vite` (why: there are no helper alternatives for `Vite::asset()` that is commonly used in Blade views)
 
 ## Eloquent and Database
 
 ### Models
 
 1. Use `Model::query()` instead of direct static calls:
-   ```php
-   // GOOD
-   Member::query()->firstWhere('id', 42);
 
-   // BAD
-   Member::firstWhere('id', 42);
-   ```
+    ```php
+    // GOOD
+    Member::query()->firstWhere('id', 42);
+
+    // BAD
+    Member::firstWhere('id', 42);
+    ```
 
 1. Avoid mass assignment when possible:
-   ```php
-   // PREFERRED
-   $member = new Member();
-   $member->name = $request->input('name');
-   $member->email = $request->input('email');
 
-   // AVOID
-   $member->forceFill([
-       'name' => $request->input('name'),
-       'email' => $request->input('email'),
-   ]);
+    ```php
+    // PREFERRED
+    $member = new Member();
+    $member->name = $request->input('name');
+    $member->email = $request->input('email');
 
-   // NEVER DO
-   $member->forceFill($request->all());
-   ```
+    // AVOID
+    $member->forceFill([
+        'name' => $request->input('name'),
+        'email' => $request->input('email'),
+    ]);
+
+    // NEVER DO
+    $member->forceFill($request->all());
+    ```
 
 1. Don't use `where{Attribute}` magic methods. Use the `where` method to reduce magic.
 1. Document all magic using PHPDoc:
-   ```php
-   /**
-    * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Modules\Permission\Models\Role> $roles
-    * @method static \Illuminate\Database\Eloquent\Builder|\App\Modules\Member\Models\Member canceled()
-    */
-   ```
+    ```php
+    /**
+     * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Modules\Permission\Models\Role> $roles
+     * @method static \Illuminate\Database\Eloquent\Builder|\App\Modules\Member\Models\Member canceled()
+     */
+    ```
 1. Use safe defaults for attributes:
-   ```php
-   final class CourseEnrollment extends Model
-   {
-       /** @var array<string, scalar|bool|null> Default values for Eloquent attributes */
-       protected $attributes = [
-           'graded_score' => 0,
-           'ungraded_score' => 0,
-           'completed_time_in_seconds' => 0,
-       ];
-   }
-   ```
+    ```php
+    final class CourseEnrollment extends Model
+    {
+        /** @var array<string, scalar|bool|null> Default values for Eloquent attributes */
+        protected $attributes = [
+            'graded_score' => 0,
+            'ungraded_score' => 0,
+            'completed_time_in_seconds' => 0,
+        ];
+    }
+    ```
 1. Use custom EloquentBuilder classes for models with 3+ query scopes:
-   ```php
-   class User extends Model
-   {
-       #[\Override]
-       public function newEloquentBuilder($query): UserEloquentBuilder
-       {
-           return new UserEloquentBuilder($query);
-       }
-   }
 
-   /** @extends \Illuminate\Database\Eloquent\Builder<\App\Models\User> */
-   final class UserEloquentBuilder extends Builder
-   {
-       public function confirmed(): self
-       {
-           return $this->whereNotNull('confirmed_at');
-       }
-   }
-   ```
+    ```php
+    class User extends Model
+    {
+        #[\Override]
+        public function newEloquentBuilder($query): UserEloquentBuilder
+        {
+            return new UserEloquentBuilder($query);
+        }
+    }
+
+    /** @extends \Illuminate\Database\Eloquent\Builder<\App\Models\User> */
+    final class UserEloquentBuilder extends Builder
+    {
+        public function confirmed(): self
+        {
+            return $this->whereNotNull('confirmed_at');
+        }
+    }
+    ```
 
 1. Use invokable classes for reusable scopes:
 
-   ```php
-   $unverifiedUsers = User::query()
-       ->tap(new UnverifiedScore())
-       ->get();
+    ```php
+    $unverifiedUsers = User::query()
+        ->tap(new UnverifiedScore())
+        ->get();
 
-   final class UnverifiedScore
-   {
-       public function __invoke(Builder $builder): void
-       {
-           $builder->whereNull('email_verified_at');
-       }
-   }
-   ```
+    final class UnverifiedScore
+    {
+        public function __invoke(Builder $builder): void
+        {
+            $builder->whereNull('email_verified_at');
+        }
+    }
+    ```
 
 ### Factories
 
@@ -161,65 +168,67 @@ Exceptions:
 1. Call Factory classes directly in tests: `$user = UserFactory::new()->create([...]);`
 1. `Factory::definition()` should set a valid default state (if possible) or not set any valid state.
 1. For states, implement separate methods:
-   ```php
-   final class ArticleFactory extends Factory
-   {
-       /** @inheritDoc */
-       public function definition(): array
-       {
-           return [
-               'title' => $this->faker->sentence,
-               'body' => $this->faker->paragraph,
-           ];
-       }
 
-       public function draft(): self
-       {
-           return $this->state(['published_at' => null]);
-       }
+    ```php
+    final class ArticleFactory extends Factory
+    {
+        /** @inheritDoc */
+        public function definition(): array
+        {
+            return [
+                'title' => $this->faker->sentence,
+                'body' => $this->faker->paragraph,
+            ];
+        }
 
-       public function published(): self
-       {
-           return $this->state([
-               'published_at' => today(),
-               'meta_description' => $this->faker->sentence,
-           ]);
-       }
+        public function draft(): self
+        {
+            return $this->state(['published_at' => null]);
+        }
 
-       public function ofAnyValidState(): self
-       {
-           return $this->draft(); // or return a (random) valid state
-       }
-   }
-   ```
+        public function published(): self
+        {
+            return $this->state([
+                'published_at' => today(),
+                'meta_description' => $this->faker->sentence,
+            ]);
+        }
+
+        public function ofAnyValidState(): self
+        {
+            return $this->draft(); // or return a (random) valid state
+        }
+    }
+    ```
 
 ### Migrations
 
 Write `down()` methods because:
+
 -   it should be possible to rollback failed releases
 -   developer experience: simplify switching between branches
 
 ### Query Optimization
 
 1. Eager load relationships to avoid N+1 queries:
-   ```php
-   $users = User::query()->with(['posts'])->get();
-   ```
+    ```php
+    $users = User::query()->with(['posts'])->get();
+    ```
 1. Use chunking for large datasets:
-   ```php
-   User::query()->chunk(100, function (Collection $users) {
-       foreach ($users as $user) {
-           // Process user
-       }
-   });
-   ```
+    ```php
+    User::query()->chunk(100, function (Collection $users) {
+        foreach ($users as $user) {
+            // Process user
+        }
+    });
+    ```
 1. Utilize database indexes for frequently queried columns.
 1. Use query caching for expensive, frequently run queries:
-   ```php
-   $users = Cache::remember('all_users', now()->addMinutes(10), static function (): Collection {
-       return User::all();
-   });
-   ```
+    ```php
+    $users = Cache::remember('all_users', now()->addMinutes(10), static function (): Collection {
+        return User::all();
+    });
+    ```
 1. Consider using Laravel's Query Builder for complex queries instead of Eloquent when performance is critical.
 
 ## Artisan commands
@@ -310,9 +319,11 @@ This is a loose guideline that doesn’t need to be enforced.
 ### Inject route params, then Request, then other dependencies
 
 Order of controller action parameters:
+
 1. Route params or bound Models
 2. Request instance
 3. Other dependencies
+
 ```php
 public function __invoke(User $user, Request $request, DetachUserFromTeamAction $detachAction)
 {
@@ -335,9 +346,10 @@ On this layer, you can do validation, authorization, get session data and some c
 You can read everything about actions in the [Blogpost by Freek Van der Herten](https://freek.dev/1371-refactoring-to-actions).
 
 Some notes on our implementation:
-- Action classes are final and readonly
-- Action classes do not extend any base class
-- Action classes have only one public method: `execute(...)`
+
+-   Action classes are final and readonly
+-   Action classes do not extend any base class
+-   Action classes have only one public method: `execute(...)`
 
 ```php
 final class DetachTeamMemberController
@@ -359,15 +371,17 @@ final class DetachTeamMemberController
 ## Responses
 
 1. Prefer explicit response methods:
-   ```php
-    // Good
-    return redirect()->route('home');
-    return redirect()->to($url);
 
-    // Bad (mixed return types)
-    return redirect(route('home'));
-    return redirect($url);
-   ```
+    ```php
+     // Good
+     return redirect()->route('home');
+     return redirect()->to($url);
+
+     // Bad (mixed return types)
+     return redirect(route('home'));
+     return redirect($url);
+    ```
+
 1. Use consistent HTTP status codes. Limit the number of codes the app can return and process them consistently.
 
 ## Routing and API Design
@@ -375,36 +389,37 @@ final class DetachTeamMemberController
 ### URL Structure
 
 1. Use kebab-case for URLs:
-   ```
-   https://www.example.com/about-us
-   https://www.example.com/user-profile
-   ```
+    ```
+    https://www.example.com/about-us
+    https://www.example.com/user-profile
+    ```
 1. Use camelCase for route parameters:
-   ```php
-   Route::get('users/{user}', UserProfileShowController::class);
-   ```
+    ```php
+    Route::get('users/{user}', UserProfileShowController::class);
+    ```
 
 ### Route Definition
+
 1. Do not use `Route::resource`. Define routes explicitly to avoid unnecessary routes and simplify full text search by the project.
 1. Use array syntax for multiple middleware:
-   ```php
-   Route::get('about', AboutPageController::class)
-       ->middleware(['cache:1day', 'auth']);
-   ```
+    ```php
+    Route::get('about', AboutPageController::class)
+        ->middleware(['cache:1day', 'auth']);
+    ```
 
 ### Route Naming
 
 1. Always name your routes (for HTML endpoints) and use the `route()` helper to generate URLs:
-   ```php
-   Route::get('about', AboutPageController::class)->name('about.index');
-   ```
-   ```blade
-   <a href="{{ route('about.index') }}">About</a>
-   ```
+    ```php
+    Route::get('about', AboutPageController::class)->name('about.index');
+    ```
+    ```blade
+    <a href="{{ route('about.index') }}">About</a>
+    ```
 1. Use camelCase for route names:
-   ```php
-   Route::get('users/{user}', UserProfileShowController::class)->name('userProfiles.show');
-   ```
+    ```php
+    Route::get('users/{user}', UserProfileShowController::class)->name('userProfiles.show');
+    ```
 
 ### Using route()
 
@@ -438,26 +453,26 @@ route('teams.members.show', ['member' => $member, 'team' => $member->team]); // 
 ### API Design
 
 1. Use versioning for your API:
-   ```php
-   Route::prefix('api/v1')->group(function () {
-       // API routes
-   });
-   ```
+    ```php
+    Route::prefix('api/v1')->group(function () {
+        // API routes
+    });
+    ```
 1. Use plural nouns for resource endpoints:
-   ```
-   GET /api/v1/articles
-   POST /api/v1/articles
-   GET /api/v1/articles/{article}
-   ```
+    ```
+    GET /api/v1/articles
+    POST /api/v1/articles
+    GET /api/v1/articles/{article}
+    ```
 1. Use nested resources for representing relationships:
-   ```
-   GET /api/v1/articles/{article}/comments
-   POST /api/v1/articles/{article}/comments
-   ```
+    ```
+    GET /api/v1/articles/{article}/comments
+    POST /api/v1/articles/{article}/comments
+    ```
 1. Use query parameters for filtering, sorting, and pagination:
-   ```
-   GET /api/v1/articles?sort=created_at&order=desc&page=2
-   ```
+    ```
+    GET /api/v1/articles?sort=created_at&order=desc&page=2
+    ```
 1. Use Laravel API [Resources](https://laravel.com/docs/master/responses) for transforming your models into JSON responses.
 
 ### Controller + action notation
@@ -538,6 +553,7 @@ resources/
 ### Explicitly pass variables to partials
 
 When you Blade partials (`@include` directive), always pass the variables explicitly.
+
 ```diff
 -@include('welcome')
 +@include('welcome', ['user' => $user])
@@ -608,6 +624,7 @@ Use `Vite::asset()` helper for other assets.
 ## Jobs
 
 Jobs should follow these characteristics:
+
 -   **Reentrancy**. If interrupted, a job can be restarted and completed successfully.
 -   **Idempotence**. A job can be called multiple times without changing the side effects.
 -   **Concurrence**. More than one instance of a job can run simultaneously (or use `ShouldBeUnique`).
@@ -666,8 +683,9 @@ Usually we have one config file per Module.
 ## Security
 
 Regularly scan your app and codebase for security vulnerabilities:
-- [Observatory by Mozilla](https://observatory.mozilla.org/) (headers, certificates)
-- [SSL test by SSLLabs](https://www.ssllabs.com/ssltest)
+
+-   [Observatory by Mozilla](https://observatory.mozilla.org/) (headers, certificates)
+-   [SSL test by SSLLabs](https://www.ssllabs.com/ssltest)
 
 ### SQL injection
 
@@ -770,10 +788,7 @@ Cross-Site Scripting can be very dangerous, for example an XSS attack in the adm
 
 ```html
 Some text
-<input
-    onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });'
-    autofocus
-/>
+<input onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });' autofocus />
 test
 ```
 

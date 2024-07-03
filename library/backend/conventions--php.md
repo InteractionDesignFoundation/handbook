@@ -8,9 +8,10 @@ IxDF's PHP coding guidelines favor a Java-like approach: less magic, more types.
 We prioritize explicit, strongly-typed code to enhance clarity, IDE support, and static analysis capabilities.
 
 Key principles:
-- Minimize magic, maximize explicitness
-- Leverage PHP's type system
-- Optimize for IDE and static analyzer support
+
+-   Minimize magic, maximize explicitness
+-   Leverage PHP's type system
+-   Optimize for IDE and static analyzer support
 
 This guide assumes familiarity with PHP 8.x features and modern development practices.
 It focuses on our specific conventions and rationale, rather than explaining basic concepts.
@@ -25,14 +26,15 @@ extended with rules from [Slevomat Coding Standard](https://github.com/slevomat/
 ### Tools
 
 IxDF uses automated tools to check our code on CI:
-- [PHP-CS-Fixer](https://cs.symfony.com/) (fast and stable)
-- [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer/wiki) (extendable and customizable)
-- [Psalm](https://psalm.dev/docs/) (`errorLevel="1"`)
-- [PHPStan](https://phpstan.org/user-guide/getting-started) (`level: 8`)
-- [Rector](https://github.com/rectorphp/rector)
-- [Deptrac](https://qossmic.github.io/deptrac/) (multiple configurations for modules and entire application)
-- [composer-dependency-analyser](https://github.com/shipmonk/composer-dependency-analyser) (checks for unused and shadow dependencies)
-- and more...
+
+-   [PHP-CS-Fixer](https://cs.symfony.com/) (fast and stable)
+-   [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer/wiki) (extendable and customizable)
+-   [Psalm](https://psalm.dev/docs/) (`errorLevel="1"`)
+-   [PHPStan](https://phpstan.org/user-guide/getting-started) (`level: 8`)
+-   [Rector](https://github.com/rectorphp/rector)
+-   [Deptrac](https://qossmic.github.io/deptrac/) (multiple configurations for modules and entire application)
+-   [composer-dependency-analyser](https://github.com/shipmonk/composer-dependency-analyser) (checks for unused and shadow dependencies)
+-   and more...
 
 ## Types
 
@@ -42,11 +44,11 @@ Use `declare(strict_types=1);` in all files. This catches type-related bugs earl
 
 ### Type declarations
 
-- Always specify property types (when possible)
-- Always specify parameter types (when possible)
-- Always use return types (when possible)
-    - Use `void` for methods that return nothing
-    - Use `never` for methods that always throw an exception
+-   Always specify property types (when possible)
+-   Always specify parameter types (when possible)
+-   Always use return types (when possible)
+    -   Use `void` for methods that return nothing
+    -   Use `never` for methods that always throw an exception
 
 ### Type-casting
 
@@ -64,10 +66,10 @@ $hasMadeAnyProgress = boolval($this->score);
 
 ## Docblocks
 
-- Avoid docblocks for fully type-hinted methods/functions unless a description is necessary (([Visual noise is real](https://stitcher.io/blog/a-programmers-cognitive-load)))
-- Use docblocks to reveal the contents of arrays and collections
-- Write docblocks on one line when possible
-- Always use fully qualified class names in docblocks
+-   Avoid docblocks for fully type-hinted methods/functions unless a description is necessary (([Visual noise is real](https://stitcher.io/blog/a-programmers-cognitive-load)))
+-   Use docblocks to reveal the contents of arrays and collections
+-   Write docblocks on one line when possible
+-   Always use fully qualified class names in docblocks
 
 ```php
 // GOOD
@@ -83,8 +85,8 @@ final class Foo
 
 ### Inheritance and @inheritDoc
 
-- Use `@inheritDoc` for classes and methods to make inheritance explicit
-- For properties, copy the docblock from the parent class/interface instead of using `@inheritDoc`
+-   Use `@inheritDoc` for classes and methods to make inheritance explicit
+-   For properties, copy the docblock from the parent class/interface instead of using `@inheritDoc`
 
 ### Traversable Types
 
@@ -96,16 +98,16 @@ Use advanced PHPDoc syntax to describe traversable types:
 /** @return Collection<TKey, TValue> */
 /** @return array{foo: string, optional?: int} */
 ```
+
 <details>
 <summary>Technical details</summary>
 
 We use IxDF <a href="https://github.com/InteractionDesignFoundation/coding-standard" target="_blank">coding-standard package</a>
 to enforce setting the type of the key and value in the iterable types
-using phpcs with <code>SlevomatCodingStandard.TypeHints.*</code> rules
+using phpcs with <code>SlevomatCodingStandard.TypeHints.\*</code> rules
 (<a href="https://github.com/InteractionDesignFoundation/coding-standard/blob/72a43b4d4e5ffb233d4375b10690e7d55408adce/IxDFCodingStandard/ruleset.xml#L377-L419" target="_blank">config</a>)
 
 </details>
-
 
 ### Generic Types and Templates
 
@@ -131,12 +133,11 @@ protected function initialize(string $notificationFQCN): Notification
 1. [When to declare classes final](https://ocramius.github.io/blog/when-to-declare-classes-final/)
 1. [Proposed PSR for docblocks](https://github.com/php-fig/fig-standards/blob/master/proposed/phpdoc-tags.md)
 
-
 ## OOP Practices
 
 ### Final by default
 
-Use `final` for classes and `private` for methods [by default]((https://ocramius.github.io/blog/when-to-declare-classes-final/)).
+Use `final` for classes and `private` for methods [by default](<(https://ocramius.github.io/blog/when-to-declare-classes-final/)>).
 This encourages composition, dependency injection, and interface use over inheritance.
 Consider the long-term maintainability, especially for public APIs.
 
@@ -205,11 +206,10 @@ Want to learn more?
 Read more about [class invariants](https://www.geeksforgeeks.org/what-is-class-invariant/)
 for a better understanding of the dangers of modifying class properties from controllers/services.
 
-
 ### Enums
 
-- Use singular names
-- Use PascalCase for case names
+-   Use singular names
+-   Use PascalCase for case names
 
 ```php
 enum Suit
@@ -276,16 +276,17 @@ For details, see [The "Exception" suffix](https://mnapoli.fr/approaching-coding-
 
 ### assert() vs throw
 
-- Use `assert()` for conditions that should be logically impossible to be false, based on your own code's inputs.
-- Use exceptions for checks based on external inputs.
-- Treat `assert()` as a debugging tool and type specification aid, not for runtime checks.
-- Consider adding a description to `assert()` for clarity (2nd arg).
+-   Use `assert()` for conditions that should be logically impossible to be false, based on your own code's inputs.
+-   Use exceptions for checks based on external inputs.
+-   Treat `assert()` as a debugging tool and type specification aid, not for runtime checks.
+-   Consider adding a description to `assert()` for clarity (2nd arg).
 
 Remember: `assert()` may be disabled in production. Use exceptions for critical runtime checks.
 
 For more information:
-- [PHP assert() documentation](https://www.php.net/manual/en/function.assert.php)
-- [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
+
+-   [PHP assert() documentation](https://www.php.net/manual/en/function.assert.php)
+-   [Assertions and assertion libraries](https://matthiasnoback.nl/2018/09/assertions-and-assertion-libraries/)
 
 > Assertions should be used as a debugging feature only.
 > You may use them for sanity-checks that test for conditions that should always be true
@@ -351,19 +352,19 @@ Use [Regex101](https://regex101.com/) for testing patterns.
 
 ### Functions
 
-- Prefer type-casting over type conversion functions (e.g., `(int)$value` instead of `intval($value)`)
-- Use `isset()` or `array_key_exists()` instead of `in_array()` for large arrays when checking for key existence
-- Leverage opcache for production environments
-- Use `stripos()` instead of `strpos()` with `strtolower()` for case-insensitive string searches
-- Consider using `array_column()` for extracting specific columns from multidimensional arrays
+-   Prefer type-casting over type conversion functions (e.g., `(int)$value` instead of `intval($value)`)
+-   Use `isset()` or `array_key_exists()` instead of `in_array()` for large arrays when checking for key existence
+-   Leverage opcache for production environments
+-   Use `stripos()` instead of `strpos()` with `strtolower()` for case-insensitive string searches
+-   Consider using `array_column()` for extracting specific columns from multidimensional arrays
 
 For in-depth performance analysis, use tools like Blackfire, XHProf, or Xdebug and Clockwork in development.
 
 ### Configs
 
-- Use `opcache` for production environments
-- Use PHP in worker code (FrankenPHP, RoadRunner, Swoole) for high-performance applications
-- If you use PHP-FPM: [Mateus Guimarães: Optimizing PHP applications for performance](https://mateusguimaraes.com/posts/optimizing-php-applications-for-performance)
+-   Use `opcache` for production environments
+-   Use PHP in worker code (FrankenPHP, RoadRunner, Swoole) for high-performance applications
+-   If you use PHP-FPM: [Mateus Guimarães: Optimizing PHP applications for performance](https://mateusguimaraes.com/posts/optimizing-php-applications-for-performance)
 
 ## Testing and Quality Assurance
 
@@ -375,14 +376,14 @@ See [Security](./conventions--laravel.md#security) section from Laravel conventi
 
 ## Dependency Management
 
-- Use Composer for managing PHP dependencies
-- Keep `composer.json` and `composer.lock` in version control
-- Specify exact versions or version ranges for production dependencies
-- Use `composer update` sparingly in production environments
-- Regularly update dependencies and review changelogs
-- Leverage tools to check for unused and shadow dependencies (`composer-dependency-analyser` or `composer-unused` + `composer-require-checker`)
-- Consider using [`composer-normalize`](https://github.com/ergebnis/composer-normalize) for consistent `composer.json` formatting
-- Use private repositories or artifact repositories for internal packages
-- Implement a dependency security scanning tool in your CI pipeline (e.g., Snyk, Sonatype, or GitHub's Dependabot; add `composer audit` to you CI pipeline)
+-   Use Composer for managing PHP dependencies
+-   Keep `composer.json` and `composer.lock` in version control
+-   Specify exact versions or version ranges for production dependencies
+-   Use `composer update` sparingly in production environments
+-   Regularly update dependencies and review changelogs
+-   Leverage tools to check for unused and shadow dependencies (`composer-dependency-analyser` or `composer-unused` + `composer-require-checker`)
+-   Consider using [`composer-normalize`](https://github.com/ergebnis/composer-normalize) for consistent `composer.json` formatting
+-   Use private repositories or artifact repositories for internal packages
+-   Implement a dependency security scanning tool in your CI pipeline (e.g., Snyk, Sonatype, or GitHub's Dependabot; add `composer audit` to you CI pipeline)
 
 🦄
