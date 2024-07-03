@@ -1,19 +1,63 @@
 # Laravel conventions
 
+High-level goals of these conventions are to:
+ - avoid ambiguity
+ - increase consistency
+ - improve integration with tools (IDE, Static Analyzers, etc.)
+
 ## Strategy
 
 First and foremost, Laravel provides the most value when you **write things the way Laravel intended you to write**.
 It means better and more extensive use of native laravel features or Laravel “products” like Nova.
 Whenever you do something differently, make sure you have a justification for why you didn’t follow the defaults.
 
-Secondary, Laravel often provides few ways/APIs to achieve your goals, in this document
+Secondarily, Laravel often provides few ways/APIs to achieve your goals, in this document
 we try to list all our conventions to keep our code more consistent and use only one way.
 
 [[toc]]
 
+## Project Structure
+
+For big projects (> 100 Models), use modules to separate the codebase into smaller parts.
+Use the standard Laravel structure for each module.
+
+Exception: do not create a directory for Request classes,
+they are not reusable and often have the same reason of change as the Controller,
+so they should be in the same directory (`Conrollers`):
+```
+Modules/
+    ...
+    Course/
+        Actions/
+        Event/
+        Exceptions/
+        Console
+            Commands/
+        Http/
+            Controllers/
+                CourseEnrollmentStoreController.php
+                CourseEnrollmentStoreRequest.php
+                CourseShowController.php
+            Middleware/
+            Resources/
+        Jobs/
+        Listeners/
+        Models/
+        Policies/
+        Providers/
+        Rules/
+        View/
+    ...
+```
+
+
 ## Facades vs Facade aliases vs. helper functions
 
-Facades SHOULD be used in PHP code, helpers SHOULD be used in Blade views. Don’t use Facade root aliases (it’s extra magic that’s easy to avoid).
+Facades SHOULD be used in PHP code, helpers SHOULD be used in Blade views.
+Don’t use Facade root aliases (it’s extra magic that’s easy to avoid).
+
+Exceptions:
+ - `\Vite` alias for `\Illuminate\Support\Facades\Vite` (why: there is no helper alternatives for `Vite::asset()` common used in Blade views)
 
 ## Eloquent Models
 
@@ -41,22 +85,20 @@ The preferred way to create or update models is to assign attributes line by lin
 $member = new Member();
 $member->name = $request->input('name');
 $member->email = $request->input('email');
-$member->save();
 
 // AVOID THIS:
 $member->forceFill([
     'name' => $request->input('name'),
     'email' => $request->input('email'),
-])->save();
+]);
 
 // NEVER DO THIS:
-$member->forceFill($request->all())
-    ->save();
+$member->forceFill($request->all());
 ```
 
-### Minimize magic
+### Do not use `where{Attribute}` magic methods
 
-Don’t use magic `where{Something}` methods.
+It’s better to use `where` method to reduce magic.
 
 ### Document all magic using PHPDoc
 
@@ -65,8 +107,8 @@ When you add a relationship or scope, add the appropriate PHPDoc block to the Mo
 ```php
 // Models/Member.php
 /**
- * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Modules\Permission\Models\Role> $roles Member’s Roles  (added by a Member::roles() relationship)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Modules\Member\Models\Member canceled() Cancelled Member state (added by a Member::scopeCanceled())
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Modules\Permission\Models\Role> $roles Member’s Roles (added by a Member::roles() relationship)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Modules\Member\Models\Member canceled() Canceled Member state (added by a Member::scopeCanceled())
  */
 ```
 
@@ -76,18 +118,15 @@ Model’s attributes should not rely on DB’s default values.
 Instead, we should duplicate defaults in the model by filling the `$attributes` array.
 It helps us to be more independent of the DB and simplifies Model’s Factories as well as testing.
 
-### Use scopes method instead of using magic methods
-
 ```php
-User::query()->scopes(['trial'])->...
-```
-
-For scopes with parameters, we recommend to use [tappable scopes](https://muhammedsari.me/unorthodox-eloquent#tappable-scopes):
-
-```php
-$unverifiedUsers = User::query()
-    ->tap(new Unverified())
-    ->get();
+final class CourseEnrollment extends Model
+{
+    /** @var array<string, scalar|bool|null> Default values for Eloquent attributes */
+    protected $attributes = [
+        'graded_score' => 0,
+        'ungraded_score' => 0,
+        'completed_time_in_seconds' => 0,
+    ];
 ```
 
 ### Use custom EloquentBuilder classes to simplify models
@@ -95,9 +134,9 @@ $unverifiedUsers = User::query()
 To simplify models & enable better type-hint by IDE for big Models,
 we should extract a [custom query builder class](https://timacdonald.me/dedicated-eloquent-model-query-builders/).
 
-It's a recommendation for Models with 4+ query scopes and a requirement for Models with 10+ query scopes.
+It’s a recommendation for Models with 4+ query scopes and a requirement for Models with 10+ query scopes.
 
-Here's how we can add the builder to the model class.
+Here’s how we can add the builder to the model class.
 
 ```php
 class User extends Model
@@ -107,6 +146,7 @@ class User extends Model
      * @param \Illuminate\Database\Query\Builder $query
      * @return \App\Models\UserEloquentBuilder<self>
      */
+    #[\Override]
     public function newEloquentBuilder($query): UserEloquentBuilder
     {
         return new UserEloquentBuilder($query);
@@ -127,7 +167,7 @@ final class UserEloquentBuilder extends Builder
 }
 ```
 
-And here's how we can use it:
+And here’s how we can use it:
 
 ```php
 $confirmedUsers = User::query()->confirmed()->get();
@@ -136,7 +176,7 @@ $confirmedUsers = User::query()->confirmed()->get();
 Make sure to wrap `orWhere` clauses inside another where clause to make a query safe for other "where" conditions:
 
 ```diff
-final class UserEloquentBuilder extends Builder
+final class UserEloquentBuilder extends \Illuminate\Database\Eloquent\Builder
 {
     public function publishedOrCanceled(): self
     {
@@ -154,13 +194,66 @@ Read more:
 1. [Laravel beyond CRUD blog post](https://stitcher.io/blog/laravel-beyond-crud-04-models#scaling-down-models)
 2. [Dedicated query builders for Eloquent models](https://timacdonald.me/dedicated-eloquent-model-query-builders/)
 
-### Do not use `created_at`, `updated_at` and `deleted_at` attributes for domain logic
+### Use invokable classes for scopes to reuse scopes between Models
 
-It's always better to use for specific column names. Examples:
+For scopes with parameters, we recommend to use invokable classes as [tappable scopes](https://muhammedsari.me/unorthodox-eloquent#tappable-scopes):
 
--   `created_at` -> `registered_at`, `issued_at`, etc
--   `updated_at` -> `reviewed_at`, etc
--   `deleted_at` -> `rejected_at`, `canceled_at`, etc
+```php {2}
+$unverifiedUsers = User::query()
+    ->tap(new UnverifiedScore())
+    ->get();
+
+// UnverifiedScore.php
+final class UnverifiedScore
+{
+    public function __invoke(Builder $builder): void
+    {
+        $builder->whereNull('email_verified_at');
+    }
+}
+```
+
+### Query classes
+
+To adhere to [CQS principle](https://martinfowler.com/bliki/CommandQuerySeparation.html)
+, queries should not change the state (a question should not change the answer!).
+To make this distinction explicit, we name our commands `actions` and our queries
+`query`.
+
+```php
+// BAD
+final class TotalAnsweredQuizzesCountAction
+{
+    public function execute(): int
+    {
+        /// blah blah
+    }
+}
+
+// GOOD
+final class TotalAnsweredQuizzesCountQuery
+{
+    public function execute(): int
+    {
+        // blah blah
+    }
+}
+```
+
+### Naming classes
+
+To recognize action/query classes easily, we suffix them with `Action`/`Query`
+respectively.
+
+```php
+// BAD
+final class AnswerQuiz
+final class TotalAnsweredQuizzesCount
+
+// GOOD
+final class AnswerQuizAction
+final class TotalAnsweredQuizzesCountQuery
+```
 
 ## Eloquent Factories
 
@@ -218,30 +311,23 @@ final class ArticleFactory extends Factory
 
 ## Artisan commands
 
-### Names
+### Names: use kebab-case
 
 The names given to artisan commands SHOULD all be kebab-cased.
 
-```bash
-# GOOD
-php artisan delete-old-records
-
-# BAD
-php artisan deleteOldRecords
-
-# BAD
-php artisan delete_old_records
+```diff
+-php artisan deleteOldRecords
+-php artisan delete_old_records
++php artisan delete-old-records
 ```
 
-### Constructors
+### Use `handle()` method dependency injection
 
 Inject any dependencies in the `handle()` method instead of in the constructor.
 Laravel initiates **ALL** console commands on **every** `artisan` call, for this reason
-console command class constructors should be fast and not contain any heavy logic.
+console command class constructors should be fast and not contain any heavy logic (incl. DI).
 
-### Output
-
-#### Use verbosity levels
+### Output: use verbosity levels
 
 Use different verbosity levels.
 
@@ -262,27 +348,47 @@ $this->info("{$articles->count()} Articles has been updated");
 
 The idea behind it is to send email with console command outputs only when output is present (not empty).
 
-#### Use non-zero exit codes on errors
+### Exit with proper code
 
-Use non-zero exit codes if a command execution failed (alternatively throw an exception — this is the same as exit code 1).
-This allows to use global on-error handlers, e.g. for automated reporting about failed console commands, please see
+Use non-zero exit codes if a command execution failed
+(alternatively, throw an exception — the script with also exit with code 1).
+This allows using global on-error handlers, e.g. for automated reporting about failed console commands, please see
 `\Illuminate\Console\Scheduling\Event::emailOutputOnFailure` as an example.
 
 ## Controllers
+
+### Prefer Single Action Controllers
+
+One of the main goals of classes in OOPs is to encapsulate data and behavior.
+For controllers, there is usually nothing to encapsulate and reuses between actions (public methods);
+for this reason, we prefer to have one action per controller.
+
+```php
+final class ShowMemberProfileController
+{
+    public function __invoke(Request $request)
+    {
+        // ...
+    }
+}
+```
+
+### Controllers Should Not Extend/Inherit
+
+Controllers SHOULD NOT extend any base class: there are usually no reasons to do it.
+Prefer composition (using DI) instead of inheritance.
+Also, often common logic can be extracted into Middleware.
 
 ### Singular resource name
 
 Controllers that control a resource must use the singular resource name.
 
-```php
-// GOOD
-final class CourseController {}
-
-// BAD
-final class CoursesController {}
+```diff
+-final class CoursesController
++final class CourseController
 ```
 
-### Use default action names
+### Prefer default action names
 
 Try to keep controllers simple and stick to the default CRUD keywords (`index`, `create`, `store`, `show`, `edit`, `update` and `destroy`).
 Extract a new controller if you need other actions.
@@ -291,59 +397,69 @@ Extract a new controller if you need other actions.
 
 This is a loose guideline that doesn’t need to be enforced.
 
-### Use method injection for Request and other dependencies
+### Inject route params, then Request, then other dependencies
+
+Order of controller action parameters:
+1. route params or bound Models
+2. Request instance
+3. other dependencies
 
 ```php
-// GOOD
-public function update(Request $request, Course $course)
-{
-    $this->validate($request, ['email' => ['email']);
-    $name = $request->input('name');
-}
-
-// BAD
-public function update(Course $course)
-{
-    $this->validate(request(), ['email' => ['email']);
-    $name = request('name');
-}
-```
-
-### Inject route params, then other dependencies
-
-```php
-// GOOD
-public function update(Team $team, Request $request, DetachFromTeamToIndividualGracePeriodAction $detachAction)
-{
-    ...
-}
-
-// BAD
-public function update(Request $request, Team $team, DetachFromTeamToIndividualGracePeriodAction $detachAction)
+public function __invoke(User $user, Request $request, DetachUserFromTeamAction $detachAction)
 {
     ...
 }
 ```
 
-The same for scalar GET params (good example: `public function update(int $teamId, Request $request`).
+The same for scalar GET params (good example: `public function __invoke(int $teamId, Request $request`).
+
+[Why?](https://masteringlaravel.io/daily/2024-06-12-our-rule-for-ordering-controller-action-parameters)
+
+### Use Action classes
+
+Actions are classes that take care of one specific task.
+Controllers (HTML/JSON/XML/etc.), Console Commands, Nova Actions are just a thin layer that calls Action classes.
+Such Controller classes have access to the application context (Request, Cache, Session, etc.),
+extract the data from the context, validate it and pass to the Action class.
+On this layer, you can do validation, authorization, get session data and some cache, and then pass the data to the Action(s).
+
+You can read everything about actions in the [Blogpost by Freek Van der Herten](https://freek.dev/1371-refactoring-to-actions).
+
+Some notes on our implementation:
+ - Action classes are final and readonly
+ - Action classes do not extend any base class
+ - Action classes have only one public method: `execute(...)`
+
+```php
+final class DetachTeamMemberController
+{
+    public function __invoke(Team $team, Member $member, DetachTeamMemberAction $detachAction): RedirectResponse
+    {
+        $this->authorize('update', $team);
+
+        $detachAction->execute($team, $member);
+
+        return redirect()->route('teams.show', [$team]);
+    }
+}
+```
+
 
 ## Requests
+
+### Do not use `authorize()` method
+
+Authorization is not a concern of the Request class.
 
 ### Use $request->input() instead of $request->get()
 
 For the sake of consistency, we use `$request->input()` only.
 
-```php
-// GOOD
+```diff
 public function store(Request $request)
 {
-    $email = $request->input('email');
-}
-
-// BAD
-public function store(Request $request)
-{
-    $email = $request->get('email');
+-   $email = $request->get('email');
++   $email = $request->input('email');
 }
 ```
 
@@ -361,9 +477,13 @@ return redirect(route('home')); // mixed return type (RedirectResponse|Redirecto
 return redirect($url); // mixed return type (RedirectResponse|Redirector)
 ```
 
-### Status Codes
+### HTTP Status Codes
 
 Limit the number of HTTP codes the app can return and process them in a consistent way.
+
+::: warning Internal doc
+See [HTTP response status codes](./../04-http-response-status-codes).
+:::
 
 ## Routing
 
@@ -381,7 +501,7 @@ https://www.interaction-design.org/my-private-profile
 Routes MUST have names, please use `route()` helper to generate URLs from named routes. Route names MUST use camelCase.
 
 ```php
-Route::get('about', [AboutPageController::class, 'index'])->name('about.index');
+Route::get('about', AboutPageController::class)->name('about.index');
 ```
 
 ```blade
@@ -425,22 +545,22 @@ When defining routes, use method chaining instead of array of params:
 
 ```php
 // GOOD:
-Route::get('about', [AboutPageController::class, 'index'])->name('about.index')->middleware(['cache:1day']);
+Route::get('about', AboutPageController::class)->name('about.index')->middleware(['cache:1day']);
 
 // BAD:
-Route::get('about', ['as' => 'about.index', 'uses' => [AboutPageController::class, 'index']])->middleware(['cache:1day']);
+Route::get('about', ['as' => 'about.index', 'uses' => AboutPageController::class])->middleware(['cache:1day']);
 ```
 
 ### Use array syntax for Route::middleware()
 
 ```php
 // GOOD
-Route::get('about', [AboutPageController::class, 'index'])->middleware(['cache:1day']);
-Route::get('about', [AboutPageController::class, 'index'])->middleware(['cache:1day', 'CORS']);
+Route::get('about', AboutPageController::class)->middleware(['cache:1day']);
+Route::get('about', AboutPageController::class)->middleware(['cache:1day', 'CORS']);
 
 // BAD
-Route::get('about', [AboutPageController::class, 'index'])->middleware('cache:1day', 'CORS');
-Route::get('about', [AboutPageController::class, 'index'])->middleware('cache:1day');
+Route::get('about', AboutPageController::class)->middleware('cache:1day', 'CORS');
+Route::get('about', AboutPageController::class)->middleware('cache:1day');
 ```
 
 ### Controller + action notation
@@ -449,6 +569,7 @@ Tuple notation MUST be used to declare a route (when it’s possible):
 
 ```php
 // GOOD
+Route::get('about', AboutPageController::class); // invokable single action controller
 Route::get('about', [AboutPageController::class, 'index']);
 
 // BAD
@@ -460,7 +581,7 @@ Route::get('about', 'AboutPageController@index');
 Route parameters SHOULD use camelCase.
 
 ```php
-Route::get('members/{memberId}', [MembersController::class, 'show']);
+Route::get('members/{memberId}', MemberProfileShowController::class);
 ```
 
 ### Verbs
@@ -470,10 +591,10 @@ It makes a group of routes very readable. Any other route options MUST come afte
 
 ```php
 // GOOD: all http verbs come first
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/', HomeController::class)->name('home');
 
 // BAD: http verbs not easily scannable
-Route::name('home')->get('/', [HomeController::class, 'index']);
+Route::name('home')->get('/', HomeController::class);
 ```
 
 ## Authorization
@@ -483,23 +604,15 @@ Route::name('home')->get('/', [HomeController::class, 'index']);
 
 ## Validation
 
-Avoid using `|` as separator for validation rules, always use array notation.
+Always use array notation (avoid using `|` as separator for validation rules).
 Using an array notation will make it easier to apply custom rule classes to a field.
 
 ```php
-// GOOD
 public function rules(): array
 {
     return [
-        'email' => ['required', 'email'],
-    ];
-}
-
-// BAD
-public function rules(): array
-{
-    return [
-        'email' => 'required|email',
+-       'email' => 'required|email',
++       'email' => ['required', 'email'],
     ];
 }
 ```
@@ -527,14 +640,9 @@ resources/
 
 ### Explicitly pass variables to partials and components
 
-```blade
-{{-- GOOD --}}
-{{ $user->name }}
-@include('welcome', ['user' => $user])
-
-{{-- BAD --}}
-{{ $user->name }}
-@include('welcome')
+```diff
+-@include('welcome')
++@include('welcome', ['user' => $user])
 ```
 
 ### Help your IDE
@@ -551,20 +659,14 @@ Add PHP injection using `<?php` and `?>`. The `@php` and `@endphp` Blade directi
 Translations MUST be rendered with the `__()` function.
 We prefer using this over the `@lang` directive in Blade views because `__()` can be used in both Blade views and regular PHP code. Here’s an example:
 
-```blade
-{{-- GOOD --}}
-{{ __('newsletter.form.title') }}
-
-{{-- BAD --}}
-@lang('newsletter.form.title')
+```diff
+-@lang('newsletter.form.title')
++{{ __('newsletter.form.title') }}
 ```
 
-```php
-// GOOD
-__('newsletter.form.title')
-
-// BAD
-trans('newsletter.form.title')
+```diff
+-trans('newsletter.form.title')
++__('newsletter.form.title')
 ```
 
 ### Use camelCase for translation parameters
@@ -577,12 +679,9 @@ __('app.message', ['firstName' => 'Peter', 'productName' => 'Bananas']);
 
 ### Be explicit about error
 
-```php
-// GOOD
-abort(404, "The course with the ID $courseId could not be found.");
-
-// BAD
-abort(404);
+```diff
+-abort(404);
++abort(404, "The course with the ID $courseId could not be found.");
 ```
 
 ## Jobs
@@ -598,16 +697,21 @@ You can find more details on awesome talk: [Matt Stauffer - Patterns That Pay Of
 
 ### Dispatching
 
-You SHOULD use `Bus::dispatch()` Facade or use `\Illuminate\Contracts\Bus\Dispatcher` DI
-instead of `YourJobClass::dispatch()` magic to make code readable for static analyzers:
+You SHOULD use `dispatch()` helper instead of Facade or DI,
+as they have different functionality (e.g., only `dispatch()` respects `ShouldBeUnique` interface).
+and you may face some limitations or even bugs.
+[See details](https://github.com/laravel/framework/issues/45781#issuecomment-2154342909).
 
 ```php
 // GOOD
-use Illuminate\Support\Facades\Bus;
-Bus::dispatch(new YouJob($parameter));
+dispatch(new YouJob($agument));
 
 // BAD
-YouJob::dispatch($parameter)
+YouJob::dispatch($agument); // \Illuminate\Foundation\Bus\Dispatchable trait
+
+// BAD
+use Illuminate\Support\Facades\Bus;
+Bus::dispatch(new YouJob($agument));
 ```
 
 ## Events
@@ -749,7 +853,10 @@ Cross-Site Scripting can be very dangerous, for example an XSS attack in the adm
 
 ```html
 Some text
-<input onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });' autofocus />
+<input
+    onfocus='$.post("/admin/users", {name:"hacker", email:"hacker@example.com", password: "test123", });'
+    autofocus
+>
 test
 ```
 
@@ -843,7 +950,10 @@ Prevention tips:
 
 ## Materials
 
+1. [Matthias Noback: Recipes for Decoupling](https://matthiasnoback.nl/book/recipes-for-decoupling/)
+1. [Adel Faizrakhmanov: Architecture of Complex Web Applications](https://github.com/adelf/acwa_book_en)
 1. [Spatie guidelines](https://github.com/spatie/guidelines.spatie.be/blob/master/content/code-style/laravel-php.md)
 1. [Common Security Mistakes in Laravel Applications](https://cyberpanda.la/ebooks/download/laravel-security)
+1. [Testing tips by Kamil Ruczyński](https://github.com/sarven/unit-testing-tips)
 
 🦄
