@@ -37,14 +37,12 @@ const config = defineConfig({
             capitalizeFirst: true,
             hyphenToSpace: true,
             collapseDepth: 1,
-            excludeFolders: [
-                'node_modules',
-            ],
             excludeFiles: [
                 'README.md',
                 'CONTRIBUTING.md',
             ],
             excludeFolders: [
+                'node_modules',
                 'development',
                 'outdated',
             ],
