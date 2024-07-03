@@ -624,14 +624,14 @@ and you may face some limitations or even bugs.
 
 ```php
 // GOOD
-dispatch(new YouJob($agument));
+dispatch(new YouJob($argument));
 
 // BAD
-YouJob::dispatch($agument); // \Illuminate\Foundation\Bus\Dispatchable trait
+YouJob::dispatch($argument); // \Illuminate\Foundation\Bus\Dispatchable trait
 
 // BAD
 use Illuminate\Support\Facades\Bus;
-Bus::dispatch(new YouJob($agument));
+Bus::dispatch(new YouJob($argument));
 ```
 
 ## Events
