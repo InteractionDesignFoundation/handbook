@@ -62,6 +62,7 @@ const config = defineConfig({
     ignoreDeadLinks: [
         /\.neon/,
         /\.php/,
+        /ocramius/,
     ],
 });
 
