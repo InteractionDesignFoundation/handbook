@@ -31,11 +31,11 @@ you may want to selectively sync those you want to study into your computer when
     1. Subscriptions
     1. Awesome lists
 
-# Frontend
+## Frontend
 
 Every back-end developer should have some front-end knowledge to have basic working skills & collaborate with front-end developers.
 
-## Foundations
+### Foundations
 
 1.  JS tutorial:
     [A re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) -
@@ -49,9 +49,9 @@ Every back-end developer should have some front-end knowledge to have basic work
 1.  Topic: ITCSS/BEM methodology:
     [MindBEMding](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
-For more frontend hints please see [🔒 frontend hints dir](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/library/frontend/hints/).
+For more frontend hints, please see [🔒 frontend hints dir](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/library/frontend/hints/).
 
-# Backend
+## Backend
 
 Every back-end developer should
 
@@ -59,7 +59,7 @@ Every back-end developer should
 -   use evergreen programming principles and team conventions (References),
 -   be aware of modern techniques, tools, and APIs (Subscriptions and Awesome lists).
 
-## Foundations
+### Foundations
 
 1.  Classic programming (books): `Robert Martin - Clean Code - 2008` and/or
     `Steve McConnell - Code Complete, 2nd edition - 2014`.
@@ -84,29 +84,25 @@ Every back-end developer should
 1.  Optional: DDD (book): `Vernon V. - Domain-Driven Design Distilled - 2016`.
 1.  Optional: Articles inside `Articles` shared folder.
 
-# References
+## References
 
 1.  [Clean Code concepts adapted for PHP](clean-code-php.md)
 1.  [🔒 IxDF’s back-end conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/code/backend/conventions.md)
 
-# Subscriptions
+## Subscriptions
 
 1.  PHPStorm blog (including [PHP Annotated Monthly](https://blog.jetbrains.com/phpstorm/category/php-annotated-monthly/)
     digests):
     [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://blog.jetbrains.com/phpstorm/feed/)
     [https://blog.jetbrains.com/phpstorm](https://blog.jetbrains.com/phpstorm)
 1.  [Laracon EU](https://www.youtube.com/channel/UCb9XEo_1SDNR8Ucpbktrg5A) annual Laravel conference videos on YouTube.
-1.  A blog on Laravel & PHP:
-    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://murze.be/feed) [https://murze.be](https://murze.be)
-1.  Laravel weekly newsletter:
+1.  Laravel news weekly newsletter:
     [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://feed.laravel-news.com/)
     [https://laravel-news.com](https://laravel-news.com)
-1.  Optional: Adam Wathan's blog (active Laravel developer)
-    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://adamwathan.me/rss)
-    [https://adamwathan.me](https://adamwathan.me)
-1.  Optional: Taylor Otwell's Medium stories (Creator of Laravel): [@taylorotwell](https://medium.com/@taylorotwell)
+1.  Freek’s (from Spatie) blog on Laravel & PHP:
+    [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://freek.dev/feed) [https://freek.dev](https://freek.dev)
 
-# Awesome lists
+## Awesome lists
 
 Awesome lists are great starting points for any material you'd like to find: Documentation, articles, talks,
 tools, etc. All of them are community curated and always up to date 🌲.

@@ -30,11 +30,11 @@ you may want to selectively sync those you want to study into your computer when
     1. Subscriptions
     1. Awesome lists
 
-# Backend
+## Backend
 
 Every frontend developer should have some backend knowledge to have basic working skills & collaborate with backend developers.
 
-## Foundations
+### Foundations
 
 1.  [Laravel Blade](https://laravel.com/docs/master/blade) - PHP template engine. Frontend developers should understand how to
     use `@extend`, `@include`, `@component`, `@section`, `@push`, `@foreach` and `@if` directives. They should also understand when they should use `{{ $variable }}` and `{!! $variable !!}` (display escaped/unescaped data).
@@ -46,14 +46,14 @@ Every frontend developer should have some backend knowledge to have basic workin
 
 For more back-end hints, please see [🔒 backend hints dir](https://github.com/InteractionDesignFoundation/IxDF-web/docs/code/backend/hints).
 
-# Frontend
+## Frontend
 
 Every frontend developer should
 
 -   have a basic set of programming skills (Foundations),
 -   be aware of modern techniques, tools, and APIs (Subscriptions and Awesome lists).
 
-## Foundations
+### Foundations
 
 1.  Classic programming skills: [Clean Code: JavaScript](clean-code-js.md):
     Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript.
@@ -69,7 +69,7 @@ Every frontend developer should
     [KISS, YAGNI & DRY Principles](https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161)
 1.  Optional: Network (book): [Ilya Grigorik - High Performance Browser Networking](https://hpbn.co/).
 
-# Subscriptions
+## Subscriptions
 
 It’s very useful to subscribe to some weekly newsletters or podcasts and be aware of all the events and news in the front-end world.
 
@@ -84,7 +84,7 @@ It’s very useful to subscribe to some weekly newsletters or podcasts and be aw
     [![RSS](https://www.maldonadonoticias.com/beta/images/headers/rss-icon.gif)](https://inclusive-components.design/rss/)
     https://inclusive-components.design/
 
-# Awesome lists
+## Awesome lists
 
 Awesome lists are great starting points for any material you'd like to find: Documentation, articles, talks,
 tools, etc. All of them are community curated and always up to date 🌲.
