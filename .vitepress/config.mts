@@ -8,8 +8,7 @@ const config = defineConfig({
     title: 'IxDF Open Handbook',
     description: 'Handbook and guidelines for IxDF technical staff.',
     head: [
-        ['link', {rel: 'icon', href: '/favicons/favicon.svg'}],
-        ['link', {rel: 'mask-icon', href: '/favicons/mask-icon.svg', color: '#ffffff'}],
+        ['link', {rel: 'icon', href: '/favicons/favicon.ico'}],
         ['link', {rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon.png'}],
     ],
     themeConfig: {
@@ -23,7 +22,7 @@ const config = defineConfig({
         search: {
             provider: 'local',
         },
-        logo: '/images/hydrogenlogo.svg',
+        logo: '/images/ixdf-logo.svg',
         nav: [
             {text: 'Home', link: '/'},
             {text: "🔐 Development Docs", link: "https://docs.information-architecture.org"},
