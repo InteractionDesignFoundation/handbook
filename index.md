@@ -14,7 +14,7 @@ hero:
           link: /library/backend/README.md
         - theme: alt
           text: Frontend dev docs
-          link: /library/backend/README.md
+          link: /library/frontend/README.md
 ---
 
 <section class="container" style="max-width: 1152px; margin: 0 auto">
