@@ -101,7 +101,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Defines two columns of equal width */
-    gap: 10px; /* Optional, defines the space between columns */
+    gap: 32px; /* Optional, defines the space between columns */
 }
 
 .ixdf-zen-code {
@@ -149,3 +149,12 @@
 .appearance {
     display: none !important;
 }
+
+/**
+ * Media Queries
+ * -------------------------------------------------------------------------- */
+ @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-gap: 24px;
+    }
+ }
