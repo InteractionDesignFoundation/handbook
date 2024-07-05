@@ -1,12 +1,12 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
-import DefaultTheme from 'vitepress/theme-without-fonts'
+import Theme from 'vitepress/theme'
 import './style.css'
 
 export default {
-  extends: DefaultTheme,
+  extends: Theme,
   Layout: () => {
-    return h(DefaultTheme.Layout, null, {
+    return h(Theme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
     })
   },
