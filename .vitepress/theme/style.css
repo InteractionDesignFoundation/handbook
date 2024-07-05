@@ -176,8 +176,104 @@
 /**
  * Media Queries
  * -------------------------------------------------------------------------- */
- @media screen and (max-width: 768px) {
-    .grid-container {
-      grid-gap: 24px;
-    }
- }
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-gap: 24px;
+  }
+}
+
+ /**
+ * Typography
+ * -------------------------------------------------------------------------- */
+/* TODO: Remove this section after Tailwind */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+    font-family: var(--font-sans-serif);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content h1 {
+    font-size: var(--font-size-tera);
+    letter-spacing: -0.75px;
+    margin-bottom: 16px;
+    margin-top: 64px;
+}
+
+.content h2 {
+    font-size: var(--font-size-giga);
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+
+.content h3 {
+    font-size: var(--font-size-mega);
+    letter-spacing: -0.25px;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+
+.content h4 {
+    font-size: var(--font-size-kilo);
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.content h5 {
+    font-size: var(--font-size-default);
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.content h6 {
+    font-size: var(--font-size-centi);
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga", "clig", "pnum", "kern", "liga", "clig";
+  font-variant-ligatures: common-ligatures;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.78;
+  margin-bottom: 24px;
+  max-width: var(--max-text-width-size);
+}
+
+small {
+  font-size: .8rem;
+  letter-spacing: 0.15px;
+  line-height: 1.2;
+}
+
+kbd {
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+code,
+pre {
+  font-size: 0.8rem;
+}
+
+ 
