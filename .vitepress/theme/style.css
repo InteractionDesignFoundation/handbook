@@ -117,7 +117,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url('images/ixdf-logo.svg');
+        background-image: url('https://assets.interaction-design.org/img/ixdf-brand/ixdf-logo.svg');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain; /* or 'cover' depending on your requirements */
