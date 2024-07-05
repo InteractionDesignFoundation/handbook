@@ -10,6 +10,7 @@ const config = defineConfig({
     head: [
         ['link', {rel: 'icon', href: '/favicons/favicon.ico'}],
         ['link', {rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon.png'}],
+        ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Source+Code+Pro|Source+Sans+Pro:400,400i,700&display=swap'}],
     ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
