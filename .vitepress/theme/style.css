@@ -33,6 +33,15 @@
   --vp-button-brand-active-bg: var(--vp-button-brand-bg);
 }
 
+/* .vitepress/theme/custom.css */
+:root {
+    --font-serif: 'Merriweather', georgia, serif;
+    --font-sans-serif: 'Source Sans Pro', arial, sans-serif;
+    --font-monospace: 'Source Code Pro', monospace;
+    --vp-font-family-base:  var(--font-sans-serif); /* normal text font */
+    --vp-font-family-mono: var(--font-monospace); /* code font */
+}
+
 /**
  * Component: Home
  * -------------------------------------------------------------------------- */
