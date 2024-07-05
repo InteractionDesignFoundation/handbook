@@ -122,7 +122,7 @@
         background-repeat: no-repeat;
         background-size: contain; /* or 'cover' depending on your requirements */
         animation: shimmer 1s infinite;
-        opacity: 0.1; /* adjust the value as needed */
+        opacity: 0.07; /* adjust the value as needed */
         z-index: -1; /* ensure it stays behind the content */
     }
 }
