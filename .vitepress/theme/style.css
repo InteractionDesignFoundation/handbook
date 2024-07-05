@@ -17,6 +17,29 @@
   --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
 }
 
+:root{
+  /* Temp CSS variables: Remove after Tailwind */
+  --font-size-default: 18px;
+  --font-size-mobile-default: 16px;
+  --font-size-print-default: 12px;
+  --line-height-default: 1.5;
+
+  /* Font families */
+  --font-serif: 'Merriweather', georgia, serif;
+  --font-sans-serif: 'Source Sans Pro', arial, sans-serif;
+  --font-monospace: 'Source Code Pro', monospace;
+
+  /* Font sizes */
+  --font-size-peta: 3.04rem;
+  --font-size-tera: 2.44rem;
+  --font-size-giga: 1.95rem;
+  --font-size-mega: 1.56rem;
+  --font-size-kilo: 1.25rem;
+  --font-size-hecto: 1rem;
+  --font-size-centi: .8rem;
+  --font-size-milli: .64rem;
+}
+
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
