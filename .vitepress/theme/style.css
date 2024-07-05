@@ -275,16 +275,10 @@ html:root {
 /**
  * Media Queries
  * -------------------------------------------------------------------------- */
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .grid-container {
     grid-gap: 24px;
   }
-}
-
-html:root {
-  font-family: var(--font-serif);
-  font-size: var(--font-size-default);
-  line-height: var(--line-height-default);
 }
 
 @media screen and (--small-only) {
