@@ -4,7 +4,7 @@ layout: home
 
 hero:
     name: 'IxDF Open Handbook'
-    tagline: 'Open handbook for developers (Laravel+JS) created by IxDF tech team.'
+    tagline: 'Open handbook for developers (Laravel+JS) created by the IxDF tech team.'
     actions:
         - theme: brand
           text: Start here
@@ -18,36 +18,60 @@ hero:
 ---
 
 <section class="container" style="max-width: 1152px; margin: 0 auto">
-    <div class="grid-container">
+    <h2 class="h2">IxDF Zen Code</h2>
+    <div class="grid-container ixdf-zen-code">
         <div class="grid-item">
-            <h2 class="h2">Zen of coding</h2>
-            <ol class="ul list-disc">
-                <li>Explicit is better than implicit.</li>
-                <li>Delegate work to tool when possible.</li>
-                <li>Simple is better than complex.</li>
-                <li>Complex is better than complicated.</li>
-                <li>Flat is better than nested.</li>
-                <li>Errors should never pass silently.</li>
-                <li>There should be one <i>(and preferably only one)</i> obvious way to do it.</li>
-                <li>It should be easy to do run popular actions.</li>
-                <li>Bad stuff should be difficult to do.</li>
-                <li>If the implementation is hard to explain, it's a bad idea.</li>
-                <li>If the implementation is easy to explain, it may be a good idea.</li>
-            </ol>
-            <h2 class="h2">Quick links: Coding conventions</h2>
+            <h3 class="h3">Development</h3>
+            <ul class="zen-section">
+                <li>We care deeply about "long-term code quality".</li>
+                <li>We do it "incrementally"; first do it, then do it right, then do it better.</li>
+                <li>We follow the boy scout principle; "Always leave the campground cleaner than you found it.".</li>
+                <li>We believe in the broken window theory; that's why we fix anything that's broken, as soon as we see it.</li>
+                <li>We use a "language of commitment": Say "yes" only if we (can/will) do it.</li>
+                <li>We tell others about potential problems as soon as possible.</li>
+                <li>We favor "explicit", "simple", "automated", "tested", and "flat".</li>
+                <li>We have "one" <i>(and preferably "only one")</i> way of doing things.</li>
+                <li>We make it "easy" to do "follow" our conventions and "difficult" otherwise.</li>
+                <li>We code in a way that doesn't require documentation or explanation.</li>
+            </ul>
+            <h3 class="h3">Team</h3>
+            <ul class="zen-section">
+                <li>We celebrate our achievements and encourage everyone to contribute.</li>
+                <li>We all have decision-making authority, and everyone in the team is committed to each other's success.</li>
+                <li>We have a flat hierarchy; everyone does everything possible to never fail one another.</li>
+                <li>We don't punish anyone for making mistakes.</li>
+                <li>We care about communication; we believe the "how" in communication is as important as the "what".</li>
+            </ul>
+        </div>
+        <div class="grid-item">
+            <h3 class="h3">Productivity</h3>
+            <ul class="zen-section">
+                <li>We believe motivation and productivity come naturally when you work on something you're passionate about.</li>
+                <li>We are action-oriented and strong believers in the maxim "ideas are worthless without execution."</li>
+                <li>We have enormous degrees of freedom because we are able to live up to that responsibility.</li>
+                <li>We finish what we have started; we don't feel good until we've carved a unicorn out of the monster.</li>
+                <li>We are "subversives" to a certain point-we understand small acts of defiance can lead to better outcomes.</li>
+                <li>We know that even small tasks can give us emotional rewards when we know why we are doing them.</li>
+                <li>We set audacious but achievable goals by breaking them into small and concrete plans.</li>
+                <li>We welcome critique; we use our mistakes in a constructive way to become stronger.</li>
+            </ul>
+            <h3 class="h3">Community</h3>
+            <ul class="zen-section">
+                <li>We exist, because our community exists.</li>
+                <li>Our codebase reflects the high expectations of our community.</li>
+                <li>We constantly reshape our platform and codebase based on our community's needs.</li>
+                <li>We believe our platform and community will make the world a better place.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+<h2 class="h2">Quick links: Coding conventions</h2>
             <ul class="ul list-disc">
                 <li><a href="/library/backend/conventions--php.html">PHP</a> and <a href="/library/backend/conventions--laravel.html">Laravel</a></li>
                 <li><a href="/library/backend/conventions--sql.html">SQL</a></li>
                 <li><a href="/library/frontend/conventions--js.html">JS</a> and <a href="/library/frontend/conventions--jsdoc.html">JSDoc</a></li>
                 <li><a href="/library/frontend/conventions--css.html">CSS</a></li>
             </ul>
-        </div>
-        <div class="grid-item">
-            <picture>
-                <source srcset="/images/spaceship.avif" type="image/avif">
-                <img src="/images/spaceship.jpg" alt="IxDF Zen Code">
-            </picture>
-        </div>
-    </div>
-
 </section>

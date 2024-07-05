@@ -104,6 +104,34 @@
     gap: 10px; /* Optional, defines the space between columns */
 }
 
+.ixdf-zen-code {
+    position: relative;
+    width: 100%; /* or any specific width */
+    height: 100%; /* or any specific height */
+    overflow: hidden; /* ensures the pseudo-element does not overflow */
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('images/ixdf-logo.svg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain; /* or 'cover' depending on your requirements */
+        animation: shimmer 1s infinite;
+        opacity: 0.1; /* adjust the value as needed */
+        z-index: -1; /* ensure it stays behind the content */
+    }
+}
+
+.zen-section {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 @media (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr; /* One column in smaller screens */
