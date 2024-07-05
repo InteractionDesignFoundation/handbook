@@ -173,15 +173,6 @@
     display: none !important;
 }
 
-/**
- * Media Queries
- * -------------------------------------------------------------------------- */
-@media screen and (max-width: 768px) {
-  .grid-container {
-    grid-gap: 24px;
-  }
-}
-
  /**
  * Typography
  * -------------------------------------------------------------------------- */
@@ -275,5 +266,35 @@ code,
 pre {
   font-size: 0.8rem;
 }
+html:root {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-default);
+  line-height: var(--line-height-default);
+}
 
- 
+/**
+ * Media Queries
+ * -------------------------------------------------------------------------- */
+ @media screen and (max-width: 768px) {
+  .grid-container {
+    grid-gap: 24px;
+  }
+}
+
+html:root {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-default);
+  line-height: var(--line-height-default);
+}
+
+@media screen and (--small-only) {
+  html:root{
+    font-size: var(--font-size-mobile-default);
+  }
+}
+
+@media print {
+  html:root{
+    font-size: var(--font-size-print-default);
+  }
+}
