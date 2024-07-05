@@ -108,3 +108,7 @@
     text-underline-offset: 2px;
     transition: color 0.25s, opacity 0.25s;
 }
+
+.appearance {
+    display: none !important;
+}

@@ -24,7 +24,7 @@ const config = defineConfig({
         },
         logo: '/images/ixdf-logo.svg',
         nav: [
-            {text: 'Home', link: '/'},
+            {text: 'IxDF Handbook', link: '/'},
             {text: "🔐 Development Docs", link: "https://docs.information-architecture.org"},
             {text: 'UI Kit', link: 'https://ui-kit.interaction-design.org/'},
             {text: 'IxDF Courses', link: 'https://www.interaction-design.org/'},
