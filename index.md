@@ -6,13 +6,13 @@ hero:
     name: 'IxDF Open Handbook'
     tagline: 'Open handbook for developers (Laravel+JS) created by the IxDF tech team.'
     actions:
-        - theme: brand
+        - theme: ghost
           text: Start here
           link: /README.md
-        - theme: alt
+        - theme: ghost
           text: Backend dev docs
           link: /library/backend/README.md
-        - theme: alt
+        - theme: ghost
           text: Frontend dev docs
           link: /library/frontend/README.md
 ---
