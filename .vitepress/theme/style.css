@@ -235,6 +235,21 @@ html .VPHomeHero{
   }
 }
 
+html:before {
+  content: '';
+  position: fixed;
+  z-index: -1;
+  height: 80%;
+  width: 80%;
+  left: 10%;
+  top: 10%;
+  background-image: url('https://assets.interaction-design.org/img/ixdf-brand/ixdf-logo.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.045
+}
+
 @media (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr; /* One column in smaller screens */
