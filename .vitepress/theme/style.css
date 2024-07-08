@@ -463,6 +463,11 @@ html .vp-doc {
     .actions, .container {
       text-align: center;
     }
+
+    .name, .tagline {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 }
 
