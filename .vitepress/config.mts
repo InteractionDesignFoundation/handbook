@@ -62,6 +62,7 @@ const config = defineConfig({
         /\.php/,
         /ocramius/,
     ],
+    appearance: false // This disables the dark mode toggle
 });
 
 // eslint-disable-next-line import/no-default-export
