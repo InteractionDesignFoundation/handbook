@@ -368,13 +368,18 @@ html:root {
   transition: box-shadow 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955), transform 0.13s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   vertical-align: middle;
   box-shadow: none;
-  font-weight: normal;
   background-color: transparent;
   border: solid 1px var(--neutral-06);
   box-shadow: none;
   color: var(--neutral-06);
   min-width: unset;
-  font-size: inhert;
+  font-size: 1rem;
+}
+.VPButton.medium.ghost:active {
+  background-color: var(--neutral-03);
+  box-shadow: none;
+  color: var(--neutral-06);
+  transform: translateY(2px);
 }
 .VPButton.medium.brand {
   background: var(--brand-01);
