@@ -403,6 +403,20 @@ html:root {
   font-family: var(--font-sans-serif)
 }
 
+/* Docs Content */
+html .vp-doc {
+  font-family: var(--font-serif);
+}
+html .vp-doc a {
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+html .vp-doc li {
+  font-size: 1rem;
+  font-family: var(--font-serif);
+}
+
 /**
  * Media Queries
  * -------------------------------------------------------------------------- */
