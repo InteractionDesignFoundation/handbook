@@ -437,6 +437,11 @@ html .vp-doc {
     line-height: 1.78;
   }
 }
+/* Code Snippets */
+html .vp-doc [class*='language-'] > span.lang {
+  right: 18px;
+  top: 18px;
+}
 
 /**
  * Media Queries
