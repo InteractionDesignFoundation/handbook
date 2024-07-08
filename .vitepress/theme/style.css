@@ -4,7 +4,7 @@
  */
 
 /**
- * Colors
+ * Variables
  * -------------------------------------------------------------------------- */
 
  :root {
@@ -38,6 +38,72 @@
   --font-size-hecto: 1rem;
   --font-size-centi: .8rem;
   --font-size-milli: .64rem;
+
+  /* Neutral colors */
+  --neutral-01: rgb(255 255 255);
+  --neutral-02: rgb(249 249 249);
+  --neutral-03: rgb(236 236 236);
+  --neutral-04: rgb(188 188 188);
+  --neutral-05: rgb(106 106 106);
+  --neutral-06: rgb(43 43 43);
+  --neutral-07: rgb(0 0 0);
+
+  /* Brand colors */
+  --brand-01: rgb(0 156 222);
+  --brand-02: rgb(13 111 180);
+  --accent-01: rgb(69 114 5);
+  --accent-02: rgb(245 133 30);
+  --accent-03: rgb(210 31 24);
+  --accent-04: rgb(128 0 128);
+  --accent-05: rgb(207 109 200);
+
+   /* Shadow colors */
+   --shadow-color-default: rgb(106 106 106 / 50%);
+   --shadow-color-brand-01: rgb(0 123 171 / 50%);
+   --shadow-color-accent-03: rgb(158 24 19 / 50%);
+   --shadow-color-neutral-04: rgb(188 188 188 / 50%);
+   --shadow-color-neutral-06: rgb(43 43 43 / 70%);
+
+   /* External shadow colors */
+   --shadow-color-facebook: rgb(38 59 99 / 50%);
+   --shadow-color-twitter: rgb(46 128 191 / 50%);
+   --shadow-color-linkedin: rgb(0 87 130 / 50%);
+
+   /* Text colors */
+   --text-color: var(--neutral-06);
+   --text-color-secondary: var(--neutral-05);
+   --text-color-inverted: var(--neutral-01);
+
+   /* Link colors */
+   --link-color: var(--brand-02);
+   --link-color-visited: var(--accent-04);
+
+   /** Brands Colors */
+   --brand-color-facebook: rgb(59 89 152);
+   --brand-color-instagram: rgb(81 127 164);
+   --brand-color-linkedin: rgb(0 123 182);
+   --brand-color-pinterest: rgb(203 32 39);
+   --brand-color-twitter: rgb(56 161 243);
+   --brand-color-buffer-bg: rgb(50 59 67);
+   /* Old colors */
+   --color-hover-gray: rgb(244 244 244);
+   --color-light-gray: rgb(221 221 221);
+
+   /* Overlaycolors */
+   --hero-overlay-color: rgb(0 0 0 / 80%);
+   --hero-overlay-color-small-screen: rgb(0 0 0 / 60%);
+
+   /* This used by elements that match background, allows us to change it with background */
+   --section-background-color: var(--neutral-02);
+
+   /* Similar to --section-background-color but is used for contrast. Used in things like infoBox */
+   --contrast-section-background-color: var(--neutral-03);
+
+    /* Border radius */
+    --border-radius-small: 2px;
+    --border-radius: 3px;
+    --border-radius-medium: 5px;
+    --border-radius-large: 8px;
 }
 
 /**
@@ -247,8 +313,11 @@ p {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.78;
-  margin-bottom: 24px;
   max-width: var(--max-text-width-size);
+  margin-bottom: 24px;
+}
+li p {
+  margin-bottom: 0
 }
 
 small {
