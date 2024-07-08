@@ -280,6 +280,7 @@ h6,
     line-height: 1.2;
 }
 
+html .vp-doc h1,
 .content h1 {
     font-size: var(--font-size-tera);
     letter-spacing: -0.75px;
@@ -287,6 +288,7 @@ h6,
     margin-top: 64px;
 }
 
+html .vp-doc h2,
 .content h2 {
     font-size: var(--font-size-giga);
     letter-spacing: -0.5px;
@@ -294,6 +296,7 @@ h6,
     margin-top: 40px;
 }
 
+html .vp-doc h3,
 .content h3 {
     font-size: var(--font-size-mega);
     letter-spacing: -0.25px;
@@ -301,18 +304,21 @@ h6,
     margin-top: 40px;
 }
 
+html .vp-doc h4,
 .content h4 {
     font-size: var(--font-size-kilo);
     margin-bottom: 16px;
     margin-top: 32px;
 }
 
+html .vp-doc h5,
 .content h5 {
     font-size: var(--font-size-default);
     margin-bottom: 8px;
     margin-top: 24px;
 }
 
+html .vp-doc h6,
 .content h6 {
     font-size: var(--font-size-centi);
     margin-bottom: 8px;
@@ -356,6 +362,10 @@ html:root {
   font-family: var(--font-serif);
   font-size: var(--font-size-default);
   line-height: var(--line-height-default);
+}
+
+html .vp-doc blockquote > p {
+  font-size: 1rem;
 }
 
 /**
