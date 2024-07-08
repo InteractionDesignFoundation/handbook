@@ -307,14 +307,12 @@ html {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
 }
-
 p {
   font-family: var(--font-serif);
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.78;
   max-width: var(--max-text-width-size);
-  margin-bottom: 24px;
 }
 li p {
   margin-bottom: 0
@@ -389,7 +387,9 @@ html:root {
   -webkit-background-clip: unset;
   color: var(--neutral-07);
 }
-
+.VPLink p {
+  font-family: var(--font-sans-serif)
+}
 /**
  * Media Queries
  * -------------------------------------------------------------------------- */
