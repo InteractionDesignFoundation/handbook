@@ -106,6 +106,10 @@
     --border-radius-large: 8px;
 }
 
+html:root {
+  --vp-nav-height: 58px;
+}
+
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
@@ -380,6 +384,14 @@ html:root {
   color: var(--neutral-07);
   text-decoration: none;
 } 
+/* Header */
+.VPNavBarMenu .VPNavBarMenuLink{
+  border-bottom: 2px solid transparent;
+  color: var(--neutral-06);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+}
 /* Hero */
 .VPHero h1.name span {
   -webkit-text-fill-color: unset;
@@ -390,6 +402,7 @@ html:root {
 .VPLink p {
   font-family: var(--font-sans-serif)
 }
+
 /**
  * Media Queries
  * -------------------------------------------------------------------------- */
