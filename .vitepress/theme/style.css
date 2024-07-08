@@ -420,7 +420,10 @@ html .vp-doc li {
   font-size: 1rem;
   font-family: var(--font-serif);
 }
-
+html .vp-doc p, 
+html .vp-doc li {
+  line-height: 1.78;
+}
 /**
  * Media Queries
  * -------------------------------------------------------------------------- */
