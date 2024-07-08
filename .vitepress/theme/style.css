@@ -441,15 +441,28 @@ html .vp-doc {
 /**
  * Media Queries
  * -------------------------------------------------------------------------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
   .grid-container {
     grid-gap: 24px;
   }
-}
 
-@media screen and (--small-only) {
   html:root{
     font-size: var(--font-size-mobile-default);
+  }
+  html .VPHomeHero{ 
+    flex-direction: column;
+
+    &:before{
+      margin-right: 0;
+    }
+    
+    .container {
+      margin-top: 32px;
+    }
+
+    .actions, .container {
+      text-align: center;
+    }
   }
 }
 
