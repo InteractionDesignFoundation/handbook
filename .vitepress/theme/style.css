@@ -382,6 +382,14 @@ html:root {
   color: var(--neutral-07);
   text-decoration: none;
 } 
+/* Hero */
+.VPHero h1.name span {
+  -webkit-text-fill-color: unset;
+  background: unset;
+  -webkit-background-clip: unset;
+  color: var(--neutral-07);
+}
+
 /**
  * Media Queries
  * -------------------------------------------------------------------------- */
