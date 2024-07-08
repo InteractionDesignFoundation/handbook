@@ -342,6 +342,47 @@ html:root {
 }
 
 /**
+ * Default Theme Modifications
+ * -------------------------------------------------------------------------- */
+
+/* Buttons */
+.VPButton.medium.ghost,
+.VPButton.medium.brand {
+  font-family: var(--font-sans-serif);
+  box-shadow: 0 2px 8px rgb(106 106 106 / 40%);
+  border: solid 1px transparent;
+  border-radius: var(--border-radius-large);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.15;
+  min-width: 160px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955), transform 0.13s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  vertical-align: middle;
+  box-shadow: none;
+  font-weight: normal;
+  background-color: transparent;
+  border: solid 1px var(--neutral-06);
+  box-shadow: none;
+  color: var(--neutral-06);
+  min-width: unset;
+  font-size: inhert;
+}
+.VPButton.medium.brand {
+  background: var(--brand-01);
+  color: var(--neutral-01);
+}
+.VPButton.medium.brand:hover {
+  background: var(--neutral-01);
+  color: var(--brand-01);
+}
+.VPButton.medium.ghost:hover, .VPButton.medium.ghost:focus, .VPButton.medium.ghost:active {
+  color: var(--neutral-07);
+  text-decoration: none;
+} 
+/**
  * Media Queries
  * -------------------------------------------------------------------------- */
 @media screen and (max-width: 768px) {
