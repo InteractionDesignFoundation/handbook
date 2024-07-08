@@ -258,6 +258,11 @@ html .VPHomeHero{
  * -------------------------------------------------------------------------- */
 /* TODO: Remove this section after Tailwind */
 
+html {
+  font-feature-settings: 'liga', 'clig', 'pnum', 'kern';
+  font-variant-ligatures: common-ligatures;
+  text-rendering: optimizeLegibility;
+}
 
 h1,
 h2,
