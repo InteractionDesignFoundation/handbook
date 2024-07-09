@@ -1,4 +1,4 @@
-# Clean code JavaScript
+# Clean code JavaScript: IxDF Way!
 
 <!-- prettier-ignore-start -->
 
@@ -2286,7 +2286,7 @@ This is also available in other languages:
 - ![bd](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Bangladesh.png) **Bangla(বাংলা)**: [InsomniacSabbir/clean-code-javascript/](https://github.com/InsomniacSabbir/clean-code-javascript/)
 - ![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png) **Brazilian Portuguese**: [fesnt/clean-code-javascript](https://github.com/fesnt/clean-code-javascript)
 - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Simplified Chinese**:
-  - [alivebao/clean-code-js](https://github.com/alivebao/clean-code-js)
+  - [alivebao/IxDF-JS-clean-code](https://github.com/alivebao/IxDF-JS-clean-code)
   - [beginor/clean-code-javascript](https://github.com/beginor/clean-code-javascript)
 - ![tw](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Taiwan.png) **Traditional Chinese**: [AllJointTW/clean-code-javascript](https://github.com/AllJointTW/clean-code-javascript)
 - ![fr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/France.png) **French**: [GavBaros/clean-code-javascript-fr](https://github.com/GavBaros/clean-code-javascript-fr)

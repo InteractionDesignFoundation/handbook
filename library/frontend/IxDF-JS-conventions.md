@@ -1,7 +1,7 @@
 # IxDF's JavaScript Conventions
 
 This document extends
-[Clean code principles for JavaScript](clean-code-js.md).
+[Clean code principles for JavaScript](IxDF-JS-clean-code.md).
 
 [[toc]]
 

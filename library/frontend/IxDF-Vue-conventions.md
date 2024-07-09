@@ -1,4 +1,4 @@
-# Vue.js conventions
+# IxDF's Vue.js conventions
 
 These conventions are based on the official [Vue.js style guide](https://vuejs.org/style-guide/). Where a choice is given
 between various options, this document will explicitly state which one to pick within the IxDF codebases.

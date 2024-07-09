@@ -3,10 +3,10 @@
 ## Table of Contents
 
 -   [IxDF conventions for JavaScript](IxDF-JS-conventions.md)
--   [IxDF conventions for JSDoc](conventions--jsdoc.md)
--   [IxDF conventions for Vue](conventions--vue.md)
--   [IxDF conventions for CSS](conventions--css.md)
--   [Clean Code Principles for JavaScript](clean-code-js.md)
+-   [IxDF conventions for JSDoc](IxDF-JSDoc-conventions.md)
+-   [IxDF conventions for Vue](IxDF-Vue-conventions.md)
+-   [IxDF conventions for CSS](IxDF-CSS-conventions.md)
+-   [Clean Code Principles for JavaScript](IxDF-JS-clean-code.md)
 -   [Literature](literature.md)
 
 🦄

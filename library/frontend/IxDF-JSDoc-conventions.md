@@ -1,4 +1,4 @@
-# JSDoc
+# IxDF's JSDoc Conventions
 
 For JavaScript code documentation, we use [JSDoc blocks](http://usejsdoc.org/).
 There are a few type declarations standards in the JS ecosystem, namely:
