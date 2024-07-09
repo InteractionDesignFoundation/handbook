@@ -28,7 +28,7 @@ const config = defineConfig({
             {text: 'IxDF Handbook', link: '/'},
             {text: "🔐 Development Docs", link: "https://docs.information-architecture.org"},
             {text: 'UI Kit', link: 'https://ui-kit.interaction-design.org/'},
-            {text: 'IxDF Courses', link: 'https://www.interaction-design.org/'},
+            {text: 'We\'re hiring!', link: 'https://www.interaction-design.org/about/careers'},
         ],
 
         // see https://github.com/jooy2/vitepress-sidebar
