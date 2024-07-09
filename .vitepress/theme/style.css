@@ -496,6 +496,7 @@ html .vp-doc [class*='language-'] > span.lang {
 
     .actions, .container {
       text-align: center;
+      justify-content: center
     }
 
     .name, .tagline {
