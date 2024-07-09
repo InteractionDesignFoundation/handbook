@@ -18,7 +18,7 @@ hero:
 ---
 
 <section class="container" style="max-width: 1152px; margin: 0 auto">
-    <h2 class="h2">IxDF Zen Code</h2>
+    <h2 class="h2 !m-0">IxDF Zen Code</h2>
     <div class="grid-container ixdf-zen-code">
         <div class="grid-item">
             <h3 class="h3">Development</h3>
