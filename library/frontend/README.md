@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
--   [IxDF conventions for JavaScript](conventions--js.md)
+-   [IxDF conventions for JavaScript](IxDF-JS-conventions.md)
 -   [IxDF conventions for JSDoc](conventions--jsdoc.md)
 -   [IxDF conventions for Vue](conventions--vue.md)
 -   [IxDF conventions for CSS](conventions--css.md)
