@@ -112,6 +112,14 @@ html:root {
   /* vp-defaut theme over-rides */
   --vp-c-brand-1: var(--brand-02);
   --vp-c-brand-2: rgb(86 154 203);
+
+  /* Overwrite tool tip styles */
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: inhrit;
+  --vp-custom-block-tip-bg: var(--neutral-02);
+
+  /* Code block overwrites */
+  --vp-code-block-bg: var(--neutral-02);
 }
 
 /**
