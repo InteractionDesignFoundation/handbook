@@ -1,4 +1,4 @@
-# SQL conventions
+# IxDF's SQL conventions
 
 [[toc]]
 

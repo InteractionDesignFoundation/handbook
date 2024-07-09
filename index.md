@@ -69,8 +69,8 @@ hero:
 <section class="container">
 <h2 class="h2">Quick links: Coding conventions</h2>
             <ul class="ul list-disc">
-                <li><a href="/library/backend/conventions--php.html">PHP</a> and <a href="/library/backend/conventions--laravel.html">Laravel</a></li>
-                <li><a href="/library/backend/conventions--sql.html">SQL</a></li>
+                <li><a href="/library/backend/IxDF-PHP-conventions.html">PHP</a> and <a href="/library/backend/IxDF-Laravel-conventions.html">Laravel</a></li>
+                <li><a href="/library/backend/IxDF-SQL-conventions.html">SQL</a></li>
                 <li><a href="/library/frontend/IxDF-JS-conventions.html">JS</a> and <a href="/library/frontend/IxDF-JSDoc-conventions.html">JSDoc</a></li>
                 <li><a href="/library/frontend/IxDF-CSS-conventions.html">CSS</a></li>
             </ul>

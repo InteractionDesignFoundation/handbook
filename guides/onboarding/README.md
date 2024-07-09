@@ -36,8 +36,8 @@ We don't expect you to spend too much time and feel pressured, however you can:
 1.  Never stop learning 📖. Go through our library and create a plan to acquire
     every bit of knowledge there. Once you have a plan, please discuss it with
     your mentor. (Are you full-stack? Then please open both links☀):
-    -   Literature/subscriptions [for back-end developers](../../library/backend/literature.md)
-    -   Literature/subscriptions [for front-end developers](../../library/frontend/literature.md)
+    -   Literature/subscriptions [for back-end developers](../../library/backend/IxDF-BE-literature.md)
+    -   Literature/subscriptions [for front-end developers](../../library/frontend/IxDF-FE-literature.md)
 1.  If you have any issues accessing the platform, company culture course
     or our collaboration tools, please ping the Member Experience team (`@member-experience-team`)
     via Slack (#onboarding-buddy-chat), so they can assist you. By this point,
