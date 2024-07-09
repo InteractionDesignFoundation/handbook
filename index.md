@@ -22,7 +22,7 @@ hero:
     <div class="grid-container ixdf-zen-code">
         <div class="grid-item">
             <h3 class="h3">Development</h3>
-            <ul class="zen-section">
+            <ul class="zen-section text-left md:text-justify">
                 <li>We care deeply about "long-term code quality".</li>
                 <li>We do it "incrementally"; first do it, then do it right, then do it better.</li>
                 <li>We follow the boy scout principle; "Always leave the campground cleaner than you found it.".</li>
