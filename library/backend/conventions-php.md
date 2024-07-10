@@ -372,7 +372,7 @@ There is a great guide [Testing tips by Kamil Ruczyński](https://github.com/sar
 
 ## Security
 
-See [Security](./IxDF-Laravel-conventions.md#security) section from Laravel conventions.
+See [Security](./conventions-laravel.md#security) section from Laravel conventions.
 
 ## Dependency Management
 

@@ -86,7 +86,7 @@ Every back-end developer should
 
 ## References
 
-1.  [Clean Code concepts adapted for PHP](IxDF-PHP-clean-code.md)
+1.  [Clean Code concepts adapted for PHP](clean-code-php.md)
 1.  [🔒 IxDF’s back-end conventions](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/code/backend/conventions.md)
 
 ## Subscriptions

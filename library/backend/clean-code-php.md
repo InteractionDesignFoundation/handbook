@@ -2283,7 +2283,7 @@ function showList(array $employees): void
 
 ## Meta
 
-This document originally belongs to https://github.com/jupeter/IxDF-PHP-clean-code
+This document originally belongs to https://github.com/jupeter/clean-code-php
 
 
 ## Translations
@@ -2291,24 +2291,24 @@ This document originally belongs to https://github.com/jupeter/IxDF-PHP-clean-co
 This is also available in other languages:
 
 -   :cn: **Chinese:**
-    - [php-cpm/IxDF-PHP-clean-code](https://github.com/php-cpm/IxDF-PHP-clean-code)
+    - [php-cpm/clean-code-php](https://github.com/php-cpm/clean-code-php)
 -   :ru: **Russian:**
-    - [peter-gribanov/IxDF-PHP-clean-code](https://github.com/peter-gribanov/IxDF-PHP-clean-code)
+    - [peter-gribanov/clean-code-php](https://github.com/peter-gribanov/clean-code-php)
 -   :es: **Spanish:**
-    - [fikoborquez/IxDF-PHP-clean-code](https://github.com/fikoborquez/IxDF-PHP-clean-code)
+    - [fikoborquez/clean-code-php](https://github.com/fikoborquez/clean-code-php)
 -   :brazil: **Portuguese:**
-    - [fabioars/IxDF-PHP-clean-code](https://github.com/fabioars/IxDF-PHP-clean-code)
-    - [jeanjar/IxDF-PHP-clean-code](https://github.com/jeanjar/IxDF-PHP-clean-code/tree/pt-br)
+    - [fabioars/clean-code-php](https://github.com/fabioars/clean-code-php)
+    - [jeanjar/clean-code-php](https://github.com/jeanjar/clean-code-php/tree/pt-br)
 -   :thailand: **Thai:**
-    - [panuwizzle/IxDF-PHP-clean-code](https://github.com/panuwizzle/IxDF-PHP-clean-code)
+    - [panuwizzle/clean-code-php](https://github.com/panuwizzle/clean-code-php)
 -   :fr: **French:**
-    - [errorname/IxDF-PHP-clean-code](https://github.com/errorname/IxDF-PHP-clean-code)
+    - [errorname/clean-code-php](https://github.com/errorname/clean-code-php)
 -   :vietnam: **Vietnamese**
-    - [viethuongdev/IxDF-PHP-clean-code](https://github.com/viethuongdev/IxDF-PHP-clean-code)
+    - [viethuongdev/clean-code-php](https://github.com/viethuongdev/clean-code-php)
 -   :kr: **Korean:**
-    - [yujineeee/IxDF-PHP-clean-code](https://github.com/yujineeee/IxDF-PHP-clean-code)
+    - [yujineeee/clean-code-php](https://github.com/yujineeee/clean-code-php)
 -   :tr: **Turkish:**
-    - [anilozmen/IxDF-PHP-clean-code](https://github.com/anilozmen/IxDF-PHP-clean-code)
+    - [anilozmen/clean-code-php](https://github.com/anilozmen/clean-code-php)
 
 **[⬆ back to top](#table-of-contents)**
 
