@@ -45,25 +45,26 @@ You can find all books, articles and videos on the shared folder `IxDF - Shared 
 Subscriptions are a great way to keep up with the latest news and trends in the industry. Here are some of the best ones:
 
 Newsletters:
+
 1.  [PHP Annotated Monthly](https://blog.jetbrains.com/phpstorm/tag/php-annotated-monthly/) digests by JetBrains
 1.  [Laravel news weekly newsletter](https://laravel-news.com/newsletter)
 
 YouTube:
+
 1.  [Laracon EU](https://www.youtube.com/channel/UCb9XEo_1SDNR8Ucpbktrg5A) annual Laravel conference videos on YouTube.
 1.  [PHP UK Conference](https://www.youtube.com/@phpukconference/videos)
 1.  [PHP Annotated](https://www.youtube.com/@phpannotated/videos) by JetBrains
 
 Blogs:
+
 1.  Freek’s (from Spatie) blog on Laravel & PHP: [freek.dev](https://freek.dev)
 1.  Brent’s Roose blog on Laravel & PHP: [stitcher.io](https://stitcher.io/blog)
 1.  [Tim MacDonald blog](https://tim.macdonald.au/)
 1.  [Jonathan Reinink blog](https://reinink.ca/articles)
 
-
 ## References
 
 1.  [Clean Code concepts adapted for PHP](clean-code-php.md)
 1.  [IxDF’s back-end conventions](README.md)
-
 
 🦄
