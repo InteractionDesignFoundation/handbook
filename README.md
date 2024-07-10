@@ -18,12 +18,12 @@ To achieve this, we want everyone to understand what is expected of them, the th
         -   [Support engineer](/guides/roles/support-engineer.md)
 -   Library
     -   [Back end](/library/backend/README.md)
-        -   [PHP conventions](/library/backend/conventions--php.md)
-        -   [Laravel conventions](/library/backend/conventions--laravel.md)
+        -   [PHP conventions](/library/backend/IxDF-PHP-conventions.md)
+        -   [Laravel conventions](/library/backend/IxDF-Laravel-conventions.md)
     -   [Front end](/library/frontend/README.md)
         -   [JS conventions](/library/frontend/conventions--js.md)
-        -   [JSDoc conventions](/library/frontend/conventions--jsdoc.md)
-        -   [Vue conventions](/library/frontend/conventions--vue.md)
-        -   [CSS conventions](/library/frontend/conventions--css.md)
+        -   [JSDoc conventions](/library/frontend/IxDF-JS-conventions.md)
+        -   [Vue conventions](/library/frontend/IxDF-Vue-conventions.md)
+        -   [CSS conventions](/library/frontend/IxDF-CSS-conventions.md)
 
 🦄

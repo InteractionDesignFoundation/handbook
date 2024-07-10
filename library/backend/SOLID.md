@@ -1,4 +1,4 @@
-# SOLID Principles and PHP
+# IxDF's SOLID Principles for PHP
 
 Five agile principles that should guide you every time you write code.
 And I’ll show you how to apply them with PHP.

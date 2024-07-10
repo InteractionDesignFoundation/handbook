@@ -1,4 +1,4 @@
-# Literature for front-end developer
+# IxDF's literature for front-end developers
 
 > You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.
 >
@@ -55,7 +55,7 @@ Every frontend developer should
 
 ### Foundations
 
-1.  Classic programming skills: [Clean Code: JavaScript](clean-code-js.md):
+1.  Classic programming skills: [Clean Code: JavaScript](IxDF-JS-clean-code.md):
     Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript.
 1.  [Eloquent JavaScript](https://eloquentjavascript.net/) (free ebook) or use pdf version from shared library.
 1.  [`Martin Fowler - Refactoring - Improving the Design of Existing Code, 2nd edition`](https://martinfowler.com/books/refactoring.html) (book) or use pdf version from shared library.

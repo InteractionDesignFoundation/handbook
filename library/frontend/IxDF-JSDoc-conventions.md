@@ -1,4 +1,4 @@
-# JSDoc
+# IxDF's JSDoc Conventions
 
 For JavaScript code documentation, we use [JSDoc blocks](http://usejsdoc.org/).
 There are a few type declarations standards in the JS ecosystem, namely:
@@ -17,7 +17,7 @@ This document is created to avoid confusion and increase consistency.
 
 ## JSDoc vs. PHPDoc
 
-Comparing with [PHPDoc](./../backend/conventions--php.md#docblocks), there are some differences:
+Comparing with [PHPDoc](./../backend/IxDF-PHP-conventions.md#docblocks), there are some differences:
 
 1.  JSDoc uses`@returns` instead of `@return`;
 2.  Curly brackets are used as wrappers for variable types, e.g., `{Object}`, `{Array<string>}`.

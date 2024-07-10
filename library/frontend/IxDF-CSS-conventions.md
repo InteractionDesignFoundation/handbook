@@ -1,4 +1,4 @@
-# CSS conventions
+# IxDF's CSS conventions
 
 [[toc]]
 
