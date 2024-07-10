@@ -21,7 +21,7 @@ To achieve this, we want everyone to understand what is expected of them, the th
         -   [PHP conventions](/library/backend/IxDF-PHP-conventions.md)
         -   [Laravel conventions](/library/backend/IxDF-Laravel-conventions.md)
     -   [Front end](/library/frontend/README.md)
-        -   [JS conventions](/library/frontend/conventions--js.md)
+        -   [JS conventions](/library/frontend/IxDF-JS-conventions.md.md)
         -   [JSDoc conventions](/library/frontend/IxDF-JS-conventions.md)
         -   [Vue conventions](/library/frontend/IxDF-Vue-conventions.md)
         -   [CSS conventions](/library/frontend/IxDF-CSS-conventions.md)
