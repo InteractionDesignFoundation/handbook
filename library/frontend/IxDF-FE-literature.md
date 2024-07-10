@@ -1,4 +1,4 @@
-# IxDF's literature for front-end developer
+# IxDF's literature for front-end developers
 
 > You are reading this [...] for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.
 >
