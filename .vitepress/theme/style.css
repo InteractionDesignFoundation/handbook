@@ -246,15 +246,22 @@ html:before {
   content: '';
   position: fixed;
   z-index: -1;
-  height: 80%;
-  width: 80%;
-  left: 10%;
-  top: 10%;
+  height: 55%;
+  width: 55%;
+  max-width: 600px;
+  max-height: 600px;
+  min-width: 150px;
+  min-height: 150px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
   background-image: url('https://assets.interaction-design.org/img/ixdf-brand/ixdf-logo.svg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  opacity: 0.045
+  opacity: 0.035
 }
 
 @media (max-width: 600px) {
