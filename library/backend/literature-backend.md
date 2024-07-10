@@ -59,7 +59,7 @@ Blogs:
 
 1.  Freek’s (from Spatie) blog on Laravel & PHP: [freek.dev](https://freek.dev)
 1.  Brent’s Roose blog on Laravel & PHP: [stitcher.io](https://stitcher.io/blog)
-1.  Tim MacDonald blog: [tim.macdonald.au](https://tim.macdonald.au/)
+1.  Tim MacDonald blog: [timacdonald.me](https://timacdonald.me/)
 
 ## References
 
