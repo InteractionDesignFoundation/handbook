@@ -2,7 +2,7 @@
 
 :::tip More you can find in internal documentation
 This is only a basic version of the documentation.
-[Full documentation](https://docs.information-architecture.org/workflows/support-engineer.md) contains some content that we don’t want to open-source for security reasons.
+[Full documentation](https://docs.information-architecture.org/workflows/roles/support-engineer.html) contains some content that we don’t want to open-source for security reasons.
 :::
 
 [[toc]]
