@@ -17,7 +17,7 @@ You can check all our custom rules at the [.eslintrc.js](https://github.com/Inte
 
 ## Docblocks
 
-[Use JSDoc](conventions-js.md) together with type definitions files.
+[Use JSDoc](conventions--js) together with type definitions files.
 It will help both your IDE and developers to check types.
 This provides main benefits from TypeScript, but without translation cost and improved readability.
 
