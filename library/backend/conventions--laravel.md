@@ -68,7 +68,7 @@ Such communication possible using:
 Don’t use Facade root aliases (comment out `Facade::defaultAliases()->merge([...])`): it’s extra magic that’s easy to avoid.
 Exceptions:
 
--   `\Vite` alias for `\Illuminate\Support\Facades\Vite` (why: there are no helper alternatives for `Vite::asset()` that is commonly used in Blade views)
+-   `\Vite` alias for `\Illuminate\Support\Facades\Vite` (why: there are no short alternatives for `Vite::asset()` that is commonly used in Blade views)
 
 ## Eloquent and Database
 
