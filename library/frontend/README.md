@@ -8,5 +8,6 @@
 -   [IxDF conventions for CSS](conventions--css)
 -   [Clean Code Principles for JavaScript](clean-code-js.md)
 -   [Literature](conventions--css)
+-   [#UseThePlatform](use-the-platform.md)
 
 🦄
