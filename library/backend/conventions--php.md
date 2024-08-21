@@ -33,7 +33,7 @@ IxDF uses automated tools to check our code on CI:
 -   [PHPStan](https://phpstan.org/user-guide/getting-started) (`level: 8`)
 -   [Rector](https://github.com/rectorphp/rector)
 -   [Deptrac](https://qossmic.github.io/deptrac/) (multiple configurations for modules and entire application)
--   [composer-dependency-analyser](https://github.com/shipmonk/composer-dependency-analyser) (checks for unused and shadow dependencies)
+-   [composer-dependency-analyser](https://github.com/shipmonk-rnd/composer-dependency-analyser) (checks for unused and shadow dependencies)
 -   and more...
 
 ## Types
