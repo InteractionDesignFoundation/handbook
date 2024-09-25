@@ -273,7 +273,7 @@ The idea behind it is to send email with console command outputs only when outpu
 ### Exit with proper code
 
 Use non-zero exit codes if a command execution failed
-(alternatively, throw an exception — the script with also exit with code 1).
+(alternatively, throw an exception — the script will also exit with code 1).
 This allows using global on-error handlers, e.g. for automated reporting about failed console commands, please see
 `\Illuminate\Console\Scheduling\Event::emailOutputOnFailure` as an example.
 
