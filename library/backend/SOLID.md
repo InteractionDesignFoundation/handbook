@@ -54,7 +54,7 @@ interface ReportFormatter
 
 class HtmlReportFormatter implements ReportFormatter
 {
-    public function format()
+    public function format(Report $report)
     {
         $output = '';
         // ...
