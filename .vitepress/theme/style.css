@@ -234,7 +234,7 @@ html .VPHomeHero{
       height: 200px;
       width: 200px;
       content: '';
-      background-image: url('https://assets.interaction-design.org/img/ixdf-brand/ixdf-logo.svg');
+      background-image: url('https://public-assets.interaction-design.org/ixdf-brand/ixdf-logo.svg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -257,7 +257,7 @@ html:before {
   left: 0;
   top: 0;
   margin: auto;
-  background-image: url('https://assets.interaction-design.org/img/ixdf-brand/ixdf-logo.svg');
+  background-image: url('https://public-assets.interaction-design.org/ixdf-brand/ixdf-logo.svg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -442,7 +442,7 @@ html .vp-doc blockquote > p {
 .VPButton.medium.ghost:hover, .VPButton.medium.ghost:focus, .VPButton.medium.ghost:active {
   color: var(--neutral-07);
   text-decoration: none;
-} 
+}
 /* Header */
 .VPNavBarMenu .VPNavBarMenuLink{
   border-bottom: 2px solid transparent;
@@ -500,7 +500,7 @@ html .vp-doc {
     font-size: 1rem;
     font-family: var(--font-serif);
   }
-  p, 
+  p,
   li {
     line-height: 1.78;
   }
@@ -522,13 +522,13 @@ html .vp-doc [class*='language-'] > span.lang {
   html:root{
     font-size: var(--font-size-mobile-default);
   }
-  html .VPHomeHero{ 
+  html .VPHomeHero{
     flex-direction: column;
 
     &:before{
       margin-right: 0;
     }
-    
+
     .container {
       margin-top: 32px;
     }

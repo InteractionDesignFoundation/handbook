@@ -23,7 +23,7 @@ const config = defineConfig({
         search: {
             provider: 'local',
         },
-        logo: '/assets/images/ixdf-logo.svg',
+        logo: 'https://public-assets.interaction-design.org/ixdf-brand/ixdf-logo.svg',
         nav: [
             {text: 'IxDF Handbook', link: '/'},
             {text: "🔐 Development Docs", link: "https://docs.information-architecture.org"},
