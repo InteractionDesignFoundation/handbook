@@ -1,4 +1,10 @@
-<p align="center"><img src="https://public-media.interaction-design.org/images/idf-logo-full-expanded.svg" alt="In amazing things we trust" width="400"></p>
+<p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://public-assets.interaction-design.org/ixdf-brand/ixdf-logo-full-expanded--white.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://public-assets.interaction-design.org/ixdf-brand/ixdf-logo-full-expanded.svg">
+        <img alt="In amazing things we trust" width="400" src="https://public-assets.interaction-design.org/ixdf-brand/ixdf-logo-full-expanded.svg">
+    </picture>
+</p>
 
 # IxDF Dev Handbook
 
