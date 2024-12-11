@@ -234,7 +234,7 @@ html .VPHomeHero{
       height: 200px;
       width: 200px;
       content: '';
-      background-image: url('https://public-assets.interaction-design.org/ixdf-brand/ixdf-logo.svg');
+      background-image: url('https://public-images.interaction-design.org/ixdf-brand/ixdf-logo.svg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -257,7 +257,7 @@ html:before {
   left: 0;
   top: 0;
   margin: auto;
-  background-image: url('https://public-assets.interaction-design.org/ixdf-brand/ixdf-logo.svg');
+  background-image: url('https://public-images.interaction-design.org/ixdf-brand/ixdf-logo.svg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
