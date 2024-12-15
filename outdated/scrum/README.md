@@ -98,7 +98,7 @@ customer feedback and embracing change.
 
 -   **[What is Scrum?](https://www.scrum.org/resources/what-is-scrum)**: A short overview of what Scrum is
 -   **[Scrum Glossary](https://www.scrum.org/resources/scrum-glossary)**: A short Scrum glossary with the most essential terms
--   **[Scrum Values](https://kissflow.com/project/agile/how-to-apply-5-scrum-values/)**: Pracical examples of applying Scrum Values
+-   **[Scrum Values](https://kissflow.com/project/agile/how-to-apply-5-scrum-values/)**: Practical examples of applying Scrum Values
 
 ## More external resources
 

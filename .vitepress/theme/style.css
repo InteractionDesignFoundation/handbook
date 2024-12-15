@@ -109,7 +109,7 @@
 html:root {
   --vp-nav-height: 58px;
 
-  /* vp-defaut theme over-rides */
+  /* vp-default theme overrides */
   --vp-c-brand-1: var(--brand-02);
   --vp-c-brand-2: rgb(86 154 203);
 

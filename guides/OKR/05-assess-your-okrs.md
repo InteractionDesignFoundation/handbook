@@ -8,7 +8,7 @@ By the end of the quarter, you and your Team give each Key Result a final score,
 -   Were our OKRs aligned with the IxDF’s broader strategies?
 -   Did they keep us focused on delivering value to customers?
 -   Did we feel connected to our OKRs?
--   What have we learnt from this quarter? How do we lift the bar moving into the coming quarter?
+-   What have we learned from this quarter? How do we lift the bar moving into the coming quarter?
 
 ## Hold the Quarterly Meeting
 

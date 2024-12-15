@@ -4,7 +4,7 @@
 -   Search for issues with the label `urgency:X` (where X is a number from 8 to 10) assigned to you (for developers, this would usually be critical bugs). You should include them into your next sprint - or do them right now if you have an empty backlog.
 -   After that, choose all unfinished "important"(1) issues from the previous sprint that you've not managed to finish. They should be carried over to the next sprint.
 -   Next pick "important"(1) issues selected by ProductOwner as goals for next sprint.
--   Finally, choose any other issues that will fill up your backlog so you have enough to do for the following sprint. Remember to pick these issues on what will get us most effectively/effeciently towards our short/mid/long-term goals and our vision.
+-   Finally, choose any other issues that will fill up your backlog so you have enough to do for the following sprint. Remember to pick these issues on what will get us most effectively/efficiently towards our short/mid/long-term goals and our vision.
 -   Don’t forget to include all critical issues and other urgent priority issues (if any) to the upcoming sprint.
 
 When you do the Sprint Planning, ahead of the Sprint Planning Meeting, then make sure to add `next sprint` label for all issues you are going to add to your backlog: it will help us to:
