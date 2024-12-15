@@ -752,7 +752,7 @@ PUT /api/users/1,id,name,444|regex:%23(.*a){100}%23
 
 ```json
 {
-    "username": "aaaaa.....ALOT_OF_REPETED_As_aaaaaaaaaa"
+    "username": "aaaaa.....ALOT_OF_REPEATED_As_aaaaaaaaaa"
 }
 ```
 

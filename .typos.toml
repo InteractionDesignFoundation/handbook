@@ -1,0 +1,12 @@
+[files]
+extend-exclude = [
+    ".git/",
+]
+ignore-hidden = false
+
+[default.extend-words]
+invokable = "invokable"
+
+[default.extend-identifiers]
+# Typos
+"Github" = "GitHub"

@@ -62,7 +62,7 @@ everything the team does. It shows how far along they are in the sprint, as well
 
 **Issues** are tasks, design requests, new features or bugs that will be addressed in each milestone.
 
-#### Github Issue Types
+#### GitHub Issue Types
 
 -   Design Request: Design a landing page.
 -   Bug Report: Fix broken cta button.
@@ -90,7 +90,7 @@ level of priority (e.g. low, medium, high).
 
 **GitHub** as a way to manage execution of tasks (how, when, what).
 
--   Leverage Github to track progress of tasks.
+-   Leverage GitHub to track progress of tasks.
 
 ### AirTable
 
@@ -105,7 +105,7 @@ level of priority (e.g. low, medium, high).
 
 ### Slack
 
-**Slack** for communication and updates. MIRO MIRO for collaboration and ideation sessions.
+**Slack** for communication and updates. MIRO for collaboration and ideation sessions.
 
 ## Delivery Criteria
 
@@ -151,9 +151,9 @@ our [Design Principles](/outdated/design-products/design-principles.md)**?
     -   Adoption (e.g., x number of users by 21Q4)
     -   Dates (e.g., launch feature by 21Q3)
 
-### Delivery: Github
+### Delivery: GitHub
 
--   Create related Github epic with associated issues.
+-   Create related GitHub epic with associated issues.
     -   Team members assigned, requirements explained, added to milestone (See Sprint Planning Process).
     -   Insert design and/or dev issue template link here.
 

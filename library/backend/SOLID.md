@@ -218,7 +218,7 @@ function areaOfRectangle() {
 }
 ```
 
-Remember what we said: “we must make sure that Square classes are extending the Rectangle without changing their behaviour”. But, as you can see, 21 is not equal to 9.
+Remember what we said: “we must make sure that Square classes are extending the Rectangle without changing their behavior”. But, as you can see, 21 is not equal to 9.
 
 The solution would be to manage the class inheritance hierarchies correctly, for example by introducing the interface `Quadrilateral`.
 
