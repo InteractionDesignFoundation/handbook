@@ -23,16 +23,17 @@ hero:
         <div class="grid-item">
             <h3 class="h3">Development</h3>
             <ul class="zen-section text-left">
-                <li>We care deeply about "long-term code quality".</li>
-                <li>We do it "incrementally"; first do it, then do it right, then do it better.</li>
-                <li>We follow the boy scout principle; "Always leave the campground cleaner than you found it.".</li>
-                <li>We believe in the broken window theory; that's why we fix anything that's broken, as soon as we see it.</li>
-                <li>We use a "language of commitment": Say "yes" only if we (can/will) do it.</li>
-                <li>We tell others about potential problems as soon as possible.</li>
-                <li>We favor "explicit", "simple", "automated", "tested", and "flat".</li>
-                <li>We have "one" <i>(and preferably "only one")</i> way of doing things.</li>
-                <li>We make it "easy" to do "follow" our conventions and "difficult" otherwise.</li>
-                <li>We code in a way that doesn't require documentation or explanation.</li>
+                   <li>Explicit is better than implicit.</li>
+                  <li>Delegate work to tool when possible.</li>
+                  <li>Simple is better than complex.</li>
+                  <li>Complex is better than complicated.</li>
+                  <li>Flat is better than nested.</li>
+                  <li>Errors should never pass silently.</li>
+                  <li>There should be one (and preferably only one) obvious way to do it.</li>
+                  <li>It should be easy to do run popular actions.</li>
+                  <li>Bad stuff should be difficult to do.</li>
+                  <li>If the implementation is hard to explain, it's a bad idea.</li>
+                  <li>If the implementation is easy to explain, it may be a good idea.</li>
             </ul>
             <h3 class="h3">Team</h3>
             <ul class="zen-section">
@@ -50,7 +51,6 @@ hero:
                 <li>We are action-oriented and strong believers in the maxim "ideas are worthless without execution."</li>
                 <li>We have enormous degrees of freedom because we are able to live up to that responsibility.</li>
                 <li>We finish what we have started; we don't feel good until we've carved a unicorn out of the monster.</li>
-                <li>We are "subversives" to a certain point-we understand small acts of defiance can lead to better outcomes.</li>
                 <li>We know that even small tasks can give us emotional rewards when we know why we are doing them.</li>
                 <li>We set audacious but achievable goals by breaking them into small and concrete plans.</li>
                 <li>We welcome critique; we use our mistakes in a constructive way to become stronger.</li>
