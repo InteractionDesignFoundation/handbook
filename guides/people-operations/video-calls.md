@@ -6,7 +6,7 @@ it’s important for us to practice clear communication that helps us stay conne
 For this, we use asynchronous communication as a start and are as open as we can be by communicating
 through issues tracker (GitHub), Slack channels, and placing an emphasis on ensuring that conclusions
 of offline conversations are written down.
-When we go **back and forth three times** we jump on a synchronous video call.
+When we go **back and forth three times**, we jump on a synchronous video call.
 These communication guidelines are meant to facilitate smooth communication in an ever-growing, all-remote company.
 
 1.  We start on time and do not wait for people. People are expected to join no later than the scheduled minute of the meeting (before :01 if it is scheduled for :00). The question 'is everyone here' is not needed.
