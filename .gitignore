@@ -1,3 +1,5 @@
 # ignore temporary files
 .DS_Store
 /node_modules
+
+.lycheecache

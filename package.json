@@ -11,7 +11,9 @@
         "docs:build": "vitepress build",
         "docs:dev": "vitepress dev",
         "docs:preview": "vitepress preview",
-        "docs:fix": "prettier \"**/*.md\" --write"
+        "docs:fix": "prettier \"**/*.md\" --write",
+        "links:check": "lychee --root-dir \"$PWD\" --cache --max-cache-age 1d './**/*.md'",
+        "links:check:offline": "lychee --offline --root-dir \"$PWD\" './**/*.md'"
     },
     "engines": {
         "node": ">=20.0"

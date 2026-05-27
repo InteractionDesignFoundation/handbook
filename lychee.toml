@@ -1,0 +1,30 @@
+cache = true
+max_cache_age = "1d"
+no_progress = true
+max_redirects = 10
+max_retries = 2
+retry_wait_time = 2
+timeout = 20
+
+accept = [200, 206, 401, 403, 429]
+
+include_verbatim = false
+exclude_path = [
+    "node_modules",
+    ".vitepress/cache",
+    ".vitepress/dist",
+]
+
+exclude = [
+    "^https?://(www\\.)?lastpass\\.com",
+    "^https?://app\\.asana\\.com",
+    "^https?://gtmetrix\\.com",
+    "^https?://www\\.ssllabs\\.com",
+    "^https?://safari-extensions\\.apple\\.com",
+    "^https?://account\\.jetbrains\\.com",
+    "^https?://dev\\.mysql\\.com",
+    "^https?://github\\.com/InteractionDesignFoundation/IxDF-web",
+    "^https?://docs\\.information-architecture\\.org",
+    "^https?://develop\\.information-architecture\\.org",
+    "^https?://[^/]+\\.szepe\\.net",
+]
