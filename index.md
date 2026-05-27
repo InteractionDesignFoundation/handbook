@@ -70,9 +70,9 @@ hero:
 
 ## Quick links: Coding conventions
 
-- [PHP](/library/backend/conventions--php.md) and [Laravel](/library/backend/conventions--laravel.md)
-- [SQL](/library/backend/conventions--sql.md)
-- [JS](/library/frontend/conventions--js.md) and [JSDoc](/library/frontend/conventions--jsdoc.md)
-- [CSS](/library/frontend/conventions--css.md)
+-   [PHP](/library/backend/conventions--php.md) and [Laravel](/library/backend/conventions--laravel.md)
+-   [SQL](/library/backend/conventions--sql.md)
+-   [JS](/library/frontend/conventions--js.md) and [JSDoc](/library/frontend/conventions--jsdoc.md)
+-   [CSS](/library/frontend/conventions--css.md)
 
 </section>
