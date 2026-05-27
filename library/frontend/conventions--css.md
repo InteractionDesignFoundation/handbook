@@ -19,7 +19,7 @@ We use [ITCSS](http://www.creativebloq.com/web-design/manage-large-css-projects-
 
 -   [ITCSS architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 -   [ITCSS: Harry Roberts - Managing CSS Projects with ITCSS (video)](https://youtu.be/1OKZOV-iLj4?t=404)
--   [BEM quick-start](https://en.bem.info/methodology/quick-start)
+-   [BEM quick-start](https://getbem.com/introduction/)
 -   [Battling BEM CSS: 10 Common Problems And How To Avoid Them](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/)
 
 Additionally, we prefer to use camelCase, as follows:

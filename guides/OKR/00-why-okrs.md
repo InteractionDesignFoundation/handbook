@@ -2,7 +2,7 @@
 
 ## WHAT are Objectives And Key Results (OKRs)?
 
-The OKR method is a popular strategy for setting and achieving goals within organizations. Like most organizations, we use [Cascading OKRs](./02-cascading-okrs), that allows us to align our vision, mission, values and strategy with day-to-day objectives, work and key results.
+The OKR method is a popular strategy for setting and achieving goals within organizations. Like most organizations, we use [Cascading OKRs](./02-cascading-okrs.md), that allows us to align our vision, mission, values and strategy with day-to-day objectives, work and key results.
 
 ![Diagram of OKR alignment](../../images/5-alignment.svg)
 
@@ -31,5 +31,5 @@ Note that in these examples the KPI's and tasks are combined. For example, in Ex
 
 ![](../../images/19-okr-pillars.svg)
 
-If you are still wondering, here are some more [benefits of OKRs](./00-benefits-of-okrs).
-Otherwise, if you are ready to start using OKRs at the IxDF, let's start with [our OKR cadence](./01-okr-cadence).
+If you are still wondering, here are some more [benefits of OKRs](./00-benefits-of-okrs.md).
+Otherwise, if you are ready to start using OKRs at the IxDF, let's start with [our OKR cadence](./01-okr-cadence.md).

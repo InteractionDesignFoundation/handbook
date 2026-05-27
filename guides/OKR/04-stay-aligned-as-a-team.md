@@ -8,7 +8,7 @@ Each Sprint begins with a planning meeting.
 
 ![](../../images/35-sprint-planning-prep.svg)
 
-_Note: We use Agile/Scrum in all our teams. It’s really just a fancy word for something simple so don’t be scared about the terminology or think you need to read books about it. There is some background information on how the Dev Team uses Scrum [here](https://handbook.interaction-design.org/development/guides/scrum/)._
+_Note: We use Agile/Scrum in all our teams. It’s really just a fancy word for something simple so don’t be scared about the terminology or think you need to read books about it. There is some background information on how the Dev Team uses Scrum [here](../../outdated/scrum/README.md)._
 
 Prepare yourself before a Sprint Planning Meeting
 
@@ -79,4 +79,4 @@ This Team-wide meeting could be the day after the 1:1 Meetings or on the same da
 
 If you already have a recurring Team-wide meeting, then hold this “Team-wide OKR Check-in Meeting” at the same time. There’s no reason for having too many meetings.
 
-At the end of the quarter, it is time to [assess your OKRs](./05-assess-your-okrs).
+At the end of the quarter, it is time to [assess your OKRs](./05-assess-your-okrs.md).

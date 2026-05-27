@@ -1,6 +1,6 @@
 # Create Your OKRs
 
-Once you know [about OKRs](./00-why-okrs), about the IxDF's [OKR cadence](./01-okr-cadence) and our [cascading OKR's](./02-cascading-okrs), you are ready to begin creating your own OKR's.
+Once you know [about OKRs](./00-why-okrs.md), about the IxDF's [OKR cadence](./01-okr-cadence.md) and our [cascading OKR's](./02-cascading-okrs.md), you are ready to begin creating your own OKR's.
 
 ## Familiarize yourself with the OKR Planning Spreadsheet
 
@@ -106,4 +106,4 @@ The Quarterly OKR Planning Meeting
 -   Each Team Member meets 1:1 with the Team Lead to verify and refined their Personal OKRs.
 
 With your OKR's created, it is time to execute on them for the next six weeks, but to do so effectively,
-you will need to [stay aligned as a team](./04-stay-aligned-as-a-team).
+you will need to [stay aligned as a team](./04-stay-aligned-as-a-team.md).

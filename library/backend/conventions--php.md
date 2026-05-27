@@ -32,7 +32,7 @@ IxDF uses automated tools to check our code on CI:
 -   [Psalm](https://psalm.dev/docs/) (`errorLevel="1"`)
 -   [PHPStan](https://phpstan.org/user-guide/getting-started) (`level: 8`)
 -   [Rector](https://github.com/rectorphp/rector)
--   [Deptrac](https://qossmic.github.io/deptrac/) (multiple configurations for modules and entire application)
+-   [Deptrac](https://github.com/opensoftwareconsulting/deptrac) (multiple configurations for modules and entire application)
 -   [composer-dependency-analyser](https://github.com/shipmonk-rnd/composer-dependency-analyser) (checks for unused and shadow dependencies)
 -   and more...
 
@@ -137,7 +137,7 @@ protected function initialize(string $notificationFQCN): Notification
 
 ### Final by default
 
-Use `final` for classes and `private` for methods [by default](<(https://ocramius.github.io/blog/when-to-declare-classes-final/)>).
+Use `final` for classes and `private` for methods [by default](https://ocramius.github.io/blog/when-to-declare-classes-final/).
 This encourages composition, dependency injection, and interface use over inheritance.
 Consider the long-term maintainability, especially for public APIs.
 
@@ -372,7 +372,7 @@ There is a great guide [Testing tips by Kamil Ruczyński](https://github.com/sar
 
 ## Security
 
-See [Security](./conventions--laravel#security) section from Laravel conventions.
+See [Security](./conventions--laravel.md#security) section from Laravel conventions.
 
 ## Dependency Management
 

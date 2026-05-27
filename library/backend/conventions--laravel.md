@@ -513,7 +513,7 @@ Route::name('home')->get('/', HomeController::class);
 
 1. [Policy class](https://laravel.com/docs/master/authorization#creating-policies) methods MUST use camelCase. Example: `@can('editPost', $post)` ([Laravel does it under the hood](https://github.com/illuminate/auth/blob/09d82d3a2966e6673495456f340855186a1962f5/Access/Gate.php#L718))
 1. Try to name abilities using default CRUD words. One exception: replace `show` with `view`. A server shows a resource, a user views it.
-1. Some other packages may use Policies (example: [Nova](https://nova.laravel.com/docs/resources/authorization.html)). Build your method naming strategy accordingly.
+1. Some other packages may use Policies (example: [Nova](https://nova.laravel.com/docs/v5/resources/authorization)). Build your method naming strategy accordingly.
 
 ## Validation
 

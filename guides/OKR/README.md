@@ -9,8 +9,8 @@ at the lowest possible cost for millions of people, you are only going to succee
 To achieve this at the IxDF, we hire unicorn team members, maintain a high-performance culture,
 and use frameworks like scrum, agile and OKRs (Objectives and Key Results).
 
-If you are not already familiar, you can learn more [about OKRs](./00-why-okrs),
-or about the [benefits of OKRs](./00-benefits-of-okrs).
+If you are not already familiar, you can learn more [about OKRs](./00-why-okrs.md),
+or about the [benefits of OKRs](./00-benefits-of-okrs.md).
 
 If you are already familiar and want to start using OKRs as an IxDF staff,
-please start with [our OKR cadence](./01-okr-cadence).
+please start with [our OKR cadence](./01-okr-cadence.md).

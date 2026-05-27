@@ -930,7 +930,7 @@ Singleton is an [anti-pattern](https://en.wikipedia.org/wiki/Singleton_pattern).
 1.  They inherently cause code to be tightly [coupled](https://en.wikipedia.org/wiki/Coupling_%28computer_programming%29). This makes faking them out under **test rather difficult** in many cases.
 1.  They carry state around for the lifetime of the application. Another hit to testing since **you can end up with a situation where tests need to be ordered** which is a big no for unit tests. Why? Because each unit test should be independent from the other.
 
-There is also very good thoughts by [Misko Hevery](http://misko.hevery.com/about/) about the [root of problem](http://misko.hevery.com/2008/08/25/root-cause-of-singletons/).
+There is also very good thoughts by [Misko Hevery](https://web.archive.org/web/2019/http://misko.hevery.com/about/) about the [root of problem](https://web.archive.org/web/2019/http://misko.hevery.com/2008/08/25/root-cause-of-singletons/).
 
 **Bad:**
 
@@ -1445,7 +1445,7 @@ oriented API that aims to improve the readability of the source code by using
 [Method chaining](https://en.wikipedia.org/wiki/Method_chaining).
 
 While there can be some contexts, frequently builder objects, where this
-pattern reduces the verbosity of the code (for example the [PHPUnit Mock Builder](https://phpunit.de/manual/current/en/test-doubles.html)
+pattern reduces the verbosity of the code (for example the [PHPUnit Mock Builder](https://docs.phpunit.de/en/12.0/test-doubles.html)
 or the [Doctrine Query Builder](https://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/query-builder.html)),
 more often it comes at some costs:
 

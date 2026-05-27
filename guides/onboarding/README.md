@@ -29,15 +29,15 @@ We don't expect you to spend too much time and feel pressured, however you can:
 1.  To start, head over to [🔒 IxDF Handbook Course](https://www.interaction-design.org/courses/ixdf-handbook)
     and go through Lesson 1 and Lesson 2 where the onboarding is explained.
 1.  Set up and know your [collaboration tools](../collaboration-tools.md).
-1.  Know our [expectations from you and your work](../roles/senior-developer).
+1.  Know our [expectations from you and your work](../roles/senior-developer.md).
 1.  Get closer to coding: Setup your [🔒 working environment](https://github.com/InteractionDesignFoundation/IxDF-web/blob/main/docs/environment/first-run/README.md)
     (private repository link) — It’s time-consuming (2-3 hours), so don't wait.
     While your tools are being downloaded/installed, you can continue with the list.
 1.  Never stop learning 📖. Go through our library and create a plan to acquire
     every bit of knowledge there. Once you have a plan, please discuss it with
     your mentor. (Are you full-stack? Then please open both links☀):
-    -   Literature/subscriptions [for back-end developers](../../library/backend/literature)
-    -   Literature/subscriptions [for front-end developers](../../library/frontend/literature)
+    -   Literature/subscriptions [for back-end developers](../../library/backend/literature.md)
+    -   Literature/subscriptions [for front-end developers](../../library/frontend/literature.md)
 1.  If you have any issues accessing the platform, company culture course
     or our collaboration tools, please ping the Member Experience team (`@member-experience-team`)
     via Slack (#onboarding-buddy-chat), so they can assist you. By this point,

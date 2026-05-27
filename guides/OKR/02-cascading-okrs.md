@@ -16,4 +16,4 @@ Here is what the process looks like over the course of a normal quarter.
 
 ![](../../images/26-okr-quarter-reference.svg)
 
-Now that you have seen how our OKRs work at the organizational level, it’s time to start [creating your OKR's](./03-create-your-okrs).
+Now that you have seen how our OKRs work at the organizational level, it’s time to start [creating your OKR's](./03-create-your-okrs.md).

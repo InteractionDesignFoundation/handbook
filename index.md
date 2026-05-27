@@ -67,11 +67,12 @@ hero:
 </section>
 
 <section class="container">
-<h2 class="h2">Quick links: Coding conventions</h2>
-            <ul class="ul list-disc">
-                <li><a href="/library/backend/conventions--php.html">PHP</a> and <a href="/library/backend/conventions--laravel.html">Laravel</a></li>
-                <li><a href="/library/backend/conventions--sql.html">SQL</a></li>
-                <li><a href="/library/frontend/conventions--js.html">JS</a> and <a href="/library/frontend/conventions--jsdoc.html">JSDoc</a></li>
-                <li><a href="/library/frontend/conventions--css.html">CSS</a></li>
-            </ul>
+
+## Quick links: Coding conventions
+
+- [PHP](/library/backend/conventions--php.md) and [Laravel](/library/backend/conventions--laravel.md)
+- [SQL](/library/backend/conventions--sql.md)
+- [JS](/library/frontend/conventions--js.md) and [JSDoc](/library/frontend/conventions--jsdoc.md)
+- [CSS](/library/frontend/conventions--css.md)
+
 </section>
