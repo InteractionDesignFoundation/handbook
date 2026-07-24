@@ -35,7 +35,7 @@
         "autoprefixer": "^10.4.19",
         "husky": "^8.0.3",
         "mermaid": "^11.15.0",
-        "postcss": "^8.4.39",
+        "postcss": "^8.5.18",
         "postcss-import": "^16.1.0",
         "prettier": "^3.1",
         "pretty-quick": "^3.1.3",
